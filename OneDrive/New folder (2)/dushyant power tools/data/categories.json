@@ -1,0 +1,37 @@
+[
+ {
+  "id": 1,
+  "name": "Gasoline Chainsaws",
+  "image": "/images/categories/chainsaw.jpg"
+ },
+ {
+  "id": 2,
+  "name": "Electric Chainsaws",
+  "image": "/images/categories/electric_chainsaw.jpg"
+ },
+ {
+  "id": 3,
+  "name": "Brush Cutters",
+  "image": "/images/categories/brushcutter.jpg"
+ },
+ {
+  "id": 4,
+  "name": "Earth Auger",
+  "image": "/images/categories/earthauger.jpg"
+ },
+ {
+  "id": 5,
+  "name": "Water Pumps",
+  "image": "/images/categories/waterpump.jpg"
+ },
+ {
+  "id": 6,
+  "name": "Power Tools",
+  "image": "/images/categories/powertools.jpg"
+ },
+ {
+  "id": 7,
+  "name": "Accessories & Spares",
+  "image": "/images/categories/accessories.jpg"
+ }
+]

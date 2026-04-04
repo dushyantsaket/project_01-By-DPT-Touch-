@@ -1,0 +1,16 @@
+/* Styles for Hero Section */
+.hero-section {
+    @apply relative bg-industrial-dark text-white min-h-screen flex items-center overflow-hidden;
+}
+
+.hero-bg-overlay {
+    @apply absolute inset-0 bg-gradient-to-r from-industrial-dark via-industrial-dark/80 to-transparent z-10;
+}
+
+.hero-title {
+    @apply text-5xl md:text-6xl lg:text-7xl font-black tracking-tight mb-8 leading-[1.1] text-white;
+}
+
+.hero-badge {
+    @apply inline-flex items-center gap-3 bg-industrial-dark/80 border border-white/20 px-6 py-2.5 rounded-full text-sm font-bold mb-8 shadow-xl shadow-black/40 self-start;
+}

@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+:root {
+  --color-red-500: oklch(63.7% 0.237 25.331);
+  --color-red-700: oklch(50.5% 0.213 27.518);
+  --color-yellow-400: oklch(85.2% 0.199 91.936);
+  --color-yellow-500: oklch(79.5% 0.184 86.047);
+  --color-green-500: oklch(72.3% 0.219 149.579);
+  --color-green-600: oklch(62.7% 0.194 149.214);
+  --color-gray-50: oklch(98.5% 0.002 247.839);
+  
+  --spacing: 0.25rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+}
+
+@layer base {
+  *, ::after, ::before, ::backdrop, ::file-selector-button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    font-variation-settings: normal;
+  }
+
+  body {
+    @apply bg-white text-gray-900 font-sans;
+  }
+}
+
+@layer utilities {
+  .clip-diagonal {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  }
+
+  /* Custom Selection Style */
+  ::selection {
+    background-color: var(--color-red-500);
+    color: white;
+  }
+
+  /* Animation & Transition Defaults */
+  .transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .duration-300 {
+    transition-duration: 300ms;
+  }
+
+  .ease-in-out {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate-spin-slow {
+    animation: spin-slow 6s linear infinite;
+  }
+}

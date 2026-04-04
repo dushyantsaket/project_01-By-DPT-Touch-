@@ -1,0 +1,102 @@
+{
+  "description": "Bosch original greases and oils - tested and recommended for Bosch power tools",
+  "note": "Do not mix with each other or with non-recommended greases and oils. Always observe specified quantities and lubrication instructions.",
+  "products": [
+    {
+      "id": 1,
+      "name": "Gearbox Grease",
+      "order_no": "1 615 430 005",
+      "size": "30 ml",
+      "price_inr": null,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_615_430_005.png",
+      "application": "Common gearbox grease for most tools",
+      "type": "Gearbox"
+    },
+    {
+      "id": 2,
+      "name": "Gearbox Grease",
+      "order_no": "1 615 430 001",
+      "size": "45 ml",
+      "price_inr": null,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_615_430_001.png",
+      "application": "Common gearbox grease for most tools",
+      "type": "Gearbox"
+    },
+    {
+      "id": 3,
+      "name": "Special Gearbox Grease",
+      "order_no": "1 615 430 014",
+      "size": "30 ml",
+      "price_inr": null,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_615_430_014.png",
+      "application": "Special gearbox grease for specific applications",
+      "type": "Special Gearbox"
+    },
+    {
+      "id": 4,
+      "name": "Special Gearbox Grease",
+      "order_no": "1 615 430 015",
+      "size": "45 ml",
+      "price_inr": null,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_615_430_015.png",
+      "application": "Special gearbox grease for specific applications",
+      "type": "Special Gearbox"
+    },
+    {
+      "id": 5,
+      "name": "Special Grease",
+      "order_no": "1 615 430 002",
+      "size": "225 ml",
+      "price_inr": null,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_615_430_002.png",
+      "application": "Special grease for high-performance tools",
+      "type": "Special"
+    },
+    {
+      "id": 6,
+      "name": "Special Gearbox Grease",
+      "order_no": "1 605 430 003",
+      "size": "225 ml",
+      "price_inr": 1554.00,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_605_430_003.png",
+      "application": "Special gearbox grease for angle grinders and rotary hammers",
+      "type": "Special Gearbox"
+    },
+    {
+      "id": 7,
+      "name": "Ball Bearing Grease/Roller Bearing Grease",
+      "order_no": "1 615 430 020",
+      "size": "225 ml",
+      "price_inr": 1438.00,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_615_430_020.png",
+      "application": "For ball and roller bearings",
+      "type": "Bearing"
+    },
+    {
+      "id": 8,
+      "name": "Special Oil",
+      "order_no": "1 615 430 019",
+      "size": "1000 ml",
+      "price_inr": 2577.00,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_615_430_019.png",
+      "application": "Special oil for gearboxes",
+      "type": "Oil"
+    },
+    {
+      "id": 9,
+      "name": "Grease for shanks of accessories",
+      "order_no": "1 615 430 010",
+      "size": "45 ml",
+      "price_inr": null,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_615_430_010.png",
+      "application": "For lubricating accessory shanks",
+      "type": "Accessory"
+    }
+  ],
+  "benefits": [
+    "Optimum performance of tool components",
+    "Minimal abrasion and wear",
+    "Increased operating time between service intervals",
+    "Maximized tool service life"
+  ]
+}

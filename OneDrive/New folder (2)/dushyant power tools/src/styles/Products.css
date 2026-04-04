@@ -1,0 +1,20 @@
+/* Styles for Products Catalog */
+.products-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.product-card {
+    @apply bg-white rounded-2xl border border-gray-100 p-6 hover:shadow-[0_20px_40px_rgba(0,0,0,0.06)] hover:border-red-100 transition-all duration-300 group flex flex-col items-start relative overflow-hidden h-full;
+}
+
+.product-image-container {
+    @apply w-full aspect-square bg-gray-50/50 rounded-xl mb-6 flex items-center justify-center p-8 relative overflow-hidden border border-gray-50;
+}
+
+.price-tag {
+    @apply text-2xl font-black text-industrial-dark;
+}
+
+.get-quote-btn {
+    @apply bg-gray-50 border border-gray-200 group-hover:border-industrial-red group-hover:bg-industrial-red text-gray-800 group-hover:text-white rounded-xl py-3 px-4 flex items-center justify-between transition-all font-bold text-sm mt-auto w-full;
+}

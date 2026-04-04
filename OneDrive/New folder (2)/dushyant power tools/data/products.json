@@ -1,0 +1,643 @@
+[
+  {
+    "id": 101,
+    "name": "BSC 4500 Chainsaw",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "/images/chainsaw/bsc4500.jpg",
+    "description": "Powerful 45cc professional chainsaw designed for forestry and heavy wood cutting.",
+    "specifications": {
+      "displacement": "45cc",
+      "cuttingCapacity": "18 inch",
+      "ratedPower": "2.2kw / 8000rpm",
+      "fuelCapacity": "550ml"
+    }
+  },
+  {
+    "id": 102,
+    "name": "BSC 5800 Chainsaw",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "/images/chainsaw/bsc5800.jpg",
+    "description": "Heavy duty chainsaw suitable for professional forestry and orchard work.",
+    "specifications": {
+      "displacement": "58cc",
+      "cuttingCapacity": "18/22 inch",
+      "ratedPower": "2.8kw / 8000rpm",
+      "fuelCapacity": "550ml"
+    }
+  },
+  {
+    "id": 103,
+    "name": "NCH H590 Chainsaw",
+    "category": "Gasoline Chainsaws",
+    "brand": "NCH",
+    "image": "/images/chainsaw/nch590.jpg",
+    "description": "58cc NCH Chainsaw for fast, efficient cutting.",
+    "specifications": {
+      "displacement": "58cc",
+      "cuttingCapacity": "16 inch",
+      "ratedPower": "2.5kw / 8000rpm",
+      "fuelCapacity": "550ml"
+    }
+  },
+  {
+    "id": 201,
+    "name": "BSC 430 Brush Cutter",
+    "category": "Brush Cutters",
+    "brand": "BSC",
+    "image": "/images/brushcutter/bsc430.jpg",
+    "description": "Powerful 2-stroke brush cutter suitable for grass cutting and farming work.",
+    "specifications": {
+      "displacement": "43cc",
+      "ratedPower": "1.2kw / 8000rpm",
+      "engine": "2 stroke"
+    }
+  },
+  {
+    "id": 301,
+    "name": "BSC 8100 Angle Grinder",
+    "category": "Power Tools",
+    "brand": "BSC",
+    "image": "/images/powertools/grinder8100.jpg",
+    "description": "Heavy duty angle grinder for metal cutting and polishing.",
+    "specifications": {
+      "ratedPower": "1000W",
+      "discDiameter": "100mm",
+      "speed": "11000rpm"
+    }
+  },
+  {
+    "id": 302,
+    "name": "BSC ED-13RE Drill",
+    "category": "Power Tools",
+    "brand": "BSC",
+    "image": "/images/powertools/drill13re.jpg",
+    "description": "Reliable electric drill for rigorous continuous work.",
+    "specifications": {
+      "ratedPower": "750W",
+      "speed": "2800rpm",
+      "drillCapacity": "13mm"
+    }
+  },
+  {
+    "id": 401,
+    "name": "BSC WP-20 Water Pump",
+    "category": "Water Pumps",
+    "brand": "BSC",
+    "image": "/images/waterpump/wp20.jpg",
+    "description": "Portable gasoline water pump for irrigation and water transfer.",
+    "specifications": {
+      "engine": "4 Stroke",
+      "horsePower": "7.5HP",
+      "outletDiameter": "50mm"
+    }
+  },
+  {
+    "id": 501,
+    "name": "KEIL KL5820 Chainsaw",
+    "category": "Gasoline Chainsaws",
+    "brand": "KEIL",
+    "image": "/images/chainsaws/kl5820.jpg",
+    "description": "Powerful 58cc professional chainsaw designed for forestry and heavy wood cutting.",
+    "specifications": {
+      "displacement": "58cc",
+      "ratedPower": "2.8kw",
+      "cuttingCapacity": "16/22 inch",
+      "weight": "6.8kg"
+    }
+  },
+  {
+    "id": 502,
+    "name": "KEIL KL5830 Chainsaw",
+    "category": "Gasoline Chainsaws",
+    "brand": "KEIL",
+    "image": "/images/chainsaws/kl5830.jpg",
+    "description": "Heavy duty chainsaw suitable for professional forestry and orchard work.",
+    "specifications": {
+      "displacement": "58cc",
+      "ratedPower": "3.0kw",
+      "cuttingCapacity": "18/22 inch"
+    }
+  },
+  {
+    "id": 503,
+    "name": "KEIL KL7200 Chainsaw",
+    "category": "Gasoline Chainsaws",
+    "brand": "KEIL",
+    "image": "/images/chainsaws/kl7200.jpg",
+    "description": "Professional 72cc chainsaw designed for large wood cutting and commercial forestry.",
+    "specifications": {
+      "displacement": "72cc",
+      "ratedPower": "3.6kw",
+      "cuttingCapacity": "18/22 inch",
+      "weight": "7.9kg"
+    }
+  },
+  {
+    "id": 504,
+    "name": "KEIL KL1600 Electric Chainsaw",
+    "category": "Electric Chainsaws",
+    "brand": "KEIL",
+    "image": "/images/chainsaws/kl1600.jpg",
+    "description": "Electric chainsaw ideal for small wood cutting and home use.",
+    "specifications": {
+      "power": "1600W",
+      "voltage": "220V",
+      "barLength": "16 inch",
+      "weight": "4.3kg"
+    }
+  },
+  {
+    "id": 601,
+    "name": "KEIL KL5220 Brush Cutter",
+    "category": "Brush Cutters",
+    "brand": "KEIL",
+    "image": "/images/brushcutters/kl5220.jpg",
+    "description": "Powerful 2-stroke brush cutter suitable for grass cutting and farming work.",
+    "specifications": {
+      "engine": "2 Stroke",
+      "displacement": "52cc",
+      "fuelTank": "0.65L",
+      "ratedPower": "1.5kw"
+    }
+  },
+  {
+    "id": 701,
+    "name": "KEIL KL520 Earth Auger",
+    "category": "Earth Auger",
+    "brand": "KEIL",
+    "image": "/images/augers/kl520.jpg",
+    "description": "Earth auger used for digging holes in farming and plantation.",
+    "specifications": {
+      "engine": "2 Stroke",
+      "displacement": "52cc",
+      "fuelTank": "0.65L",
+      "bitSize": "4-12 inch"
+    }
+  },
+  {
+    "id": 801,
+    "name": "KEIL KL10 Water Pump",
+    "category": "Water Pumps",
+    "brand": "KEIL",
+    "image": "/images/waterpumps/kl10.jpg",
+    "description": "Portable gasoline water pump for irrigation and water transfer.",
+    "specifications": {
+      "horsePower": "2.5HP",
+      "outletDiameter": "25mm",
+      "engine": "4 Stroke"
+    }
+  },
+  {
+    "id": 901,
+    "name": "KEIL KL900 Angle Grinder",
+    "category": "Power Tools",
+    "brand": "KEIL",
+    "image": "/images/powertools/kl900.jpg",
+    "description": "Heavy duty angle grinder for metal cutting and polishing.",
+    "specifications": {
+      "ratedVoltage": "220V",
+      "power": "1000W",
+      "discDiameter": "100mm",
+      "speed": "11000rpm"
+    }
+  },
+  {
+    "id": 1001,
+    "name": "BSC POWER – ECO | SAWCHAIN",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/bsc-saw-chain-500x500.jpg",
+    "description": "Best professional eco-friendly chainsaw chain for precision cutting.",
+    "specifications": {
+      "type": "Sawchain",
+      "grade": "ECO"
+    }
+  },
+  {
+    "id": 1002,
+    "name": "BSC POWER – GOLD | SAWCHAIN",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/BSC-GOLD-SAW-CHAIN-500x500.jpg",
+    "description": "Premium industrial grade gold sawchain with German material.",
+    "specifications": {
+      "type": "Sawchain",
+      "grade": "GOLD"
+    }
+  },
+  {
+    "id": 1003,
+    "name": "BSC POWER – GOLDEN | SAWCHAIN",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/BSC-Golden-Saw-Chain-A-500x500.jpg",
+    "description": "Professional golden edition sawchain for heavy-duty performance.",
+    "specifications": {
+      "type": "Sawchain",
+      "grade": "GOLDEN"
+    }
+  },
+  {
+    "id": 1004,
+    "name": "BSC POWER – PLATINUM | SAWCHAIN",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/BSC-Platinum-chain-saw-A-500x500.jpg",
+    "description": "High-durability platinum sawchain for extreme cutting conditions.",
+    "specifications": {
+      "type": "Sawchain",
+      "grade": "PLATINUM"
+    }
+  },
+  {
+    "id": 1005,
+    "name": "BSC POWER – PLUS | SAWCHAIN",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/BSC-PLUS-A-500x500.jpg",
+    "description": "Enhanced performance plus edition sawchain for versatile use.",
+    "specifications": {
+      "type": "Sawchain",
+      "grade": "PLUS"
+    }
+  },
+  {
+    "id": 1006,
+    "name": "BSC POWER – REELS | SAWCHAIN",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/Untitled-1-2-500x500.jpg",
+    "description": "100 feet roll of professional chainsaw chain for custom lengths.",
+    "specifications": {
+      "type": "Sawchain",
+      "format": "100ft Reel"
+    }
+  },
+  {
+    "id": 1007,
+    "name": "BSC POWER – TIN BOX | SAWCHAIN",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/BSC-BIG-TIN-CHAIN-500x500.png",
+    "description": "Best professional chainsaw chain in protective tin box packaging.",
+    "specifications": {
+      "type": "Sawchain",
+      "packaging": "Tin Box"
+    }
+  },
+  {
+    "id": 1008,
+    "name": "BSC POWER (WIDE) | GUIDEBAR",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/BSC-ECO-WIDE-A-500x500.jpg",
+    "description": "Wide professional guidebar for stable and efficient chainsaw operation.",
+    "specifications": {
+      "type": "Guidebar",
+      "design": "WIDE"
+    }
+  },
+  {
+    "id": 1009,
+    "name": "BSC Power Chain Sharpener BIG",
+    "category": "Tools",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/06/BSC-BIG-CHAIN-GRINDER-JPEG-500x500.jpg",
+    "description": "Heavy-duty chain sharpener with motor for professional chain maintenance.",
+    "specifications": {
+      "type": "Sharpener",
+      "features": "With Motor"
+    }
+  },
+  {
+    "id": 1010,
+    "name": "BSC Power Chain Sharpener Medium",
+    "category": "Tools",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/06/CHAIN-SHARPNER-500x500.jpg",
+    "description": "Aluminium body chain sharpener for durable and portable sharpening.",
+    "specifications": {
+      "type": "Sharpener",
+      "body": "Aluminium"
+    }
+  },
+  {
+    "id": 1011,
+    "name": "BSC Power Chain Sharpener Auto Cut",
+    "category": "Tools",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/06/BSC-FOR-MEDIUM-USE-AUTOCUT-500x500.jpg",
+    "description": "Medium use auto-cut chain grinder for quick maintenance.",
+    "specifications": {
+      "type": "Sharpener",
+      "feature": "Auto Cut"
+    }
+  },
+  {
+    "id": 1012,
+    "name": "BSC POWER SAWCHAIN ROUND FILE",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/Bsc-File-500x500.jpg",
+    "description": "High-quality round file for manual sawchain sharpening.",
+    "specifications": {
+      "type": "File",
+      "shape": "Round"
+    }
+  },
+  {
+    "id": 1013,
+    "name": "BSC POWER GUIDEBAR COVER",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/Cover-500x500.jpg",
+    "description": "Protective cover for chainsaw guidebars to prevent damage and injury.",
+    "specifications": {
+      "type": "Cover",
+      "target": "Guidebar"
+    }
+  },
+  {
+    "id": 1014,
+    "name": "BSC POWER CHAINSAW MILL ATTACHMENT",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/Chainsaw-mill-attachment-500x500.jpg",
+    "description": "Attachment to convert your chainsaw into a portable sawmill.",
+    "specifications": {
+      "type": "Attachment",
+      "use": "Milling"
+    }
+  },
+  {
+    "id": 1015,
+    "name": "BSC POWER DOUBLE GUARD | GUIDEBAR",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/double-guide-bar-500x500.jpg",
+    "description": "Double guard guidebar for increased safety and control.",
+    "specifications": {
+      "type": "Guidebar",
+      "design": "Double Guard"
+    }
+  },
+  {
+    "id": 1016,
+    "name": "BSC POWER FILE HOLDER KIT",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/FILE-HOLDER-500x500.jpg",
+    "description": "Complete file holder kit for precise manual sawchain sharpening.",
+    "specifications": {
+      "type": "Kit",
+      "content": "File Holder"
+    }
+  },
+  {
+    "id": 1017,
+    "name": "BSC POWER FILE WITH HANDLE",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/FILE-WITH-HANDLE-500x500.jpg",
+    "description": "Round file with ergonomic handle for comfortable sharpening.",
+    "specifications": {
+      "type": "File",
+      "handle": "Ergonomic"
+    }
+  },
+  {
+    "id": 1018,
+    "name": "BSC POWER SAWCHAIN FILE HOLDER",
+    "category": "Accessories",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/04/FILE-HOLD-500x500.jpg",
+    "description": "Durable holder for sawchain files to ensure consistent sharpening angles.",
+    "specifications": {
+      "type": "Holder",
+      "target": "Sawchain File"
+    }
+  },
+  {
+    "id": 1101,
+    "name": "BSC POWER 1900 | 1900W ELECTRIC CHAINSAW",
+    "category": "Electric Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/BSC-1900-500x500.jpg",
+    "description": "High-performance 1900W corded electric chainsaw for efficient wood cutting around the house.",
+    "specifications": {
+      "power": "1900W",
+      "type": "Electric",
+      "voltage": "220V"
+    }
+  },
+  {
+    "id": 1102,
+    "name": "BSC POWER 2200 | 2200W ELECTRIC CHAINSAW",
+    "category": "Electric Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/2200-1-500x500.jpg",
+    "description": "Powerful 2200W electric chain saw for cutting saw to use around the house.",
+    "specifications": {
+      "power": "2200W",
+      "type": "Electric"
+    }
+  },
+  {
+    "id": 1103,
+    "name": "BSC POWER 2500 | 2500W ELECTRIC CHAINSAW",
+    "category": "Electric Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/2500-1-500x500.jpg",
+    "description": "Heavy duty 2500W corded chain saw for professional and domestic use.",
+    "specifications": {
+      "power": "2500W",
+      "type": "Electric"
+    }
+  },
+  {
+    "id": 1104,
+    "name": "BSC POWER 3000 | 3000 WATT ELECTRIC CHAINSAW",
+    "category": "Electric Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/3000-1-500x500.jpg",
+    "description": "Top-tier 3000W electric chainsaw, featuring maximum power for demanding tasks.",
+    "specifications": {
+      "power": "3000W",
+      "type": "Electric"
+    }
+  },
+  {
+    "id": 1105,
+    "name": "BSC Power 8400 Chain Saw High Power (84cc)",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/06/8400-500x500.jpg",
+    "description": "High power 84cc 2-stroke petrol engine chainsaw for industrial forestry.",
+    "specifications": {
+      "displacement": "84cc",
+      "power": "3.0kw",
+      "engine": "2-Stroke"
+    }
+  },
+  {
+    "id": 1106,
+    "name": "BSC Power BSC-10500P Chain Saw Heavy Duty (105.7cc)",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/BSC-10500P-CHAINSAW-A-500x500.jpg",
+    "description": "Extra heavy duty chainsaw with 105.7cc engine, designed for the toughest logs.",
+    "specifications": {
+      "displacement": "105.7cc",
+      "power": "6.5kw",
+      "engine": "2-Stroke"
+    }
+  },
+  {
+    "id": 1107,
+    "name": "BSC Power BSC-1758A Battery Chainsaw (4 inch)",
+    "category": "Battery Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/14-500x500.jpg",
+    "description": "Portable 4-inch battery-powered chainsaw for garden maintenance and pruning.",
+    "specifications": {
+      "barLength": "4 inch",
+      "type": "Battery Operated"
+    }
+  },
+  {
+    "id": 1108,
+    "name": "BSC POWER BSC-6580 Gasoline Chainsaw (65cc)",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2025/08/BSC-6580-500x500.jpg",
+    "description": "Heavy-duty 65cc gasoline chainsaw for consistent performance in challenging areas.",
+    "specifications": {
+      "displacement": "65cc",
+      "engine": "2-Stroke"
+    }
+  },
+  {
+    "id": 1109,
+    "name": "BSC Power BSC-6800 Chain Saw Heavy Duty (68cc)",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/BSC-6800-A-1-500x500.jpg",
+    "description": "Robust 68cc heavy duty chainsaw with high fuel capacity for extended use.",
+    "specifications": {
+      "displacement": "68cc",
+      "power": "3.0kw",
+      "fuelCapacity": "550ml"
+    }
+  },
+  {
+    "id": 1110,
+    "name": "BSC Power Petrol Chainsaw BSC 6000 (60cc)",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/BSC-6000-500x500.jpg",
+    "description": "Powerful 60cc petrol chainsaw with automatic chain oiler and high-torque engine.",
+    "specifications": {
+      "displacement": "60cc",
+      "feature": "Automatic Chain Oiler"
+    }
+  },
+  {
+    "id": 1111,
+    "name": "BSC Power Petrol Chainsaw BSC 6270 (62cc)",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/6270-500x500.jpg",
+    "description": "Professional 62cc petrol chainsaw with 550ml fuel capacity for large forestry projects.",
+    "specifications": {
+      "displacement": "62cc",
+      "power": "3.0kw",
+      "fuelCapacity": "550ml"
+    }
+  },
+  {
+    "id": 1112,
+    "name": "BSC Power Petrol Chainsaw BSC 6300P (63cc)",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/WhatsApp-Image-2024-01-30-at-1.31.28-PM-500x500.webp",
+    "description": "High-efficiency 63cc chainsaw combining performance with excellent fuel economy.",
+    "specifications": {
+      "displacement": "63cc",
+      "fuelCapacity": "550ml"
+    }
+  },
+  {
+    "id": 1113,
+    "name": "BSC Power Petrol Chainsaw BSC 7200 (72cc)",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/BSC-7200-main-1-500x500.jpg",
+    "description": "Professional 72cc petrol chainsaw with double guide bar support and high power output.",
+    "specifications": {
+      "displacement": "72cc",
+      "power": "3.5kw"
+    }
+  },
+  {
+    "id": 1114,
+    "name": "BSC Power Petrol Chainsaw BSC 7300 (73cc)",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/61M8wRvz5zL._SL1500_-1-500x500.jpg",
+    "description": "Mighty 73cc chainsaw with a 4.0kw engine for the most demanding commercial wood cutting.",
+    "specifications": {
+      "displacement": "73cc",
+      "power": "4.0kw"
+    }
+  },
+  {
+    "id": 1115,
+    "name": "BSC Power Petrol Chainsaw BSC6258 (62cc)",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/BSC-6258-NEW-500x500.jpg",
+    "description": "New edition 62cc petrol chainsaw with enhanced automatic chain oiler system.",
+    "specifications": {
+      "displacement": "62cc",
+      "fuelCapacity": "550ml"
+    }
+  },
+  {
+    "id": 1116,
+    "name": "BSC POWER-6500 Heavy Duty 65cc Petrol Chainsaw",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2026/02/Chainsaw-2-500x500.jpg",
+    "description": "Heavy duty 65cc petrol chainsaw built for reliability and consistent performance.",
+    "specifications": {
+      "displacement": "65cc",
+      "type": "Heavy Duty"
+    }
+  },
+  {
+    "id": 1117,
+    "name": "BSC POWER-7800P Heavy Duty Gasoline Chainsaw (78cc)",
+    "category": "Gasoline Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2026/02/Chainsaw-1-500x500.jpg",
+    "description": "Extremely powerful 78cc gasoline chainsaw for industrial-grade cutting operations.",
+    "specifications": {
+      "displacement": "78cc",
+      "brand": "7800P Series"
+    }
+  },
+  {
+    "id": 1118,
+    "name": "BSC POWER ECS-5016 | 1600W ELECTRIC CHAINSAW",
+    "category": "Electric Chainsaws",
+    "brand": "BSC",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/ECS-5016-1-500x500.jpg",
+    "description": "1600W corded electric chainsaw ideal for home garden maintenance.",
+    "specifications": {
+      "power": "1600W",
+      "type": "Electric"
+    }
+  }
+]

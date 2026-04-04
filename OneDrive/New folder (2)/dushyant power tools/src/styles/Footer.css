@@ -1,0 +1,16 @@
+/* Styles for Footer */
+.footer-container {
+    @apply bg-industrial-dark text-white pt-20 pb-10 border-t-4 border-industrial-red;
+}
+
+.footer-link {
+    @apply text-gray-400 hover:text-industrial-red transition-colors text-sm font-medium flex items-center gap-2;
+}
+
+.footer-contact-icon {
+    @apply text-industrial-red flex-shrink-0 mt-0.5;
+}
+
+.social-circle {
+    @apply w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-gray-300 hover:bg-industrial-red hover:text-white transition-all;
+}

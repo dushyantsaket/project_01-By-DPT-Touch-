@@ -1,0 +1,65 @@
+[
+  {
+    "id": "angle_grinders",
+    "name": "Angle Grinders",
+    "icon": "https://api.bosch-spares.com/icons/angle_grinder.png",
+    "count": 2,
+    "tools": ["GWS 600", "GWS 750-100"]
+  },
+  {
+    "id": "rotary_hammers",
+    "name": "Rotary Hammers",
+    "icon": "https://api.bosch-spares.com/icons/rotary_hammer.png",
+    "count": 2,
+    "tools": ["GBH 200", "GBH 220"]
+  },
+  {
+    "id": "demolition_hammers",
+    "name": "Demolition Hammers",
+    "icon": "https://api.bosch-spares.com/icons/demolition_hammer.png",
+    "count": 2,
+    "tools": ["GSH 500", "GSH 11 E"]
+  },
+  {
+    "id": "marble_saws",
+    "name": "Marble Saws",
+    "icon": "https://api.bosch-spares.com/icons/marble_saw.png",
+    "count": 2,
+    "tools": ["GDC 120", "GDC 141"]
+  },
+  {
+    "id": "hot_air_guns",
+    "name": "Hot Air Guns",
+    "icon": "https://api.bosch-spares.com/icons/hot_air_gun.png",
+    "count": 1,
+    "tools": ["GHG 180"]
+  },
+  {
+    "id": "blowers",
+    "name": "Blowers",
+    "icon": "https://api.bosch-spares.com/icons/blower.png",
+    "count": 1,
+    "tools": ["GBL 620"]
+  },
+  {
+    "id": "planers",
+    "name": "Planers",
+    "icon": "https://api.bosch-spares.com/icons/planer.png",
+    "count": 1,
+    "tools": ["GHO 6500"]
+  },
+  {
+    "id": "jig_saws",
+    "name": "Jig Saws",
+    "icon": "https://api.bosch-spares.com/icons/jig_saw.png",
+    "count": 1,
+    "tools": ["GST 650"]
+  },
+  {
+    "id": "cordless_drills",
+    "name": "Cordless Drills",
+    "icon": "https://api.bosch-spares.com/icons/cordless_drill.png",
+    "count": 1,
+    "tools": ["GSR 120-LI"]
+  }
+]
