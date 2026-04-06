@@ -21,7 +21,7 @@
 <br>
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/1a2c3e/ffffff?text=PROFESSIONAL+POWER+SOLUTIONS+%7C+INVENTORY+CATEGORIES" alt="Inventory Categories" width="100%">
+  <img src="file:///C:/Users/dushy/OneDrive/Pictures/Screenshots/Screenshot%202026-04-06%20071827.png" alt="Inventory Categories" width="100%">
 </div>
 
 ---
