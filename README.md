@@ -7,7 +7,7 @@
 ## 📸 Brand Showcase
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x200/1a2c3e/ffffff?text=BSC+POWER+%7C+BEST+GARDEN+TOOLS" alt="BSC POWER Banner" width="100%">
+  <img src="file:///C:/Users/dushy/OneDrive/Pictures/Screenshots/Screenshot%202026-04-06%20071501.png" alt="BSC POWER Banner" width="100%">
   <br>
   <em>Unleash Dynamite Power - Equip your workshop with heavy-duty tools, premium spare parts, and unbeatable diamond blades engineered for professional contractors.</em>
 </div>
