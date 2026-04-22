@@ -50,6 +50,124 @@
 | | 🧑‍💼 Product CRUD operations |
 
 ---
+# 🔧 DPT Tools Touch — Complete Advanced Documentation
+
+---
+
+## 📸 Brand Showcase
+
+<div align="center">
+  <img src="YOUR_BASE64_IMAGE_1" alt="Banner" width="100%">
+  <br>
+  <em>Unleash Dynamite Power - Equip your workshop with heavy-duty tools.</em>
+</div>
+
+---
+
+## 📌 Overview
+
+**DPT Tools Touch** is a full-stack e-commerce platform for power tools and hardware products.  
+It provides a seamless experience for browsing, searching, and purchasing industrial tools.
+
+---
+
+## 🏗️ System Architecture
+
+### 3-Tier Architecture
+
+1. Frontend (React.js)
+2. Backend (Node.js + Express)
+3. Database (MongoDB)
+
+### Data Flow
+
+User → UI → API → Server → DB → Response → UI
+
+---
+
+## 🔐 Security Features
+
+- JWT Authentication
+- Password hashing (bcrypt)
+- Protected routes
+- Input validation
+- Secure API (CORS)
+- Environment variables
+
+---
+
+## ⚡ Performance Optimization
+
+### Frontend
+
+- Lazy loading
+- Code splitting
+- Debounced search
+
+### Backend
+
+- Optimized queries
+- Error handling middleware
+
+### Database
+
+- Indexing
+- Pagination
+
+---
+
+## 🚀 Features
+
+### Frontend
+
+- Product listing
+- Search & filter
+- Cart system
+- Checkout
+- Responsive UI
+
+### Backend
+
+- Authentication
+- User management
+- Order processing
+- Inventory management
+
+---
+
+## 🛠️ Inventory Categories
+
+- Garden Tools
+- Power Tools
+- Heavy Duty Tools
+- Cordless Tools
+- Drills
+- Diamond Tools
+- Angle Grinders
+- Saws
+
+---
+
+## 🧑‍💻 Tech Stack
+
+### Frontend
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+- Node.js
+- Express.js
+- REST API
+
+### Database
+- MongoDB
+- Mongoose
+
+---
+
+## 📂 Project Structure
 
 ## 🛠️ Inventory Categories
 
@@ -66,6 +184,79 @@
 
 ---
 
+---
+
+## 🧪 Testing
+
+- Unit Testing (Jest)
+- API Testing (Postman)
+- Integration Testing
+
+---
+
+## 🚀 Deployment
+
+Frontend: Vercel / Netlify  
+Backend: Render / Railway / AWS  
+Database: MongoDB Atlas  
+
+---
+
+## 📊 Scalability
+
+- Modular architecture
+- REST APIs
+- Stateless backend
+- Cloud-ready
+
+---
+
+## 💼 Business Use Case
+
+### Target Users
+
+- Contractors
+- Hardware shops
+- DIY users
+
+### Benefits
+
+- Digital inventory
+- Online sales
+- Order tracking
+
+---
+
+## 💎 Unique Selling Points
+
+- Industry-focused platform
+- Heavy-duty specialization
+- Admin + user system
+- Real-time inventory
+
+---
+
+## 🔮 Future Improvements
+
+- AI recommendations
+- Voice search
+- Mobile app
+- Real-time tracking
+- Analytics dashboard
+
+---
+
+## 🧠 Developer Note
+
+> This project demonstrates full-stack development, API design, authentication, and scalable architecture.
+
+---
+
+## 📌 Conclusion
+
+DPT Tools Touch is a production-ready e-commerce platform designed for industrial use.
+
+---
 ## 🧑‍💻 Tech Stack
 
 <div align="center">
