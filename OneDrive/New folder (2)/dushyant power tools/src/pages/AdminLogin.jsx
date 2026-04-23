@@ -67,7 +67,7 @@ const AdminLogin = () => {
             </div>
 
             <button 
-              type="submit" 
+              type="sumbit" 
               className="w-full bg-industrial-dark hover:bg-black text-white rounded-2xl py-5 font-black text-sm tracking-widest flex items-center justify-center gap-2 group transition-all shadow-xl shadow-gray-200"
             >
               SECURE LOGIN
