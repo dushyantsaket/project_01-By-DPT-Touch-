@@ -43,7 +43,7 @@ const CategoryDetail = () => {
   const category = categoriesData.find(c => c.id === categoryId) || { name: 'Category Not Found' };
   
   const products = useMemo(() => {
-    let allData = [...powerToolsData];
+    let allData = [...powerToolsData ,  storageData];
     
     if (categoryId === 'safety-ppe') allData = safetyData;
     else if (categoryId === 'welding-tools') allData = industrialExpansionData;
