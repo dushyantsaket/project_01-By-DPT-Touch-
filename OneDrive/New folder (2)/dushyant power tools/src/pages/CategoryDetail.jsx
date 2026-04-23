@@ -162,7 +162,7 @@ const CategoryDetail = () => {
                     className="inline-flex items-center justify-center gap-2 bg-industrial-dark text-white py-4 px-8 rounded-full font-black text-xs tracking-widest uppercase hover:bg-industrial-red transition-colors shadow-lg active:scale-95"
                   >
                     Shop Batteries
-                    <ChevronRight size={16} />
+                    <ChevronRight size={17} />
                   </Link>
                 </div>
               </div>
