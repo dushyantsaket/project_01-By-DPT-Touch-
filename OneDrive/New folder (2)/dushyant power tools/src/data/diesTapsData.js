@@ -20,7 +20,100 @@ export const diesTapsData = [
   { id: 54078, sku: "54078-1241-DN-9078", name: "De Neers 2½ – 3 Inch Threading Chaser For Ratchet Die", image: "https://unboxtools.com/wp-content/uploads/2025/07/06-De-Neers-1-2-1-Inch-Threading-Chaser-For-Ratchet-Die-300x300.png", category: "hand-tools", sub_category: "Dies & Taps", brand: "De Neers", description: "Threading Chaser | For Ratchet Die | Sizes 2½\" to 3\" BSP", regular_price: 2974.82, sale_price: 2290.61, url: "https://unboxtools.com/product/de-neers-2%c2%bd-3-inch-threading-chaser-for-ratchet-die/" },
   { id: 54079, sku: "54079-1241-DN-9079", name: "De Neers 4 Inch Threading Chaser For Ratchet Die", image: "https://unboxtools.com/wp-content/uploads/2025/07/06-De-Neers-1-2-1-Inch-Threading-Chaser-For-Ratchet-Die-300x300.png", category: "hand-tools", sub_category: "Dies & Taps", brand: "De Neers", description: "Threading Chaser | For Ratchet Die | 4\" BSP", regular_price: 6247.12, sale_price: 4810.28, url: "https://unboxtools.com/product/de-neers-4-inch-threading-chaser-for-ratchet-die/" },
   { id: 54080, sku: "54080-1241-DN-9080", name: "De Neers 6 Inch Threading Chaser For Ratchet Die", image: "https://unboxtools.com/wp-content/uploads/2025/07/06-De-Neers-1-2-1-Inch-Threading-Chaser-For-Ratchet-Die-300x300.png", category: "hand-tools", sub_category: "Dies & Taps", brand: "De Neers", description: "Threading Chaser | For Ratchet Die | 6\" BSP", regular_price: 11899.28, sale_price: 9162.45, url: "https://unboxtools.com/product/de-neers-6-inch-threading-chaser-for-ratchet-die/" },
-
+// ── EXTRA DATA (ADDED) ──
+export const moreDiesTapsData = [
+  {
+    id: 72409,
+    sku: "72409-1293-WAJ1L02",
+    name: "Wadfow 20 Pieces Tap & Die Set Waj1L02",
+    image: "https://unboxtools.com/wp-content/uploads/2026/03/tap-die-set-300x300.jpg",
+    category: "hand-tools",
+    sub_category: "Dies & Taps",
+    brand: "Wadfow",
+    description: "20 Pc Tap & Die Set | Metric Thread | HSS | Heavy duty",
+    regular_price: 2488.12,
+    sale_price: 1999.85,
+    url: "https://unboxtools.com/product/wadfow-20-pieces-tap-die-set/"
+  },
+  {
+    id: 72410,
+    sku: "72410-1293-WAJ1L03",
+    name: "Wadfow 32 Pieces Tap & Die Set",
+    image: "https://unboxtools.com/wp-content/uploads/2026/03/tap-die-set-300x300.jpg",
+    category: "hand-tools",
+    sub_category: "Dies & Taps",
+    brand: "Wadfow",
+    description: "32 Pc Professional Tap & Die Set | Carbon steel",
+    regular_price: 3899.99,
+    sale_price: 3099.50,
+    url: "https://unboxtools.com/product/wadfow-32-piece-set/"
+  },
+  {
+    id: 72411,
+    sku: "72411-1293-WAJ1L04",
+    name: "Wadfow Adjustable Die Stock Handle",
+    image: "https://unboxtools.com/wp-content/uploads/2026/03/die-stock-300x300.jpg",
+    category: "hand-tools",
+    sub_category: "Dies & Taps",
+    brand: "Wadfow",
+    description: "Adjustable Die Stock Handle | Durable steel",
+    regular_price: 899.00,
+    sale_price: 699.00,
+    url: "https://unboxtools.com/product/die-stock-handle/"
+  },
+  {
+    id: 72412,
+    sku: "72412-1293-WAJ1L05",
+    name: "Wadfow Thread Repair Kit",
+    image: "https://unboxtools.com/wp-content/uploads/2026/03/thread-kit-300x300.jpg",
+    category: "hand-tools",
+    sub_category: "Dies & Taps",
+    brand: "Wadfow",
+    description: "Thread Repair Kit | Multi-size | With inserts",
+    regular_price: 4599.00,
+    sale_price: 3799.00,
+    url: "https://unboxtools.com/product/thread-repair-kit/"
+  },
+  {
+    id: 72413,
+    sku: "72413-1293-WAJ1L06",
+    name: "Wadfow Mini Tap Set",
+    image: "https://unboxtools.com/wp-content/uploads/2026/03/mini-tap-300x300.jpg",
+    category: "hand-tools",
+    sub_category: "Dies & Taps",
+    brand: "Wadfow",
+    description: "Mini Tap Set | Precision work | Small sizes",
+    regular_price: 699.00,
+    sale_price: 499.00,
+    url: "https://unboxtools.com/product/mini-tap-set/"
+  },
+  {
+    id: 72414,
+    sku: "72414-1293-WAJ1L07",
+    name: "De Neers Heavy Duty Tap Set",
+    image: "https://unboxtools.com/wp-content/uploads/2026/03/heavy-tap-300x300.jpg",
+    category: "hand-tools",
+    sub_category: "Dies & Taps",
+    brand: "De Neers",
+    description: "Heavy Duty Tap Set | Industrial grade",
+    regular_price: 5299.00,
+    sale_price: 4499.00,
+    url: "https://unboxtools.com/product/heavy-duty-tap-set/"
+  },
+  {
+    id: 72415,
+    sku: "72415-1293-WAJ1L08",
+    name: "De Neers Thread Cutting Kit",
+    image: "https://unboxtools.com/wp-content/uploads/2026/03/thread-cutting-300x300.jpg",
+    category: "hand-tools",
+    sub_category: "Dies & Taps",
+    brand: "De Neers",
+    description: "Thread Cutting Kit | Complete solution",
+    regular_price: 6799.00,
+    sale_price: 5599.00,
+    url: "https://unboxtools.com/product/thread-cutting-kit/"
+  }
+];
   // ── TAP & DIE SETS ──
   { id: 54050, sku: "54050-1241-DN-9001", name: "De Neers 9 Pieces Tap & Die Set Dn-9001 Bsw", image: "https://unboxtools.com/wp-content/uploads/2025/07/01-De-Neers-9-Pieces-Tap-Die-Set-Dn-9001-Bsw-300x300.png", category: "hand-tools", sub_category: "Dies & Taps", brand: "De Neers", description: "9 Pc Tap & Die Set | BSW Thread | Includes taps, dies & handles", regular_price: 3123.56, sale_price: 2405.14, url: "https://unboxtools.com/product/de-neers-9-pieces-tap-die-set-dn-9001-bsw/" },
   { id: 54051, sku: "54051-1241-DN-9002", name: "De Neers 9 Pieces Tap & Die Set Dn-9002", image: "https://unboxtools.com/wp-content/uploads/2025/07/01-De-Neers-9-Pieces-Tap-Die-Set-Dn-9001-Bsw-300x300.png", category: "hand-tools", sub_category: "Dies & Taps", brand: "De Neers", description: "9 Pc Tap & Die Set | Metric Thread | Includes taps, dies & handles", regular_price: 3123.56, sale_price: 2405.14, url: "https://unboxtools.com/product/de-neers-9-pieces-tap-die-set-dn-9002/" },
