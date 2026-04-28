@@ -81,7 +81,7 @@ const Dashboard = () => {
             </div>
             <div className="flex items-center gap-4 text-gray-500">
                <button className="relative hover:text-black">
-                  <Bell size={20} />
+                  <Bell size={30} />
                   <span className="absolute -top-1 -right-1.5 bg-red-500 text-white text-[9px] font-black w-4 h-4 rounded-full flex items-center justify-center border-2 border-white">2</span>
                </button>
                <div className="h-6 w-px bg-gray-200 mx-1 hidden sm:block"></div>
