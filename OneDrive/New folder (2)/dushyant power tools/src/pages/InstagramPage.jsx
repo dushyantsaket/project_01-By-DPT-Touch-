@@ -21,7 +21,7 @@ const InstagramPage = () => {
       name: "Dushyant Furniture Mart",
       tagline: "Premium Home & Office Furniture Since 2009",
       description: "Established in October 2009, we are the premier destination for premium home and office decor in Sidhi. Follow us on Instagram for furniture inspiration, new arrivals, and exclusive offers.",
-      established: "2009",
+      established: "2005",
       phone: "+91 93993 57998",
       email: "info@dushyantfurnituremart.com",
       address: "45, Sidhi, Madhya Pradesh 486661",
