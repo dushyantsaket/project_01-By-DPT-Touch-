@@ -74,7 +74,7 @@
     "pc": 1,
     "order_no": "1 619 P01 811",
     "description": "Brush Holder",
-    "price_inr": 29.00,
+    "price_inr": 2925.00,
     "category": "Electrical",
     "image": "https://api.bosch-spares.com/images/parts/1_619_P01_811.png",
     "compatibility": ["GWS 600"]
@@ -89,6 +89,7 @@
     "image": "https://api.bosch-spares.com/images/parts/1_604_652_013.png",
     "compatibility": ["GWS 600"]
   },
+  
   {
     "item_no": 10,
     "pc": 1,
