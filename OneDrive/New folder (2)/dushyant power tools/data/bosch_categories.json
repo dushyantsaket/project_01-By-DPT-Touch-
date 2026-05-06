@@ -61,5 +61,406 @@
     "icon": "https://api.bosch-spares.com/icons/cordless_drill.png",
     "count": 1,
     "tools": ["GSR 120-LI"]
+  },
+  {
+    "id": "impact_drills",
+    "name": "Impact Drills",
+    "icon": "https://api.bosch-spares.com/icons/impact_drill.png",
+    "count": 2,
+    "tools": ["GSB 10 RE", "GSB 13 RE"]
+  },
+  {
+    "id": "circular_saws",
+    "name": "Circular Saws",
+    "icon": "https://api.bosch-spares.com/icons/circular_saw.png",
+    "count": 2,
+    "tools": ["GKS 190", "GKS 600"]
+  },
+  {
+    "id": "mitre_saws",
+    "name": "Mitre Saws",
+    "icon": "https://api.bosch-spares.com/icons/mitre_saw.png",
+    "count": 2,
+    "tools": ["GCM 10 MX", "GCM 800 SJ"]
+  },
+  {
+    "id": "table_saws",
+    "name": "Table Saws",
+    "icon": "https://api.bosch-spares.com/icons/table_saw.png",
+    "count": 2,
+    "tools": ["GTS 10 J", "GTS 254"]
+  },
+  {
+    "id": "routers",
+    "name": "Routers",
+    "icon": "https://api.bosch-spares.com/icons/router.png",
+    "count": 2,
+    "tools": ["GOF 130", "GOF 1600 CE"]
+  },
+  {
+    "id": "sandars",
+    "name": "Sanders",
+    "icon": "https://api.bosch-spares.com/icons/sander.png",
+    "count": 2,
+    "tools": ["GSS 140", "GEX 125-1 AE"]
+  },
+  {
+    "id": "bench_grinders",
+    "name": "Bench Grinders",
+    "icon": "https://api.bosch-spares.com/icons/bench_grinder.png",
+    "count": 2,
+    "tools": ["GBG 35-15", "GBG 60-20"]
+  },
+  {
+    "id": "polishers",
+    "name": "Polishers",
+    "icon": "https://api.bosch-spares.com/icons/polisher.png",
+    "count": 2,
+    "tools": ["GPO 12 CE", "GPO 950"]
+  },
+  {
+    "id": "nail_guns",
+    "name": "Nail Guns",
+    "icon": "https://api.bosch-spares.com/icons/nail_gun.png",
+    "count": 2,
+    "tools": ["GTN 635", "GNH 18V-64"]
+  },
+  {
+    "id": "laser_levels",
+    "name": "Laser Levels",
+    "icon": "https://api.bosch-spares.com/icons/laser_level.png",
+    "count": 2,
+    "tools": ["GLL 2-20", "GCL 2-15"]
+  },
+  {
+    "id": "measuring_tools",
+    "name": "Measuring Tools",
+    "icon": "https://api.bosch-spares.com/icons/measuring_tool.png",
+    "count": 2,
+    "tools": ["GLM 40", "GLM 50-23 G"]
+  },
+  {
+    "id": "mixers",
+    "name": "Mixers",
+    "icon": "https://api.bosch-spares.com/icons/mixer.png",
+    "count": 2,
+    "tools": ["GRW 12 E", "GRW 18-2 E"]
+  },
+  {
+    "id": "vacuum_cleaners",
+    "name": "Vacuum Cleaners",
+    "icon": "https://api.bosch-spares.com/icons/vacuum_cleaner.png",
+    "count": 2,
+    "tools": ["GAS 12-25", "GAS 15 PS"]
+  },
+  {
+    "id": "pressure_washers",
+    "name": "Pressure Washers",
+    "icon": "https://api.bosch-spares.com/icons/pressure_washer.png",
+    "count": 2,
+    "tools": ["EasyAquatak 120", "UniversalAquatak 135"]
+  },
+  {
+    "id": "chainsaws",
+    "name": "Chainsaws",
+    "icon": "https://api.bosch-spares.com/icons/chainsaw.png",
+    "count": 2,
+    "tools": ["AKE 35", "UniversalChain 40"]
+  },
+  {
+    "id": "hedge_trimmers",
+    "name": "Hedge Trimmers",
+    "icon": "https://api.bosch-spares.com/icons/hedge_trimmer.png",
+    "count": 2,
+    "tools": ["AHS 45-16", "EasyHedgeCut 55"]
+  },
+  {
+    "id": "grass_trimmers",
+    "name": "Grass Trimmers",
+    "icon": "https://api.bosch-spares.com/icons/grass_trimmer.png",
+    "count": 2,
+    "tools": ["ART 23", "EasyGrassCut 26"]
+  },
+  {
+    "id": "lawn_mowers",
+    "name": "Lawn Mowers",
+    "icon": "https://api.bosch-spares.com/icons/lawn_mower.png",
+    "count": 2,
+    "tools": ["ARM 34", "Rotak 370"]
+  },
+  {
+    "id": "water_pumps",
+    "name": "Water Pumps",
+    "icon": "https://api.bosch-spares.com/icons/water_pump.png",
+    "count": 2,
+    "tools": ["WP 1500", "WP 2500"]
+  },
+  {
+    "id": "air_compressors",
+    "name": "Air Compressors",
+    "icon": "https://api.bosch-spares.com/icons/air_compressor.png",
+    "count": 2,
+    "tools": ["AC 24", "AC 50"]
+  },
+  {
+    "id": "battery_chargers",
+    "name": "Battery Chargers",
+    "icon": "https://api.bosch-spares.com/icons/battery_charger.png",
+    "count": 2,
+    "tools": ["GAL 12V-20", "GAL 18V-40"]
+  },
+  {
+    "id": "heat_detectors",
+    "name": "Heat Detectors",
+    "icon": "https://api.bosch-spares.com/icons/heat_detector.png",
+    "count": 2,
+    "tools": ["GIS 500", "GIS 1000 C"]
+  },
+  {
+    "id": "inspection_cameras",
+    "name": "Inspection Cameras",
+    "icon": "https://api.bosch-spares.com/icons/inspection_camera.png",
+    "count": 2,
+    "tools": ["GIC 120", "GIC 4-23 C"]
+  },
+  {
+    "id": "tile_cutters",
+    "name": "Tile Cutters",
+    "icon": "https://api.bosch-spares.com/icons/tile_cutter.png",
+    "count": 2,
+    "tools": ["TCM 640", "TCM 800"]
+  },
+  {
+    "id": "concrete_cutters",
+    "name": "Concrete Cutters",
+    "icon": "https://api.bosch-spares.com/icons/concrete_cutter.png",
+    "count": 2,
+    "tools": ["GCO 220", "GCO 14-24"]
+  },
+  {
+    "id": "wood_cutters",
+    "name": "Wood Cutters",
+    "icon": "https://api.bosch-spares.com/icons/wood_cutter.png",
+    "count": 2,
+    "tools": ["GKT 55", "GKT 18V"]
+  },
+  {
+    "id": "metal_cutters",
+    "name": "Metal Cutters",
+    "icon": "https://api.bosch-spares.com/icons/metal_cutter.png",
+    "count": 2,
+    "tools": ["GCO 200", "GCO 230"]
+  },
+  {
+    "id": "tool_kits",
+    "name": "Tool Kits",
+    "icon": "https://api.bosch-spares.com/icons/tool_kit.png",
+    "count": 2,
+    "tools": ["Bosch Combo Kit 1", "Bosch Combo Kit 2"]
+  },
+  {
+    "id": "generators",
+    "name": "Generators",
+    "icon": "https://api.bosch-spares.com/icons/generator.png",
+    "count": 2,
+    "tools": ["BG 3500", "BG 6500"]
+  },
+  {
+    "id": "spray_guns",
+    "name": "Spray Guns",
+    "icon": "https://api.bosch-spares.com/icons/spray_gun.png",
+    "count": 2,
+    "tools": ["PSM 100", "PSM 200"]
+  },
+  {
+    "id": "impact_wrenches",
+    "name": "Impact Wrenches",
+    "icon": "https://api.bosch-spares.com/icons/impact_wrench.png",
+    "count": 2,
+    "tools": ["GDX 180-LI", "GDS 250"]
+  },
+  {
+    "id": "screwdrivers",
+    "name": "Electric Screwdrivers",
+    "icon": "https://api.bosch-spares.com/icons/screwdriver.png",
+    "count": 2,
+    "tools": ["GO 2", "IXO 6"]
+  },
+  {
+    "id": "glue_guns",
+    "name": "Glue Guns",
+    "icon": "https://api.bosch-spares.com/icons/glue_gun.png",
+    "count": 2,
+    "tools": ["GluePen", "PKP 18 E"]
+  },
+  {
+    "id": "garden_tools",
+    "name": "Garden Tools",
+    "icon": "https://api.bosch-spares.com/icons/garden_tool.png",
+    "count": 2,
+    "tools": ["GardenPump 18", "Fontus"]
+  },
+  {
+    "id": "work_lights",
+    "name": "Work Lights",
+    "icon": "https://api.bosch-spares.com/icons/work_light.png",
+    "count": 2,
+    "tools": ["GLI 12V-300", "GLI 18V-10000"]
+  },
+  {
+    "id": "stud_finders",
+    "name": "Stud Finders",
+    "icon": "https://api.bosch-spares.com/icons/stud_finder.png",
+    "count": 2,
+    "tools": ["GMS 120", "D-tect 200"]
+  },
+  {
+    "id": "multi_tools",
+    "name": "Multi Tools",
+    "icon": "https://api.bosch-spares.com/icons/multi_tool.png",
+    "count": 2,
+    "tools": ["GOP 30-28", "GOP 18V-28"]
+  },
+  {
+    "id": "riveting_tools",
+    "name": "Riveting Tools",
+    "icon": "https://api.bosch-spares.com/icons/riveting_tool.png",
+    "count": 2,
+    "tools": ["GRG 18V-16", "GRG 12V"]
+  },
+  {
+    "id": "caulking_guns",
+    "name": "Caulking Guns",
+    "icon": "https://api.bosch-spares.com/icons/caulking_gun.png",
+    "count": 2,
+    "tools": ["GCG 18V-310", "GCG 18V-600"]
+  },
+  {
+    "id": "shears",
+    "name": "Metal Shears",
+    "icon": "https://api.bosch-spares.com/icons/shears.png",
+    "count": 2,
+    "tools": ["GSC 75-16", "GNA 18V"]
+  },
+  {
+    "id": "polishing_machines",
+    "name": "Polishing Machines",
+    "icon": "https://api.bosch-spares.com/icons/polishing_machine.png",
+    "count": 2,
+    "tools": ["GPO 14 CE", "GPO 950"]
+  },
+  {
+    "id": "engravers",
+    "name": "Engravers",
+    "icon": "https://api.bosch-spares.com/icons/engraver.png",
+    "count": 2,
+    "tools": ["GRO 12V", "EngraveMaster"]
+  },
+  {
+    "id": "dust_extractors",
+    "name": "Dust Extractors",
+    "icon": "https://api.bosch-spares.com/icons/dust_extractor.png",
+    "count": 2,
+    "tools": ["GAS 18V", "GAS 35 L"]
+  },
+  {
+    "id": "hydraulic_jacks",
+    "name": "Hydraulic Jacks",
+    "icon": "https://api.bosch-spares.com/icons/hydraulic_jack.png",
+    "count": 2,
+    "tools": ["HJ 2T", "HJ 5T"]
+  },
+  {
+    "id": "tile_vibrators",
+    "name": "Tile Vibrators",
+    "icon": "https://api.bosch-spares.com/icons/tile_vibrator.png",
+    "count": 2,
+    "tools": ["TV 21V", "TV Pro"]
+  },
+  {
+    "id": "concrete_vibrators",
+    "name": "Concrete Vibrators",
+    "icon": "https://api.bosch-spares.com/icons/concrete_vibrator.png",
+    "count": 2,
+    "tools": ["CV 1500", "CV 2200"]
+  },
+  {
+    "id": "bench_drills",
+    "name": "Bench Drills",
+    "icon": "https://api.bosch-spares.com/icons/bench_drill.png",
+    "count": 2,
+    "tools": ["BD 13", "BD 16"]
+  },
+  {
+    "id": "paint_mixers",
+    "name": "Paint Mixers",
+    "icon": "https://api.bosch-spares.com/icons/paint_mixer.png",
+    "count": 2,
+    "tools": ["PM 1200", "PM 1600"]
+  }
+],
+[
+  {
+    "id": "angle_grinders",
+    "name": "Angle Grinders",
+    "icon": "https://api.bosch-spares.com/icons/angle_grinder.png",
+    "count": 2,
+    "tools": ["GWS 600", "GWS 750-100"]
+  },
+  {
+    "id": "rotary_hammers",
+    "name": "Rotary Hammers",
+    "icon": "https://api.bosch-spares.com/icons/rotary_hammer.png",
+    "count": 2,
+    "tools": ["GBH 200", "GBH 220"]
+  },
+  {
+    "id": "demolition_hammers",
+    "name": "Demolition Hammers",
+    "icon": "https://api.bosch-spares.com/icons/demolition_hammer.png",
+    "count": 2,
+    "tools": ["GSH 500", "GSH 11 E"]
+  },
+  {
+    "id": "marble_saws",
+    "name": "Marble Saws",
+    "icon": "https://api.bosch-spares.com/icons/marble_saw.png",
+    "count": 2,
+    "tools": ["GDC 120", "GDC 141"]
+  },
+  {
+    "id": "hot_air_guns",
+    "name": "Hot Air Guns",
+    "icon": "https://api.bosch-spares.com/icons/hot_air_gun.png",
+    "count": 1,
+    "tools": ["GHG 180"]
+  },
+  {
+    "id": "blowers",
+    "name": "Blowers",
+    "icon": "https://api.bosch-spares.com/icons/blower.png",
+    "count": 1,
+    "tools": ["GBL 620"]
+  },
+  {
+    "id": "planers",
+    "name": "Planers",
+    "icon": "https://api.bosch-spares.com/icons/planer.png",
+    "count": 1,
+    "tools": ["GHO 6500"]
+  },
+  {
+    "id": "jig_saws",
+    "name": "Jig Saws",
+    "icon": "https://api.bosch-spares.com/icons/jig_saw.png",
+    "count": 1,
+    "tools": ["GST 650"]
+  },
+  {
+    "id": "cordless_drills",
+    "name": "Cordless Drills",
+    "icon": "https://api.bosch-spares.com/icons/cordless_drill.png",
+    "count": 1,
+    "tools": ["GSR 120-LI"]
   }
 ]
