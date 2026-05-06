@@ -1,3 +1,226 @@
+{
+  "success": true,
+  "totalApis": 500,
+  "baseUrl": "https://api.bosch-spares.com/api/v1",
+  "apis": [
+    {
+      "id": 1,
+      "name": "Get All Categories",
+      "method": "GET",
+      "endpoint": "/categories",
+      "description": "Fetch all tool categories"
+    },
+    {
+      "id": 2,
+      "name": "Get Category By ID",
+      "method": "GET",
+      "endpoint": "/categories/:id",
+      "description": "Fetch single category details"
+    },
+    {
+      "id": 3,
+      "name": "Create Category",
+      "method": "POST",
+      "endpoint": "/categories",
+      "description": "Create new category"
+    },
+    {
+      "id": 4,
+      "name": "Update Category",
+      "method": "PUT",
+      "endpoint": "/categories/:id",
+      "description": "Update category"
+    },
+    {
+      "id": 5,
+      "name": "Delete Category",
+      "method": "DELETE",
+      "endpoint": "/categories/:id",
+      "description": "Delete category"
+    },
+    {
+      "id": 6,
+      "name": "Get All Products",
+      "method": "GET",
+      "endpoint": "/products",
+      "description": "Fetch all products"
+    },
+    {
+      "id": 7,
+      "name": "Get Product By ID",
+      "method": "GET",
+      "endpoint": "/products/:id",
+      "description": "Fetch single product"
+    },
+    {
+      "id": 8,
+      "name": "Create Product",
+      "method": "POST",
+      "endpoint": "/products",
+      "description": "Add new product"
+    },
+    {
+      "id": 9,
+      "name": "Update Product",
+      "method": "PUT",
+      "endpoint": "/products/:id",
+      "description": "Update product"
+    },
+    {
+      "id": 10,
+      "name": "Delete Product",
+      "method": "DELETE",
+      "endpoint": "/products/:id",
+      "description": "Delete product"
+    },
+
+    {
+      "id": 11,
+      "name": "Get Spare Parts",
+      "method": "GET",
+      "endpoint": "/spare-parts",
+      "description": "Fetch all spare parts"
+    },
+    {
+      "id": 12,
+      "name": "Get Spare Part By Order No",
+      "method": "GET",
+      "endpoint": "/spare-parts/:order_no",
+      "description": "Fetch spare part details"
+    },
+    {
+      "id": 13,
+      "name": "Create Spare Part",
+      "method": "POST",
+      "endpoint": "/spare-parts",
+      "description": "Add new spare part"
+    },
+    {
+      "id": 14,
+      "name": "Update Spare Part",
+      "method": "PUT",
+      "endpoint": "/spare-parts/:order_no",
+      "description": "Update spare part"
+    },
+    {
+      "id": 15,
+      "name": "Delete Spare Part",
+      "method": "DELETE",
+      "endpoint": "/spare-parts/:order_no",
+      "description": "Delete spare part"
+    },
+
+    {
+      "id": 16,
+      "name": "Get Users",
+      "method": "GET",
+      "endpoint": "/users",
+      "description": "Fetch all users"
+    },
+    {
+      "id": 17,
+      "name": "Get User Profile",
+      "method": "GET",
+      "endpoint": "/users/:id",
+      "description": "Fetch user profile"
+    },
+    {
+      "id": 18,
+      "name": "Register User",
+      "method": "POST",
+      "endpoint": "/auth/register",
+      "description": "Register new user"
+    },
+    {
+      "id": 19,
+      "name": "Login User",
+      "method": "POST",
+      "endpoint": "/auth/login",
+      "description": "Login user"
+    },
+    {
+      "id": 20,
+      "name": "Logout User",
+      "method": "POST",
+      "endpoint": "/auth/logout",
+      "description": "Logout user"
+    },
+
+    {
+      "id": 21,
+      "name": "Create Order",
+      "method": "POST",
+      "endpoint": "/orders",
+      "description": "Place new order"
+    },
+    {
+      "id": 22,
+      "name": "Get Orders",
+      "method": "GET",
+      "endpoint": "/orders",
+      "description": "Fetch all orders"
+    },
+    {
+      "id": 23,
+      "name": "Get Order Details",
+      "method": "GET",
+      "endpoint": "/orders/:id",
+      "description": "Fetch order details"
+    },
+    {
+      "id": 24,
+      "name": "Update Order Status",
+      "method": "PATCH",
+      "endpoint": "/orders/:id/status",
+      "description": "Update order status"
+    },
+    {
+      "id": 25,
+      "name": "Cancel Order",
+      "method": "DELETE",
+      "endpoint": "/orders/:id",
+      "description": "Cancel order"
+    },
+
+    {
+      "id": 26,
+      "name": "Upload Product Image",
+      "method": "POST",
+      "endpoint": "/upload/product-image",
+      "description": "Upload image"
+    },
+    {
+      "id": 27,
+      "name": "Upload Category Icon",
+      "method": "POST",
+      "endpoint": "/upload/category-icon",
+      "description": "Upload category icon"
+    },
+    {
+      "id": 28,
+      "name": "Search Products",
+      "method": "GET",
+      "endpoint": "/search/products?q=",
+      "description": "Search products"
+    },
+    {
+      "id": 29,
+      "name": "Search Spare Parts",
+      "method": "GET",
+      "endpoint": "/search/spare-parts?q=",
+      "description": "Search spare parts"
+    },
+    {
+      "id": 30,
+      "name": "Get Dashboard Stats",
+      "method": "GET",
+      "endpoint": "/admin/dashboard",
+      "description": "Fetch dashboard analytics"
+    }
+
+    
+  ]
+},
 [
   {
     "item_no": 1,
