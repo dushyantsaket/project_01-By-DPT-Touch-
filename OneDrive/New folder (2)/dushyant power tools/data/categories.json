@@ -1,5 +1,283 @@
+
 [
- {
+  {
+    "id": 1,
+    "name": "Gasoline Chainsaws",
+    "image": "/images/categories/chainsaw.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Electric Chainsaws",
+    "image": "/images/categories/electric_chainsaw.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Brush Cutters",
+    "image": "/images/categories/brushcutter.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Earth Auger",
+    "image": "/images/categories/earthauger.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Water Pumps",
+    "image": "/images/categories/waterpump.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Power Tools",
+    "image": "/images/categories/powertools.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Accessories & Spares",
+    "image": "/images/categories/accessories.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Pressure Washers",
+    "image": "/images/categories/pressurewasher.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Concrete Cutters",
+    "image": "/images/categories/concretecutter.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Generators",
+    "image": "/images/categories/generator.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Air Compressors",
+    "image": "/images/categories/aircompressor.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Cordless Drills",
+    "image": "/images/categories/cordlessdrill.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Impact Wrenches",
+    "image": "/images/categories/impactwrench.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Angle Grinders",
+    "image": "/images/categories/anglegrinder.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Rotary Hammers",
+    "image": "/images/categories/rotaryhammer.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Demolition Hammers",
+    "image": "/images/categories/demolitionhammer.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Tile Cutters",
+    "image": "/images/categories/tilecutter.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Circular Saws",
+    "image": "/images/categories/circularsaw.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Jigsaws",
+    "image": "/images/categories/jigsaw.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Miter Saws",
+    "image": "/images/categories/mitersaw.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Heat Guns",
+    "image": "/images/categories/heatgun.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Blowers",
+    "image": "/images/categories/blower.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Vacuum Cleaners",
+    "image": "/images/categories/vacuumcleaner.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Paint Sprayers",
+    "image": "/images/categories/paintsprayer.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Welding Machines",
+    "image": "/images/categories/weldingmachine.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Plasma Cutters",
+    "image": "/images/categories/plasmacutter.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Bench Grinders",
+    "image": "/images/categories/benchgrinder.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Belt Sanders",
+    "image": "/images/categories/beltsander.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Orbital Sanders",
+    "image": "/images/categories/orbitalsander.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Lawn Mowers",
+    "image": "/images/categories/lawnmower.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Grass Trimmers",
+    "image": "/images/categories/grasstrimmer.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Hedge Trimmers",
+    "image": "/images/categories/hedgetrimmer.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Mini Tillers",
+    "image": "/images/categories/minitiller.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Sprayers",
+    "image": "/images/categories/sprayer.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Fogging Machines",
+    "image": "/images/categories/foggingmachine.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Submersible Pumps",
+    "image": "/images/categories/submersiblepump.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Sewage Pumps",
+    "image": "/images/categories/sewagepump.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Pipe Cutters",
+    "image": "/images/categories/pipecutter.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Tile Vibrators",
+    "image": "/images/categories/tilevibrator.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Concrete Vibrators",
+    "image": "/images/categories/concretevibrator.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Nail Guns",
+    "image": "/images/categories/nailgun.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Staple Guns",
+    "image": "/images/categories/staplegun.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Hydraulic Jacks",
+    "image": "/images/categories/hydraulicjack.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Tool Kits",
+    "image": "/images/categories/toolkit.jpg"
+  },
+  {
+    "id": 45,
+    "name": "Measuring Tools",
+    "image": "/images/categories/measuringtools.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Laser Levels",
+    "image": "/images/categories/laserlevel.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Stud Finders",
+    "image": "/images/categories/studfinder.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Router Machines",
+    "image": "/images/categories/routermachine.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Planers",
+    "image": "/images/categories/planer.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Wood Cutters",
+    "image": "/images/categories/woodcutter.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Steel Cutters",
+    "image": "/images/categories/steelcutter.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Industrial Fans",
+    "image": "/images/categories/industrialfan.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Battery Chargers",
+    "image": "/images/categories/batterycharger.jpg"
+  },
+  {
+    "id": 54,
+    "name": "LED Work Lights",
+    "image": "/images/categories/ledworklight.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Safety Equipment",
+    "image": "/images/categories/safetyequipment.jpg"
+  }
+
+Source reference from uploaded file: fileciteturn0file0
+{
   "id": 1,
   "name": "Gasoline Chainsaws",
   "image": "/images/categories/chainsaw.jpg"
