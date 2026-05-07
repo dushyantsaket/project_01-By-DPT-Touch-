@@ -245,6 +245,818 @@
     },
     "spare_parts_count": 19
   },
+    
+  {
+    "id": 1,
+    "model_number": "GWS 600",
+    "model_code": "0 601 375 0X5",
+    "voltage": "220V",
+    "name": "Universal Angle Grinder",
+    "category": "Angle Grinder",
+    "image": "https://api.bosch-spares.com/images/gws600.png",
+    "description": "Powerful angle grinder for cutting and grinding applications",
+    "power": "600W",
+    "disc_size": "100mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 100,
+      "major_repair": 150
+    },
+    "spare_parts_count": 38
+  },
+  {
+    "id": 2,
+    "model_number": "GWS 750-100",
+    "model_code": "3 601 C94 0F0",
+    "voltage": "230V",
+    "name": "Angle Grinder",
+    "category": "Angle Grinder",
+    "image": "https://api.bosch-spares.com/images/gws750.png",
+    "description": "Compact angle grinder with 750W motor",
+    "power": "750W",
+    "disc_size": "100mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 100,
+      "major_repair": 150
+    },
+    "spare_parts_count": 54
+  },
+  {
+    "id": 3,
+    "model_number": "GBH 200",
+    "model_code": "3 611 B58 3F3",
+    "voltage": "220V",
+    "name": "Rotary Hammer",
+    "category": "Rotary Hammer",
+    "image": "https://api.bosch-spares.com/images/gbh200.png",
+    "description": "Lightweight rotary hammer for drilling in concrete",
+    "power": "600W",
+    "impact_energy": "2.0 J",
+    "chuck_type": "SDS-plus",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 150,
+      "major_repair": 250
+    },
+    "spare_parts_count": 42
+  },
+  {
+    "id": 4,
+    "model_number": "GBH 220",
+    "model_code": "3 611 BA6 0F0",
+    "voltage": "230V",
+    "name": "Rotary Hammer",
+    "category": "Rotary Hammer",
+    "image": "https://api.bosch-spares.com/images/gbh220.png",
+    "description": "Powerful rotary hammer with vibration control",
+    "power": "800W",
+    "impact_energy": "2.2 J",
+    "chuck_type": "SDS-plus",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 150,
+      "major_repair": 250
+    },
+    "spare_parts_count": 48
+  },
+  {
+    "id": 5,
+    "model_number": "GSH 500",
+    "model_code": "3 611 C38 6F0",
+    "voltage": "220V",
+    "name": "Demolition Hammer",
+    "category": "Demolition Hammer",
+    "image": "https://api.bosch-spares.com/images/gsh500.png",
+    "description": "Heavy-duty demolition hammer for chiselling work",
+    "power": "1050W",
+    "impact_energy": "8.5 J",
+    "weight": "5.2 kg",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 200,
+      "major_repair": 300
+    },
+    "spare_parts_count": 65
+  },
+  {
+    "id": 6,
+    "model_number": "GSH 11 E",
+    "model_code": "3 611 C16 8F0",
+    "voltage": "220V",
+    "name": "Demolition Hammer",
+    "category": "Demolition Hammer",
+    "image": "https://api.bosch-spares.com/images/gsh11e.png",
+    "description": "Professional demolition hammer with constant speed control",
+    "power": "1500W",
+    "impact_energy": "23 J",
+    "weight": "11.2 kg",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 200,
+      "major_repair": 375
+    },
+    "spare_parts_count": 72
+  },
+  {
+    "id": 7,
+    "model_number": "GDC 120",
+    "model_code": "3 601 C93 0F1",
+    "voltage": "230V",
+    "name": "Marble Saw",
+    "category": "Marble Saw",
+    "image": "https://api.bosch-spares.com/images/gdc120.png",
+    "description": "Specialized saw for marble and tile cutting",
+    "power": "1200W",
+    "blade_size": "110mm",
+    "max_depth": "34mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 150,
+      "major_repair": 250
+    },
+    "spare_parts_count": 32
+  },
+  {
+    "id": 8,
+    "model_number": "GDC 141",
+    "model_code": "3 601 CA4 1F0",
+    "voltage": "220V",
+    "name": "Marble Saw",
+    "category": "Marble Saw",
+    "image": "https://api.bosch-spares.com/images/gdc141.png",
+    "description": "High-performance marble saw for precise cuts",
+    "power": "1400W",
+    "blade_size": "125mm",
+    "max_depth": "42mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 150,
+      "major_repair": 250
+    },
+    "spare_parts_count": 28
+  },
+  {
+    "id": 9,
+    "model_number": "GHG 180",
+    "model_code": "3 601 J4D 0F0",
+    "voltage": "230V",
+    "name": "Hot Air Gun",
+    "category": "Hot Air Gun",
+    "image": "https://api.bosch-spares.com/images/ghg180.png",
+    "description": "Versatile hot air gun for paint stripping and heating",
+    "power": "1800W",
+    "temperature_range": "50-600°C",
+    "airflow": "250-500 L/min",
+    "warranty_years": 1,
+    "warranty_note": "Check with Local Bosch representative for Hot Air Gun Warranty",
+    "labour_charge": {
+      "minor_repair": 150,
+      "major_repair": 250
+    },
+    "spare_parts_count": 11
+  },
+  {
+    "id": 10,
+    "model_number": "GBL 620",
+    "model_code": "3 601 J80 5F0",
+    "voltage": "230V",
+    "name": "Blower",
+    "category": "Blower",
+    "image": "https://api.bosch-spares.com/images/gbl620.png",
+    "description": "Powerful blower for cleaning and dust removal",
+    "power": "620W",
+    "air_velocity": "240 km/h",
+    "airflow": "3.2 m³/min",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 100,
+      "major_repair": 150
+    },
+    "spare_parts_count": 21
+  },
+  {
+    "id": 11,
+    "model_number": "GHO 6500",
+    "model_code": "3 601 E96 0K0",
+    "voltage": "230V",
+    "name": "Portable Planer",
+    "category": "Planer",
+    "image": "https://api.bosch-spares.com/images/gho6500.png",
+    "description": "Professional planer for woodworking",
+    "power": "650W",
+    "planing_width": "82mm",
+    "planing_depth": "0-2.6mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 150,
+      "major_repair": 250
+    },
+    "spare_parts_count": 42
+  },
+  {
+    "id": 12,
+    "model_number": "GST 650",
+    "model_code": "3 601 EA8 0F0",
+    "voltage": "230V",
+    "name": "Jig Saw",
+    "category": "Jig Saw",
+    "image": "https://api.bosch-spares.com/images/gst650.png",
+    "description": "Compact jig saw for curved cuts",
+    "power": "550W",
+    "stroke_rate": "500-3100 spm",
+    "cutting_depth_wood": "65mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 150,
+      "major_repair": 250
+    },
+    "spare_parts_count": 19
+  },
+  {
+    "id": 13,
+    "model_number": "GSR 120-LI",
+    "model_code": "3 601 JG8 080",
+    "voltage": "12V",
+    "name": "Cordless Drill Driver",
+    "category": "Cordless Drill",
+    "image": "https://api.bosch-spares.com/images/gsr120li.png",
+    "description": "Compact cordless drill driver for everyday use",
+    "max_torque": "30 Nm",
+    "chuck_size": "10mm",
+    "battery_capacity": "2.0Ah",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 100,
+      "major_repair": 150
+    },
+    "spare_parts_count": 18
+  },
+  {
+    "id": 14,
+    "model_number": "GWS 850",
+    "model_code": "0 601 396 0F0",
+    "voltage": "220V",
+    "name": "Professional Angle Grinder",
+    "category": "Angle Grinder",
+    "image": "https://api.bosch-spares.com/images/gws850.png",
+    "description": "Professional angle grinder with 850W motor for heavy-duty applications",
+    "power": "850W",
+    "disc_size": "125mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 120,
+      "major_repair": 175
+    },
+    "spare_parts_count": 45
+  },
+  {
+    "id": 15,
+    "model_number": "GWS 1000",
+    "model_code": "0 601 396 1F5",
+    "voltage": "230V",
+    "name": "Heavy-Duty Angle Grinder",
+    "category": "Angle Grinder",
+    "image": "https://api.bosch-spares.com/images/gws1000.png",
+    "description": "Heavy-duty angle grinder with 1000W motor for continuous operation",
+    "power": "1000W",
+    "disc_size": "125mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 120,
+      "major_repair": 180
+    },
+    "spare_parts_count": 52
+  },
+  {
+    "id": 16,
+    "model_number": "GWS 24-230",
+    "model_code": "0 601 864 0F0",
+    "voltage": "220V",
+    "name": "Large Angle Grinder",
+    "category": "Angle Grinder",
+    "image": "https://api.bosch-spares.com/images/gws24230.png",
+    "description": "Large angle grinder for industrial cutting and grinding",
+    "power": "2400W",
+    "disc_size": "230mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 175,
+      "major_repair": 250
+    },
+    "spare_parts_count": 68
+  },
+  {
+    "id": 17,
+    "model_number": "GWS 26-230",
+    "model_code": "0 601 866 0F0",
+    "voltage": "230V",
+    "name": "Industrial Angle Grinder",
+    "category": "Angle Grinder",
+    "image": "https://api.bosch-spares.com/images/gws26230.png",
+    "description": "Industrial-grade angle grinder with 2600W motor and dust protection",
+    "power": "2600W",
+    "disc_size": "230mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 200,
+      "major_repair": 300
+    },
+    "spare_parts_count": 75
+  },
+  {
+    "id": 18,
+    "model_number": "GBH 2-20",
+    "model_code": "3 611 B59 0F0",
+    "voltage": "220V",
+    "name": "Professional Rotary Hammer",
+    "category": "Rotary Hammer",
+    "image": "https://api.bosch-spares.com/images/gbh220.png",
+    "description": "Professional rotary hammer with 2.0J impact energy",
+    "power": "650W",
+    "impact_energy": "2.0 J",
+    "chuck_type": "SDS-plus",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 150,
+      "major_repair": 250
+    },
+    "spare_parts_count": 46
+  },
+  {
+    "id": 19,
+    "model_number": "GBH 2-24",
+    "model_code": "3 611 B60 0F0",
+    "voltage": "230V",
+    "name": "Advanced Rotary Hammer",
+    "category": "Rotary Hammer",
+    "image": "https://api.bosch-spares.com/images/gbh220.png",
+    "description": "Advanced rotary hammer with 2.4J impact energy and kickback control",
+    "power": "720W",
+    "impact_energy": "2.4 J",
+    "chuck_type": "SDS-plus",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 175,
+      "major_repair": 275
+    },
+    "spare_parts_count": 55
+  },
+  {
+    "id": 20,
+    "model_number": "GBH 2-28",
+    "model_code": "3 611 B61 0F0",
+    "voltage": "220V",
+    "name": "Heavy-Duty Rotary Hammer",
+    "category": "Rotary Hammer",
+    "image": "https://api.bosch-spares.com/images/gbh220.png",
+    "description": "Heavy-duty rotary hammer with 2.8J impact energy for professional use",
+    "power": "800W",
+    "impact_energy": "2.8 J",
+    "chuck_type": "SDS-plus",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 200,
+      "major_repair": 300
+    },
+    "spare_parts_count": 62
+  },
+  {
+    "id": 21,
+    "model_number": "GBH 5-40",
+    "model_code": "3 611 B64 0F0",
+    "voltage": "230V",
+    "name": "Industrial Rotary Hammer",
+    "category": "Rotary Hammer",
+    "image": "https://api.bosch-spares.com/images/gbh220.png",
+    "description": "Industrial-grade rotary hammer for heavy concrete drilling",
+    "power": "1100W",
+    "impact_energy": "8.5 J",
+    "chuck_type": "SDS-max",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 250,
+      "major_repair": 375
+    },
+    "spare_parts_count": 78
+  },
+  {
+    "id": 22,
+    "model_number": "GSH 16-30",
+    "model_code": "3 611 C35 0F0",
+    "voltage": "220V",
+    "name": "Professional Demolition Hammer",
+    "category": "Demolition Hammer",
+    "image": "https://api.bosch-spares.com/images/gsh500.png",
+    "description": "Professional demolition hammer with 16kg weight class",
+    "power": "1700W",
+    "impact_energy": "30 J",
+    "weight": "16.5 kg",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 250,
+      "major_repair": 400
+    },
+    "spare_parts_count": 85
+  },
+  {
+    "id": 23,
+    "model_number": "GSH 27",
+    "model_code": "3 611 C31 0F0",
+    "voltage": "230V",
+    "name": "Heavy-Duty Demolition Hammer",
+    "category": "Demolition Hammer",
+    "image": "https://api.bosch-spares.com/images/gsh500.png",
+    "description": "Heavy-duty demolition hammer with vibration control system",
+    "power": "2000W",
+    "impact_energy": "62 J",
+    "weight": "27.5 kg",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 300,
+      "major_repair": 500
+    },
+    "spare_parts_count": 92
+  },
+  {
+    "id": 24,
+    "model_number": "GDC 150",
+    "model_code": "3 601 CA5 0F0",
+    "voltage": "230V",
+    "name": "Professional Marble Saw",
+    "category": "Marble Saw",
+    "image": "https://api.bosch-spares.com/images/gdc120.png",
+    "description": "Professional marble saw with water feed system",
+    "power": "1500W",
+    "blade_size": "125mm",
+    "max_depth": "45mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 175,
+      "major_repair": 275
+    },
+    "spare_parts_count": 36
+  },
+  {
+    "id": 25,
+    "model_number": "GDC 160",
+    "model_code": "3 601 CA6 0F0",
+    "voltage": "220V",
+    "name": "Heavy-Duty Marble Saw",
+    "category": "Marble Saw",
+    "image": "https://api.bosch-spares.com/images/gdc120.png",
+    "description": "Heavy-duty marble saw for continuous professional use",
+    "power": "1600W",
+    "blade_size": "125mm",
+    "max_depth": "50mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 200,
+      "major_repair": 300
+    },
+    "spare_parts_count": 40
+  },
+  {
+    "id": 26,
+    "model_number": "GHG 500",
+    "model_code": "3 601 J4E 0F0",
+    "voltage": "230V",
+    "name": "Professional Hot Air Gun",
+    "category": "Hot Air Gun",
+    "image": "https://api.bosch-spares.com/images/ghg180.png",
+    "description": "Professional hot air gun with digital temperature control",
+    "power": "2000W",
+    "temperature_range": "50-650°C",
+    "airflow": "300-550 L/min",
+    "warranty_years": 1,
+    "warranty_note": "Extended warranty available for professional models",
+    "labour_charge": {
+      "minor_repair": 175,
+      "major_repair": 275
+    },
+    "spare_parts_count": 15
+  },
+  {
+    "id": 27,
+    "model_number": "GHG 600",
+    "model_code": "3 601 J4G 0F0",
+    "voltage": "220V",
+    "name": "Industrial Hot Air Gun",
+    "category": "Hot Air Gun",
+    "image": "https://api.bosch-spares.com/images/ghg180.png",
+    "description": "Industrial hot air gun with programmable temperature profiles",
+    "power": "2300W",
+    "temperature_range": "50-700°C",
+    "airflow": "350-600 L/min",
+    "warranty_years": 1,
+    "warranty_note": "Industrial warranty terms apply",
+    "labour_charge": {
+      "minor_repair": 200,
+      "major_repair": 300
+    },
+    "spare_parts_count": 18
+  },
+  {
+    "id": 28,
+    "model_number": "GBL 800",
+    "model_code": "3 601 J81 0F0",
+    "voltage": "230V",
+    "name": "Professional Blower",
+    "category": "Blower",
+    "image": "https://api.bosch-spares.com/images/gbl620.png",
+    "description": "Professional blower with variable speed control",
+    "power": "800W",
+    "air_velocity": "270 km/h",
+    "airflow": "4.2 m³/min",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 120,
+      "major_repair": 175
+    },
+    "spare_parts_count": 25
+  },
+  {
+    "id": 29,
+    "model_number": "GBL 1000",
+    "model_code": "3 601 J82 0F0",
+    "voltage": "220V",
+    "name": "Industrial Blower",
+    "category": "Blower",
+    "image": "https://api.bosch-spares.com/images/gbl620.png",
+    "description": "Industrial blower with turbo boost function",
+    "power": "1000W",
+    "air_velocity": "300 km/h",
+    "airflow": "5.0 m³/min",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 150,
+      "major_repair": 200
+    },
+    "spare_parts_count": 30
+  },
+  {
+    "id": 30,
+    "model_number": "GHO 12-82",
+    "model_code": "3 601 E94 0F0",
+    "voltage": "230V",
+    "name": "Professional Planer",
+    "category": "Planer",
+    "image": "https://api.bosch-spares.com/images/gho6500.png",
+    "description": "Professional planer with 82mm width capacity",
+    "power": "720W",
+    "planing_width": "82mm",
+    "planing_depth": "0-3.0mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 175,
+      "major_repair": 275
+    },
+    "spare_parts_count": 48
+  },
+  {
+    "id": 31,
+    "model_number": "GHO 16-82",
+    "model_code": "3 601 E95 0F0",
+    "voltage": "220V",
+    "name": "Heavy-Duty Planer",
+    "category": "Planer",
+    "image": "https://api.bosch-spares.com/images/gho6500.png",
+    "description": "Heavy-duty planer for continuous woodworking applications",
+    "power": "850W",
+    "planing_width": "82mm",
+    "planing_depth": "0-3.5mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 200,
+      "major_repair": 300
+    },
+    "spare_parts_count": 55
+  },
+  {
+    "id": 32,
+    "model_number": "GST 750",
+    "model_code": "3 601 EA9 0F0",
+    "voltage": "230V",
+    "name": "Professional Jig Saw",
+    "category": "Jig Saw",
+    "image": "https://api.bosch-spares.com/images/gst650.png",
+    "description": "Professional jig saw with orbital action",
+    "power": "620W",
+    "stroke_rate": "800-3200 spm",
+    "cutting_depth_wood": "80mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 175,
+      "major_repair": 275
+    },
+    "spare_parts_count": 24
+  },
+  {
+    "id": 33,
+    "model_number": "GST 850",
+    "model_code": "3 601 EB0 0F0",
+    "voltage": "220V",
+    "name": "Heavy-Duty Jig Saw",
+    "category": "Jig Saw",
+    "image": "https://api.bosch-spares.com/images/gst650.png",
+    "description": "Heavy-duty jig saw for professional woodworking",
+    "power": "720W",
+    "stroke_rate": "1000-3300 spm",
+    "cutting_depth_wood": "90mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 200,
+      "major_repair": 300
+    },
+    "spare_parts_count": 28
+  },
+  {
+    "id": 34,
+    "model_number": "GSR 180-LI",
+    "model_code": "3 601 JG9 080",
+    "voltage": "18V",
+    "name": "Professional Cordless Drill",
+    "category": "Cordless Drill",
+    "image": "https://api.bosch-spares.com/images/gsr120li.png",
+    "description": "Professional cordless drill with 18V power",
+    "max_torque": "45 Nm",
+    "chuck_size": "13mm",
+    "battery_capacity": "2.0Ah",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 120,
+      "major_repair": 175
+    },
+    "spare_parts_count": 22
+  },
+  {
+    "id": 35,
+    "model_number": "GSR 18V-EC",
+    "model_code": "3 601 JG0 080",
+    "voltage": "18V",
+    "name": "Brushless Cordless Drill",
+    "category": "Cordless Drill",
+    "image": "https://api.bosch-spares.com/images/gsr120li.png",
+    "description": "Brushless cordless drill with EC motor technology",
+    "max_torque": "60 Nm",
+    "chuck_size": "13mm",
+    "battery_capacity": "4.0Ah",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 150,
+      "major_repair": 200
+    },
+    "spare_parts_count": 26
+  },
+  {
+    "id": 36,
+    "model_number": "GWS 7-115",
+    "model_code": "0 601 396 2F0",
+    "voltage": "220V",
+    "name": "Compact Angle Grinder",
+    "category": "Angle Grinder",
+    "image": "https://api.bosch-spares.com/images/gws600.png",
+    "description": "Compact angle grinder with 720W motor for DIY and professional use",
+    "power": "720W",
+    "disc_size": "115mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 100,
+      "major_repair": 150
+    },
+    "spare_parts_count": 40
+  },
+  {
+    "id": 37,
+    "model_number": "GWS 9-125",
+    "model_code": "0 601 396 3F5",
+    "voltage": "230V",
+    "name": "Medium Angle Grinder",
+    "category": "Angle Grinder",
+    "image": "https://api.bosch-spares.com/images/gws600.png",
+    "description": "Medium angle grinder with 900W motor and dust guard",
+    "power": "900W",
+    "disc_size": "125mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 130,
+      "major_repair": 190
+    },
+    "spare_parts_count": 48
+  },
+  {
+    "id": 38,
+    "model_number": "GWS 15-150",
+    "model_code": "0 601 864 1F5",
+    "voltage": "220V",
+    "name": "Large Professional Grinder",
+    "category": "Angle Grinder",
+    "image": "https://api.bosch-spares.com/images/gws600.png",
+    "description": "Large professional angle grinder with 1500W motor",
+    "power": "1500W",
+    "disc_size": "150mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 160,
+      "major_repair": 230
+    },
+    "spare_parts_count": 58
+  },
+  {
+    "id": 39,
+    "model_number": "GBH 2-18",
+    "model_code": "3 611 B58 4F3",
+    "voltage": "230V",
+    "name": "Compact Rotary Hammer",
+    "category": "Rotary Hammer",
+    "image": "https://api.bosch-spares.com/images/gbh200.png",
+    "description": "Compact rotary hammer with 1.8J impact energy",
+    "power": "550W",
+    "impact_energy": "1.8 J",
+    "chuck_type": "SDS-plus",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 140,
+      "major_repair": 230
+    },
+    "spare_parts_count": 38
+  },
+  {
+    "id": 40,
+    "model_number": "GBH 3-28",
+    "model_code": "3 611 B62 0F0",
+    "voltage": "220V",
+    "name": "Professional Rotary Hammer 3kg",
+    "category": "Rotary Hammer",
+    "image": "https://api.bosch-spares.com/images/gbh200.png",
+    "description": "3kg professional rotary hammer with constant electronic control",
+    "power": "900W",
+    "impact_energy": "3.2 J",
+    "chuck_type": "SDS-plus",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 190,
+      "major_repair": 290
+    },
+    "spare_parts_count": 52
+  },
+  {
+    "id": 41,
+    "model_number": "GBH 4-32",
+    "model_code": "3 611 B63 0F0",
+    "voltage": "230V",
+    "name": "Heavy-Duty Rotary Hammer 4kg",
+    "category": "Rotary Hammer",
+    "image": "https://api.bosch-spares.com/images/gbh200.png",
+    "description": "4kg heavy-duty rotary hammer for concrete and masonry",
+    "power": "1000W",
+    "impact_energy": "4.5 J",
+    "chuck_type": "SDS-max",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 220,
+      "major_repair": 340
+    },
+    "spare_parts_count": 60
+  },
+  {
+    "id": 42,
+    "model_number": "GSH 7",
+    "model_code": "3 611 C37 0F0",
+    "voltage": "220V",
+    "name": "Medium Demolition Hammer",
+    "category": "Demolition Hammer",
+    "image": "https://api.bosch-spares.com/images/gsh11e.png",
+    "description": "Medium demolition hammer with 7kg weight class",
+    "power": "1300W",
+    "impact_energy": "12 J",
+    "weight": "7.2 kg",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 220,
+      "major_repair": 350
+    },
+    "spare_parts_count": 68
+  },
+  {
+    "id": 43,
+    "model_number": "GSH 9",
+    "model_code": "3 611 C36 0F0",
+    "voltage": "230V",
+    "name": "Heavy Demolition Hammer 9kg",
+    "category": "Demolition Hammer",
+    "image": "https://api.bosch-spares.com/images/gsh11e.png",
+    "description": "9kg demolition hammer with vibration-damped handles",
+    "power": "1400W",
+    "impact_energy": "15 J",
+    "weight": "9.5 kg",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 240,
+      "major_repair": 380
+    },
+    "spare_parts_count": 75
+  },
   {
     "id": 13,
     "model_number": "GSR 120-LI",
