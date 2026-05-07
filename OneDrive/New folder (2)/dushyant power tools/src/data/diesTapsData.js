@@ -21,6 +21,9 @@ export const diesTapsData = [
   { id: 54079, sku: "54079-1241-DN-9079", name: "De Neers 4 Inch Threading Chaser For Ratchet Die", image: "https://unboxtools.com/wp-content/uploads/2025/07/06-De-Neers-1-2-1-Inch-Threading-Chaser-For-Ratchet-Die-300x300.png", category: "hand-tools", sub_category: "Dies & Taps", brand: "De Neers", description: "Threading Chaser | For Ratchet Die | 4\" BSP", regular_price: 6247.12, sale_price: 4810.28, url: "https://unboxtools.com/product/de-neers-4-inch-threading-chaser-for-ratchet-die/" },
   { id: 54080, sku: "54080-1241-DN-9080", name: "De Neers 6 Inch Threading Chaser For Ratchet Die", image: "https://unboxtools.com/wp-content/uploads/2025/07/06-De-Neers-1-2-1-Inch-Threading-Chaser-For-Ratchet-Die-300x300.png", category: "hand-tools", sub_category: "Dies & Taps", brand: "De Neers", description: "Threading Chaser | For Ratchet Die | 6\" BSP", regular_price: 11899.28, sale_price: 9162.45, url: "https://unboxtools.com/product/de-neers-6-inch-threading-chaser-for-ratchet-die/" },
 // ── EXTRA DATA (ADDED) ──
+
+
+  
 export const moreDiesTapsData = [
   {
     id: 72409,
