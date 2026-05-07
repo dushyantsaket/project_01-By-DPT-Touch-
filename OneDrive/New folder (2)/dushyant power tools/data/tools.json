@@ -17,6 +17,25 @@
     },
     "spare_parts_count": 38
   },
+  [
+  {
+    "id": 1,
+    "model_number": "GWS 600",
+    "model_code": "0 601 375 0X5",
+    "voltage": "220V",
+    "name": "Universal Angle Grinder",
+    "category": "Angle Grinder",
+    "image": "https://api.bosch-spares.com/images/gws600.png",
+    "description": "Powerful angle grinder for cutting and grinding applications",
+    "power": "600W",
+    "disc_size": "100mm",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 100,
+      "major_repair": 150
+    },
+    "spare_parts_count": 38
+  },
   {
     "id": 2,
     "model_number": "GWS 750-100",
