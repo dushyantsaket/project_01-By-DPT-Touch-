@@ -1,5 +1,24 @@
 // Polishing Pads, Non-Woven Pads & Buff Wheels – Abrasives Section
 export const polishingPadsData = [
+    {
+    "id": 4,
+    "model_number": "GBH 220",
+    "model_code": "3 611 BA6 0F0",
+    "voltage": "230V",
+    "name": "Rotary Hammer",
+    "category": "Rotary Hammer",
+    "image": "https://api.bosch-spares.com/images/gbh220.png",
+    "description": "Powerful rotary hammer with vibration control",
+    "power": "800W",
+    "impact_energy": "2.2 J",
+    "chuck_type": "SDS-plus",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 150,
+      "major_repair": 250
+    },
+    "spare_parts_count": 48
+  }, 
   { id: 16427, name: "Akari 4 Inch Diamond Polishing Pad For Marble & Granite 100Mm", brand: "Akari", category: "abrasives", sub_category: "Polishing Pads", wheel_type: "Polishing Pad", image: "https://unboxtools.com/wp-content/uploads/2024/04/01-Akari-Diamond-Polishing-Pad-For-Marble-Granite-4-Inch-0-Grit-300x300.jpg", hover_image: null, url: "https://unboxtools.com/product/akari-4-inch-diamond-polishing-pad-for-marble-granite-100mm/", regular_price: 55.00, sale_price: 42.35, size: "4 Inch / 100mm" },
   { id: 22331, name: "Akari 4 Inch Non-Woven Pad For Marble & Granite 100Mm", brand: "Akari", category: "abrasives", sub_category: "Polishing Pads", wheel_type: "Polishing Pad", image: "https://unboxtools.com/wp-content/uploads/2024/07/Akari-4-Inch-Non-Woven-Pad-For-Marble-Granite-100Mm-300x300.jpg", hover_image: null, url: "https://unboxtools.com/product/akari-4-inch-non-woven-pad-for-marble-granite-100mm/", regular_price: 50.75, sale_price: 39.08, size: "4 Inch / 100mm" },
   { id: 16436, name: "Akari 4 Inch Velcro Diamond Polishing Pad For Marble & Granite 100Mm", brand: "Akari", category: "abrasives", sub_category: "Polishing Pads", wheel_type: "Polishing Pad", image: "https://unboxtools.com/wp-content/uploads/2025/08/DPPV-4-1-300x300.jpg", hover_image: null, url: "https://unboxtools.com/product/akari-4-inch-velcro-diamond-polishing-pad-for-marble-granite-100mm/", regular_price: 60.00, sale_price: 46.20, size: "4 Inch / 100mm" },
