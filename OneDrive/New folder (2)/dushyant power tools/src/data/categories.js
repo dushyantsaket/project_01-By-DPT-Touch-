@@ -6,6 +6,25 @@ export const categoriesData = [
     description: 'Chainsaws, Brush Cutters, Earth Augers and more for professional landscaping.',
     type: 'Professional'
   },
+    {
+    "id": 4,
+    "model_number": "GBH 220",
+    "model_code": "3 611 BA6 0F0",
+    "voltage": "230V",
+    "name": "Rotary Hammer",
+    "category": "Rotary Hammer",
+    "image": "https://api.bosch-spares.com/images/gbh220.png",
+    "description": "Powerful rotary hammer with vibration control",
+    "power": "800W",
+    "impact_energy": "2.2 J",
+    "chuck_type": "SDS-plus",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 150,
+      "major_repair": 250
+    },
+    "spare_parts_count": 48
+  },
   {
     id: 'power-tools',
     name: 'Power Tools',
