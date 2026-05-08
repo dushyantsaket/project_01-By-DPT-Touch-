@@ -31,6 +31,25 @@ export const newDiamondBlades = [
     "image": "https://unboxtools.com/wp-content/uploads/2024/06/Akari-14-Inch-24-Seg-Diamond-Saw-Blade-350Mm-B5900-300x300.jpg",
     "brand": "Akari"
   },
+    {
+    "id": 4,
+    "model_number": "GBH 220",
+    "model_code": "3 611 BA6 0F0",
+    "voltage": "230V",
+    "name": "Rotary Hammer",
+    "category": "Rotary Hammer",
+    "image": "https://api.bosch-spares.com/images/gbh220.png",
+    "description": "Powerful rotary hammer with vibration control",
+    "power": "800W",
+    "impact_energy": "2.2 J",
+    "chuck_type": "SDS-plus",
+    "warranty_years": 1,
+    "labour_charge": {
+      "minor_repair": 150,
+      "major_repair": 250
+    },
+    "spare_parts_count": 48
+  },
   {
     "id": 7499,
     "sku": "7499-1234-B-6000",
