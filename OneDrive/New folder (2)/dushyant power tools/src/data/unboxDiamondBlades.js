@@ -590,6 +590,149 @@ export const unboxDiamondBlades = [
     "product_url": "https://unboxtools.com/product/rewop-diamond-saw-blade-150mm-6-inch-2/"
   },
   {
+    "productId": "APLI20181",
+    "name": "Cordless polisher",
+    "url": "/in/product/cordless-polisher/APLI20181",
+    "image": "https://res-sg.togroup.com/stc/home_product/ingco/userfiles/1/images/photo/20250625160041731/APLI20181.jpg",
+    "tags": ["NEW"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "800-2300rpm",
+      "spec": "Polishing pad diameter: 180mm"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20202",
+    "name": "Cordless drill",
+    "url": "/in/product/cordless-drill/APLI20202",
+    "image": "https://example.com/images/drill.jpg",
+    "tags": ["HOT"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "0-1500rpm",
+      "spec": "Chuck size: 13mm"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20303",
+    "name": "Impact wrench",
+    "url": "/in/product/impact-wrench/APLI20303",
+    "image": "https://example.com/images/wrench.jpg",
+    "tags": ["NEW"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "0-2400rpm",
+      "spec": "Max torque: 300Nm"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20404",
+    "name": "Angle grinder",
+    "url": "/in/product/angle-grinder/APLI20404",
+    "image": "https://example.com/images/grinder.jpg",
+    "tags": ["SALE"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "8500rpm",
+      "spec": "Disc diameter: 100mm"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20505",
+    "name": "Cordless chainsaw",
+    "url": "/in/product/cordless-chainsaw/APLI20505",
+    "image": "https://example.com/images/chainsaw.jpg",
+    "tags": ["NEW"],
+    "description": {
+      "voltage": "40V",
+      "noLoadSpeed": "4500rpm",
+      "spec": "Bar length: 16 inch"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20606",
+    "name": "Electric blower",
+    "url": "/in/product/electric-blower/APLI20606",
+    "image": "https://example.com/images/blower.jpg",
+    "tags": ["HOT"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "16000rpm",
+      "spec": "Air volume: 2.8m3/min"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20707",
+    "name": "Cordless screwdriver",
+    "url": "/in/product/cordless-screwdriver/APLI20707",
+    "image": "https://example.com/images/screwdriver.jpg",
+    "tags": ["NEW"],
+    "description": {
+      "voltage": "12V",
+      "noLoadSpeed": "0-500rpm",
+      "spec": "Torque settings: 18+1"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20808",
+    "name": "Rotary hammer",
+    "url": "/in/product/rotary-hammer/APLI20808",
+    "image": "https://example.com/images/hammer.jpg",
+    "tags": ["SALE"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "0-1200rpm",
+      "spec": "Impact energy: 2.5J"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20909",
+    "name": "Cordless jigsaw",
+    "url": "/in/product/cordless-jigsaw/APLI20909",
+    "image": "https://example.com/images/jigsaw.jpg",
+    "tags": ["NEW"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "2400rpm",
+      "spec": "Cutting depth: 80mm"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI21010",
+    "name": "Heat gun",
+    "url": "/in/product/heat-gun/APLI21010",
+    "image": "https://example.com/images/heatgun.jpg",
+    "tags": ["HOT"],
+    "description": {
+      "voltage": "220V",
+      "noLoadSpeed": "N/A",
+      "spec": "Temperature range: 50-600°C"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI21111",
+    "name": "Cordless vacuum cleaner",
+    "url": "/in/product/cordless-vacuum/APLI21111",
+    "image": "https://example.com/images/vacuum.jpg",
+    "tags": ["NEW"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "18000rpm",
+      "spec": "Dust capacity: 0.8L"
+    },
+    "prices": {}
+  }
+  {
     "id": 62425,
     "sku": "62425-1240-110143",
     "name": "Rewop 6 Inch Rim Diamond Saw Blade 150Mm",
