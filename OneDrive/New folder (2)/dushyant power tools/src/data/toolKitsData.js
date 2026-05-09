@@ -1,5 +1,149 @@
 // Tool Kits – Hand Tools (De Neers, Ingco)
 export const toolKitsData = [
+
+  {
+    "productId": "APLI20181",
+    "name": "Cordless polisher",
+    "url": "/in/product/cordless-polisher/APLI20181",
+    "image": "https://res-sg.togroup.com/stc/home_product/ingco/userfiles/1/images/photo/20250625160041731/APLI20181.jpg",
+    "tags": ["NEW"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "800-2300rpm",
+      "spec": "Polishing pad diameter: 180mm"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20202",
+    "name": "Cordless drill",
+    "url": "/in/product/cordless-drill/APLI20202",
+    "image": "https://example.com/images/drill.jpg",
+    "tags": ["HOT"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "0-1500rpm",
+      "spec": "Chuck size: 13mm"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20303",
+    "name": "Impact wrench",
+    "url": "/in/product/impact-wrench/APLI20303",
+    "image": "https://example.com/images/wrench.jpg",
+    "tags": ["NEW"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "0-2400rpm",
+      "spec": "Max torque: 300Nm"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20404",
+    "name": "Angle grinder",
+    "url": "/in/product/angle-grinder/APLI20404",
+    "image": "https://example.com/images/grinder.jpg",
+    "tags": ["SALE"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "8500rpm",
+      "spec": "Disc diameter: 100mm"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20505",
+    "name": "Cordless chainsaw",
+    "url": "/in/product/cordless-chainsaw/APLI20505",
+    "image": "https://example.com/images/chainsaw.jpg",
+    "tags": ["NEW"],
+    "description": {
+      "voltage": "40V",
+      "noLoadSpeed": "4500rpm",
+      "spec": "Bar length: 16 inch"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20606",
+    "name": "Electric blower",
+    "url": "/in/product/electric-blower/APLI20606",
+    "image": "https://example.com/images/blower.jpg",
+    "tags": ["HOT"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "16000rpm",
+      "spec": "Air volume: 2.8m3/min"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20707",
+    "name": "Cordless screwdriver",
+    "url": "/in/product/cordless-screwdriver/APLI20707",
+    "image": "https://example.com/images/screwdriver.jpg",
+    "tags": ["NEW"],
+    "description": {
+      "voltage": "12V",
+      "noLoadSpeed": "0-500rpm",
+      "spec": "Torque settings: 18+1"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20808",
+    "name": "Rotary hammer",
+    "url": "/in/product/rotary-hammer/APLI20808",
+    "image": "https://example.com/images/hammer.jpg",
+    "tags": ["SALE"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "0-1200rpm",
+      "spec": "Impact energy: 2.5J"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI20909",
+    "name": "Cordless jigsaw",
+    "url": "/in/product/cordless-jigsaw/APLI20909",
+    "image": "https://example.com/images/jigsaw.jpg",
+    "tags": ["NEW"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "2400rpm",
+      "spec": "Cutting depth: 80mm"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI21010",
+    "name": "Heat gun",
+    "url": "/in/product/heat-gun/APLI21010",
+    "image": "https://example.com/images/heatgun.jpg",
+    "tags": ["HOT"],
+    "description": {
+      "voltage": "220V",
+      "noLoadSpeed": "N/A",
+      "spec": "Temperature range: 50-600°C"
+    },
+    "prices": {}
+  },
+  {
+    "productId": "APLI21111",
+    "name": "Cordless vacuum cleaner",
+    "url": "/in/product/cordless-vacuum/APLI21111",
+    "image": "https://example.com/images/vacuum.jpg",
+    "tags": ["NEW"],
+    "description": {
+      "voltage": "20V",
+      "noLoadSpeed": "18000rpm",
+      "spec": "Dust capacity: 0.8L"
+    },
+    "prices": {}
+  },
   // ── DE NEERS ──
   { id: 54807, sku: "54807-1241-DN 0103", name: "De Neers 129 Pieces Tool Kit For Garage Maintenance Dn 0103", image: "https://unboxtools.com/wp-content/uploads/2025/07/15-De-Neers-139-Piece-Tool-Kit-For-Mechanic-Dn-0102-1-300x300.png", hover_image: "https://unboxtools.com/wp-content/uploads/2025/07/16-De-Neers-129-Piece-Tool-Kit-For-Garage-Maintenance-Dn-0103-300x300.png", category: "hand-tools", sub_category: "Tool Kits", brand: "De Neers", description: "129-Piece Tool Kit for Garage Maintenance | Comprehensive set for workshop & vehicle servicing | Premium carry case", regular_price: 31979.32, sale_price: 24624.08, url: "https://unboxtools.com/product/de-neers-129-piece-tool-kit-for-garage-maintenance-dn-0103/" },
   { id: 54809, sku: "54809-1241-DN 0104", name: "De Neers 134 Pieces Tool Kit For Electrician Dn 0104", image: "https://unboxtools.com/wp-content/uploads/2025/07/15-De-Neers-139-Piece-Tool-Kit-For-Mechanic-Dn-0102-300x300.png", hover_image: "https://unboxtools.com/wp-content/uploads/2025/07/15-De-Neers-139-Piece-Tool-Kit-For-Mechanic-Dn-0102-1-300x300.png", category: "hand-tools", sub_category: "Tool Kits", brand: "De Neers", description: "134-Piece Electrician's Tool Kit | Includes insulated screwdrivers, pliers & testers | Premium carry case", regular_price: 36813.40, sale_price: 28346.32, url: "https://unboxtools.com/product/de-neers-134-piece-tool-kit-for-electrician-dn-0104/" },
