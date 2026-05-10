@@ -2,6 +2,66 @@
 // Page 1 of catalogue — additional pages to be appended
 export const ratchetSocketsData = [
   // ── DE NEERS – 1" SQUARE DRIVE ──
+  {
+      "id": 1,
+      "name": "Gearbox",
+      "order_no": "1 615 430 005",
+      "size": "30 ml",
+      "price_inr": null,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_615_430_005.png",
+      "application": "Common gearbox grease for most tools",
+      "type": "Gearbox"
+    },
+    {
+      "id": 2,
+      "name": "Gearbox Grease",
+      "order_no": "1 615 430 001",
+      "size": "45 ml",
+      "price_inr": null,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_615_430_001.png",
+      "application": "Common gearbox grease for most tools",
+      "type": "Gearbox"
+    },
+    {
+      "id": 3,
+      "name": "Special Gearbox Grease",
+      "order_no": "1 615 430 014",
+      "size": "30 ml",
+      "price_inr": null,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_615_430_014.png",
+      "application": "Special gearbox grease for specific applications",
+      "type": "Special Gearbox"
+    },
+    {
+      "id": 4,
+      "name": "Special Gearbox Grease",
+      "order_no": "1 615 430 015",
+      "size": "45 ml",
+      "price_inr": null,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_615_430_015.png",
+      "application": "Special gearbox grease for specific applications",
+      "type": "Special Gearbox"
+    },
+    {
+      "id": 5,
+      "name": "Special Grease",
+      "order_no": "1 615 430 002",
+      "size": "225 ml",
+      "price_inr": null,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_615_430_002.png",
+      "application": "Special grease for high-performance tools",
+      "type": "Special"
+    },
+    {
+      "id": 6,
+      "name": "Special Gearbox Grease",
+      "order_no": "1 605 430 003",
+      "size": "225 ml",
+      "price_inr": 1554.00,
+      "image": "https://api.bosch-spares.com/images/lubricants/1_605_430_003.png",
+      "application": "Special gearbox grease for angle grinders and rotary hammers",
+      "type": "Special Gearbox"
+    },
   { id: 53769, sku: "53769-1241-IMP-D-14M", name: "De Neers 1\" Square Drive 14 Pieces Impact Hex Socket Set Imp-D-14M", image: "https://unboxtools.com/wp-content/uploads/2025/07/56-De-Neers-1-Square-Drive-14-Pieces-Impact-Hex-Socket-Set-Imp-D-14-M-300x300.png", category: "hand-tools", sub_category: "Ratchet Handles & Sockets", brand: "De Neers", description: "1\" Drive 14-Piece Impact Hex Socket Set | Heavy duty | Blow mold case", regular_price: 29004.50, sale_price: 22333.47, url: "https://unboxtools.com/product/de-neers-1-square-drive-14-pieces-impact-hex-socket-set-imp-d-14m/" },
   { id: 53767, sku: "53767-1241-D-15MH", name: "De Neers 1\" Square Drive 15 Pieces Hex Socket Set D-15Mh", image: "https://unboxtools.com/wp-content/uploads/2025/07/55-De-Neers-1-Square-Drive-15-Pieces-Hex-Socket-Set-D-15-Mh-300x300.png", category: "hand-tools", sub_category: "Ratchet Handles & Sockets", brand: "De Neers", description: "1\" Drive 15-Piece Hex Socket Set | Chrome vanadium steel | Blow mold case", regular_price: 29748.20, sale_price: 22906.11, url: "https://unboxtools.com/product/de-neers-1-square-drive-15-pieces-hex-socket-set-d-15mh/" },
   { id: 53457, sku: "53457-1241", name: "De Neers 1\" Square Drive Impact Allen Socket", image: "https://unboxtools.com/wp-content/uploads/2025/07/De-Neers-1-Square-Drive-Impact-Allen-Socket-300x300.png", category: "hand-tools", sub_category: "Ratchet Handles & Sockets", brand: "De Neers", description: "1\" Drive Impact Allen Socket | Black phosphate finish | Heavy duty | Multiple sizes", regular_price: 4008.57, sale_price: 1088.04, url: "https://unboxtools.com/product/de-neers-1-square-drive-impact-allen-socket/" },
