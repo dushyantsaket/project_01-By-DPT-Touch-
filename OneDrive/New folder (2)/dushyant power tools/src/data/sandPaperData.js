@@ -242,6 +242,19 @@ export const sandPaperData = [
       "major_repair": 250
     },
     "spare_parts_count": 48
+  }, {
+    id: 90003,
+    name: "Xtra Power 5 Inch Sand Paper With Velcro 125Mm",
+    brand: "Xtra Power",
+    category: "abrasives",
+    sub_category: "Sand Paper",
+    wheel_type: "Sand Paper",
+    image: "https://unboxtools.com/wp-content/uploads/2024/06/Xtra-Power-5-Inch-Sand-Paper-With-Velcro-125Mm-300x300.jpg",
+    hover_image: null,
+    url: "https://unboxtools.com/product/xtra-power-5-inch-sand-paper-with-velcro-125mm-2/",
+    regular_price: 4.77,
+    sale_price: 3.67,
+    size: "5 Inch / 125mm"
   },
   {
     id: 90004,
