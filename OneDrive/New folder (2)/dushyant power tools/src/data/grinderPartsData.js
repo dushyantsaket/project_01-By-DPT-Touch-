@@ -4,6 +4,193 @@ export const grinderPartsData = [
   { id: 37789, name: "9Jacks Jig Saw Blade T144D", image: "https://unboxtools.com/wp-content/uploads/2025/03/9Jacks-Jig-Saw-Blade-T144D-300x300.jpg", brand: "9Jacks", category: "spare-parts", sub_category: "Accessories", sale_price: 6.93 },
   { id: 20481, name: "Alphabet 0810 Demolition Hammer 5Kg O Ring", image: "https://unboxtools.com/wp-content/uploads/2024/07/0810-300x300.jpg", brand: "Alphabet", category: "spare-parts", sub_category: "O Rings & Seals", sale_price: 14.63 },
   { id: 6412, name: "Alphabet 2-20 Rotary Hammer 20Mm O Ring", image: "https://unboxtools.com/wp-content/uploads/2024/04/2-20-8-300x300.jpg", brand: "Alphabet", category: "spare-parts", sub_category: "O Rings & Seals", sale_price: 10.01 },
+   {
+    "id": 7421,
+    "name": "Akari Flush Trim Router Bit L2 5003 8Mm Shank",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/06-Akari-Flush-Trim-Router-Bit-8-Mm-300x300.jpg",
+    "brand": "Akari",
+    "category": "power-tool-accessories"
+  },
+  {
+    "id": 7422,
+    "name": "Akari Flush Trim Router Bit L2 5004 8Mm Shank",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/07-Akari-Flush-Trim-Router-Bit-8-Mm-300x300.jpg",
+    "brand": "Akari",
+    "category": "power-tool-accessories"
+  },
+  {
+    "id": 7947,
+    "name": "Akari G10Ss Angle Grinder 100Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/g10ss-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7951,
+    "name": "Akari G15Sa2 Angle Grinder 125Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/G15Sa2-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7061,
+    "name": "Akari Gasoline Back Pack Brush Cutter 2 Stroke 52Cc Aptbc2Tbp",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Gasoline-Back-Pack-Brush-Cutter-2-Stroke-52-Cc-Aptbc2-Tbp-300x300.png",
+    "brand": "Akari",
+    "category": "agriculture-tools"
+  },
+  {
+    "id": 7063,
+    "name": "Akari Gasoline Back Pack Brush Cutter 4 Stroke 36Cc Aptbc4Tbp",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Gasoline-Back-Pack-Brush-Cutter-4-Stroke-36-Cc-Aptbc4-Tbp-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "agriculture-tools"
+  },
+  {
+    "id": 7060,
+    "name": "Akari Gasoline Brush Cutter 2 Stroke 52Cc Aptbc2T",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Gasoline-Brush-Cutter-2-Stroke-52-Cc-Aptbc2-T-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "agriculture-tools"
+  },
+  {
+    "id": 8486,
+    "name": "Akari Gasoline Chain Saw Cylinder Kit 62Cc",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/Alphabet-Gasoline-Chain-Saw-Cylinder-Kit-62Cc-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8491,
+    "name": "Akari Gasoline Chain Saw Spark Plug",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/Alphabet-Gasoline-Chain-Saw-Spark-Plug-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8239,
+    "name": "Akari Gco14-02 Cut Off Machine 355Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/14-02-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8243,
+    "name": "Akari Gco200 Cut Off Machine 355Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/GCO200-1-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8269,
+    "name": "Akari Gco200 Cut Off Machine 355Mm Stator",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/gco200-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7896,
+    "name": "Akari Gsb13Re Drill Machine 13Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/13re-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7903,
+    "name": "Akari Gsb13Re Drill Machine 13Mm Stator",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/13re-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7203,
+    "name": "Akari Heat Gun 2500W Apthg2500",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Heat-Gun-2500-W-Apthg2500-1-300x300.jpg",
+    "brand": "Akari",
+    "power": "2500W",
+    "category": "power-tools"
+  },
+  {
+    "id": 7733,
+    "name": "Akari Igbt Welding Machine 310Amp 1+2 Phase Aptawm3102F",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Igbt-Welding-Machine-310-Amp-2-Phase-Aptawm3102-F-300x300.png",
+    "brand": "Akari",
+    "category": "welding-tools"
+  },
+  {
+    "id": 7129,
+    "name": "Akari Impact Drill Machine 550W 13Mm Aptid13B",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/Akari-Impact-Drill-Machine-550W-13mm-Aptid13B-300x300.jpg",
+    "brand": "Akari",
+    "power": "550W",
+    "category": "drills"
+  },
+  {
+    "id": 7132,
+    "name": "Akari Impact Drill Machine With Kit 650W 13Mm Aptidk33Kit",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Impact-Drill-Machine-With-Kit-650-W-13mm-Aptidk33-Kit-300x300.jpg",
+    "brand": "Akari",
+    "power": "650W",
+    "category": "drills"
+  },
+  {
+    "id": 7249,
+    "name": "Akari Jig Saw 550W 65Mm Aptjs65B",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Jig-Saw-550-W-65mm-Aptjs65-B-1-300x300.jpg",
+    "brand": "Akari",
+    "power": "550W",
+    "category": "saws"
+  },
+  {
+    "id": 7250,
+    "name": "Akari Jig Saw 550W 70Mm Aptjs70",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Jig-Saw-550-W-70mm-Aptjs70-1-300x300.jpg",
+    "brand": "Akari",
+    "power": "550W",
+    "category": "saws"
+  },
+  {
+    "id": 8889,
+    "name": "Akari Jig Saw Blade T144D",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/01-Akari-Jig-Saw-Blade-T144-D-300x300.png",
+    "brand": "Akari",
+    "category": "power-tool-accessories"
+  },
+  {
+    "id": 8891,
+    "name": "Akari Jig Saw Blade T244D",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/02-Akari-Jig-Saw-Blade-T244-D-300x300.png",
+    "brand": "Akari",
+    "category": "power-tool-accessories"
+  },
+  {
+    "id": 8217,
+    "name": "Akari Js70 Jig Saw 70Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/js70-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8233,
+    "name": "Akari Lg355 Cut Off Machine 355Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/LG355-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8337,
+    "name": "Akari Lg355 Cut Off Machine 355Mm Carbon Brush",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/LG355-1-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8263,
+    "name": "Akari Lg355 Cut Off Machine 355Mm Stator",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/lg355-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
   { id: 20043, name: "Alphabet Cm4Sa Marble Cutter 110Mm Switch", image: "https://unboxtools.com/wp-content/uploads/2024/07/cm4sa-1-300x300.jpg", brand: "Alphabet", category: "spare-parts", sub_category: "Switches & Buttons", sale_price: 16.17 },
   { id: 7975, name: "Alphabet Dw801 Angle Grinder 100Mm Switch Small", image: "https://unboxtools.com/wp-content/uploads/2024/04/Alphabet-Dw801-Angle-Grinder-100mm-Switch-Small-300x300.jpg", brand: "Alphabet", category: "spare-parts", sub_category: "Switches & Buttons", sale_price: 16.17 },
   { id: 67493, name: "Golden Sun 65Mm Screw Driver Bit 2.5 Inch", image: "https://unboxtools.com/wp-content/uploads/2026/01/Golden-Sun-65Mm-Screw-Driver-Bit-2.5-Inch-3-300x300.png", brand: "Golden Sun", category: "spare-parts", sub_category: "Accessories", sale_price: 4.50 },
