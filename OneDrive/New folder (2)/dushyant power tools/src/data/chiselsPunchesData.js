@@ -17,7 +17,193 @@ export const chiselsPunchesData = [
   { id: 54262, sku: "54262-1241-DCLP 7", name: "De Neers 7 Pieces Drift & Leather Punch Set", image: "https://unboxtools.com/wp-content/uploads/2025/07/01-De-Neers-7-Pieces-Drift-Leather-Punch-Set-300x300.png", category: "hand-tools", sub_category: "Chisels & Punches", brand: "De Neers", description: "7 Pc Drift & Leather Punch Set | CrV Steel | With roll pouch", regular_price: 386.73, sale_price: 297.78, url: "https://unboxtools.com/product/de-neers-7-pieces-drift-leather-punch-set/" },
   { id: 54384, sku: "54384-1241-DN-9180", name: "De Neers 8 Pieces Round Knurled Body Pin Punch Set 100Mm Length", image: "https://unboxtools.com/wp-content/uploads/2025/07/02-De-Neers-8-Pieces-Round-Knurled-Body-Pin-Punch-Set-100-Mm-Length-300x300.png", hover_image: "https://unboxtools.com/wp-content/uploads/2025/07/De-Neers-100-Mm-Pin-Punch-Round-Knurled-Body-300x300.png", category: "hand-tools", sub_category: "Chisels & Punches", brand: "De Neers", description: "8 Pc Round Knurled Body Pin Punch Set | 100mm Length", regular_price: 371.85, sale_price: 286.32, url: "https://unboxtools.com/product/de-neers-8-pieces-round-knurled-body-pin-punch-set-100mm-length/" },
   { id: 54388, sku: "54388-1241-DN-9209", name: "De Neers 8 Pieces Round Knurled Body Pin Punch Set 200Mm Length", image: "https://unboxtools.com/wp-content/uploads/2025/07/04-De-Neers-8-Pieces-Round-Knurled-Body-Pin-Punch-Set-200-Mm-Length-300x300.png", hover_image: "https://unboxtools.com/wp-content/uploads/2025/07/De-Neers-200-Mm-Pin-Punch-Round-Knurled-Body-300x300.png", category: "hand-tools", sub_category: "Chisels & Punches", brand: "De Neers", description: "8 Pc Round Knurled Body Pin Punch Set | 200mm Length", regular_price: 669.34, sale_price: 515.39, url: "https://unboxtools.com/product/de-neers-8-pieces-round-knurled-body-pin-punch-set-200mm-length/" },
-
+ {
+    "id": 7421,
+    "name": "Akari Flush Trim Router Bit L2 5003 8Mm Shank",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/06-Akari-Flush-Trim-Router-Bit-8-Mm-300x300.jpg",
+    "brand": "Akari",
+    "category": "power-tool-accessories"
+  },
+  {
+    "id": 7422,
+    "name": "Akari Flush Trim Router Bit L2 5004 8Mm Shank",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/07-Akari-Flush-Trim-Router-Bit-8-Mm-300x300.jpg",
+    "brand": "Akari",
+    "category": "power-tool-accessories"
+  },
+  {
+    "id": 7947,
+    "name": "Akari G10Ss Angle Grinder 100Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/g10ss-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7951,
+    "name": "Akari G15Sa2 Angle Grinder 125Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/G15Sa2-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7061,
+    "name": "Akari Gasoline Back Pack Brush Cutter 2 Stroke 52Cc Aptbc2Tbp",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Gasoline-Back-Pack-Brush-Cutter-2-Stroke-52-Cc-Aptbc2-Tbp-300x300.png",
+    "brand": "Akari",
+    "category": "agriculture-tools"
+  },
+  {
+    "id": 7063,
+    "name": "Akari Gasoline Back Pack Brush Cutter 4 Stroke 36Cc Aptbc4Tbp",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Gasoline-Back-Pack-Brush-Cutter-4-Stroke-36-Cc-Aptbc4-Tbp-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "agriculture-tools"
+  },
+  {
+    "id": 7060,
+    "name": "Akari Gasoline Brush Cutter 2 Stroke 52Cc Aptbc2T",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Gasoline-Brush-Cutter-2-Stroke-52-Cc-Aptbc2-T-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "agriculture-tools"
+  },
+  {
+    "id": 8486,
+    "name": "Akari Gasoline Chain Saw Cylinder Kit 62Cc",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/Alphabet-Gasoline-Chain-Saw-Cylinder-Kit-62Cc-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8491,
+    "name": "Akari Gasoline Chain Saw Spark Plug",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/Alphabet-Gasoline-Chain-Saw-Spark-Plug-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8239,
+    "name": "Akari Gco14-02 Cut Off Machine 355Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/14-02-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8243,
+    "name": "Akari Gco200 Cut Off Machine 355Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/GCO200-1-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8269,
+    "name": "Akari Gco200 Cut Off Machine 355Mm Stator",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/gco200-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7896,
+    "name": "Akari Gsb13Re Drill Machine 13Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/13re-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7903,
+    "name": "Akari Gsb13Re Drill Machine 13Mm Stator",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/13re-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7203,
+    "name": "Akari Heat Gun 2500W Apthg2500",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Heat-Gun-2500-W-Apthg2500-1-300x300.jpg",
+    "brand": "Akari",
+    "power": "2500W",
+    "category": "power-tools"
+  },
+  {
+    "id": 7733,
+    "name": "Akari Igbt Welding Machine 310Amp 1+2 Phase Aptawm3102F",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Igbt-Welding-Machine-310-Amp-2-Phase-Aptawm3102-F-300x300.png",
+    "brand": "Akari",
+    "category": "welding-tools"
+  },
+  {
+    "id": 7129,
+    "name": "Akari Impact Drill Machine 550W 13Mm Aptid13B",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/Akari-Impact-Drill-Machine-550W-13mm-Aptid13B-300x300.jpg",
+    "brand": "Akari",
+    "power": "550W",
+    "category": "drills"
+  },
+  {
+    "id": 7132,
+    "name": "Akari Impact Drill Machine With Kit 650W 13Mm Aptidk33Kit",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Impact-Drill-Machine-With-Kit-650-W-13mm-Aptidk33-Kit-300x300.jpg",
+    "brand": "Akari",
+    "power": "650W",
+    "category": "drills"
+  },
+  {
+    "id": 7249,
+    "name": "Akari Jig Saw 550W 65Mm Aptjs65B",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Jig-Saw-550-W-65mm-Aptjs65-B-1-300x300.jpg",
+    "brand": "Akari",
+    "power": "550W",
+    "category": "saws"
+  },
+  {
+    "id": 7250,
+    "name": "Akari Jig Saw 550W 70Mm Aptjs70",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Jig-Saw-550-W-70mm-Aptjs70-1-300x300.jpg",
+    "brand": "Akari",
+    "power": "550W",
+    "category": "saws"
+  },
+  {
+    "id": 8889,
+    "name": "Akari Jig Saw Blade T144D",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/01-Akari-Jig-Saw-Blade-T144-D-300x300.png",
+    "brand": "Akari",
+    "category": "power-tool-accessories"
+  },
+  {
+    "id": 8891,
+    "name": "Akari Jig Saw Blade T244D",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/02-Akari-Jig-Saw-Blade-T244-D-300x300.png",
+    "brand": "Akari",
+    "category": "power-tool-accessories"
+  },
+  {
+    "id": 8217,
+    "name": "Akari Js70 Jig Saw 70Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/js70-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8233,
+    "name": "Akari Lg355 Cut Off Machine 355Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/LG355-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8337,
+    "name": "Akari Lg355 Cut Off Machine 355Mm Carbon Brush",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/LG355-1-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8263,
+    "name": "Akari Lg355 Cut Off Machine 355Mm Stator",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/lg355-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
   // ── INDIVIDUAL CHISELS ──
   { id: 54205, sku: "54205-1241", name: "De Neers Beveled Edge Chisel", image: "https://unboxtools.com/wp-content/uploads/2025/07/De-Neers-Beveled-Edge-Chisel-300x300.png", category: "hand-tools", sub_category: "Chisels & Punches", brand: "De Neers", description: "Beveled Edge Chisel | Chrome Vanadium Steel | Multiple widths", regular_price: 229.06, sale_price: 123.12, url: "https://unboxtools.com/product/de-neers-beveled-edge-chisel/" },
   { id: 54199, sku: "54199-1241", name: "De Neers Flat Chisel", image: "https://unboxtools.com/wp-content/uploads/2025/07/De-Neers-Flat-Chisel-300x300.png", category: "hand-tools", sub_category: "Chisels & Punches", brand: "De Neers", description: "Flat Chisel | Octagonal body | CrV Steel | Multiple sizes", regular_price: 125.98, sale_price: 81.32, url: "https://unboxtools.com/product/de-neers-flat-chisel/" },
