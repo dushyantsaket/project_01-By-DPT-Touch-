@@ -769,3 +769,49 @@ export const agriculturalPartsData = [
     "description": "Professional 800mm Type D earth drilling bit."
   }
 ];
+
+
+[
+  {
+    "id": 22929,
+    "sku": "ABC-BLD-3T",
+    "name": "Alphabet Brush Cutter Blade 3T",
+    "specifications": "3 Teeth Design",
+    "category": "Brush Cutter Blades",
+    "sub_category": "Slashing Blades",
+    "description": "3 Teeth style brush cutter metal slashing blade for thick overgrown fields.",
+    "price_inr": "Login to See Price",
+    "blade_size": "Standard",
+    "teeth_count": "3T",
+    "application": "Brambles, Thickets",
+    "image_url": "https://unboxtools.com/wp-content/uploads/2024/07/Alphabet-Brush-Cutter-Blade-3T-300x300.jpg"
+  },
+  {
+    "id": 61684,
+    "sku": "XP-BCB-2T",
+    "name": "Xtra Power Brush Cutter Blade 2 Teeth",
+    "specifications": "2 Teeth Heavy Duty",
+    "category": "Brush Cutter Blades",
+    "sub_category": "Slashing Blades",
+    "description": "Premium 2 teeth Xtra Power brush blade for toughest grass and shrubs.",
+    "price_inr": "Login to See Price",
+    "blade_size": "Standard",
+    "teeth_count": "2T",
+    "application": "Tough Shrubs, Branches",
+    "image_url": "https://unboxtools.com/wp-content/uploads/2025/10/50-Xtra-Power-Brush-Cutter-Blade-2-Teeth-300x300.jpg"
+  },
+  {
+    "id": 61696,
+    "sku": "XP-BCB-10-40T",
+    "name": "Xtra Power Brush Cutter Blade",
+    "specifications": "10\" | 40 Teeth",
+    "category": "Brush Cutter Blades",
+    "sub_category": "Metal Slashing Blades",
+    "description": "10 inch steel blade 40 teeth for dense agricultural clearing.",
+    "price_inr": "Login to See Price",
+    "blade_size": "10\" (255mm)",
+    "teeth_count": "40T",
+    "application": "Agricultural Clearing",
+    "image_url": "https://unboxtools.com/wp-content/uploads/2025/10/52-Xtra-Power-Brush-Cutter-Blade-40-Teeth-300x300.jpg"
+  }
+]
