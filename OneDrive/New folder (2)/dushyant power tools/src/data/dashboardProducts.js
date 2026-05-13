@@ -61,6 +61,148 @@ export const dashboardProducts = [
     "categories": ["Tata Agrico", "Industrial & H/W Tools"],
     "brand": "Tata Agrico"
   },
+  
+  {
+    "_id": { "$oid": "6a0466c0e263e38b788b6041" },
+    "title": "WELDING ELECTRODE -TATA-E6013 3.15X350MM (P12) - MSE012",
+    "sku": "AGRC-77",
+    "finalPrice": 380.0,
+    "regularPrice": 555.0,
+    "discountPercent": 31,
+    "pricePrefix": "Per Box",
+    "images": [
+      "https://s7ap1.scene7.com/is/image/TslDXP/IMG-_0845"
+    ],
+    "brand": "Tata Agrico",
+    "category": "Fabrication Tools"
+  },
+  {
+    "_id": { "$oid": "6a0466c0e263e38b788b6042" },
+    "title": "SELF DRILLING SCREWS DSDT05",
+    "sku": "AGRC-114",
+    "finalPrice": 1410.0,
+    "regularPrice": 2070.0,
+    "discountPercent": 31,
+    "pricePrefix": "Per Box",
+    "images": [
+      "https://s7ap1.scene7.com/is/image/tatasteelltd/125036_1"
+    ],
+    "brand": "Tata Agrico",
+    "category": "Industrial Tools"
+  },
+  {
+    "_id": { "$oid": "6a0466c0e263e38b788b6043" },
+    "title": "TATA-E6013 3.15X450MM (P12) - MSE014",
+    "sku": "AGRC-74",
+    "finalPrice": 510.0,
+    "regularPrice": 741.0,
+    "discountPercent": 31,
+    "pricePrefix": "Per Box",
+    "images": [
+      "https://s7ap1.scene7.com/is/image/tatasteelltd/113134_1"
+    ],
+    "brand": "Tata Agrico",
+    "category": "Fabrication Tools"
+  },
+  {
+    "_id": { "$oid": "6a0466c0e263e38b788b6044" },
+    "title": "ABRASIVES CUTTING WHEEL-4 INCHES- ACW401",
+    "sku": "AGRC-97",
+    "finalPrice": 800.0,
+    "regularPrice": 1250.0,
+    "discountPercent": 36,
+    "pricePrefix": "Per Box",
+    "images": [
+      "https://s7ap1.scene7.com/is/image/TslDXP/CUTTING-WHEEL-4"
+    ],
+    "brand": "Tata Agrico",
+    "category": "Cutting Tools"
+  },
+  {
+    "_id": { "$oid": "6a0466c0e263e38b788b6045" },
+    "title": "WELDING ELECTRODE -TATA-E6013 2.50X350MM (P12) - MSE011",
+    "sku": "AGRC-78",
+    "finalPrice": 380.0,
+    "regularPrice": 541.0,
+    "discountPercent": 29,
+    "pricePrefix": "Per Box",
+    "images": [
+      "https://s7ap1.scene7.com/is/image/TslDXP/IMG-_0845"
+    ],
+    "brand": "Tata Agrico",
+    "category": "Fabrication Tools"
+  },
+  {
+    "_id": { "$oid": "6a0466c0e263e38b788b6046" },
+    "title": "WELDING ELECTRODE-TATA-E6013 4.00X450MM (P12) - MSE015",
+    "sku": "AGRC-76",
+    "finalPrice": 510.0,
+    "regularPrice": 749.0,
+    "discountPercent": 31,
+    "pricePrefix": "Per Box",
+    "images": [
+      "https://s7ap1.scene7.com/is/image/TslDXP/IMG-_0845"
+    ],
+    "brand": "Tata Agrico",
+    "category": "Fabrication Tools"
+  },
+  {
+    "_id": { "$oid": "6a0466c0e263e38b788b6047" },
+    "title": "ABRASIVES CUTTING WHEEL-14 INCHES- ACW143",
+    "sku": "AGRC-98",
+    "finalPrice": 735.0,
+    "regularPrice": 1250.0,
+    "discountPercent": 41,
+    "pricePrefix": "Per Box",
+    "images": [
+      "https://s7ap1.scene7.com/is/image/TslDXP/CUTTING-WHEEL-14"
+    ],
+    "brand": "Tata Agrico",
+    "category": "Cutting Tools"
+  },
+  {
+    "_id": { "$oid": "6a0466c0e263e38b788b6048" },
+    "title": "DRY WALL SCREWS 6X 38- ADW638",
+    "sku": "AGRC-211",
+    "finalPrice": 213.0,
+    "regularPrice": 355.0,
+    "discountPercent": 40,
+    "pricePrefix": "Per Box",
+    "images": [
+      "https://s7ap1.scene7.com/is/image/TslDXP/drywall-screw_2"
+    ],
+    "brand": "Tata Agrico",
+    "category": "Industrial Tools"
+  },
+  {
+    "_id": { "$oid": "6a0466c0e263e38b788b6049" },
+    "title": "CONCRETE NAILS- CNB 204",
+    "sku": "AGRC-111",
+    "finalPrice": 200.0,
+    "regularPrice": 280.0,
+    "discountPercent": 28,
+    "pricePrefix": "Per Box",
+    "images": [
+      "https://s7ap1.scene7.com/is/image/tatasteelltd/concrete_nails_125031"
+    ],
+    "brand": "Tata Agrico",
+    "category": "Construction Tools"
+  },
+  {
+    "_id": { "$oid": "6a0466c0e263e38b788b6050" },
+    "title": "GRINDING WHEELS- AGW707",
+    "sku": "AGRC-116",
+    "finalPrice": 860.0,
+    "regularPrice": 1500.0,
+    "discountPercent": 42,
+    "pricePrefix": "Per Box",
+    "images": [
+      "https://s7ap1.scene7.com/is/image/TslDXP/DC-Wheel-7-inch"
+    ],
+    "brand": "Tata Agrico",
+    "category": "Grinding Tools"
+  }
+
   {
     "title": "WELDING ELECTRODE -TATA-E6013 2.50X350MM (P12) - MSE011",
     "sku": "AGRC-78",
