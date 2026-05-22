@@ -14,6 +14,36 @@ export const toolKitsData = [
     },
     "prices": {}
   },
+    {
+    "id": 1003,
+    "name": "BSC POWER 2500 | 2500W ELECTRIC CHAINSAW",
+    "category": "garden-tools",
+    "brand": "BSC Power",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/2500-1-500x500.jpg",
+    "description": "Heavy duty 2500W corded chain saw engineered for peak performance.",
+    "power": "2500W",
+    "price_inr": 10500
+  },
+  {
+    "id": 1005,
+    "name": "BSC Power 8400 Chain Saw High Power (84cc)",
+    "category": "garden-tools",
+    "brand": "BSC Power",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/06/8400-500x500.jpg",
+    "description": "High power 84cc 2-stroke petrol engine chainsaw for heavy logging.",
+    "power": "84cc",
+    "price_inr": 18500
+  },
+  {
+    "id": 1006,
+    "name": "BSC Power BSC-10500P Chain Saw (105.7cc)",
+    "category": "garden-tools",
+    "brand": "BSC Power",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/BSC-10500P-CHAINSAW-A-500x500.jpg",
+    "description": "Extra heavy duty chainsaw with 105.7cc engine for commercial timber tasks.",
+    "power": "105.7cc",
+    "price_inr": 24000
+  },
    {
     "productId": "APLI20606",
     "name": "Electric blower",
