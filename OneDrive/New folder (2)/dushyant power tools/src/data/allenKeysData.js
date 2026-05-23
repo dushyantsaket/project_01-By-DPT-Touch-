@@ -1,6 +1,428 @@
 // Allen Key Sets – Hand Tools (De Neers, Ingco, Wadfow)
 export const allenKeysData = [
   // ── DE NEERS ──
+
+
+   {
+    id: "AGRC-77",
+    name: "WELDING ELECTRODE -TATA-E6013 3.15X350MM (P12) - MSE012",
+    category: "welding-tools",
+    sub_category: "Electrodes",
+    brand: "Tata Agrico",
+    image: "https://s7ap1.scene7.com/is/image/TslDXP/IMG-_0845",
+    description: "Low spill and smoke emissions are made up of prime steel wire rods. It is one of the most user-friendly welding rods, ensures low electricity consumption. The mild steel electrodes are ISI grades.",
+    price_inr: 380.0,
+    regular_price: 555.0,
+    discount: "31%",
+    price_prefix: "Per Box"
+  },
+  {
+    id: "AGRC-114",
+    name: "SELF DRILLING SCREWS DSDT05",
+    category: "hand-tools",
+    sub_category: "Screws & Fasteners",
+    brand: "Tata Agrico",
+    image: "https://s7ap1.scene7.com/is/image/tatasteelltd/125036_1?fmt=webp",
+    description: "Double Thread Teflon Coating | Used for Outdoor/ Roofing Application",
+    price_inr: 1410.0,
+    regular_price: 2070.0,
+    discount: "31%",
+    price_prefix: "Per Box"
+  },
+  {
+    id: "AGRC-74",
+    name: "TATA-E6013 3.15X450MM (P12) - MSE014",
+    category: "welding-tools",
+    sub_category: "Electrodes",
+    brand: "Tata Agrico",
+    image: "https://s7ap1.scene7.com/is/image/tatasteelltd/113134_1?fmt=webp",
+    description: "Low spill and smoke emissions are made up of prime steel wire rods. It is one of the most user-friendly welding rods, ensures low electricity consumption. The mild steel electrodes are ISI grades.",
+    price_inr: 510.0,
+    regular_price: 741.0,
+    discount: "31%",
+    price_prefix: "Per Box"
+  },
+  {
+    id: "AGRC-97",
+    name: "ABRASIVES CUTTING WHEEL-4 INCHES- ACW401",
+    category: "abrasives",
+    wheel_type: "Cutting",
+    brand: "Tata Agrico",
+    image: "https://s7ap1.scene7.com/is/image/TslDXP/CUTTING%20WHEEL%204",
+    description: "Made from prime quality of steel | Produces fine cuts and gives extraordinary results | Cost-effective",
+    price_inr: 800.0,
+    regular_price: 1250.0,
+    discount: "36%",
+    price_prefix: "Per Box"
+  },
+  {
+    id: "AGRC-78",
+    name: "WELDING ELECTRODE -TATA-E6013 2.50X350MM (P12) - MSE011",
+    category: "welding-tools",
+    sub_category: "Electrodes",
+    brand: "Tata Agrico",
+    image: "https://s7ap1.scene7.com/is/image/TslDXP/IMG-_0845",
+    description: "Low spill and smoke emissions are made up of prime steel wire rods. It is one of the most user-friendly welding rods, ensures low electricity consumption. The mild steel electrodes are ISI grades.",
+    price_inr: 380.0,
+    regular_price: 541.0,
+    discount: "29%",
+    price_prefix: "Per Box"
+  },
+  
+  {
+    id: "AGRC-76",
+    name: "WELDING ELECTRODE-TATA-E6013 4.00X450MM (P12) - MSE015",
+    category: "welding-tools",
+    sub_category: "Electrodes",
+    brand: "Tata Agrico",
+    image: "https://s7ap1.scene7.com/is/image/TslDXP/IMG-_0845",
+    description: "Low spill and smoke emissions are made up of prime steel wire rods. It is one of the most user-friendly welding rods, ensures low electricity consumption. The mild steel electrodes are ISI grades.",
+    price_inr: 510.0,
+    regular_price: 749.0,
+    discount: "31%",
+    price_prefix: "Per Box"
+  },
+   {
+    "id": 7421,
+    "name": "Akari Flush Trim Router Bit L2 5003 8Mm Shank",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/06-Akari-Flush-Trim-Router-Bit-8-Mm-300x300.jpg",
+    "brand": "Akari",
+    "category": "power-tool-accessories"
+  },
+  {
+    "id": 7422,
+    "name": "Akari Flush Trim Router Bit L2 5004 8Mm Shank",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/07-Akari-Flush-Trim-Router-Bit-8-Mm-300x300.jpg",
+    "brand": "Akari",
+    "category": "power-tool-accessories"
+  },
+  {
+    "id": 7947,
+    "name": "Akari G10Ss Angle Grinder 100Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/g10ss-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7951,
+    "name": "Akari G15Sa2 Angle Grinder 125Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/G15Sa2-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7061,
+    "name": "Akari Gasoline Back Pack Brush Cutter 2 Stroke 52Cc Aptbc2Tbp",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Gasoline-Back-Pack-Brush-Cutter-2-Stroke-52-Cc-Aptbc2-Tbp-300x300.png",
+    "brand": "Akari",
+    "category": "agriculture-tools"
+  },
+  {
+    "id": 7063,
+    "name": "Akari Gasoline Back Pack Brush Cutter 4 Stroke 36Cc Aptbc4Tbp",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Gasoline-Back-Pack-Brush-Cutter-4-Stroke-36-Cc-Aptbc4-Tbp-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "agriculture-tools"
+  },
+  {
+    "id": 7060,
+    "name": "Akari Gasoline Brush Cutter 2 Stroke 52Cc Aptbc2T",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Gasoline-Brush-Cutter-2-Stroke-52-Cc-Aptbc2-T-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "agriculture-tools"
+  },
+  {
+    "id": 8486,
+    "name": "Akari Gasoline Chain Saw Cylinder Kit 62Cc",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/Alphabet-Gasoline-Chain-Saw-Cylinder-Kit-62Cc-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8491,
+    "name": "Akari Gasoline Chain Saw Spark Plug",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/Alphabet-Gasoline-Chain-Saw-Spark-Plug-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8239,
+    "name": "Akari Gco14-02 Cut Off Machine 355Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/14-02-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8243,
+    "name": "Akari Gco200 Cut Off Machine 355Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/GCO200-1-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8269,
+    "name": "Akari Gco200 Cut Off Machine 355Mm Stator",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/gco200-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7896,
+    "name": "Akari Gsb13Re Drill Machine 13Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/13re-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7903,
+    "name": "Akari Gsb13Re Drill Machine 13Mm Stator",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/13re-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 7203,
+    "name": "Akari Heat Gun 2500W Apthg2500",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Heat-Gun-2500-W-Apthg2500-1-300x300.jpg",
+    "brand": "Akari",
+    "power": "2500W",
+    "category": "power-tools"
+  },
+  {
+    "id": 7733,
+    "name": "Akari Igbt Welding Machine 310Amp 1+2 Phase Aptawm3102F",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Igbt-Welding-Machine-310-Amp-2-Phase-Aptawm3102-F-300x300.png",
+    "brand": "Akari",
+    "category": "welding-tools"
+  },
+  {
+    "id": 7129,
+    "name": "Akari Impact Drill Machine 550W 13Mm Aptid13B",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/Akari-Impact-Drill-Machine-550W-13mm-Aptid13B-300x300.jpg",
+    "brand": "Akari",
+    "power": "550W",
+    "category": "drills"
+  },
+  {
+    "id": 7132,
+    "name": "Akari Impact Drill Machine With Kit 650W 13Mm Aptidk33Kit",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Impact-Drill-Machine-With-Kit-650-W-13mm-Aptidk33-Kit-300x300.jpg",
+    "brand": "Akari",
+    "power": "650W",
+    "category": "drills"
+  },
+  {
+    "id": 7249,
+    "name": "Akari Jig Saw 550W 65Mm Aptjs65B",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Jig-Saw-550-W-65mm-Aptjs65-B-1-300x300.jpg",
+    "brand": "Akari",
+    "power": "550W",
+    "category": "saws"
+  },
+  {
+    "id": 7250,
+    "name": "Akari Jig Saw 550W 70Mm Aptjs70",
+    "image": "https://unboxtools.com/wp-content/uploads/2025/03/Akari-Jig-Saw-550-W-70mm-Aptjs70-1-300x300.jpg",
+    "brand": "Akari",
+    "power": "550W",
+    "category": "saws"
+  },
+  {
+    "id": 8889,
+    "name": "Akari Jig Saw Blade T144D",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/01-Akari-Jig-Saw-Blade-T144-D-300x300.png",
+    "brand": "Akari",
+    "category": "power-tool-accessories"
+  },
+  {
+    "id": 8891,
+    "name": "Akari Jig Saw Blade T244D",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/02-Akari-Jig-Saw-Blade-T244-D-300x300.png",
+    "brand": "Akari",
+    "category": "power-tool-accessories"
+  },
+  {
+    "id": 8217,
+    "name": "Akari Js70 Jig Saw 70Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/js70-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8233,
+    "name": "Akari Lg355 Cut Off Machine 355Mm Armature",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/LG355-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8337,
+    "name": "Akari Lg355 Cut Off Machine 355Mm Carbon Brush",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/LG355-1-1-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    "id": 8263,
+    "name": "Akari Lg355 Cut Off Machine 355Mm Stator",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/lg355-300x300.jpg",
+    "brand": "Akari",
+    "category": "spare-parts"
+  },
+  {
+    id: "AGRC-98",
+    name: "ABRASIVES CUTTING WHEEL-14 INCHES- ACW143",
+    category: "abrasives",
+    wheel_type: "Cutting",
+    brand: "Tata Agrico",
+    image: "https://s7ap1.scene7.com/is/image/TslDXP/CUTTING%20WHEEL%2014%20(2)",
+    description: "Made from prime quality of steel | Produces fine cuts and gives extraordinary results | Cost-effective",
+    price_inr: 735.0,
+    regular_price: 1250.0,
+    discount: "41%",
+    price_prefix: "Per Box"
+  },
+  {
+    id: "AGRC-211",
+    name: "DRY WALL SCREWS 6X 38- ADW638",
+    category: "hand-tools",
+    sub_category: "Screws & Fasteners",
+    brand: "Tata Agrico",
+    image: "https://s7ap1.scene7.com/is/image/TslDXP/drywall-screw_2",
+    description: "6 inch screw | Black Phosphate Finish | Used Securing POP Channels and Gypsum Boards | Suitable for Attaching Metal Studs, Tracks, and Joist in Construction Projects | Assembling Sheet Metal Components in Appliances, Furniture, and Machinery",
+    price_inr: 213.0,
+    regular_price: 355.0,
+    discount: "40%",
+    price_prefix: "Per Box"
+  },
+  {
+    "id": "AKARI_31742",
+    "name": "Akari 3 Inch Diamond Cup Wheel Seg 75Mm B5200",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/11/Akari-3-Inch-Diamond-Cup-Wheel-Seg-75Mm-B5200-300x300.jpg",
+    "price_inr": 65,
+    "mrp": 84,
+    "discount": "23% OFF",
+    "category": "abrasives",
+    "sub_category": "Diamond Cup Wheels",
+    "brand": "Akari",
+    "description": "High-performance diamond cup wheel for grinding stone and concrete."
+  },
+  {
+    "id": "AKARI_19535",
+    "name": "Akari 4 Inch 9 Seg Diamond Saw Blade 100Mm A-1718",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/07/Akari-4-Inch-9-Seg-Diamond-Saw-Blade-100Mm-A1718-300x300.jpg",
+    "price_inr": 60,
+    "mrp": 78,
+    "discount": "23% OFF",
+    "category": "abrasives",
+    "sub_category": "Diamond Saw Blades",
+    "brand": "Akari",
+    "description": "Premium 9-segment diamond blade for precise marble and granite cutting."
+  },
+  {
+    "id": "AKARI_7520",
+    "name": "Akari 4 Inch 9 Seg Diamond Saw Blade 110Mm A-1800",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/04/Akari-4-Inch-6-Seg-Diamond-Saw-Blade-110mm-A1800-300x300.jpg",
+    "price_inr": 56,
+    "mrp": 72,
+    "discount": "23% OFF",
+    "category": "abrasives",
+    "sub_category": "Diamond Saw Blades",
+    "brand": "Akari",
+    "description": "110mm diamond saw blade for heavy duty stone cutting."
+  },
+  {
+    "id": "AKARI_31297",
+    "name": "Akari 4 Inch Cup Brush Straight 100Mm M14",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/10/Akari-4-Inch-Cup-Brush-Straight-100Mm-M14-300x300.png",
+    "price_inr": 111,
+    "mrp": 144,
+    "discount": "23% OFF",
+    "category": "abrasives",
+    "sub_category": "Cup Brushes",
+    "brand": "Akari",
+    "description": "Straight wire cup brush for surface cleaning and rust removal."
+  },
+  {
+    "id": "AKARI_31303",
+    "name": "Akari 4 Inch Cup Brush Twisted 100Mm M14",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/10/Akari-4-Inch-Cup-Brush-Twisted-100Mm-M14-300x300.png",
+    "price_inr": 118,
+    "mrp": 154,
+    "discount": "23% OFF",
+    "category": "abrasives",
+    "sub_category": "Cup Brushes",
+    "brand": "Akari",
+    "description": "Twisted wire cup brush for aggressive cleaning and deburring."
+  },
+  {
+    "id": "AKARI_31745",
+    "name": "Akari 4 Inch Diamond Cup Wheel Seg 100Mm Double Row B5600",
+    "image": "https://unboxtools.com/wp-content/uploads/2024/11/B-5600-1-300x300.png",
+    "price_inr": 160,
+    "mrp": 208,
+    "discount": "23% OFF",
+    "category": "abrasives",
+    "sub_category": "Diamond Cup Wheels",
+    "brand": "Akari",
+    "description": "Double row diamond segments for fast and smooth concrete grinding."
+  },
+    {
+        id: "AKARI_9046",
+        name: "Akari 125Mm Velcro Pad 5 Inch M10",
+        model: "9046",
+        category: "abrasives",
+        sub_category: "Velcro Pads",
+        brand: "Akari",
+        price_inr: 38.50,
+        regular_price: 50.00,
+        discount: "23%",
+        image: "https://unboxtools.com/wp-content/uploads/2024/04/01-Akari-125-Mm-Valcro-Pad-5-Inch-M10-300x300.png",
+        description: "Akari 125mm Velcro Pad for 5 inch angle grinders. M10 thread. High-quality hook and loop backing for quick disc changes.",
+        inStock: true
+    },
+    {
+        id: "AKARI_9047",
+        name: "Akari 125Mm Velcro Pad 5 Inch M14",
+        model: "9047",
+        category: "abrasives",
+        sub_category: "Velcro Pads",
+        brand: "Akari",
+        price_inr: 38.50,
+        regular_price: 50.00,
+        discount: "23%",
+        image: "https://unboxtools.com/wp-content/uploads/2024/04/01-Akari-125-Mm-Valcro-Pad-5-Inch-M10-300x300.png",
+        description: "Akari 125mm Velcro Pad for 5 inch angle grinders. M14 thread. Professional grade for automotive and wood polishing.",
+        inStock: true
+    },
+    {
+        id: "AKARI_16528",
+        name: "Akari 4 Inch Black Gc Wheel 100Mm",
+        model: "16528",
+        category: "abrasives",
+        sub_category: "Gc & Wa Wheels",
+        brand: "Akari",
+        price_inr: 17.71,
+        regular_price: 23.00,
+        discount: "23%",
+        image: "https://unboxtools.com/wp-content/uploads/2024/04/03-Akari-Gc-Wheel-4-Inch-2-5-Mm-Black-300x300.jpg",
+        description: "Akari Black GC (Green Silicon Carbide) Wheel, 4 inch (100mm). Ideal for grinding non-ferrous metals and masonry.",
+        inStock: true
+    },
+    {
+        id: "AKARI_16427",
+        name: "Akari 4 Inch Diamond Polishing Pad For Marble & Granite 100Mm",
+        model: "16427",
+        category: "abrasives",
+        sub_category: "Polishing Pads",
+        brand: "Akari",
+        price_inr: 42.35,
+        regular_price: 55.00,
+        discount: "23%",
+        image: "https://unboxtools.com/wp-content/uploads/2024/04/01-Akari-Diamond-Polishing-Pad-For-Marble-Granite-4-Inch-0-Grit-300x300.jpg",
+        description: "Professional diamond polishing pad for marble and granite. 100mm diameter. Long-lasting and high gloss finish.",
+        inStock: true
+    },
   { id: 54025, sku: "54025-1241-DNKTH7S", name: "De Neers 7 Pieces Torx Allen Key Set Dnkth7S", image: "https://unboxtools.com/wp-content/uploads/2025/07/07-De-Neers-7-Pieces-Torx-Allen-Key-Set-Dnkth7-S-300x300.png", category: "hand-tools", sub_category: "Allen Keys", brand: "De Neers", description: "7 Pc Torx Allen Key Set | S2 Steel | Short arm", regular_price: 234.27, sale_price: 180.39, url: "https://unboxtools.com/product/de-neers-7-pieces-torx-allen-key-set-dnkth7s/" },
   { id: 54041, sku: "54041-1241-BROWN DN-TAKM8", name: "De Neers 8 Pieces Brown Two Way Hex Allen Key Set With Handle Brown Dn-Takm8", image: "https://unboxtools.com/wp-content/uploads/2025/07/16-De-Neers-8-Pieces-Brown-Two-Way-Hex-Allen-Key-Set-With-Handle-Brown-Dn-Takm8-300x300.png", category: "hand-tools", sub_category: "Allen Keys", brand: "De Neers", description: "8 Pc Brown Two-Way Hex Allen Key Set with Handle | CrV Steel", regular_price: 1115.56, sale_price: 858.98, url: "https://unboxtools.com/product/de-neers-8-pieces-brown-two-way-hex-allen-key-set-with-handle-brown-dn-takm8/" },
   { id: 54026, sku: "54026-1241-DNKTH8S", name: "De Neers 8 Pieces Torx Allen Key Set Dnkth8S", image: "https://unboxtools.com/wp-content/uploads/2025/07/07-De-Neers-7-Pieces-Torx-Allen-Key-Set-Dnkth7-S-300x300.png", category: "hand-tools", sub_category: "Allen Keys", brand: "De Neers", description: "8 Pc Torx Allen Key Set | S2 Steel | Short arm", regular_price: 297.48, sale_price: 229.06, url: "https://unboxtools.com/product/de-neers-8-pieces-torx-allen-key-set-dnkth8s/" },
