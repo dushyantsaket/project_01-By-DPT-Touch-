@@ -1,5 +1,104 @@
 [
-   {
+     {
+    "id": 1,
+    "name": "DPT Rotary Hammer 28MM",
+    "brand": "DPT",
+    "category": "Power Tools",
+    "power": "1050W",
+    "price": 5500,
+    "location": "Bhopal",
+    "image": "https://dptindia.com/admin/Upload_Images/1678355673-2563973.jpg"
+  },
+  {
+    "id": 2,
+    "name": "DPT Marble Cutter",
+    "brand": "DPT",
+    "category": "Cutting Tool",
+    "power": "1250W",
+    "price": 3100,
+    "location": "Indore",
+    "image": "https://dptindia.com/admin/Upload_Images/1732607259-839580.jpg"
+  },
+  {
+    "id": 3,
+    "name": "DPT Demolition Breaker",
+    "brand": "DPT",
+    "category": "Heavy Duty",
+    "power": "1800W",
+    "price": 21500,
+    "location": "Delhi",
+    "image": "https://dptindia.com/admin/Upload_Images/1623929469-9825076.jpg"
+  },
+  {
+    "id": 4,
+    "name": "DPT Miter Saw 12",
+    "brand": "DPT",
+    "category": "Cutting Tool",
+    "power": "2000W",
+    "price": 14500,
+    "location": "Mumbai",
+    "image": "https://dptindia.com/admin/Upload_Images/1704706430-9421587.jpg"
+  },
+  {
+    "id": 5,
+    "name": "DPT Vacuum Cleaner T60",
+    "brand": "DPT",
+    "category": "Cleaning Tool",
+    "power": "1600W",
+    "price": 12800,
+    "location": "Jaipur",
+    "image": "https://dptindia.com/admin/Upload_Images/1695642384-359617.jpg"
+  },
+  {
+    "id": 6,
+    "name": "SUN 5800 Chain Saw",
+    "brand": "SUN",
+    "category": "Garden Tools",
+    "power": "58cc",
+    "price": 7200,
+    "location": "Lucknow",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/SUN-5800-500x500.jpg"
+  },
+  {
+    "id": 7,
+    "name": "SUN 6200 Chain Saw",
+    "brand": "SUN",
+    "category": "Garden Tools",
+    "power": "62cc",
+    "price": 8500,
+    "location": "Pune",
+    "image": "https://bscpowertools.com/wp-content/uploads/2024/02/SUN-6200-A-500x500.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Bosch GWS 600 Grinder",
+    "brand": "Bosch",
+    "category": "Grinder",
+    "power": "600W",
+    "price": 2850,
+    "location": "Nagpur",
+    "image": "https://www.bosch-pt.co.in/binary/ocsmedia/optimized/166x164/o568360v54_GPO_14-180_S_Foam_Pad_Dyn.png"
+  },
+  {
+    "id": 9,
+    "name": "Bosch GBH 220",
+    "brand": "Bosch",
+    "category": "Rotary Hammer",
+    "power": "720W",
+    "price": 5200,
+    "location": "Delhi",
+    "image": "https://www.bosch-pt.co.in/binary/ocsmedia/optimized/166x164/o585368v54_GBM38_Dyn.png"
+  },
+  {
+    "id": 10,
+    "name": "Bosch Marble Cutter",
+    "brand": "Bosch",
+    "category": "Cutting Tool",
+    "power": "1450W",
+    "price": 3650,
+    "location": "Hyderabad",
+    "image": "https://www.bosch-pt.co.in/binary/ocsmedia/optimized/166x164/o417952v54_GDC_140_dyn.png"
+  },{
       "productId": "CSHSLI20141",
       "name": "Cordless sheet sander",
       "url": "/in/product/cordless-sheet-sander/CSHSLI20141",
