@@ -4,6 +4,740 @@
   "baseUrl": "https://api.bosch-spares.com/api/v1",
   "apis": [
      {
+  "products": [
+    {
+      "id": "16982",
+      "name": "0810 Armature",
+      "price": "₹530.00",
+      "original_price": "₹600.00",
+      "discount": "12% off",
+      "description": "0810 Armature - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240213_170312_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16666",
+      "name": "0810 Carbon Brush",
+      "price": "₹15.00",
+      "original_price": "₹30.00",
+      "discount": "50% off",
+      "description": "0810 Carbon Brush - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240205_232446_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "17025",
+      "name": "0810 Carbon Holder",
+      "price": "₹40.00",
+      "original_price": "₹80.00",
+      "discount": "50% off",
+      "description": "0810 Carbon Holder - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240213_171809_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30359",
+      "name": "0810 Circlip",
+      "price": "₹13.00",
+      "original_price": "₹20.00",
+      "discount": "35% off",
+      "description": "0810 Circlip - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/08/20250801_130246_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "17008",
+      "name": "0810 Connecting Rod",
+      "price": "₹130.00",
+      "original_price": "₹200.00",
+      "discount": "35% off",
+      "description": "0810 Connecting Rod - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240213_172004_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "17002",
+      "name": "0810 Crank Shaft",
+      "price": "₹120.00",
+      "original_price": "₹150.00",
+      "discount": "20% off",
+      "description": "0810 Crank Shaft - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240213_172139_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30486",
+      "name": "0810 Crank Shaft Key",
+      "price": "₹6.00",
+      "original_price": "₹25.00",
+      "discount": "76% off",
+      "description": "0810 Crank Shaft Key - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/08/20250804_134854_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16986",
+      "name": "0810 Field Coil",
+      "price": "₹599.00",
+      "original_price": "₹700.00",
+      "discount": "14% off",
+      "description": "0810 Field Coil - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240213_170107_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30341",
+      "name": "0810 Front Handle",
+      "price": "₹150.00",
+      "original_price": "₹200.00",
+      "discount": "25% off",
+      "description": "0810 Front Handle - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/08/20250801_122913_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "Out of Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16990",
+      "name": "0810 Gear",
+      "price": "₹120.00",
+      "original_price": "₹150.00",
+      "discount": "20% off",
+      "description": "0810 Gear - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240213_170436_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30345",
+      "name": "0810 Gear Box",
+      "price": "₹600.00",
+      "original_price": "₹800.00",
+      "discount": "25% off",
+      "description": "0810 Gear Box - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/08/20250801_122426_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "17030",
+      "name": "0810 Grease Cap",
+      "price": "₹50.00",
+      "original_price": "₹100.00",
+      "discount": "50% off",
+      "description": "0810 Grease Cap - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240213_170616_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30352",
+      "name": "0810 Handle Patti",
+      "price": "₹35.00",
+      "original_price": "₹50.00",
+      "discount": "30% off",
+      "description": "0810 Handle Patti - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/08/20250801_131425_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30477",
+      "name": "0810 Impact Bolt",
+      "price": "₹100.00",
+      "original_price": "₹150.00",
+      "discount": "33% off",
+      "description": "0810 Impact Bolt - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/08/20250804_135311_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30482",
+      "name": "0810 Needle Bearing",
+      "price": "₹69.00",
+      "original_price": "₹90.00",
+      "discount": "23% off",
+      "description": "0810 Needle Bearing - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/08/20250804_134502_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16979",
+      "name": "0810 O Ring",
+      "price": "₹30.00",
+      "original_price": "₹50.00",
+      "discount": "40% off",
+      "description": "0810 O Ring - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240213_170712_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16994",
+      "name": "0810 Piston",
+      "price": "₹110.00",
+      "original_price": "₹150.00",
+      "discount": "27% off",
+      "description": "0810 Piston - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240213_171357_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16999",
+      "name": "0810 Piston Pin",
+      "price": "₹20.00",
+      "original_price": "₹50.00",
+      "discount": "60% off",
+      "description": "0810 Piston Pin - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240213_171316_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "17014",
+      "name": "0810 Striker",
+      "price": "₹115.00",
+      "original_price": "₹150.00",
+      "discount": "23% off",
+      "description": "0810 Striker - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240213_171110_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16972",
+      "name": "0810 Switch",
+      "price": "₹110.00",
+      "original_price": "₹150.00",
+      "discount": "27% off",
+      "description": "0810 Switch - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240213_170831_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30368",
+      "name": "0810 Switch Handle",
+      "price": "₹120.00",
+      "original_price": "₹150.00",
+      "discount": "20% off",
+      "description": "0810 Switch Handle - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/08/20250801_124433_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "17019",
+      "name": "0810 Tool Holder",
+      "price": "₹499.00",
+      "original_price": "₹600.00",
+      "discount": "17% off",
+      "description": "0810 Tool Holder - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240213_171514_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "Out of Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30362",
+      "name": "0810 Tool Holder Complete",
+      "price": "₹1,349.00",
+      "original_price": "₹1,400.00",
+      "discount": "4% off",
+      "description": "0810 Tool Holder Complete - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/08/20250801_124235_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "11281",
+      "name": "1 Way Switch 6A",
+      "price": "₹16.00",
+      "original_price": "₹25.00",
+      "discount": "36% off",
+      "description": "1 Way Switch 6A - spare part for cooler",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2023/03/20230315_093303_copy_700x800-300x300.jpg"
+      ],
+      "category": "Cooler Spare Parts",
+      "availability": "In Stock",
+      "rating": 4.29,
+      "reviews_count": 0
+    },
+    {
+      "id": "16550",
+      "name": "10 MFD Capacitor",
+      "price": "₹50.00",
+      "original_price": "₹60.00",
+      "discount": "17% off",
+      "description": "10 MFD Capacitor - spare part for water pump",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240205_113334_copy_700x800-300x300.jpg"
+      ],
+      "category": "Pump Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16857",
+      "name": "100/120 MFD Capacitor",
+      "price": "₹175.00",
+      "original_price": "₹200.00",
+      "discount": "13% off",
+      "description": "100/120 MFD Capacitor - spare part for water pump",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240211_133430_copy_700x800-300x300.jpg"
+      ],
+      "category": "Pump Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16938",
+      "name": "11E Armature",
+      "price": "₹1,450.00",
+      "original_price": "₹1,800.00",
+      "discount": "19% off",
+      "description": "11E Armature - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240212_140428_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "Out of Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16662",
+      "name": "11E Carbon Brush",
+      "price": "₹25.00",
+      "original_price": "₹50.00",
+      "discount": "50% off",
+      "description": "11E Carbon Brush - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240205_232314_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "17035",
+      "name": "11E Carbon Holder",
+      "price": "₹50.00",
+      "original_price": "₹60.00",
+      "discount": "17% off",
+      "description": "11E Carbon Holder - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240212_141457_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "31067",
+      "name": "11E Carbon Holder Complete",
+      "price": "₹350.00",
+      "original_price": "₹400.00",
+      "discount": "13% off",
+      "description": "11E Carbon Holder Complete - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/08/20250822_133337_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "Out of Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16906",
+      "name": "11E Connecting Rod",
+      "price": "₹340.00",
+      "original_price": "₹500.00",
+      "discount": "32% off",
+      "description": "11E Connecting Rod - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240212_141138_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "31055",
+      "name": "11E Cylinder",
+      "price": "₹570.00",
+      "original_price": "₹700.00",
+      "discount": "19% off",
+      "description": "11E Cylinder - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/08/20250822_132739_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "Out of Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16944",
+      "name": "11E Field Coil",
+      "price": "₹1,200.00",
+      "original_price": "₹1,500.00",
+      "discount": "20% off",
+      "description": "11E Field Coil - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240212_140701_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30216",
+      "name": "11E Front Handle",
+      "price": "₹625.00",
+      "original_price": "₹800.00",
+      "discount": "22% off",
+      "description": "11E Front Handle - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250729_142336_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "Out of Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16931",
+      "name": "11E Gear",
+      "price": "₹590.00",
+      "original_price": "₹700.00",
+      "discount": "16% off",
+      "description": "11E Gear - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240212_140242_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "Out of Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30209",
+      "name": "11E Gear Box",
+      "price": "₹1,800.00",
+      "original_price": "₹2,000.00",
+      "discount": "10% off",
+      "description": "11E Gear Box - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250729_142839_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "17133",
+      "name": "11E Governor",
+      "price": "₹499.00",
+      "original_price": "₹700.00",
+      "discount": "29% off",
+      "description": "11E Governor - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240217_150748_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30243",
+      "name": "11E Impact Bolt",
+      "price": "₹340.00",
+      "original_price": "₹500.00",
+      "discount": "32% off",
+      "description": "11E Impact Bolt - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250729_141504_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30221",
+      "name": "11E Mouth Set",
+      "price": "₹499.00",
+      "original_price": "₹650.00",
+      "discount": "23% off",
+      "description": "11E Mouth Set - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250729_141942_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "26377",
+      "name": "11E Needle Bearing",
+      "price": "₹95.00",
+      "original_price": "₹150.00",
+      "discount": "37% off",
+      "description": "11E Needle Bearing - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/03/20250311_122007_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "Out of Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30224",
+      "name": "11E Oil Seal",
+      "price": "₹35.00",
+      "original_price": "₹50.00",
+      "discount": "30% off",
+      "description": "11E Oil Seal - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250729_141142_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16912",
+      "name": "11E Piston",
+      "price": "₹150.00",
+      "original_price": "₹200.00",
+      "discount": "25% off",
+      "description": "11E Piston - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240212_141307_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "17144",
+      "name": "11E Piston Pin",
+      "price": "₹60.00",
+      "original_price": "₹80.00",
+      "discount": "25% off",
+      "description": "11E Piston Pin - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240217_153533_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16952",
+      "name": "11E Shift Plate",
+      "price": "₹65.00",
+      "original_price": "₹100.00",
+      "discount": "35% off",
+      "description": "11E Shift Plate - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240212_141406_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30233",
+      "name": "11E Stopping Device",
+      "price": "₹65.00",
+      "original_price": "₹100.00",
+      "discount": "35% off",
+      "description": "11E Stopping Device - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250729_141207_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30229",
+      "name": "11E Stopping Patti",
+      "price": "₹65.00",
+      "original_price": "₹80.00",
+      "discount": "19% off",
+      "description": "11E Stopping Patti - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250729_141330_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "30238",
+      "name": "11E Striker",
+      "price": "₹680.00",
+      "original_price": "₹900.00",
+      "discount": "24% off",
+      "description": "11E Striker - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250729_141042_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "In Stock",
+      "rating": null,
+      "reviews_count": 0
+    },
+    {
+      "id": "16923",
+      "name": "11E Switch",
+      "price": "₹120.00",
+      "original_price": "₹200.00",
+      "discount": "40% off",
+      "description": "11E Switch - spare part for demolition hammer",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240212_140902_copy_700x800-300x300.jpg"
+      ],
+      "category": "Demolition Hammer Spare Parts",
+      "availability": "Out of Stock",
+      "rating": null,
+      "reviews_count": 0
+    }
+  ],
+  "metadata": {
+    "total_products": 680,
+    "current_page": 4,
+    "products_per_page": 48,
+    "categories": [
+      "Demolition Hammer Spare Parts",
+      "Cooler Spare Parts",
+      "Pump Spare Parts"
+    ],
+    "currency": "INR"
+  }
+},{
     "id": "AKARI_31742",
     "name": "Akari 3 Inch Diamond Cup Wheel Seg 75Mm B5200",
     "image": "https://unboxtools.com/wp-content/uploads/2024/11/Akari-3-Inch-Diamond-Cup-Wheel-Seg-75Mm-B5200-300x300.jpg",
