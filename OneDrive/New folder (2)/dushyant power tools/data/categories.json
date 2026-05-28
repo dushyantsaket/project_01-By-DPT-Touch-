@@ -1,6 +1,1044 @@
 
 [
-   {
+   Here's the structured JSON data extracted from the Cutter Machine Spare Parts page, including product details, prices, ratings, and multiple image URLs for each product:
+
+```json
+{
+  "metadata": {
+    "source": "sparepartwala.in",
+    "category": "Cutter Machine Spare Parts",
+    "total_products": 58,
+    "current_page": 5,
+    "products_per_page": 58,
+    "currency": "INR"
+  },
+  "products": [
+    {
+      "id": "1477",
+      "name": "4 Inch Iron Cutting Blade",
+      "description": "4 inch iron cutting blade for cutter machine",
+      "price": "₹15.00",
+      "original_price": "₹25.00",
+      "discount": "40% off",
+      "rating": 4.5,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2021/10/04-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/10/04-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/10/04-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/4-inch-iron-cutting-blade/"
+    },
+    {
+      "id": "3544",
+      "name": "Bearing Rubber 607",
+      "description": "Bearing rubber 607 for angle grinder and cutter machine",
+      "price": "₹8.50",
+      "original_price": "₹16.00",
+      "discount": "47% off",
+      "rating": 5.0,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2022/02/108-1-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/02/108-1-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/02/108-1-600x600.jpg"
+      ],
+      "category": ["Angle Grinder Spare Parts", "Cutter Machine Spare Parts"],
+      "tags": ["cm4", "cutter-machine-spare-parts", "grinder-machine-spare-part"],
+      "product_url": "https://sparepartwala.in/product/bearing-rubber-607/"
+    },
+    {
+      "id": "3549",
+      "name": "Bearing Rubber 608",
+      "description": "Bearing rubber 608 for angle grinder and cutter machine",
+      "price": "₹8.50",
+      "original_price": "₹16.00",
+      "discount": "47% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2022/02/108-1-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/02/108-1-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/02/108-1-600x600.jpg"
+      ],
+      "category": ["Angle Grinder Spare Parts", "Cutter Machine Spare Parts"],
+      "tags": ["cm4", "cutter-machine-spare-parts", "grinder-machine-spare-part"],
+      "product_url": "https://sparepartwala.in/product/bearing-rubber-608/"
+    },
+    {
+      "id": "3550",
+      "name": "Bearing Rubber 629",
+      "description": "Bearing rubber 629 for cutter machine",
+      "price": "₹12.00",
+      "original_price": "₹16.00",
+      "discount": "25% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2022/02/108-1-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/02/108-1-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/02/108-1-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/bearing-rubber-629/"
+    },
+    {
+      "id": "1264",
+      "name": "CM4 AB Washer",
+      "description": "CM4 AB washer spare part for cutter machine",
+      "price": "₹25.00",
+      "original_price": "₹90.00",
+      "discount": "72% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2021/09/34-2-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/09/34-2-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/09/34-2-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-ab-washer/"
+    },
+    {
+      "id": "1220",
+      "name": "CM4 Armature",
+      "description": "CM4 armature spare part for cutter machine",
+      "price": "₹460.00",
+      "original_price": "₹500.00",
+      "discount": "8% off",
+      "rating": 5.0,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2021/09/49-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/09/49-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/09/49-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-armature/"
+    },
+    {
+      "id": "17139",
+      "name": "CM4 Armature lock",
+      "description": "CM4 armature lock spare part for cutter machine",
+      "price": "₹3.00",
+      "original_price": "₹5.00",
+      "discount": "40% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240217_150055_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240217_150055_copy_700x800-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/02/20240217_150055_copy_700x800-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-armature-lock/"
+    },
+    {
+      "id": "29820",
+      "name": "CM4 Back Side Jali",
+      "description": "CM4 back side jali (mesh/grill) spare part for cutter machine",
+      "price": "₹20.00",
+      "original_price": "₹30.00",
+      "discount": "33% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250716_164327_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250716_164327_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-back-side-jali/"
+    },
+    {
+      "id": "27911",
+      "name": "CM4 Base Plate",
+      "description": "CM4 base plate spare part for cutter machine",
+      "price": "₹120.00",
+      "original_price": "₹150.00",
+      "discount": "20% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250504_135130_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250504_135130_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-base-plate/"
+    },
+    {
+      "id": "1261",
+      "name": "CM4 Bearing Holder",
+      "description": "CM4 bearing holder spare part for cutter machine",
+      "price": "₹57.00",
+      "original_price": "₹150.00",
+      "discount": "62% off",
+      "rating": 4.0,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2021/09/09-1-1-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/09/09-1-1-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/09/09-1-1-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-bearing-holder/"
+    },
+    {
+      "id": "21612",
+      "name": "CM4 Bearing Housing Nut",
+      "description": "CM4 bearing housing nut spare part for cutter machine",
+      "price": "₹3.00",
+      "original_price": "₹10.00",
+      "discount": "70% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/08/20240820_212329_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/08/20240820_212329_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-bearing-housing-nut/"
+    },
+    {
+      "id": "27801",
+      "name": "CM4 Body",
+      "description": "CM4 body/housing spare part for cutter machine",
+      "price": "₹250.00",
+      "original_price": "₹350.00",
+      "discount": "29% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250427_154323_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250427_154323_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-body/"
+    },
+    {
+      "id": "29841",
+      "name": "CM4 Body Nut",
+      "description": "CM4 body nut spare part for cutter machine",
+      "price": "₹5.00",
+      "original_price": "₹10.00",
+      "discount": "50% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250716_164425_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250716_164425_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-body-nut/"
+    },
+    {
+      "id": "309",
+      "name": "CM4 Carbon Brush",
+      "description": "CM4 carbon brush spare part for cutter machine",
+      "price": "₹15.00",
+      "original_price": "₹39.00",
+      "discount": "62% off",
+      "rating": 3.5,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2021/08/25-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/08/25-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/08/25-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-carbon-brush/"
+    },
+    {
+      "id": "2787",
+      "name": "CM4 Carbon Holder",
+      "description": "CM4 carbon holder spare part for cutter machine",
+      "price": "₹45.00",
+      "original_price": "₹99.00",
+      "discount": "55% off",
+      "rating": 5.0,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2022/01/31-1-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/01/31-1-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/01/31-1-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-carbon-holder/"
+    },
+    {
+      "id": "3723",
+      "name": "CM4 Carbon Holder Cap",
+      "description": "CM4 carbon holder cap spare part for cutter machine",
+      "price": "₹7.00",
+      "original_price": "₹12.00",
+      "discount": "42% off",
+      "rating": 3.0,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2022/02/33-1-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/02/33-1-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/02/33-1-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-carbon-holder-cap/"
+    },
+    {
+      "id": "16071",
+      "name": "CM4 Field Coil",
+      "description": "CM4 field coil (stator) spare part for cutter machine",
+      "price": "₹450.00",
+      "original_price": "₹600.00",
+      "discount": "25% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/01/20240120_124312_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/01/20240120_124312_copy_700x800-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/01/20240120_124312_copy_700x800-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-field-coil/"
+    },
+    {
+      "id": "1375",
+      "name": "CM4 Gear",
+      "description": "CM4 gear spare part for cutter machine",
+      "price": "₹75.00",
+      "original_price": "₹160.00",
+      "discount": "53% off",
+      "rating": 4.5,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2021/10/10-1-1-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/10/10-1-1-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/10/10-1-1-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-gear/"
+    },
+    {
+      "id": "2797",
+      "name": "CM4 Ghoda",
+      "description": "CM4 ghoda (clamp/horse) spare part for cutter machine",
+      "price": "₹25.00",
+      "original_price": "₹60.00",
+      "discount": "58% off",
+      "rating": 3.5,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2022/01/13-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/01/13-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/01/13-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-ghoda/"
+    },
+    {
+      "id": "27991",
+      "name": "CM4 Head",
+      "description": "CM4 head spare part for cutter machine",
+      "price": "₹380.00",
+      "original_price": "₹450.00",
+      "discount": "16% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250508_113334_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250508_113334_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-head/"
+    },
+    {
+      "id": "2790",
+      "name": "CM4 L Nut",
+      "description": "CM4 L-shaped nut spare part for cutter machine",
+      "price": "₹7.00",
+      "original_price": "₹10.00",
+      "discount": "30% off",
+      "rating": 4.0,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2022/01/12-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/01/12-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/01/12-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-l-nut/"
+    },
+    {
+      "id": "3704",
+      "name": "CM4 Shaft",
+      "description": "CM4 shaft spare part for cutter machine",
+      "price": "₹57.00",
+      "original_price": "₹130.00",
+      "discount": "56% off",
+      "rating": 5.0,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2022/02/32-1-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/02/32-1-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/02/32-1-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-shaft/"
+    },
+    {
+      "id": "338",
+      "name": "CM4 Switch",
+      "description": "CM4 switch spare part for cutter machine and air blower",
+      "price": "₹34.00",
+      "original_price": "₹60.00",
+      "discount": "43% off",
+      "rating": 4.0,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2021/08/79-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/08/79-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/08/79-600x600.jpg"
+      ],
+      "category": ["Air Blower Spare Parts", "Cutter Machine Spare Parts"],
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-switch/"
+    },
+    {
+      "id": "2780",
+      "name": "CM4 Tools Set",
+      "description": "CM4 tools set / wrench set for cutter machine",
+      "price": "₹50.00",
+      "original_price": "₹150.00",
+      "discount": "67% off",
+      "rating": 4.0,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2022/01/08-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/01/08-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2022/01/08-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4-tools-set/"
+    },
+    {
+      "id": "21716",
+      "name": "CM4SB Armature",
+      "description": "CM4SB armature spare part for cutter machine",
+      "price": "₹465.00",
+      "original_price": "₹500.00",
+      "discount": "7% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/08/20240820_212937_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/08/20240820_212937_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4sb-armature/"
+    },
+    {
+      "id": "27979",
+      "name": "CM4SB Base Plate",
+      "description": "CM4SB base plate spare part for cutter machine",
+      "price": "₹130.00",
+      "original_price": "₹180.00",
+      "discount": "28% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250509_105705_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250509_105705_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4sb-base-plate/"
+    },
+    {
+      "id": "22133",
+      "name": "CM4SB Bearing Holder",
+      "description": "CM4SB bearing holder spare part for cutter machine",
+      "price": "₹60.00",
+      "original_price": "₹80.00",
+      "discount": "25% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_110950_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_110950_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4sb-bearing-holder/"
+    },
+    {
+      "id": "27808",
+      "name": "CM4SB Body",
+      "description": "CM4SB body/housing spare part for cutter machine",
+      "price": "₹270.00",
+      "original_price": "₹300.00",
+      "discount": "10% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250427_152744_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250427_152744_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4sb-body/"
+    },
+    {
+      "id": "22121",
+      "name": "CM4SB Field Coil",
+      "description": "CM4SB field coil (stator) spare part for cutter machine",
+      "price": "₹475.00",
+      "original_price": "₹500.00",
+      "discount": "5% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_113656_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_113656_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4sb-field-coil/"
+    },
+    {
+      "id": "22123",
+      "name": "CM4SB Gear",
+      "description": "CM4SB gear spare part for cutter machine",
+      "price": "₹85.00",
+      "original_price": "₹120.00",
+      "discount": "29% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_111351_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_111351_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4sb-gear/"
+    },
+    {
+      "id": "27917",
+      "name": "CM4SB Ghoda",
+      "description": "CM4SB ghoda (clamp/horse) spare part for cutter machine",
+      "price": "₹25.00",
+      "original_price": "₹50.00",
+      "discount": "50% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250504_134637_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250504_134637_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4sb-ghoda/"
+    },
+    {
+      "id": "27921",
+      "name": "CM4SB Head",
+      "description": "CM4SB head spare part for cutter machine",
+      "price": "₹420.00",
+      "original_price": "₹600.00",
+      "discount": "30% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250504_140037_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2025/05/20250504_140037_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4sb-head/"
+    },
+    {
+      "id": "22128",
+      "name": "CM4SB Shaft",
+      "description": "CM4SB shaft spare part for cutter machine",
+      "price": "₹70.00",
+      "original_price": "₹80.00",
+      "discount": "13% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_111617_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_111617_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm4sb-shaft/"
+    },
+    {
+      "id": "22232",
+      "name": "CM5 Armature",
+      "description": "CM5 armature spare part for cutter machine",
+      "price": "₹600.00",
+      "original_price": "₹800.00",
+      "discount": "25% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240902_152712_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240902_152712_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm5-armature/"
+    },
+    {
+      "id": "29828",
+      "name": "CM5 Base Plate",
+      "description": "CM5 base plate spare part for cutter machine",
+      "price": "₹320.00",
+      "original_price": "₹500.00",
+      "discount": "36% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250716_171006_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250716_171006_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm5-base-plate/"
+    },
+    {
+      "id": "22188",
+      "name": "CM5 Bearing Holder",
+      "description": "CM5 bearing holder spare part for cutter machine",
+      "price": "₹125.00",
+      "original_price": "₹200.00",
+      "discount": "38% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144655_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144655_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm5-bearing-holder/"
+    },
+    {
+      "id": "29823",
+      "name": "CM5 Body",
+      "description": "CM5 body/housing spare part for cutter machine",
+      "price": "₹599.00",
+      "original_price": "₹700.00",
+      "discount": "14% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250716_165906_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250716_165906_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm5-body/"
+    },
+    {
+      "id": "22229",
+      "name": "CM5 Field Coil",
+      "description": "CM5 field coil (stator) spare part for cutter machine",
+      "price": "₹490.00",
+      "original_price": "₹800.00",
+      "discount": "39% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240902_152544_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240902_152544_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm5-field-coil/"
+    },
+    {
+      "id": "22152",
+      "name": "CM5 Gear",
+      "description": "CM5 gear spare part for cutter machine",
+      "price": "₹125.00",
+      "original_price": "₹150.00",
+      "discount": "17% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144851_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144851_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm5-gear/"
+    },
+    {
+      "id": "29832",
+      "name": "CM5 Head",
+      "description": "CM5 head spare part for cutter machine",
+      "price": "₹699.00",
+      "original_price": "₹800.00",
+      "discount": "13% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250716_165535_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2025/07/20250716_165535_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm5-head/"
+    },
+    {
+      "id": "22147",
+      "name": "CM5 L Nut",
+      "description": "CM5 L-shaped nut spare part for cutter machine",
+      "price": "₹8.00",
+      "original_price": "₹10.00",
+      "discount": "20% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144956_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144956_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm5-l-nut/"
+    },
+    {
+      "id": "22184",
+      "name": "CM5 Shaft",
+      "description": "CM5 shaft spare part for cutter machine",
+      "price": "₹70.00",
+      "original_price": "₹100.00",
+      "discount": "30% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144806_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144806_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/cm5-shaft/"
+    },
+    {
+      "id": "1381",
+      "name": "HCH 608",
+      "description": "HCH 608 bearing for cutter machine, angle grinder, and air blower",
+      "price": "₹32.00",
+      "original_price": "₹63.00",
+      "discount": "49% off",
+      "rating": 3.0,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2021/10/07-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/10/07-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/10/07-600x600.jpg"
+      ],
+      "category": ["Air Blower Spare Parts", "Angle Grinder Spare Parts", "Cutter Machine Spare Parts"],
+      "tags": ["cm4", "cutter-machine-spare-parts", "grinder-machine-spare-part"],
+      "product_url": "https://sparepartwala.in/product/hch-608/"
+    },
+    {
+      "id": "10865",
+      "name": "HCH 609",
+      "description": "HCH 609 bearing for angle grinder and cutter machine",
+      "price": "₹37.00",
+      "original_price": "₹50.00",
+      "discount": "26% off",
+      "rating": 3.0,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2023/02/20230218_150514_copy_700x800_1-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2023/02/20230218_150514_copy_700x800_1-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2023/02/20230218_150514_copy_700x800_1-600x600.jpg"
+      ],
+      "category": ["Angle Grinder Spare Parts", "Cutter Machine Spare Parts"],
+      "tags": ["cm4", "cutter-machine-spare-parts", "grinder-machine-spare-part"],
+      "product_url": "https://sparepartwala.in/product/hch-609/"
+    },
+    {
+      "id": "21905",
+      "name": "HCH 626",
+      "description": "HCH 626 bearing for angle grinder and cutter machine",
+      "price": "₹30.00",
+      "original_price": "₹50.00",
+      "discount": "40% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2023/02/20230218_150514_copy_700x800_1-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2023/02/20230218_150514_copy_700x800_1-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2023/02/20230218_150514_copy_700x800_1-600x600.jpg"
+      ],
+      "category": ["Angle Grinder Spare Parts", "Cutter Machine Spare Parts"],
+      "tags": ["angle-grinder-spare-parts", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/hch-626/"
+    },
+    {
+      "id": "10780",
+      "name": "HCH 627",
+      "description": "HCH 627 bearing for angle grinder and cutter machine",
+      "price": "₹32.00",
+      "original_price": "₹50.00",
+      "discount": "36% off",
+      "rating": 3.0,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2023/02/20230218_150514_copy_700x800_1-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2023/02/20230218_150514_copy_700x800_1-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2023/02/20230218_150514_copy_700x800_1-600x600.jpg"
+      ],
+      "category": ["Angle Grinder Spare Parts", "Cutter Machine Spare Parts"],
+      "tags": ["cm4", "cutter-machine-spare-parts", "grinder-machine-spare-part"],
+      "product_url": "https://sparepartwala.in/product/hch-627/"
+    },
+    {
+      "id": "1386",
+      "name": "HCH 629",
+      "description": "HCH 629 bearing for cutter machine",
+      "price": "₹32.00",
+      "original_price": "₹45.00",
+      "discount": "29% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2021/10/05-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/10/05-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2021/10/05-600x600.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cm4", "cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/hch-629/"
+    },
+    {
+      "id": "22156",
+      "name": "LG355 AB Washer",
+      "description": "LG355 AB washer spare part for cutter machine",
+      "price": "₹160.00",
+      "original_price": "₹250.00",
+      "discount": "36% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_145132_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_145132_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/lg355-ab-washer/"
+    },
+    {
+      "id": "22218",
+      "name": "LG355 Armature",
+      "description": "LG355 armature spare part for cutter machine",
+      "price": "₹1,170.00",
+      "original_price": "₹1,400.00",
+      "discount": "16% off",
+      "rating": null,
+      "availability": "Out of Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240902_152151_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240902_152151_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/lg355-armature/"
+    },
+    {
+      "id": "22160",
+      "name": "LG355 Base Plate Spring",
+      "description": "LG355 base plate spring spare part for cutter machine",
+      "price": "₹120.00",
+      "original_price": "₹200.00",
+      "discount": "40% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144455_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144455_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/lg355-base-plate-spring/"
+    },
+    {
+      "id": "22167",
+      "name": "LG355 Carbon Brush",
+      "description": "LG355 carbon brush spare part for cutter machine",
+      "price": "₹25.00",
+      "original_price": "₹50.00",
+      "discount": "50% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144206_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144206_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/lg355-carbon-brush/"
+    },
+    {
+      "id": "22163",
+      "name": "LG355 Carbon Holder",
+      "description": "LG355 carbon holder spare part for cutter machine",
+      "price": "₹75.00",
+      "original_price": "₹100.00",
+      "discount": "25% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144403_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144403_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/lg355-carbon-holder/"
+    },
+    {
+      "id": "22227",
+      "name": "LG355 Field Coil",
+      "description": "LG355 field coil (stator) spare part for cutter machine",
+      "price": "₹1,100.00",
+      "original_price": "₹1,400.00",
+      "discount": "21% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240902_152428_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240902_152428_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/lg355-field-coil/"
+    },
+    {
+      "id": "22174",
+      "name": "LG355 Gear",
+      "description": "LG355 gear spare part for cutter machine",
+      "price": "₹180.00",
+      "original_price": "₹250.00",
+      "discount": "28% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_145033_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_145033_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/lg355-gear/"
+    },
+    {
+      "id": "22169",
+      "name": "LG355 Shaft",
+      "description": "LG355 shaft spare part for cutter machine",
+      "price": "₹170.00",
+      "original_price": "₹200.00",
+      "discount": "15% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144240_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_144240_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/lg355-shaft/"
+    },
+    {
+      "id": "22179",
+      "name": "LG355 Switch",
+      "description": "LG355 switch spare part for cutter machine",
+      "price": "₹140.00",
+      "original_price": "₹200.00",
+      "discount": "30% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_145443_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2024/09/20240901_145443_copy_700x800-150x150.jpg"
+      ],
+      "category": "Cutter Machine Spare Parts",
+      "tags": ["cutter-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/lg355-switch/"
+    },
+    {
+      "id": "10948",
+      "name": "Power Tool Lead",
+      "description": "Power tool lead/power cord for various power tools including cutter machines",
+      "price": "₹90.00",
+      "original_price": "₹150.00",
+      "discount": "40% off",
+      "rating": 4.67,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2023/02/20230226_111444_copy_700x800_1-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2023/02/20230226_111444_copy_700x800_1-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2023/02/20230226_111444_copy_700x800_1-600x600.jpg"
+      ],
+      "category": [
+        "Angle Grinder Spare Parts",
+        "Cutter Machine Spare Parts",
+        "Demolition Hammer Spare Parts",
+        "Drill Machine Spare Parts",
+        "Hammer Machine Spare Parts"
+      ],
+      "tags": ["cutter-machine-spare-parts", "drill-machine-spare-parts", "grinder-machine-spare-part", "hammer-machine-spare-parts"],
+      "product_url": "https://sparepartwala.in/product/power-tool-lead/"
+    },
+    {
+      "id": "12697",
+      "name": "Power Tools Bearing Puller",
+      "description": "Power tools bearing puller tool for removing bearings from various power tools including cutter machines",
+      "price": "₹599.00",
+      "original_price": "₹700.00",
+      "discount": "14% off",
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://sparepartwala.in/wp-content/uploads/2023/06/20230603_181622_copy_700x800-300x300.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2023/06/20230603_181622_copy_700x800-150x150.jpg",
+        "https://sparepartwala.in/wp-content/uploads/2023/06/20230603_181622_copy_700x800-600x600.jpg"
+      ],
+      "category": [
+        "Angle Grinder Spare Parts",
+        "Cutter Machine Spare Parts",
+        "Drill Machine Spare Parts",
+        "Hammer Machine Spare Parts",
+        "Tools"
+      ],
+      "tags": [],
+      "product_url": "https://sparepartwala.in/product/power-tools-bearing-puller/"
+    }
+  ]
+}
+```,{
     "id": 1,
     "name": "DPT Rotary Hammer 28MM",
     "brand": "DPT",
