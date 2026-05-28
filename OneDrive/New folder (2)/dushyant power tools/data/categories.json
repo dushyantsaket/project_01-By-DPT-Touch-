@@ -1,8 +1,5 @@
 
-[
-   Here's the structured JSON data extracted from the Cutter Machine Spare Parts page, including product details, prices, ratings, and multiple image URLs for each product:
 
-```json
 {
   "metadata": {
     "source": "sparepartwala.in",
