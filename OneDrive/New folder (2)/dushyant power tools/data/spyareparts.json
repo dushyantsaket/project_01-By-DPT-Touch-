@@ -1,0 +1,330 @@
+Here is the JSON data extracted from the product category cards, including product details, pricing, discount information, and image URLs.
+
+```json
+{
+  "metadata": {
+    "source": "Product Category Page",
+    "category": "2-20 Hammer Machine Spare Parts",
+    "total_products": 22,
+    "currency": "₹",
+    "selling_type": "Wholesale/Bulk"
+  },
+  "products": [
+    {
+      "id": "40653905",
+      "uuid": "57cd08bf-d902-49df-8208-fd4bb9628be4",
+      "name": "2-20 Piston Washer",
+      "description": "2-20 Piston Washer spare part for hammer machine",
+      "selling_price": 400,
+      "original_price": 500,
+      "discount_percent": 20,
+      "unit": "Per 100 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/2e088dff-625f-4ca3-85c5-ea48f66a58a0/1679767542805.jpeg"
+      ],
+      "product_url": "/products/2-20-piston-washer"
+    },
+    {
+      "id": "40654621",
+      "uuid": "90039855-038d-41c7-b63c-8168f45f0fe6",
+      "name": "2-20 Black Head Roller Bearing",
+      "description": "2-20 Black Head Roller Bearing spare part for hammer machine",
+      "selling_price": 480,
+      "original_price": 600,
+      "discount_percent": 20,
+      "unit": "Per 30 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/07d4c190-be95-43dc-a230-dd65584babd5/1679802714279.jpeg"
+      ],
+      "product_url": "/products/2-20-black-head-roller-bearing"
+    },
+    {
+      "id": "40653896",
+      "uuid": "b66f47b0-64be-486a-804c-687aed24f8c0",
+      "name": "2-20 Steel Ball",
+      "description": "2-20 Steel Ball spare part for hammer machine",
+      "selling_price": 500,
+      "original_price": 600,
+      "discount_percent": 17,
+      "unit": "Per 100 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/b980c900-aacf-494a-a84b-3737b72e64b2/1679767318066.jpeg"
+      ],
+      "product_url": "/products/2-20-steel-ball"
+    },
+    {
+      "id": "40654056",
+      "uuid": "fa3428d3-ed48-4876-b361-8daac3a7ec8f",
+      "name": "2-20 Spring Goli Shaft Set",
+      "description": "2-20 Spring Goli Shaft Set spare part for hammer machine",
+      "selling_price": 500,
+      "original_price": 640,
+      "discount_percent": 22,
+      "unit": "Per 20 set",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/4c77f5fc-b677-476e-a81c-c02919c98632/1679770851750.jpeg"
+      ],
+      "product_url": "/products/2-20-spring-goli-shaft-set"
+    },
+    {
+      "id": "40654597",
+      "uuid": "eaecaf9c-6aa8-4df2-9ee1-8420b44260ab",
+      "name": "2-20 Striger (10pcs)",
+      "description": "2-20 Striger spare part for hammer machine - set of 10 pieces",
+      "selling_price": 550,
+      "original_price": 700,
+      "discount_percent": 21,
+      "unit": "Per 10 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/4f5bd8e9-3e34-4cce-860f-f513788d8e30/1679801962940.jpeg"
+      ],
+      "product_url": "/products/2-20-striger"
+    },
+    {
+      "id": "41808195",
+      "uuid": "d1787572-6d99-4615-aa5b-da0bd924712e",
+      "name": "2-20 Piston Pin",
+      "description": "2-20 Piston Pin spare part for hammer machine",
+      "selling_price": 600,
+      "original_price": 800,
+      "discount_percent": 25,
+      "unit": "Per 30 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/07886731-add1-4f53-82f6-e1e95c6730c6/1692790550138.jpeg"
+      ],
+      "product_url": "/products/2-20-piston-pin"
+    },
+    {
+      "id": "40653897",
+      "uuid": "a0d288d4-2367-41f4-960a-11b155ba0762",
+      "name": "2-20 Switch Knob",
+      "description": "2-20 Switch Knob spare part for hammer machine",
+      "selling_price": 600,
+      "original_price": 700,
+      "discount_percent": 14,
+      "unit": "Per 20 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/ffbced7c-0cb0-41fe-bbde-a8cd362ec14b/1679767368354.jpeg"
+      ],
+      "product_url": "/products/2-20-switch-knob"
+    },
+    {
+      "id": "40654063",
+      "uuid": "dc8c102f-0242-4234-904a-1ffe685eb024",
+      "name": "2-20 Sds Adaptor",
+      "description": "2-20 SDS Adaptor spare part for hammer machine",
+      "selling_price": 660,
+      "original_price": 700,
+      "discount_percent": 6,
+      "unit": "Per 30 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/01109cdf-e5a0-4876-8fa4-5d9d085b8ae7/1679771020010.jpeg"
+      ],
+      "product_url": "/products/2-20-sds-adaptor"
+    },
+    {
+      "id": "40653904",
+      "uuid": "94d9fd62-6e40-4c77-b12c-2c7dc38e206e",
+      "name": "2-20 Small Gear",
+      "description": "2-20 Small Gear spare part for hammer machine",
+      "selling_price": 700,
+      "original_price": 800,
+      "discount_percent": 13,
+      "unit": "Per 20 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/5a6b12b8-dce1-4a77-b6a7-23c4ae0dc640/1689591874668.jpeg"
+      ],
+      "product_url": "/products/2-20-small-gear"
+    },
+    {
+      "id": "41562881",
+      "uuid": "7de1c359-7e8e-4651-ae91-f7bfb5e31cff",
+      "name": "2-20 XTRA POWER HEAVY",
+      "description": "2-20 XTRA POWER HEAVY spare part for hammer machine",
+      "selling_price": 750,
+      "original_price": 900,
+      "discount_percent": 17,
+      "unit": "Per 10 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/b77d55af-764c-4130-8330-0b7512274f58/1689591839745.jpeg"
+      ],
+      "product_url": "/products/2-20-xtra-power-heavy"
+    },
+    {
+      "id": "41562882",
+      "uuid": "08f88697-8a4b-4956-8651-1ee891c55ed4",
+      "name": "2-20 Rod Gear Sets",
+      "description": "2-20 Rod Gear Sets spare part for hammer machine",
+      "selling_price": 750,
+      "original_price": 1000,
+      "discount_percent": 25,
+      "unit": "Per 10 set",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/2a1c5552-8357-4bad-8878-25d9aa7f8160/1689591901546.jpeg"
+      ],
+      "product_url": "/products/2-20-rod-gear-sets"
+    },
+    {
+      "id": "40653881",
+      "uuid": "6340b2a1-32fb-4b1a-915a-0a389cc551d5",
+      "name": "2-20 Switch",
+      "description": "2-20 Switch spare part for hammer machine",
+      "selling_price": 750,
+      "original_price": 800,
+      "discount_percent": 6,
+      "unit": "Per 10 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/7a342c02-99da-46cf-a19b-92d2aeea5c5a/1679766918078.jpeg"
+      ],
+      "product_url": "/products/2-20-switch"
+    },
+    {
+      "id": "40653894",
+      "uuid": "2a7cc20d-0fed-40d2-bb97-5fcb2c640f30",
+      "name": "2-20 Body",
+      "description": "2-20 Body housing spare part for hammer machine",
+      "selling_price": 800,
+      "original_price": 900,
+      "discount_percent": 11,
+      "unit": "Per 5 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/a370485e-7a42-4396-9b1b-ed8ecd7f7b0d/1679767280612.jpeg"
+      ],
+      "product_url": "/products/2-20-body"
+    },
+    {
+      "id": "40654054",
+      "uuid": "0e63624d-e951-4d31-acdb-62399d483e81",
+      "name": "2-20 Nose Cap Set / Mouth Set Imported",
+      "description": "2-20 Nose Cap Set / Mouth Set (Imported) spare part for hammer machine",
+      "selling_price": 800,
+      "original_price": 1000,
+      "discount_percent": 20,
+      "unit": "Per 20 set",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/907f8870-9631-426a-99ec-79b49c83eef7/1679770811199.jpeg"
+      ],
+      "product_url": "/products/2-20-nose-cap-set-mouth-set-imported"
+    },
+    {
+      "id": "40653858",
+      "uuid": "12ed2aa8-a147-4f48-b779-43cfa78fe3af",
+      "name": "2-20 Taper Bearing",
+      "description": "2-20 Taper Bearing spare part for hammer machine",
+      "selling_price": 850,
+      "original_price": 900,
+      "discount_percent": 6,
+      "unit": "Per 10 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/f8bbd15b-c7c1-4cb7-85a1-c4cb5cd01e6e/1679766105565.jpeg"
+      ],
+      "product_url": "/products/2-20-taper-bearing"
+    },
+    {
+      "id": "40654061",
+      "uuid": "dabcdb84-27ff-4c51-8524-f951ddc16f83",
+      "name": "2-20 Carbon Brush Sets",
+      "description": "2-20 Carbon Brush Sets spare part for hammer machine",
+      "selling_price": 850,
+      "original_price": 1050,
+      "discount_percent": 19,
+      "unit": "Per 100 set",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/4eced2ee-cdd4-4fbd-ba6b-eba0fe85a1e1/1689591635623.jpeg"
+      ],
+      "product_url": "/products/2-20-carbon-brush-sets"
+    },
+    {
+      "id": "40653911",
+      "uuid": "41b2a630-340c-409c-be2e-203c5e05f83c",
+      "name": "2-20 Black Head",
+      "description": "2-20 Black Head spare part for hammer machine",
+      "selling_price": 850,
+      "original_price": 1000,
+      "discount_percent": 15,
+      "unit": "Per 10 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/1b7de687-7a17-4406-b95e-64ff21744313/1679767657657.jpeg"
+      ],
+      "product_url": "/products/2-20-black-head"
+    },
+    {
+      "id": "40654060",
+      "uuid": "9c1efcf2-fa3d-4ff6-8b8e-c8ef8e86dba2",
+      "name": "2-20 Dumping Sets",
+      "description": "2-20 Dumping Sets spare part for hammer machine",
+      "selling_price": 1000,
+      "original_price": 1400,
+      "discount_percent": 29,
+      "unit": "Per 20 set",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/e0df4ecb-579a-4750-8518-1079bcc67683/1679770905024.jpeg"
+      ],
+      "product_url": "/products/2-20-dumping-sets"
+    },
+    {
+      "id": "40653908",
+      "uuid": "e1985db5-0bed-4957-919a-3366c63980df",
+      "name": "2-20 Long Gear",
+      "description": "2-20 Long Gear spare part for hammer machine",
+      "selling_price": 1000,
+      "original_price": 1100,
+      "discount_percent": 9,
+      "unit": "Per 20 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/671465e4-90d5-4e71-b1e4-e1824f0c4db7/1679767593857.jpeg"
+      ],
+      "product_url": "/products/2-20-long-gear"
+    },
+    {
+      "id": "40653900",
+      "uuid": "f8752466-858d-424f-8cd9-ef8a4d1f9fbf",
+      "name": "2-20 Rachet Sleeve (Tool Holder)",
+      "description": "2-20 Rachet Sleeve / Tool Holder spare part for hammer machine",
+      "selling_price": 1200,
+      "original_price": 1500,
+      "discount_percent": 20,
+      "unit": "Per 5 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/9ed64515-4224-4c5c-becb-92e9a35db7ea/1679767431838.jpeg"
+      ],
+      "product_url": "/products/2-20-rachet-sleeve-tool-holder"
+    },
+    {
+      "id": "40653890",
+      "uuid": "0294a177-4e85-41a7-a2dd-fec9c88c5652",
+      "name": "2-20 Aluminium Flange (IGP)",
+      "description": "2-20 Aluminium Flange (IGP) spare part for hammer machine",
+      "selling_price": 1300,
+      "original_price": 1600,
+      "discount_percent": 19,
+      "unit": "Per 10 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/040b4a10-740a-45ee-a8ea-eed44488ea40/1679767150193.jpeg"
+      ],
+      "product_url": "/products/2-20-aluminium-flange-igp"
+    }
+  ]
+}
+```
