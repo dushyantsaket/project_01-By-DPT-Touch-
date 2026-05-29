@@ -1,6 +1,259 @@
 
 {
   "metadata": {
+    "source": "buytoolkit.in",
+    "category": "Uncategorized",
+    "total_products": 293,
+    "current_page": 1,
+    "products_per_page": 12,
+    "currency": "INR",
+    "page_title": "Uncategorized",
+    "breadcrumb": ["Home", "Uncategorized"]
+  },
+  "products": [
+    {
+      "id": "40392",
+      "name": "INGCO Controller shock pad , CIWLI20135-SP-29",
+      "description": "INGCO Controller shock pad spare part for CIWLI20135 model",
+      "price": null,
+      "original_price": null,
+      "discount": null,
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://buytoolkit.in/wp-content/uploads/2026/05/CIWLI20135-SP-29-430x323.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/CIWLI20135-SP-29-400x300.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/CIWLI20135-SP-29-768x576.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/CIWLI20135-SP-29-150x113.png"
+      ],
+      "category": "Uncategorized",
+      "product_type": "simple",
+      "product_url": "https://buytoolkit.in/product/ingco-controller-shock-pad-ciwli20135-sp-29/",
+      "sku": "INGCO Controller shock pad , CIWLI20135-SP-29"
+    },
+    {
+      "id": "40383",
+      "name": "INGCO Carbon Brush , RH1600388-SP-50",
+      "description": "INGCO Carbon Brush spare part for RH1600388 model",
+      "price": null,
+      "original_price": null,
+      "discount": null,
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://buytoolkit.in/wp-content/uploads/2026/05/RH1600388-SP-50-430x573.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/RH1600388-SP-50-225x300.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/RH1600388-SP-50-150x200.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/RH1600388-SP-50.png"
+      ],
+      "category": "Uncategorized",
+      "product_type": "simple",
+      "product_url": "https://buytoolkit.in/product/ingco-carbon-brush-rh1600388-sp-50/",
+      "sku": "INGCO Carbon Brush , RH1600388-SP-50"
+    },
+    {
+      "id": "40373",
+      "name": "INGCO Bracket Ass'y , RGH9028-SP-49-56/67",
+      "description": "INGCO Bracket Assembly spare part for RGH9028 model",
+      "price": null,
+      "original_price": null,
+      "discount": null,
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://buytoolkit.in/wp-content/uploads/2026/05/RGH9028-SP-49-56-67-430x322.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/RGH9028-SP-49-56-67-400x300.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/RGH9028-SP-49-56-67-150x112.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/RGH9028-SP-49-56-67.png"
+      ],
+      "category": "Uncategorized",
+      "product_type": "simple",
+      "product_url": "https://buytoolkit.in/product/ingco-bracket-assy-rgh9028-sp-49-56-67/",
+      "sku": "INGCO Bracket Ass'y , RGH9028-SP-49-56/67"
+    },
+    {
+      "id": "40371",
+      "name": "INGCO , RGH9018-2-SP-21",
+      "description": "INGCO spare part for RGH9018-2 model",
+      "price": null,
+      "original_price": null,
+      "discount": null,
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://buytoolkit.in/wp-content/uploads/woocommerce-placeholder-430x430.png",
+        "https://buytoolkit.in/wp-content/uploads/woocommerce-placeholder-150x150.png",
+        "https://buytoolkit.in/wp-content/uploads/woocommerce-placeholder-300x300.png",
+        "https://buytoolkit.in/wp-content/uploads/woocommerce-placeholder-700x700.png"
+      ],
+      "category": "Uncategorized",
+      "product_type": "simple",
+      "product_url": "https://buytoolkit.in/product/ingco-rgh9018-2-sp-21/",
+      "sku": "INGCO , RGH9018-2-SP-21"
+    },
+    {
+      "id": "40369",
+      "name": "INGCO Transfer Head , COSLI23048-SP-T.H",
+      "description": "INGCO Transfer Head spare part for COSLI23048 model",
+      "price": null,
+      "original_price": null,
+      "discount": null,
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://buytoolkit.in/wp-content/uploads/2026/05/COSLI23048-SP-T.H-430x323.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/COSLI23048-SP-T.H-400x300.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/COSLI23048-SP-T.H-150x113.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/COSLI23048-SP-T.H.png"
+      ],
+      "category": "Uncategorized",
+      "product_type": "simple",
+      "product_url": "https://buytoolkit.in/product/ingco-transfer-head-cosli23048-sp-t-h/",
+      "sku": "INGCO Transfer Head , COSLI23048-SP-T.H"
+    },
+    {
+      "id": "40367",
+      "name": "INGCO Switch cushioning pad , CIWLI20135-SP-25",
+      "description": "INGCO Switch cushioning pad spare part for CIWLI20135 model",
+      "price": null,
+      "original_price": null,
+      "discount": null,
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://buytoolkit.in/wp-content/uploads/2026/05/CIWLI20135-SP-25-430x323.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/CIWLI20135-SP-25-400x300.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/CIWLI20135-SP-25-768x576.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/CIWLI20135-SP-25-150x113.png"
+      ],
+      "category": "Uncategorized",
+      "product_type": "simple",
+      "product_url": "https://buytoolkit.in/product/ingco-switch-cushioning-pad-ciwli20135-sp-25/",
+      "sku": "INGCO Switch cushioning pad , CIWLI20135-SP-25"
+    },
+    {
+      "id": "40362",
+      "name": "INGCO Steel Ring17.5*2 , RH150028-SP-2",
+      "description": "INGCO Steel Ring 17.5x2mm spare part for RH150028 model",
+      "price": null,
+      "original_price": null,
+      "discount": null,
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://buytoolkit.in/wp-content/uploads/2026/05/RH150028-SP-2-430x430.jpg",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/RH150028-SP-2-300x300.jpg",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/RH150028-SP-2-150x150.jpg",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/RH150028-SP-2.jpg"
+      ],
+      "category": "Uncategorized",
+      "product_type": "simple",
+      "product_url": "https://buytoolkit.in/product/ingco-steel-ring17-52-rh150028-sp-2/",
+      "sku": "INGCO Steel Ring17.5*2 , RH150028-SP-2"
+    },
+    {
+      "id": "40357",
+      "name": "INGCO Output shaft assembly , CIWLI2045-SP-5",
+      "description": "INGCO Output shaft assembly spare part for CIWLI2045 model",
+      "price": null,
+      "original_price": null,
+      "discount": null,
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://buytoolkit.in/wp-content/uploads/2026/05/CIWLI2045-SP-5-430x535.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/CIWLI2045-SP-5-241x300.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/CIWLI2045-SP-5-768x956.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/CIWLI2045-SP-5-700x871.png"
+      ],
+      "category": "Uncategorized",
+      "product_type": "simple",
+      "product_url": "https://buytoolkit.in/product/ingco-output-shaft-assembly-ciwli2045-sp-5/",
+      "sku": "INGCO Output shaft assembly , CIWLI2045-SP-5"
+    },
+    {
+      "id": "40355",
+      "name": "INGCO Circlip φ32 , AG900282-SP-10",
+      "description": "INGCO Circlip 32mm diameter spare part for AG900282 model",
+      "price": null,
+      "original_price": null,
+      "discount": null,
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://buytoolkit.in/wp-content/uploads/2026/05/AG900282-SP-10-430x430.jpg",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/AG900282-SP-10-300x300.jpg",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/AG900282-SP-10-801x800.jpg",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/AG900282-SP-10-150x150.jpg"
+      ],
+      "category": "Uncategorized",
+      "product_type": "simple",
+      "product_url": "https://buytoolkit.in/product/ingco-circlip-%cf%8632-ag900282-sp-10/",
+      "sku": "INGCO Circlip φ32 , AG900282-SP-10"
+    },
+    {
+      "id": "40353",
+      "name": "INGCO Nut M6 , AG900282-SP-19",
+      "description": "INGCO M6 Nut spare part for AG900282 model",
+      "price": null,
+      "original_price": null,
+      "discount": null,
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://buytoolkit.in/wp-content/uploads/2026/05/AG900282-SP-19-430x430.jpg",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/AG900282-SP-19-300x300.jpg",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/AG900282-SP-19-150x150.jpg",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/AG900282-SP-19.jpg"
+      ],
+      "category": "Uncategorized",
+      "product_type": "simple",
+      "product_url": "https://buytoolkit.in/product/ingco-nut-m6-ag900282-sp-19/",
+      "sku": "INGCO Nut M6 , AG900282-SP-19"
+    },
+    {
+      "id": "40351",
+      "name": "INGCO Gear Box Cover , AG900282-SP-7",
+      "description": "INGCO Gear Box Cover spare part for AG900282 model",
+      "price": null,
+      "original_price": null,
+      "discount": null,
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://buytoolkit.in/wp-content/uploads/2026/05/AG900282-SP-7-430x323.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/AG900282-SP-7-400x300.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/AG900282-SP-7-768x576.png",
+        "https://buytoolkit.in/wp-content/uploads/2026/05/AG900282-SP-7-700x525.png"
+      ],
+      "category": "Uncategorized",
+      "product_type": "simple",
+      "product_url": "https://buytoolkit.in/product/ingco-gear-box-cover-ag900282-sp-7/",
+      "sku": "INGCO Gear Box Cover , AG900282-SP-7"
+    },
+    {
+      "id": "40349",
+      "name": "INGCO Head assembly (assembly) , PDB130018-SP-1-6",
+      "description": "INGCO Head assembly spare part for PDB130018 model",
+      "price": null,
+      "original_price": null,
+      "discount": null,
+      "rating": null,
+      "availability": "In Stock",
+      "images": [
+        "https://buytoolkit.in/wp-content/uploads/woocommerce-placeholder-430x430.png",
+        "https://buytoolkit.in/wp-content/uploads/woocommerce-placeholder-150x150.png",
+        "https://buytoolkit.in/wp-content/uploads/woocommerce-placeholder-300x300.png",
+        "https://buytoolkit.in/wp-content/uploads/woocommerce-placeholder-700x700.png"
+      ],
+      "category": "Uncategorized",
+      "product_type": "simple",
+      "product_url": "https://buytoolkit.in/product/ingco-head-assembly-assembly-pdb130018-sp-1-6/",
+      "sku": "INGCO Head assembly (assembly) , PDB130018-SP-1-6"
+    }
+  ]
+},{
+  "metadata": {
     "source": "sparepartwala.in",
     "category": "Cutter Machine Spare Parts",
     "total_products": 58,
