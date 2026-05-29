@@ -1,1 +1,674 @@
 
+{
+  "metadata": {
+    "source": "Ultimamac Services - Spare Parts Portal",
+    "category": "Cleaning Equipments Spares",
+    "sub_category": "Bosch Blowers Spares",
+    "model": "GBL 620",
+    "model_part_number": "3601J805F0",
+    "total_products": 26,
+    "current_page": 1,
+    "total_pages": 2,
+    "currency": "INR"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Motor Housing",
+      "part_number": "1 605 108 29C",
+      "drawing_position": 1,
+      "selling_price": 262.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Motor-Housing--580612",
+      "has_price": true
+    },
+    {
+      "id": 2,
+      "name": "Field",
+      "part_number": "1 604 220 56J",
+      "drawing_position": 2,
+      "selling_price": 828.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Field--580613",
+      "has_price": true
+    },
+    {
+      "id": 3,
+      "name": "Armature",
+      "part_number": "1 604 010 B92",
+      "drawing_position": 3,
+      "selling_price": 728.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/1604010B92_P1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Armature--580614",
+      "has_price": true
+    },
+    {
+      "id": 4,
+      "name": "On-Off Switch",
+      "part_number": "2 607 200 637",
+      "drawing_position": 4,
+      "selling_price": 293.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/2607200637_P2.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/On-Off-Switch--580615",
+      "has_price": true
+    },
+    {
+      "id": 5,
+      "name": "Power supply cord EU",
+      "part_number": "1 604 460 264",
+      "drawing_position": 5,
+      "selling_price": 822.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Power-supply-cord-EU-580616",
+      "has_price": true
+    },
+    {
+      "id": 6,
+      "name": "Grommet Ø6,4-Ø7,2x76",
+      "part_number": "2 600 703 017",
+      "drawing_position": 6,
+      "selling_price": 83.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Grommet-6-4-7-2x76-580617",
+      "has_price": true
+    },
+    {
+      "id": 7,
+      "name": "Cable Clip",
+      "part_number": "2 601 035 001",
+      "drawing_position": 7,
+      "selling_price": 51.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Cable-Clip--580618",
+      "has_price": true
+    },
+    {
+      "id": 8,
+      "name": "Nameplate",
+      "part_number": "1 601 11A 5BY",
+      "drawing_position": 8,
+      "selling_price": null,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "Price on Enquiry",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Nameplate--580619",
+      "has_price": false,
+      "requires_enquiry": true
+    },
+    {
+      "id": 9,
+      "name": "Label GBL 620",
+      "part_number": "1 601 11C 2A4",
+      "drawing_position": 9,
+      "selling_price": null,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "Price on Enquiry",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Label-GBL-620--580620",
+      "has_price": false,
+      "requires_enquiry": true
+    },
+    {
+      "id": 10,
+      "name": "Carbon Brush",
+      "part_number": "1 604 321 129",
+      "drawing_position": 10,
+      "selling_price": 220.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/1604321129_p1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Carbon-Brush--580621",
+      "has_price": true
+    },
+    {
+      "id": 11,
+      "name": "Ball Bearing 7x22x7",
+      "part_number": "1 900 905 018",
+      "drawing_position": 13,
+      "selling_price": 67.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/1900905018_p1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Ball-Bearing-7x22x7--580622",
+      "has_price": true
+    },
+    {
+      "id": 12,
+      "name": "Ball Bearing 9x26x8",
+      "part_number": "1 900 905 025",
+      "drawing_position": 14,
+      "selling_price": 103.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/1900905025_P1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Ball-Bearing-9x26x8--580623",
+      "has_price": true
+    },
+    {
+      "id": 13,
+      "name": "Screw 4x40MM",
+      "part_number": "2 914 201 712",
+      "drawing_position": 17,
+      "selling_price": 35.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Screw-4x40MM--580626",
+      "has_price": true
+    },
+    {
+      "id": 14,
+      "name": "Screw",
+      "part_number": "F 002 G31 025",
+      "drawing_position": 18,
+      "selling_price": 35.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Screw--580627",
+      "has_price": true
+    },
+    {
+      "id": 15,
+      "name": "Handle",
+      "part_number": "1 605 132 15A",
+      "drawing_position": 20,
+      "selling_price": 105.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Handle--580628",
+      "has_price": true
+    },
+    {
+      "id": 16,
+      "name": "Fan",
+      "part_number": "1 606 610 16T",
+      "drawing_position": 21,
+      "selling_price": 130.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/160661016T_P1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Fan--580629",
+      "has_price": true
+    },
+    {
+      "id": 17,
+      "name": "Fan Housing",
+      "part_number": "1 600 A00 15N",
+      "drawing_position": 22,
+      "selling_price": 247.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/1600A0015N_P1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Fan-Housing--580630",
+      "has_price": true
+    },
+    {
+      "id": 18,
+      "name": "Fan Cover",
+      "part_number": "1 600 A00 15P",
+      "drawing_position": 23,
+      "selling_price": 181.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Fan-Cover--580631",
+      "has_price": true
+    },
+    {
+      "id": 19,
+      "name": "Hex Nut M6",
+      "part_number": "1 613 300 006",
+      "drawing_position": 24,
+      "selling_price": 35.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Hex-Nut-M6--580632",
+      "has_price": true
+    },
+    {
+      "id": 20,
+      "name": "Connecting Cable",
+      "part_number": "1 600 A00 FT2",
+      "drawing_position": 26,
+      "selling_price": 64.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Connecting-Cable--580633",
+      "has_price": true
+    }
+  ]
+}{
+  "metadata": {
+    "source": "Ultimamac Services - Spare Parts Portal",
+    "category": "Cleaning Equipments Spares",
+    "sub_category": "Bosch Blowers Spares",
+    "model": "GBL 620",
+    "model_part_number": "3601J805F0",
+    "total_products": 26,
+    "current_page": 1,
+    "total_pages": 2,
+    "currency": "INR"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Motor Housing",
+      "part_number": "1 605 108 29C",
+      "drawing_position": 1,
+      "selling_price": 262.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Motor-Housing--580612",
+      "has_price": true
+    },
+    {
+      "id": 2,
+      "name": "Field",
+      "part_number": "1 604 220 56J",
+      "drawing_position": 2,
+      "selling_price": 828.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Field--580613",
+      "has_price": true
+    },
+    {
+      "id": 3,
+      "name": "Armature",
+      "part_number": "1 604 010 B92",
+      "drawing_position": 3,
+      "selling_price": 728.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/1604010B92_P1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Armature--580614",
+      "has_price": true
+    },
+    {
+      "id": 4,
+      "name": "On-Off Switch",
+      "part_number": "2 607 200 637",
+      "drawing_position": 4,
+      "selling_price": 293.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/2607200637_P2.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/On-Off-Switch--580615",
+      "has_price": true
+    },
+    {
+      "id": 5,
+      "name": "Power supply cord EU",
+      "part_number": "1 604 460 264",
+      "drawing_position": 5,
+      "selling_price": 822.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Power-supply-cord-EU-580616",
+      "has_price": true
+    },
+    {
+      "id": 6,
+      "name": "Grommet Ø6,4-Ø7,2x76",
+      "part_number": "2 600 703 017",
+      "drawing_position": 6,
+      "selling_price": 83.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Grommet-6-4-7-2x76-580617",
+      "has_price": true
+    },
+    {
+      "id": 7,
+      "name": "Cable Clip",
+      "part_number": "2 601 035 001",
+      "drawing_position": 7,
+      "selling_price": 51.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Cable-Clip--580618",
+      "has_price": true
+    },
+    {
+      "id": 8,
+      "name": "Nameplate",
+      "part_number": "1 601 11A 5BY",
+      "drawing_position": 8,
+      "selling_price": null,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "Price on Enquiry",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Nameplate--580619",
+      "has_price": false,
+      "requires_enquiry": true
+    },
+    {
+      "id": 9,
+      "name": "Label GBL 620",
+      "part_number": "1 601 11C 2A4",
+      "drawing_position": 9,
+      "selling_price": null,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "Price on Enquiry",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Label-GBL-620--580620",
+      "has_price": false,
+      "requires_enquiry": true
+    },
+    {
+      "id": 10,
+      "name": "Carbon Brush",
+      "part_number": "1 604 321 129",
+      "drawing_position": 10,
+      "selling_price": 220.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/1604321129_p1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Carbon-Brush--580621",
+      "has_price": true
+    },
+    {
+      "id": 11,
+      "name": "Ball Bearing 7x22x7",
+      "part_number": "1 900 905 018",
+      "drawing_position": 13,
+      "selling_price": 67.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/1900905018_p1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Ball-Bearing-7x22x7--580622",
+      "has_price": true
+    },
+    {
+      "id": 12,
+      "name": "Ball Bearing 9x26x8",
+      "part_number": "1 900 905 025",
+      "drawing_position": 14,
+      "selling_price": 103.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/1900905025_P1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Ball-Bearing-9x26x8--580623",
+      "has_price": true
+    },
+    {
+      "id": 13,
+      "name": "Screw 4x40MM",
+      "part_number": "2 914 201 712",
+      "drawing_position": 17,
+      "selling_price": 35.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Screw-4x40MM--580626",
+      "has_price": true
+    },
+    {
+      "id": 14,
+      "name": "Screw",
+      "part_number": "F 002 G31 025",
+      "drawing_position": 18,
+      "selling_price": 35.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Screw--580627",
+      "has_price": true
+    },
+    {
+      "id": 15,
+      "name": "Handle",
+      "part_number": "1 605 132 15A",
+      "drawing_position": 20,
+      "selling_price": 105.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Handle--580628",
+      "has_price": true
+    },
+    {
+      "id": 16,
+      "name": "Fan",
+      "part_number": "1 606 610 16T",
+      "drawing_position": 21,
+      "selling_price": 130.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/160661016T_P1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Fan--580629",
+      "has_price": true
+    },
+    {
+      "id": 17,
+      "name": "Fan Housing",
+      "part_number": "1 600 A00 15N",
+      "drawing_position": 22,
+      "selling_price": 247.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/products/small/spares/1600A0015N_P1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Fan-Housing--580630",
+      "has_price": true
+    },
+    {
+      "id": 18,
+      "name": "Fan Cover",
+      "part_number": "1 600 A00 15P",
+      "drawing_position": 23,
+      "selling_price": 181.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Fan-Cover--580631",
+      "has_price": true
+    },
+    {
+      "id": 19,
+      "name": "Hex Nut M6",
+      "part_number": "1 613 300 006",
+      "drawing_position": 24,
+      "selling_price": 35.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Hex-Nut-M6--580632",
+      "has_price": true
+    },
+    {
+      "id": 20,
+      "name": "Connecting Cable",
+      "part_number": "1 600 A00 FT2",
+      "drawing_position": 26,
+      "selling_price": 64.00,
+      "original_price": null,
+      "discount_percent": null,
+      "availability": "In Stock",
+      "seller": "Ultimamac Services Pvt. Ltd.",
+      "images": [
+        "https://example.com/Uploads/models/drawings/small/GBL-620_MI1346_V1D1.webp"
+      ],
+      "product_url": "/Cleaning-Equipments-Spares/Bosch/Blowers-Spares/GBL-620-1929/Connecting-Cable--580633",
+      "has_price": true
+    }
+  ]
+}
