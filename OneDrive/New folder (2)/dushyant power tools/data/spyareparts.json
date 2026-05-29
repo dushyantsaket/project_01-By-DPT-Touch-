@@ -1,6 +1,240 @@
-Here is the JSON data extracted from the product category cards, including product details, pricing, discount information, and image URLs.
 
-```json
+{
+  "metadata": {
+    "source": "Product Category Page",
+    "category": "PH65 Breaker/Hammer Machine Spare Parts",
+    "total_products": 15,
+    "currency": "₹",
+    "selling_type": "Wholesale/Bulk"
+  },
+  "products": [
+    {
+      "id": "41562769",
+      "uuid": "be883230-c94d-4555-b552-cadd6c4b138b",
+      "name": "PH65 CAP SETS",
+      "description": "PH65 cap sets spare part for breaker/hammer machine",
+      "selling_price": 200,
+      "original_price": 250,
+      "discount_percent": 20,
+      "unit": "Per 10 set",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/d55312ee-d300-452d-aa21-6c6eb017ea4f/1689590405328.jpeg"
+      ],
+      "product_url": "/products/ph65-cap-sets"
+    },
+    {
+      "id": "40659739",
+      "uuid": "fae5630e-7521-437e-a1fc-6e09af17a094",
+      "name": "Ph 65 Metal Brush Patti",
+      "description": "PH65 metal brush patti spare part for breaker/hammer machine",
+      "selling_price": 300,
+      "original_price": 400,
+      "discount_percent": 25,
+      "unit": "Per 20 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/99f45b82-eb34-4850-aa8c-8ab8a6b3426c/1679887106871.jpeg"
+      ],
+      "product_url": "/products/ph-65-metal-brush-patti"
+    },
+    {
+      "id": "40694377",
+      "uuid": "13cbcce2-da22-4f3e-a3c2-0b6d23cc28fb",
+      "name": "PH65A SMALL GEAR",
+      "description": "PH65A small gear spare part for breaker/hammer machine",
+      "selling_price": 380,
+      "original_price": null,
+      "discount_percent": null,
+      "unit": "Per 2 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/92845bb7-0126-4586-9bdf-a0de8a145395/1680191302363.jpeg"
+      ],
+      "product_url": "/products/ph65a-small-gear"
+    },
+    {
+      "id": "40654754",
+      "uuid": "34afdb14-b385-487d-a1c2-618bf57b826c",
+      "name": "Ph65 Piston Pin",
+      "description": "PH65 piston pin spare part for breaker/hammer machine",
+      "selling_price": 500,
+      "original_price": null,
+      "discount_percent": null,
+      "unit": "Per 10 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/18d4efd5-33f3-4be9-af9c-1115a8003530/1679805241156.jpeg"
+      ],
+      "product_url": "/products/ph65-piston-pin"
+    },
+    {
+      "id": "41562763",
+      "uuid": "3d468ce6-e606-462e-86ef-a35031c9a816",
+      "name": "ph65 wollen felt",
+      "description": "PH65 woolen felt spare part for breaker/hammer machine",
+      "selling_price": 500,
+      "original_price": 720,
+      "discount_percent": 31,
+      "unit": "Per 20 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/fcc2ab3c-bbff-45f9-aea3-8215c84d2ade/1689590317758.jpeg"
+      ],
+      "product_url": "/products/ph65-wollen-felt"
+    },
+    {
+      "id": "40659799",
+      "uuid": "23165548-111c-4f1b-9126-c23045fb9284",
+      "name": "Ph65 Switch",
+      "description": "PH65 switch spare part for breaker/hammer machine",
+      "selling_price": 550,
+      "original_price": null,
+      "discount_percent": null,
+      "unit": "Per 5 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/projecteagle/images/f9c216b4-db4d-4d14-a06e-75e882c85a68.jpg"
+      ],
+      "product_url": "/products/ph65-switch"
+    },
+    {
+      "id": "40654749",
+      "uuid": "4ef2e0e6-c5e1-406e-8913-42b713a83a09",
+      "name": "Ph65 Nylon Piston Ring Rubber",
+      "description": "PH65 nylon piston ring rubber spare part for breaker/hammer machine",
+      "selling_price": 650,
+      "original_price": 800,
+      "discount_percent": 19,
+      "unit": "Per 10 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://api.mydukaan.io/static/images/category-def.jpg"
+      ],
+      "product_url": "/products/ph65-nylon-piston-ring-rubber"
+    },
+    {
+      "id": "40654748",
+      "uuid": "d5d5cdb2-3dd8-4fd4-89b9-36c2245f55b9",
+      "name": "Ph65 Alum Piston",
+      "description": "PH65 aluminum piston spare part for breaker/hammer machine",
+      "selling_price": 700,
+      "original_price": 900,
+      "discount_percent": 22,
+      "unit": "Per 5 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/2d2a95da-112b-450c-b177-79b5ddae379f/1679805076512.jpeg"
+      ],
+      "product_url": "/products/ph65-alum-piston"
+    },
+    {
+      "id": "40659741",
+      "uuid": "d9cff1dc-6b0a-490b-8fd4-8703ed4918ae",
+      "name": "Ph65 Roller Bearing",
+      "description": "PH65 roller bearing spare part for breaker/hammer machine",
+      "selling_price": 700,
+      "original_price": 800,
+      "discount_percent": 13,
+      "unit": "Per 5 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/b5dc7198-4ccc-4673-9cbb-1c1cb3548a64/1679887291739.jpeg"
+      ],
+      "product_url": "/products/ph65-roller-bearing"
+    },
+    {
+      "id": "40654757",
+      "uuid": "bf4d2b2e-4d3c-47cb-a864-ed7673b211fe",
+      "name": "Ph65 Front Handle",
+      "description": "PH65 front handle spare part for breaker/hammer machine",
+      "selling_price": 720,
+      "original_price": 800,
+      "discount_percent": 10,
+      "unit": "Per 2 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/494a5926-9ea9-4ed4-b706-563fa73b4efb/1679805317298.jpeg"
+      ],
+      "product_url": "/products/ph65-front-handle"
+    },
+    {
+      "id": "40655688",
+      "uuid": "f4d9a613-38df-45e8-9bad-fbc3cc277050",
+      "name": "Ph65 Stop Lever Bit Holder",
+      "description": "PH65 stop lever bit holder spare part for breaker/hammer machine",
+      "selling_price": 880,
+      "original_price": 980,
+      "discount_percent": 10,
+      "unit": "Per 10 set",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/a5c6e22e-9a19-4825-bb5c-2cc6f06fbde2/1679815309258.jpeg"
+      ],
+      "product_url": "/products/ph65-stop-lever-bit-holder"
+    },
+    {
+      "id": "40659737",
+      "uuid": "3d2e8b30-2766-4d4e-b2fd-deabff1f059f",
+      "name": "Ph65 Kala Gutka",
+      "description": "PH65 kala gutka (black block) spare part for breaker/hammer machine",
+      "selling_price": 900,
+      "original_price": 1000,
+      "discount_percent": 10,
+      "unit": "Per 2 piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/91782121-ca9a-4c92-a508-1e0ad2bb717f/1679886999784.jpeg"
+      ],
+      "product_url": "/products/ph65-kala-gutka"
+    },
+    {
+      "id": "40713332",
+      "uuid": "5a9479a1-b494-4814-b446-1b866150dffd",
+      "name": "ph65 body heavy type",
+      "description": "PH65 heavy type body housing spare part for breaker/hammer machine",
+      "selling_price": 1000,
+      "original_price": 1050,
+      "discount_percent": 5,
+      "unit": "Per piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/2b312835-2da4-4ec5-a47d-f1dee90697c0/1680424734396.jpeg"
+      ],
+      "product_url": "/products/ph65-body-heavy-type"
+    },
+    {
+      "id": "40654637",
+      "uuid": "ffa8a20a-5e78-4eda-84ae-2922fc148f7d",
+      "name": "Ph65 (15kg Breaker) Carbon Brush Set",
+      "description": "PH65 15kg breaker carbon brush set spare part",
+      "selling_price": 1000,
+      "original_price": 1250,
+      "discount_percent": 20,
+      "unit": "Per 50 set",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/f02f25b6-394f-49be-a543-33db5e15ae26/1679803109855.jpeg"
+      ],
+      "product_url": "/products/ph65-15kg-breaker-carbon-brush-set"
+    },
+    {
+      "id": "40654759",
+      "uuid": "814205ec-0866-4e4d-aa18-fd7f4a7e4d0e",
+      "name": "Ph65 Body Aluminium",
+      "description": "PH65 aluminum body housing spare part for breaker/hammer machine",
+      "selling_price": 1020,
+      "original_price": null,
+      "discount_percent": null,
+      "unit": "Per piece",
+      "availability": "In Stock",
+      "images": [
+        "https://dukaan.b-cdn.net/700x700/webp/upload_file_service/dd129dd1-bf4d-4cdb-a3d5-4649b5183994/1679805370451.jpeg"
+      ],
+      "product_url": "/products/ph65-body-aluminium"
+    }
+  ]
+},
 {
   "metadata": {
     "source": "Product Category Page",
