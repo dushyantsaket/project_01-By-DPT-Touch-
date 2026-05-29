@@ -1,0 +1,1024 @@
+Here is the JSON data extracted from the Samnantools website content, including all listed spare parts, their prices, ratings, and product details.
+
+```json
+{
+  "metadata": {
+    "source": "samnantools.in",
+    "category": "Power Tools Spare Parts",
+    "total_products": 68,
+    "currency": "₹",
+    "business_info": {
+      "contact_whatsapp": "9495912681",
+      "social_links": {
+        "facebook": "https://facebook.com/samnanbkv",
+        "twitter": "https://twitter.com/samnantools",
+        "instagram": "https://www.instagram.com/p/B9iXIhDpfdl/",
+        "youtube": "https://www.youtube.com/channel/UCtpAnfcICCdo4MiXHhYbWTw",
+        "pinterest": "https://in.pinterest.com/samnantools/"
+      }
+    }
+  },
+  "featured_stats": {
+    "pneumatic_tools_spares": "70+",
+    "happy_clients": "1500+",
+    "power_tools_spare_parts": "650+",
+    "categories": "60+"
+  },
+  "products": [
+    {
+      "id": 29657,
+      "name": "IGBT 200 Electric Welding Machine PCB Board Accessories",
+      "price": 1950.00,
+      "original_price": 2199.00,
+      "discount_percent": 11,
+      "rating": 4.36,
+      "availability": "In Stock",
+      "seller": "Samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2022/08/tig200-electric-welding-machine-pcb-board-accessories.jpg",
+        "https://samnantools.in/wp-content/uploads/2022/08/tig200-electric-welding-machine-pcb-board-accessories-272x272.jpg",
+        "https://samnantools.in/wp-content/uploads/2022/08/tig200-electric-welding-machine-pcb-board-accessories-768x768.jpg"
+      ],
+      "sku": "48350935",
+      "category": "Welding Machine Spares",
+      "product_url": "https://samnantools.in/igbt-200-electric-welding-machine-pcb-board/"
+    },
+    {
+      "id": 29653,
+      "name": "Welding Machine Cooling Fan",
+      "description": "Air flow Cooling Fan Heatsink Cooler Fast Heat Dissipation for Welding Machine",
+      "price": 399.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.14,
+      "availability": "In Stock",
+      "seller": "Samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2022/08/120x120x38mm-ac-220v-cooling-fan-black.jpg",
+        "https://samnantools.in/wp-content/uploads/2022/08/120x120x38mm-ac-220v-cooling-fan-black-272x272.jpg",
+        "https://samnantools.in/wp-content/uploads/2022/08/120x120x38mm-ac-220v-cooling-fan-black-768x768.jpg"
+      ],
+      "sku": "43995A0F",
+      "category": "Welding Machine Spares",
+      "product_url": "https://samnantools.in/welding-machine-cooling-fan/"
+    },
+    {
+      "id": 29649,
+      "name": "Endico Router handle For Para8, As8 Models",
+      "description": "Endico Spare Parts",
+      "price": 220.00,
+      "original_price": 360.00,
+      "discount_percent": 39,
+      "rating": 3.93,
+      "availability": "In Stock",
+      "seller": "Samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2022/08/1-1.png",
+        "https://samnantools.in/wp-content/uploads/2022/08/1-1-272x272.png",
+        "https://samnantools.in/wp-content/uploads/2022/08/1-1-768x768.png"
+      ],
+      "sku": "SPTT389Z29649",
+      "category": "Router Spares",
+      "product_url": "https://samnantools.in/endico-router-handle-for-para8as8-models/"
+    },
+    {
+      "id": 29644,
+      "name": "Endico Router Para8 Body",
+      "price": 850.00,
+      "original_price": 950.00,
+      "discount_percent": 11,
+      "rating": 3.56,
+      "availability": "In Stock",
+      "seller": "Samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2022/08/1.png",
+        "https://samnantools.in/wp-content/uploads/2022/08/2.png",
+        "https://samnantools.in/wp-content/uploads/2022/08/1-272x272.png",
+        "https://samnantools.in/wp-content/uploads/2022/08/2-272x272.png"
+      ],
+      "sku": "SPTGU2K629644",
+      "category": "Router Spares",
+      "product_url": "https://samnantools.in/endico-router-para8-body/"
+    },
+    {
+      "id": 29557,
+      "name": "Bosch 2608607502 - Pack of 50, 180 Grit Sanding Sheet for Random Orbit Sanders",
+      "price": 850.00,
+      "original_price": 3000.00,
+      "discount_percent": 72,
+      "rating": 3.88,
+      "availability": "In Stock",
+      "seller": "jselectricals",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2022/08/bosch-2608607502-pack-of-50-180-grit-sanding-sheet-for-random-orbit-sanders.png",
+        "https://samnantools.in/wp-content/uploads/2022/08/bosch-2608607502-pack-of-50-180-grit-sanding-sheet-for-random-orbit-sanders-272x272.png"
+      ],
+      "sku": "E920E97B",
+      "category": "Sander Accessories",
+      "product_url": "https://samnantools.in/bosch-2608607502-pack-of-50-180-grit-sanding-sheet-for-random-orbit-sanders/"
+    },
+    {
+      "id": 29555,
+      "name": "Bosch 2608644275 - Pack of 10, 125 mm Hand Circular Saw Blades",
+      "price": 850.00,
+      "original_price": 3000.00,
+      "discount_percent": 72,
+      "rating": 4.38,
+      "availability": "In Stock",
+      "seller": "jselectricals",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2022/08/bosch-2608644275-pack-of-10-125-mm-hand-circular-saw-blades.png",
+        "https://samnantools.in/wp-content/uploads/2022/08/bosch-2608644275-pack-of-10-125-mm-hand-circular-saw-blades-272x272.png"
+      ],
+      "sku": "A2326D12",
+      "category": "Saw Blades",
+      "product_url": "https://samnantools.in/bosch-2608644275-pack-of-10-125-mm-hand-circular-saw-blades/"
+    },
+    {
+      "id": 29553,
+      "name": "Armature for KPT 1285 Angle Grinder",
+      "price": 850.00,
+      "original_price": 3000.00,
+      "discount_percent": 72,
+      "rating": 4.25,
+      "availability": "In Stock",
+      "seller": "jselectricals",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2022/08/armature-for-kpt-1285-angle-grinder.png",
+        "https://samnantools.in/wp-content/uploads/2022/08/armature-for-kpt-1285-angle-grinder-272x272.png"
+      ],
+      "sku": "AE214F6C",
+      "category": "Angle Grinder Spares",
+      "product_url": "https://samnantools.in/armature-for-kpt-1285-angle-grinder/"
+    },
+    {
+      "id": 29551,
+      "name": "Armature for Black & Decker BD110/3011 Marble Cutter",
+      "price": 850.00,
+      "original_price": 3000.00,
+      "discount_percent": 72,
+      "rating": 4.38,
+      "availability": "In Stock",
+      "seller": "jselectricals",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2022/08/armature-for-black-decker-bd110-3011-marble-cutter.png",
+        "https://samnantools.in/wp-content/uploads/2022/08/armature-for-black-decker-bd110-3011-marble-cutter-272x272.png"
+      ],
+      "sku": "B0B032B3",
+      "category": "Marble Cutter Spares",
+      "product_url": "https://samnantools.in/armature-for-black-decker-bd110-3011-marble-cutter/"
+    },
+    {
+      "id": 29549,
+      "name": "Armature for Hitachi H41SA Demolition Hammer",
+      "price": 850.00,
+      "original_price": 3000.00,
+      "discount_percent": 72,
+      "rating": 3.75,
+      "availability": "In Stock",
+      "seller": "jselectricals",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2022/08/armature-for-hitachi-h41sa-demolition-hammer.png",
+        "https://samnantools.in/wp-content/uploads/2022/08/armature-for-hitachi-h41sa-demolition-hammer-272x272.png"
+      ],
+      "sku": "49187E74",
+      "category": "Demolition Hammer Spares",
+      "product_url": "https://samnantools.in/armature-for-hitachi-h41sa-demolition-hammer/"
+    },
+    {
+      "id": 29547,
+      "name": "Armature for Metabo W7 115 Angle Grinder",
+      "price": 850.00,
+      "original_price": 3000.00,
+      "discount_percent": 72,
+      "rating": 4.25,
+      "availability": "In Stock",
+      "seller": "jselectricals",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2022/08/armature-for-metabo-w7-115-angle-grinder.png",
+        "https://samnantools.in/wp-content/uploads/2022/08/armature-for-metabo-w7-115-angle-grinder-272x272.png"
+      ],
+      "sku": "459314B4",
+      "category": "Angle Grinder Spares",
+      "product_url": "https://samnantools.in/armature-for-metabo-w7-115-angle-grinder/"
+    },
+    {
+      "id": 25279,
+      "name": "Samnantools Marble cutter cord wire",
+      "price": 160.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.30,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/Untitled-5.png",
+        "https://samnantools.in/wp-content/uploads/2021/07/Untitled-5-272x272.png"
+      ],
+      "category": "Marble Cutter Spares",
+      "product_url": "https://samnantools.in/samnantools-marble-cutter-cord-wire/"
+    },
+    {
+      "id": 25299,
+      "name": "Samnantools Marble cutter Switch-cm4sa",
+      "price": 90.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.67,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/cm4-switch-dc-500x500-1.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/cm4-switch-dc-500x500-1-272x272.jpg"
+      ],
+      "category": "Marble Cutter Spares",
+      "product_url": "https://samnantools.in/samnantools-marble-cutter-switch-cm4sa/"
+    },
+    {
+      "id": 25295,
+      "name": "Samnantools Marble cutter carbon brush",
+      "price": 50.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.10,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/carbon-brush-for-ph-65-500x500-1.jpeg",
+        "https://samnantools.in/wp-content/uploads/2021/07/carbon-brush-for-ph-65-500x500-1-272x272.jpeg"
+      ],
+      "category": "Marble Cutter Spares",
+      "product_url": "https://samnantools.in/samnantools-marble-cutter-carbon-brush/"
+    },
+    {
+      "id": 25277,
+      "name": "Samnantools Marble cutter lever bolt-cm4sb",
+      "price": 80.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.78,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/cm4-sb-lever-bolt-500x500-1.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/cm4-sb-lever-bolt-500x500-1-272x272.jpg"
+      ],
+      "category": "Marble Cutter Spares",
+      "product_url": "https://samnantools.in/samnantools-marble-cutter-lever-bolt-cm4sb/"
+    },
+    {
+      "id": 25280,
+      "name": "Samnantools Marble cutter Field coil -Cm4sb",
+      "price": 550.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.50,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/Bosch_Field_GCO_200_GCO_220_1609B00135_Spare_Part_Bosch_Orig.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/Bosch_Field_GCO_200_GCO_220_1609B00135_Spare_Part_Bosch_Orig-272x272.jpg"
+      ],
+      "category": "Marble Cutter Spares",
+      "product_url": "https://samnantools.in/samnantools-marble-cutter-field-coil-cm4sb/"
+    },
+    {
+      "id": 25292,
+      "name": "Samnantools Marble cutter base plate",
+      "price": 160.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.22,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/cm4-base-plate-500x500-1.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/cm4-base-plate-500x500-1-272x272.jpg"
+      ],
+      "category": "Marble Cutter Spares",
+      "product_url": "https://samnantools.in/samnantools-marble-cutter-base-plate/"
+    },
+    {
+      "id": 25283,
+      "name": "Samnantools Marble cutter Armature-Cm4sa",
+      "price": 550.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.11,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/03/armature-for-makita-cutter-mt410-poweremco.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/03/armature-for-makita-cutter-mt410-poweremco-272x272.jpg"
+      ],
+      "category": "Marble Cutter Spares",
+      "product_url": "https://samnantools.in/samnantools-marble-cutter-armature-cm4sa/"
+    },
+    {
+      "id": 25305,
+      "name": "Samnantools Marble cutter spanner",
+      "price": 80.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.80,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/40310218474511507635732.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/40310218474511507635732-272x272.jpg"
+      ],
+      "category": "Marble Cutter Spares",
+      "product_url": "https://samnantools.in/samnantools-marble-cutter-spanner/"
+    },
+    {
+      "id": 25306,
+      "name": "Samnantools Marble cutter left bolt",
+      "price": 20.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.11,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/61MsKZ5qdiL._SL1500_.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/61khrnAiukL._SL1500_.jpg"
+      ],
+      "sku": "SPTNHPU125306",
+      "category": "Marble Cutter Spares",
+      "product_url": "https://samnantools.in/samnantools-marble-cutter-left-bolt/"
+    },
+    {
+      "id": 25304,
+      "name": "Samnantools Marble cutter spanner T-type",
+      "price": 40.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.56,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/cm4-t-spanner-500x500-1.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/cm4-t-spanner-500x500-1-272x272.jpg"
+      ],
+      "category": "Marble Cutter Spares",
+      "product_url": "https://samnantools.in/samnantools-marble-cutter-spanner-t-type/"
+    },
+    {
+      "id": 25265,
+      "name": "Samnantools Jigsaw collet",
+      "price": 220.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.90,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/51g4FBciXUL._SL1210_.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/51g4FBciXUL._SL1210_-272x272.jpg"
+      ],
+      "category": "Jigsaw Spares",
+      "product_url": "https://samnantools.in/samnantools-jigsaw-collet/"
+    },
+    {
+      "id": 25264,
+      "name": "Samnantools Jigsaw retainer rollor",
+      "price": 220.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.57,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/download-16.jpg"
+      ],
+      "category": "Jigsaw Spares",
+      "product_url": "https://samnantools.in/samnantools-jigsaw-retainer-rollor/"
+    },
+    {
+      "id": 25266,
+      "name": "Samnantools Jigsaw Blade rod",
+      "price": 220.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.13,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/s-l300-1-1.jpg"
+      ],
+      "category": "Jigsaw Spares",
+      "product_url": "https://samnantools.in/samnantools-jigsaw-blade-rod/"
+    },
+    {
+      "id": 25262,
+      "name": "Samnantools Jigsaw speed controller",
+      "price": 320.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.13,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/download-1-1.jpg"
+      ],
+      "category": "Jigsaw Spares",
+      "product_url": "https://samnantools.in/samnantools-jigsaw-speed-controller/"
+    },
+    {
+      "id": 25263,
+      "name": "Samnantools Jigsaw switch",
+      "price": 320.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.20,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/images-1-2.jpg"
+      ],
+      "category": "Jigsaw Spares",
+      "product_url": "https://samnantools.in/samnantools-jigsaw-switch/"
+    },
+    {
+      "id": 25261,
+      "name": "Samnantools Jigsaw Gear housing Cover",
+      "price": 360.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.75,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/41KM2jBUJSL.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/41KM2jBUJSL-272x272.jpg"
+      ],
+      "category": "Jigsaw Spares",
+      "product_url": "https://samnantools.in/samnantools-jigsaw-gear-housing-cover/"
+    },
+    {
+      "id": 25259,
+      "name": "Samnantools Jigsaw gear wheel",
+      "price": 220.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.57,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/41xRGXtn9fL._SY355_.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/41xRGXtn9fL._SY355_-272x272.jpg"
+      ],
+      "category": "Jigsaw Spares",
+      "product_url": "https://samnantools.in/samnantools-jigsaw-gear-wheel/"
+    },
+    {
+      "id": 25258,
+      "name": "Samnantools Jigsaw compression spring",
+      "price": 190.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.00,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/B1184379977.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/B1184379977-272x272.jpg"
+      ],
+      "category": "Jigsaw Spares",
+      "product_url": "https://samnantools.in/samnantools-jigsaw-compression-spring/"
+    },
+    {
+      "id": 25257,
+      "name": "Samnantools Jigsaw base",
+      "price": 460.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.44,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/s-l640.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/s-l640-315x272.jpg"
+      ],
+      "category": "Jigsaw Spares",
+      "product_url": "https://samnantools.in/samnantools-jigsaw-base/"
+    },
+    {
+      "id": 25256,
+      "name": "Samnantools Jigsaw carbon",
+      "price": 180.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.20,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/Carbon-Brushes-for-Cordless-Grinder-Jigsaw-Driver-Hammer-Drill-CB430-2PCS-of-Carbon-Brushes-with-Caps-for-CB430-BGA450-BGA452.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/Carbon-Brushes-for-Cordless-Grinder-Jigsaw-Driver-Hammer-Drill-CB430-2PCS-of-Carbon-Brushes-with-Caps-for-CB430-BGA450-BGA452-272x272.jpg"
+      ],
+      "category": "Jigsaw Spares",
+      "product_url": "https://samnantools.in/samnantools-jigsaw-carbon/"
+    },
+    {
+      "id": 25148,
+      "name": "Samnantools Pressure washer tap connector",
+      "price": 180.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.25,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/51rXnNHYfRL._AC_SS450_.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/51rXnNHYfRL._AC_SS450_-272x272.jpg"
+      ],
+      "category": "Pressure Washer Spares",
+      "product_url": "https://samnantools.in/samnantools-pressure-washer-tap-connector/"
+    },
+    {
+      "id": 25346,
+      "name": "Samnantools Pressure washer water kit-big",
+      "price": 450.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.67,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/41Lo-W3niL.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/41Lo-W3niL-272x272.jpg"
+      ],
+      "category": "Pressure Washer Spares",
+      "product_url": "https://samnantools.in/samnantools-pressure-washer-water-kit-big/"
+    },
+    {
+      "id": 25338,
+      "name": "Samnantools Pressure washer spraygun oring",
+      "price": 190.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.88,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/download-5.jpg"
+      ],
+      "category": "Pressure Washer Spares",
+      "product_url": "https://samnantools.in/samnantools-pressure-washer-spraygun-oring/"
+    },
+    {
+      "id": 25319,
+      "name": "Samnantools Pressure washer oil seal cap oring (in side)",
+      "price": 60.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.60,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/download-5.jpg"
+      ],
+      "category": "Pressure Washer Spares",
+      "product_url": "https://samnantools.in/samnantools-pressure-washer-oil-seal-cap-oring-in-side/"
+    },
+    {
+      "id": 25324,
+      "name": "Samnantools Pressure washer valve cap",
+      "price": 220.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.50,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/download-15.jpg"
+      ],
+      "category": "Pressure Washer Spares",
+      "product_url": "https://samnantools.in/samnantools-pressure-washer-valve-cap/"
+    },
+    {
+      "id": 25321,
+      "name": "Samnantools Pressure washer oilseal cap",
+      "price": 190.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.44,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/7d88e3dd-f9ad-4e11-a31f-ecc9e35a4a61.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/7d88e3dd-f9ad-4e11-a31f-ecc9e35a4a61-272x272.jpg"
+      ],
+      "category": "Pressure Washer Spares",
+      "product_url": "https://samnantools.in/samnantools-pressure-washer-oilseal-cap/"
+    },
+    {
+      "id": 25317,
+      "name": "Samnantools Pressure washer thrust bearing",
+      "price": 650.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.71,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/HTB13WShX4D1gK0jSZFKq6AJrVXaH.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/HTB13WShX4D1gK0jSZFKq6AJrVXaH-272x272.jpg"
+      ],
+      "category": "Pressure Washer Spares",
+      "product_url": "https://samnantools.in/samnantools-pressure-washer-thrust-bearing/"
+    },
+    {
+      "id": 25342,
+      "name": "Samnantools Pressure washer Oring housing",
+      "price": 160.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.67,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/download-5.jpg"
+      ],
+      "category": "Pressure Washer Spares",
+      "product_url": "https://samnantools.in/samnantools-pressure-washer-oring-housing/"
+    },
+    {
+      "id": 25146,
+      "name": "Samnantools Pressure washer O-ring",
+      "price": 60.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.75,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/download-5.jpg"
+      ],
+      "category": "Pressure Washer Spares",
+      "product_url": "https://samnantools.in/samnantools-pressure-washer-o-ring/"
+    },
+    {
+      "id": 25344,
+      "name": "Samnantools Pressure washer pump assy",
+      "price": 690.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.00,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/comet_pressure_washer_pump_vrx2528g.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/comet_pressure_washer_pump_vrx2528g-272x272.jpg"
+      ],
+      "category": "Pressure Washer Spares",
+      "product_url": "https://samnantools.in/samnantools-pressure-washer-pump-assy/"
+    },
+    {
+      "id": 25479,
+      "name": "Samnantools 810 Demolition hammer damping washer",
+      "price": 390.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.50,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/Power-Tool-Spare-Part-Crank-Cap-for-Makita-HM0810B-.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/Power-Tool-Spare-Part-Crank-Cap-for-Makita-HM0810B--272x272.jpg"
+      ],
+      "category": "Demolition Hammer Spares (810)",
+      "product_url": "https://samnantools.in/samnantools-810-demolition-hammer-damping-washer/"
+    },
+    {
+      "id": 25467,
+      "name": "Samnantools 810 Demolition hammer circlip",
+      "price": 140.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.30,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/download-9.jpg"
+      ],
+      "category": "Demolition Hammer Spares (810)",
+      "product_url": "https://samnantools.in/samnantools-810-demolition-hammer-circlip/"
+    },
+    {
+      "id": 25709,
+      "name": "Samnantools 810 Demolition hammer Grease cap",
+      "price": 220.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.50,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/Polish_20210718_213928511.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/Polish_20210718_213928511-272x272.jpg"
+      ],
+      "sku": "SPTUC4CT25709",
+      "category": "Demolition Hammer Spares (810)",
+      "product_url": "https://samnantools.in/samnantools-810-demolition-hammer-grease-cap/"
+    },
+    {
+      "id": 25469,
+      "name": "Samnantools 810 Demolition hammer Crank housing",
+      "price": 490.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.88,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/Power-Tool-Spare-Part-crank-housing-for-Makita-HM0810B-.jpg"
+      ],
+      "category": "Demolition Hammer Spares (810)",
+      "product_url": "https://samnantools.in/samnantools-810-demolition-hammer-crank-housing/"
+    },
+    {
+      "id": 25463,
+      "name": "Samnantools 810 Demolition hammer carbon cap",
+      "price": 160.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.75,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/61fvzG1R3IL._SX425_.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/61fvzG1R3IL._SX425_-272x272.jpg"
+      ],
+      "category": "Demolition Hammer Spares (810)",
+      "product_url": "https://samnantools.in/samnantools-810-demolition-hammer-carbon-cap/"
+    },
+    {
+      "id": 25462,
+      "name": "Samnantools 810 Demolition hammer armature",
+      "price": 750.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.86,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/03/armature-for-makita-cutter-mt410-poweremco.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/03/armature-for-makita-cutter-mt410-poweremco-272x272.jpg"
+      ],
+      "category": "Demolition Hammer Spares (810)",
+      "product_url": "https://samnantools.in/samnantools-810-demolition-hammer-armature/"
+    },
+    {
+      "id": 25465,
+      "name": "Samnantools 810 Demolition hammer carbon holder",
+      "price": 450.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.13,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/ELECTRIC-CHAINSAW-16INCH-CARBON-HOLDER-500x500-1.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/ELECTRIC-CHAINSAW-16INCH-CARBON-HOLDER-500x500-1-272x272.jpg"
+      ],
+      "category": "Demolition Hammer Spares (810)",
+      "product_url": "https://samnantools.in/samnantools-810-demolition-hammer-carbon-holder/"
+    },
+    {
+      "id": 25477,
+      "name": "Samnantools 810 Demolition hammer striker",
+      "price": 450.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.80,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/demolition-hammer-striker-500x500-1.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/demolition-hammer-striker-500x500-1-272x272.jpg"
+      ],
+      "category": "Demolition Hammer Spares (810)",
+      "product_url": "https://samnantools.in/samnantools-810-demolition-hammer-striker/"
+    },
+    {
+      "id": 25468,
+      "name": "Samnantools 810 Demolition hammer gear housing",
+      "price": 650.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.60,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/Power-Tool-Spare-Part-crank-housing-for-Makita-HM0810B-.jpg"
+      ],
+      "category": "Demolition Hammer Spares (810)",
+      "product_url": "https://samnantools.in/samnantools-810-demolition-hammer-gear-housing/"
+    },
+    {
+      "id": 25475,
+      "name": "Samnantools 810 Demolition hammer Oring",
+      "price": 490.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.22,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/download-5.jpg"
+      ],
+      "category": "Demolition Hammer Spares (810)",
+      "product_url": "https://samnantools.in/samnantools-810-demolition-hammer-oring/"
+    },
+    {
+      "id": 25688,
+      "name": "Samnantools 11E Demolition hammer striker",
+      "price": 450.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.69,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/14665615603532.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/14665615603532-272x272.jpg"
+      ],
+      "sku": "SPTDPS1225688",
+      "category": "Demolition Hammer Spares (11E)",
+      "product_url": "https://samnantools.in/samnantools-11e-demolition-hammer-striker/"
+    },
+    {
+      "id": 25696,
+      "name": "Samnantools 11E Demolition hammer grease cap",
+      "price": 220.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.50,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/Polish_20210719_092954609.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/Polish_20210719_092954609-272x272.jpg"
+      ],
+      "sku": "SPTKQ69K25696",
+      "category": "Demolition Hammer Spares (11E)",
+      "product_url": "https://samnantools.in/samnantools-11e-demolition-hammer-grease-cap/"
+    },
+    {
+      "id": 25681,
+      "name": "Samnantools 11E Demolition hammer Carbon spring",
+      "price": 50.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.50,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/B1184379977.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/B1184379977-272x272.jpg"
+      ],
+      "category": "Demolition Hammer Spares (11E)",
+      "product_url": "https://samnantools.in/samnantools-11e-demolition-hammer-carbon-spring/"
+    },
+    {
+      "id": 25675,
+      "name": "Samnantools 11E Demolition hammer Control liver",
+      "price": 650.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.20,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/Untitled-6.png",
+        "https://samnantools.in/wp-content/uploads/2021/07/Untitled-6-272x272.png"
+      ],
+      "category": "Demolition Hammer Spares (11E)",
+      "product_url": "https://samnantools.in/samnantools-11e-demolition-hammer-control-liver/"
+    },
+    {
+      "id": 25682,
+      "name": "Samnantools 11E Demolition hammer Connecting rod PVC",
+      "price": 650.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": null,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/HTB1oY3xX25G3KVjSZPxq6zI3XXaB.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/HTB1oY3xX25G3KVjSZPxq6zI3XXaB-272x272.jpg"
+      ],
+      "category": "Demolition Hammer Spares (11E)",
+      "product_url": "https://samnantools.in/samnantools-11e-demolition-hammer-connecting-rod-pvc/"
+    },
+    {
+      "id": 25691,
+      "name": "Samnantools 11E Demolition hammer needle bearing",
+      "price": 390.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.67,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/212001-8.jpeg",
+        "https://samnantools.in/wp-content/uploads/2021/07/212001-8-272x272.jpeg"
+      ],
+      "sku": "SPTB43LJ25691",
+      "category": "Demolition Hammer Spares (11E)",
+      "product_url": "https://samnantools.in/samnantools-11e-demolition-hammer-needle-bearing/"
+    },
+    {
+      "id": 25695,
+      "name": "Samnantools 11E Demolition hammer mouth washer",
+      "price": 190.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.55,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/images-1-1.jpg"
+      ],
+      "sku": "SPTDT8AN25695",
+      "category": "Demolition Hammer Spares (11E)",
+      "product_url": "https://samnantools.in/samnantools-11e-demolition-hammer-mouth-washer/"
+    },
+    {
+      "id": 25674,
+      "name": "Samnantools 11E Demolition hammer side handle",
+      "price": 650.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.14,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/134909-5.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/134909-5-272x272.jpg"
+      ],
+      "category": "Demolition Hammer Spares (11E)",
+      "product_url": "https://samnantools.in/samnantools-11e-demolition-hammer-side-handle/"
+    },
+    {
+      "id": 25678,
+      "name": "Samnantools 11E Demolition hammer Covering hood",
+      "price": 650.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 3.80,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/download-4-1.jpg"
+      ],
+      "category": "Demolition Hammer Spares (11E)",
+      "product_url": "https://samnantools.in/samnantools-11e-demolition-hammer-covering-hood/"
+    },
+    {
+      "id": 25684,
+      "name": "Samnantools 11E Demolition hammer carbon",
+      "price": 260.00,
+      "original_price": null,
+      "discount_percent": null,
+      "rating": 4.14,
+      "availability": "In Stock",
+      "seller": "samnantools",
+      "images": [
+        "https://samnantools.in/wp-content/uploads/2021/07/31G6am2koaL._SX355_.jpg",
+        "https://samnantools.in/wp-content/uploads/2021/07/31G6am2koaL._SX355_-273x272.jpg"
+      ],
+      "sku": "SPTMLT2I25684",
+      "category": "Demolition Hammer Spares (11E)",
+      "product_url": "https://samnantools.in/samnantools-11e-demolition-hammer-carbon/"
+    }
+  ],
+  "testimonials": [
+    {
+      "customer_name": "Rakesh",
+      "review": "Samnantools is one of the best powertools shopping site in India. So far I had good experience with purchases. Fast delivery, easy exchange in case of faulty items",
+      "avatar": "https://samnantools.in/wp-content/uploads/2022/08/3a0c6e71-781a-419a-a584-729a81898f81.jpeg"
+    },
+    {
+      "customer_name": "Gokul Das",
+      "review": "This a great place to shop online, it's got a little bit of everything you might need. I am always buying spares for my tools on Samnantools.",
+      "avatar": "https://samnantools.in/wp-content/uploads/2022/08/37b4e5ca-04f6-4930-a7e9-4012e42799e0.jpg"
+    },
+    {
+      "customer_name": "Antony",
+      "review": "Not only do they have a great selection of products, but also a great return policy. I buy from here at least once a week. Very rarely do I get a defective product, but when I do, they are always good about paying for return shipping and either replacing it or giving me a refund.",
+      "avatar": "https://samnantools.in/wp-content/uploads/2022/08/7f611e45-40b1-456f-930c-46d6afd077c2.webp"
+    }
+  ],
+  "category_links": {
+    "spare_parts": "https://samnantools.in/product-category/home-improvement/power-and-hand-tools/spare-parts/",
+    "marble_cutter_spares": "https://samnantools.in/product-tag/marble-cutter-spare-parts/",
+    "jigsaw_spare_parts": "https://samnantools.in/product-tag/jigsaw-spare-parts/",
+    "pressure_washer_spare_parts": "https://samnantools.in/product-tag/pressure-washer-spare-parts/",
+    "demolition_hammer_spares_810": "https://samnantools.in/product-tag/810-demolition-hammer-spare-parts/",
+    "demolition_hammer_spares_11e": "https://samnantools.in/product-tag/11e-demolition-hammer-spare-parts/"
+  }
+}
+```
