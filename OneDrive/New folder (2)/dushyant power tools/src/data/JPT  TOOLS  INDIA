@@ -1,0 +1,423 @@
+{
+  "status": "success",
+  "message": "Products retrieved successfully",
+  "total_products": 23,
+  "current_page": 1,
+  "per_page": 12,
+  "total_pages": 2,
+  "search_term": "Ultra Heavy Duty",
+  "filters": {
+    "categories": {
+      "BESTSELLERS THIS SEASON": 3,
+      "Spring Clamp": 6,
+      "Tool Box": 2,
+      "Pressure Washer Hose Pipe": 5,
+      "Clamps": 4,
+      "Caulking Gun": 2,
+      "Vacuum Cleaner": 1
+    },
+    "price_range": {
+      "min": 199,
+      "max": 24999
+    },
+    "ratings": [3.7, 4.0, 4.5, 4.8, 4.9, 5.0]
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "JPT Ultra Heavy-Duty 8Mtr High Pressure Hose Pipe Compatible With Bosch Aquatak/AQT Series",
+      "short_name": "JPT 8Mtr Pressure Hose Pipe for Bosch",
+      "product_type": "Pressure Washer Hose",
+      "category": "Pressure Washer Hose Pipe",
+      "part_number": "JPT-BOSCH-8M-HP",
+      "drawing_position": 1,
+      "selling_price": 1699,
+      "original_price": 4499,
+      "discount_percent": 62,
+      "discount_amount": 2800,
+      "availability": "In Stock",
+      "seller": "JPT Tools",
+      "rating": 4.5,
+      "review_count": 19,
+      "description": "JPT Ultra Heavy-Duty 8Mtr Hose Pipe For Bosch. Every pressure washer owner knows that performance starts with a reliable hose.",
+      "features": [
+        "Withstand Up to 450 Bar (6525 PSI)",
+        "Premium PVC + PE Layers",
+        "Reinforced Braid",
+        "Compatible with Bosch Aquatak/AQT Series"
+      ],
+      "images": [
+        "https://jpttools.com/cdn/shop/files/bhp8m.jpg?v=1763725973&width=600",
+        "https://jpttools.com/cdn/shop/files/bhp8m_2.jpg?v=1763725973&width=600",
+        "https://jpttools.com/cdn/shop/files/bhp8m_3.jpg?v=1763725973&width=600"
+      ],
+      "product_url": "/products/jpt-8mtr-pressure-hose-pipe-compatible-with-bosch",
+      "variant_id": "39618163212439",
+      "has_price": true,
+      "in_stock": true
+    },
+    {
+      "id": 2,
+      "name": "JPT Pro Series 16-Inch Ultra Heavy-Duty Tool Box",
+      "short_name": "JPT 16-Inch Heavy Duty Tool Box",
+      "product_type": "Tool Box",
+      "category": "Tool Box",
+      "part_number": "JPT-TB-16-PRO",
+      "drawing_position": 2,
+      "selling_price": 1449,
+      "original_price": 3299,
+      "discount_percent": 56,
+      "discount_amount": 1850,
+      "availability": "In Stock",
+      "seller": "JPT Tools",
+      "rating": 4.8,
+      "review_count": 5,
+      "description": "JPT Pro Series 16-Inch Ultra Heavy-Duty Tool Box. The JPT 16-inch heavy-duty tool box is designed for professionals who demand durability.",
+      "features": [
+        "Two Transparent Lid",
+        "One Tray Compartment",
+        "Solid Gasket Seal Design",
+        "Dust & Moisture Protection"
+      ],
+      "images": [
+        "https://jpttools.com/cdn/shop/files/9_0bc98b9d-7003-4772-8f7e-bafb0f06df62.png?v=1770808347&width=600",
+        "https://jpttools.com/cdn/shop/files/toolbox_2.png?v=1770808347&width=600",
+        "https://jpttools.com/cdn/shop/files/toolbox_3.png?v=1770808347&width=600"
+      ],
+      "product_url": "/products/jpt-pro-series-16-inch-heavy-duty-tool-box",
+      "variant_id": "45010542002327",
+      "has_price": true,
+      "in_stock": true
+    },
+    {
+      "id": 3,
+      "name": "JPT Ultra Heavy-Duty 15MTR Flexible High Pressure Washer Hose Pipe",
+      "short_name": "JPT 15MTR Flexible Hose Pipe",
+      "product_type": "Pressure Washer Hose",
+      "category": "Pressure Washer Hose Pipe",
+      "part_number": "JPT-HP-15M-FLEX",
+      "drawing_position": 3,
+      "selling_price": 2049,
+      "original_price": 6999,
+      "discount_percent": 71,
+      "discount_amount": 4950,
+      "availability": "In Stock",
+      "seller": "JPT Tools",
+      "rating": 5.0,
+      "review_count": 2,
+      "description": "JPT Ultra Heavy-Duty 15MTR Flexible Hose Pipe. Every high pressure washer is only as reliable as the hose that delivers the pressure.",
+      "features": [
+        "Up To 600Bar / 8700PSI",
+        "German Standard M22 x 15MM Thread",
+        "Double PVC Layers Build",
+        "Tangle & Kink Free Design"
+      ],
+      "images": [
+        "https://jpttools.com/cdn/shop/files/6_3e12af8e-5e3d-4306-a738-7ac15ce38011.png?v=1776514152&width=600",
+        "https://jpttools.com/cdn/shop/files/hose_15m_2.png?v=1776514152&width=600",
+        "https://jpttools.com/cdn/shop/files/hose_15m_3.png?v=1776514152&width=600"
+      ],
+      "product_url": "/products/jpt-ultra-heavy-duty-15mtr-flexible-hose-pipe",
+      "variant_id": "46108535226519",
+      "has_price": true,
+      "in_stock": true
+    },
+    {
+      "id": 4,
+      "name": "JPT Pro Series 19-Inch Ultra Heavy-Duty Tool Box",
+      "short_name": "JPT 19-Inch Heavy Duty Tool Box",
+      "product_type": "Tool Box",
+      "category": "Tool Box",
+      "part_number": "JPT-TB-19-PRO",
+      "drawing_position": 4,
+      "selling_price": 2399,
+      "original_price": 3899,
+      "discount_percent": 38,
+      "discount_amount": 1500,
+      "availability": "In Stock",
+      "seller": "JPT Tools",
+      "rating": 3.7,
+      "review_count": 3,
+      "description": "JPT Pro Series 19-Inch Ultra Heavy-Duty Tool Box. The JPT 19-inch heavy-duty tool box is designed for professionals who demand durability.",
+      "features": [
+        "Two Transparent Lid",
+        "One Tray Compartment",
+        "Solid Gasket Seal Design",
+        "Industrial-Grade Build Quality"
+      ],
+      "images": [
+        "https://jpttools.com/cdn/shop/files/19_TB.png?v=1770808934&width=600",
+        "https://jpttools.com/cdn/shop/files/19_tb_2.png?v=1770808934&width=600",
+        "https://jpttools.com/cdn/shop/files/19_tb_3.png?v=1770808934&width=600"
+      ],
+      "product_url": "/products/jpt-pro-series-19-inch-heavy-duty-tool-box",
+      "variant_id": "45010519785623",
+      "has_price": true,
+      "in_stock": true
+    },
+    {
+      "id": 5,
+      "name": "JPT Ultra Heavy-Duty 15MTR Flexible Pressure Washer Hose Pipe",
+      "short_name": "JPT 15MTR Pressure Washer Hose",
+      "product_type": "Pressure Washer Hose",
+      "category": "Pressure Washer Hose Pipe",
+      "part_number": "JPT-HP-15M-STD",
+      "drawing_position": 5,
+      "selling_price": 2399,
+      "original_price": 4999,
+      "discount_percent": 52,
+      "discount_amount": 2600,
+      "availability": "In Stock",
+      "seller": "JPT Tools",
+      "rating": 4.0,
+      "review_count": 0,
+      "description": "JPT Ultra Heavy-Duty 15MTR Flexible Hose Pipe. A reliable hose pipe is the backbone of any pressure washer system.",
+      "features": [
+        "Up To 450Bar / 6525PSI",
+        "Standard M22 x 15MM Thread",
+        "PVC + PE Layers Build",
+        "Tangle & Kink Free Design"
+      ],
+      "images": [
+        "https://jpttools.com/cdn/shop/files/5_eb241546-6901-4f53-a97a-0653da71c2da.png?v=1776514174&width=600",
+        "https://jpttools.com/cdn/shop/files/hose_std_2.png?v=1776514174&width=600",
+        "https://jpttools.com/cdn/shop/files/hose_std_3.png?v=1776514174&width=600"
+      ],
+      "product_url": "/products/jpt-ultra-heavy-duty-15mtr-flexible-pressure-washer-hose-pipe",
+      "variant_id": "46168078090391",
+      "has_price": true,
+      "in_stock": true
+    },
+    {
+      "id": 6,
+      "name": "JPT Ultra Heavy-Duty 8MTR Flexible High Pressure Washer Hose Pipe",
+      "short_name": "JPT 8MTR Flexible Hose Pipe",
+      "product_type": "Pressure Washer Hose",
+      "category": "Pressure Washer Hose Pipe",
+      "part_number": "JPT-HP-8M-FLEX",
+      "drawing_position": 6,
+      "selling_price": 1499,
+      "original_price": 4999,
+      "discount_percent": 70,
+      "discount_amount": 3500,
+      "availability": "In Stock",
+      "seller": "JPT Tools",
+      "rating": 5.0,
+      "review_count": 6,
+      "description": "JPT Ultra Heavy-Duty 8MTR Flexible Hose Pipe. Every high pressure washer is only as reliable as the hose that delivers the pressure.",
+      "features": [
+        "Up To 600Bar / 8700PSI",
+        "German Standard M22 x 15MM Thread",
+        "Double PVC Layers Build",
+        "Tangle & Kink Free Design"
+      ],
+      "images": [
+        "https://jpttools.com/cdn/shop/files/1kj.png?v=1776514759&width=600",
+        "https://jpttools.com/cdn/shop/files/8m_flex_2.png?v=1776514759&width=600",
+        "https://jpttools.com/cdn/shop/files/8m_flex_3.png?v=1776514759&width=600"
+      ],
+      "product_url": "/products/jpt-ultra-heavy-duty-8mtr-flexible-hose-pipe",
+      "variant_id": "46100781957271",
+      "has_price": true,
+      "in_stock": true
+    },
+    {
+      "id": 7,
+      "name": "JPT Pro Series Ultra Heavy-Duty Silicone Gun",
+      "short_name": "JPT Heavy Duty Silicone Gun",
+      "product_type": "Caulking Gun",
+      "category": "Caulking Gun",
+      "part_number": "JPT-SG-PRO",
+      "drawing_position": 7,
+      "selling_price": 849,
+      "original_price": 1699,
+      "discount_percent": 50,
+      "discount_amount": 850,
+      "availability": "In Stock",
+      "seller": "JPT Tools",
+      "rating": 4.9,
+      "review_count": 11,
+      "description": "JPT Pro Series Ultra Heavy-Duty Silicone Gun. The JPT heavy-duty professional silicone gun is built for demanding construction and industrial applications.",
+      "features": [
+        "Industrial Grade ABS Frame",
+        "Built-in Nozzle Cutter",
+        "Puncture Tool Included",
+        "For Construction & Industrial Works"
+      ],
+      "images": [
+        "https://jpttools.com/cdn/shop/files/GUN-08.png?v=1768298472&width=600",
+        "https://jpttools.com/cdn/shop/files/gun_2.png?v=1768298472&width=600",
+        "https://jpttools.com/cdn/shop/files/gun_3.png?v=1768298472&width=600"
+      ],
+      "product_url": "/products/jpt-pro-series-heavy-duty-caulking-silicone-gun",
+      "variant_id": "45075150569623",
+      "has_price": true,
+      "in_stock": true
+    },
+    {
+      "id": 8,
+      "name": "JPT KVC60 Ultra Heavy-Duty Wet and Dry Vacuum Cleaner",
+      "short_name": "JPT KVC60 Wet & Dry Vacuum",
+      "product_type": "Vacuum Cleaner",
+      "category": "Vacuum Cleaner",
+      "part_number": "JPT-KVC60",
+      "drawing_position": 8,
+      "selling_price": 24999,
+      "original_price": 38999,
+      "discount_percent": 36,
+      "discount_amount": 14000,
+      "availability": "In Stock",
+      "seller": "JPT Tools",
+      "rating": 5.0,
+      "review_count": 7,
+      "description": "JPT KVC60 Heavy Duty Wet and Dry Vacuum Cleaner. Got a big space that needs serious cleaning? The JPT KVC60 delivers industrial-grade suction power.",
+      "features": [
+        "2300-watt Double Motor",
+        "22 kPa Suction Power",
+        "60-Litre SS Tank",
+        "HEPA Filtration"
+      ],
+      "images": [
+        "https://jpttools.com/cdn/shop/files/1_09db1c92-4345-4656-a095-e14a2a8a99d0.jpg?v=1746859919&width=600",
+        "https://jpttools.com/cdn/shop/files/vacuum_2.jpg?v=1746859919&width=600",
+        "https://jpttools.com/cdn/shop/files/vacuum_3.jpg?v=1746859919&width=600"
+      ],
+      "product_url": "/products/jpt-kvc60-wet-and-dry-vacuum-cleaner",
+      "variant_id": "42072977997975",
+      "has_price": true,
+      "in_stock": true
+    },
+    {
+      "id": 9,
+      "name": "JPT Ultra Heavy-Duty 8MTR Flexible Pressure Washer Hose Pipe",
+      "short_name": "JPT 8MTR Standard Hose",
+      "product_type": "Pressure Washer Hose",
+      "category": "Pressure Washer Hose Pipe",
+      "part_number": "JPT-HP-8M-STD",
+      "drawing_position": 9,
+      "selling_price": 1699,
+      "original_price": 3499,
+      "discount_percent": 51,
+      "discount_amount": 1800,
+      "availability": "In Stock",
+      "seller": "JPT Tools",
+      "rating": 4.0,
+      "review_count": 0,
+      "description": "JPT Ultra Heavy-Duty 8MTR Flexible Hose Pipe. A reliable hose pipe is the backbone of any pressure washer system.",
+      "features": [
+        "Up To 450Bar / 6525PSI",
+        "Standard M22 x 15MM Thread",
+        "PVC + PE Layers Build",
+        "Tangle & Kink Free Design"
+      ],
+      "images": [
+        "https://jpttools.com/cdn/shop/files/3_fedc3a6c-075b-42ee-b2e9-1b794b28732d.png?v=1776514183&width=600",
+        "https://jpttools.com/cdn/shop/files/8m_std_2.png?v=1776514183&width=600",
+        "https://jpttools.com/cdn/shop/files/8m_std_3.png?v=1776514183&width=600"
+      ],
+      "product_url": "/products/jpt-ultra-heavy-duty-8mtr-flexible-pressure-washer-hose-pipe",
+      "variant_id": "46168060231831",
+      "has_price": true,
+      "in_stock": true
+    },
+    {
+      "id": 10,
+      "name": "JPT Ultra Heavy-Duty 15Mtr High Pressure Hose Pipe Compatible With Bosch",
+      "short_name": "JPT 15Mtr Hose for Bosch",
+      "product_type": "Pressure Washer Hose",
+      "category": "Pressure Washer Hose Pipe",
+      "part_number": "JPT-BOSCH-15M-HP",
+      "drawing_position": 10,
+      "selling_price": 2099,
+      "original_price": 5999,
+      "discount_percent": 65,
+      "discount_amount": 3900,
+      "availability": "In Stock",
+      "seller": "JPT Tools",
+      "rating": 0,
+      "review_count": 0,
+      "description": "JPT Ultra Heavy-Duty 15Mtr Hose Pipe For Bosch. Every pressure washer owner knows that performance starts with a reliable hose.",
+      "features": [
+        "Withstand Up to 450 Bar (6525 PSI)",
+        "Premium PVC + PE Layers",
+        "Reinforced Braid",
+        "Compatible with Bosch Aquatak/AQT Series"
+      ],
+      "images": [
+        "https://jpttools.com/cdn/shop/files/bhp15m_jpg.jpg?v=1763725971&width=600",
+        "https://jpttools.com/cdn/shop/files/bosch_15m_2.jpg?v=1763725971&width=600",
+        "https://jpttools.com/cdn/shop/files/bosch_15m_3.jpg?v=1763725971&width=600"
+      ],
+      "product_url": "/products/jpt-15mtr-pressure-hose-pipe-compatible-with-bosch",
+      "variant_id": "46149175804055",
+      "has_price": true,
+      "in_stock": true
+    },
+    {
+      "id": 11,
+      "name": "JPT Ultra Heavy-Duty 57-Inch Quick-Grip Bar Clamps",
+      "short_name": "JPT 57-Inch Bar Clamp",
+      "product_type": "Bar Clamps",
+      "category": "Clamps",
+      "part_number": "JPT-BC-57-QG",
+      "drawing_position": 11,
+      "selling_price": 3899,
+      "original_price": 8599,
+      "discount_percent": 55,
+      "discount_amount": 4700,
+      "availability": "In Stock",
+      "seller": "JPT Tools",
+      "rating": 5.0,
+      "review_count": 2,
+      "description": "JPT Ultra Heavy-Duty 57-Inch Quick-Grip Bar Clamps. The JPT ultra heavy-duty bar clamp delivers a strong, reliable grip for large woodworking projects.",
+      "features": [
+        "1200mm Clamping Range",
+        "One-Handed Wood Clamps",
+        "Quick-Release Trigger",
+        "661 lbs Hold Force"
+      ],
+      "images": [
+        "https://jpttools.com/cdn/shop/files/1_d16d5b6c-bebf-497c-a35b-8f2d3c9c00ec.jpg?v=1744452092&width=600",
+        "https://jpttools.com/cdn/shop/files/clamp_57_2.jpg?v=1744452092&width=600",
+        "https://jpttools.com/cdn/shop/files/clamp_57_3.jpg?v=1744452092&width=600"
+      ],
+      "product_url": "/products/jpt-pro-series-ultra-heavy-duty-57-inch-clamp",
+      "variant_id": "45378805792919",
+      "has_price": true,
+      "in_stock": true
+    },
+    {
+      "id": 12,
+      "name": "JPT Ultra Heavy-Duty Caulking Gun – 200KG High-Thrust",
+      "short_name": "JPT 200KG Caulking Gun",
+      "product_type": "Caulking Gun",
+      "category": "Caulking Gun",
+      "part_number": "JPT-CG-200KG",
+      "drawing_position": 12,
+      "selling_price": 1399,
+      "original_price": 9999,
+      "discount_percent": 86,
+      "discount_amount": 8600,
+      "availability": "In Stock",
+      "seller": "JPT Tools",
+      "rating": 4.0,
+      "review_count": 0,
+      "description": "JPT Ultra Heavy Duty Caulking Gun. The JPT Ultra Heavy Duty Caulking Gun is engineered for professional-grade sealant application.",
+      "features": [
+        "200KG High-Thrust",
+        "Adjustable Power Control",
+        "360° Rotating Barrel",
+        "Anti-Drip & Quick-Release Trigger"
+      ],
+      "images": [
+        "https://jpttools.com/cdn/shop/files/Main_e35e2bc5-083b-45aa-a443-2dcc339cceb3.png?v=1769756714&width=600",
+        "https://jpttools.com/cdn/shop/files/caulking_2.png?v=1769756714&width=600",
+        "https://jpttools.com/cdn/shop/files/caulking_3.png?v=1769756714&width=600"
+      ],
+      "product_url": "/products/jpt-ultra-heavy-duty-caulking-gun-200kg-high-thrust",
+      "variant_id": "46853169021079",
+      "has_price": true,
+      "in_stock": true
+    }
+  ]
+}
