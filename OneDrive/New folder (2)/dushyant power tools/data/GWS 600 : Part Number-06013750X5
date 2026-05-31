@@ -278,7 +278,337 @@
       "images": ["https://example.com/Uploads/models/drawings/small/GWS-600_MI1284_V1D1.webp"],
       "product_url": "/Power-Tools-Spares/Bosch/Angle-Grinders-Spares/GWS-600-1868/O-Ring-42-0x1-1-MM--577075",
       "has_price": true
-    },
+    },[
+  {
+    "id": "msn2ve9ax9dw7v",
+    "name": "Black+Decker 4.8V Battery Powered Cordless Screwdriver Set, KC4815",
+    "brand": "Black & Decker",
+    "selling_price": 1896,
+    "original_price": 3232,
+    "discount_percent": 41,
+    "currency": "₹",
+    "rating": 4.7,
+    "review_count": 17,
+    "emi_available": false,
+    "delivery_date": "24 Hours Delivery",
+    "in_stock": true,
+    "availability_text": "In Stock",
+    "badges": ["24 hrs Dispatch"],
+    "images": [
+      "https://cdn.moglix.com/p/68mzeqvebCiWT-large.jpg",
+      "https://cdn.moglix.com/p/68mzeqvebCiWT-1.jpg",
+      "https://cdn.moglix.com/p/68mzeqvebCiWT-2.jpg"
+    ],
+    "product_url": "https://www.moglix.com/blackdecker-48v-battery-powered-cordless-screwdriver-set-kc4815/mp/msn2ve9ax9dw7v",
+    "key_features": [
+      "Rubber over mold grip provides comfort and avoids slipping.",
+      "On board led light illuminates dark work areas such as"
+    ]
+  },
+  {
+    "id": "msn2km16nlmx9v",
+    "name": "iBELL 3.6 VDC 1500mAh Cordless Rechargeable Red Electric Screwdriver with 6 Months Warranty, IBL MS06-16",
+    "brand": "iBELL",
+    "selling_price": 1760,
+    "original_price": 3300,
+    "discount_percent": 46,
+    "currency": "₹",
+    "rating": 4.6,
+    "review_count": 18,
+    "emi_available": false,
+    "delivery_date": "Wednesday, 10 June",
+    "in_stock": true,
+    "availability_text": "In Stock",
+    "badges": ["48 hrs Dispatch"],
+    "images": [
+      "https://cdn.moglix.com/p/7aFsHGC665rwx-large.jpg",
+      "https://cdn.moglix.com/p/7aFsHGC665rwx-1.jpg",
+      "https://cdn.moglix.com/p/7aFsHGC665rwx-2.jpg"
+    ],
+    "product_url": "https://www.moglix.com/ibell-36-vdc-1500mah-cordless-rechargeable-red-electric-screwdriver-ibl-ms06-16/mp/msn2km16nlmx9v",
+    "key_features": [
+      "Spindle Lock",
+      "Dual Speed Setting"
+    ]
+  },
+  {
+    "id": "msng9vn83z8dkp",
+    "name": "Ingco 4V 240rpm Lithium-ion Cordless Screwdriver, CSDLI0442",
+    "brand": "Ingco",
+    "selling_price": 1318,
+    "original_price": 2610,
+    "discount_percent": 49,
+    "currency": "₹",
+    "rating": 5.0,
+    "review_count": 5,
+    "emi_available": false,
+    "delivery_date": "Friday, 5 June",
+    "in_stock": true,
+    "availability_text": "In Stock",
+    "badges": ["Top Seller"],
+    "images": [
+      "https://cdn.moglix.com/p/yC7EvxRXgXiAg-large.png",
+      "https://cdn.moglix.com/p/yC7EvxRXgXiAg-1.png",
+      "https://cdn.moglix.com/p/yC7EvxRXgXiAg-2.png"
+    ],
+    "product_url": "https://www.moglix.com/ingco-4v-240rpm-lithium-ion-cordless-screwdriver-csdli0442/mp/msng9vn83z8dkp",
+    "key_features": [
+      "Cordless Freedom, Variable Speed Control, Compact & Lightweight, Quick Bit...",
+      "Compact & Lightweight"
+    ]
+  },
+  {
+    "id": "msnrkre21vv39n",
+    "name": "iBELL 6.35mm 3.6V Cordless Screwdriver & Tester with USB Micro-B Charging Port & 10 Pcs Screw Bits, BS03-06",
+    "brand": "iBELL",
+    "selling_price": 1270,
+    "original_price": 2775,
+    "discount_percent": 54,
+    "currency": "₹",
+    "rating": 4.8,
+    "review_count": 18,
+    "emi_available": false,
+    "delivery_date": "Wednesday, 10 June",
+    "in_stock": true,
+    "availability_text": "In Stock",
+    "badges": ["48 hrs Dispatch"],
+    "images": [
+      "https://cdn.moglix.com/p/RSGsHTkrIurks-large.jpg",
+      "https://cdn.moglix.com/p/RSGsHTkrIurks-1.jpg",
+      "https://cdn.moglix.com/p/RSGsHTkrIurks-2.jpg"
+    ],
+    "product_url": "https://www.moglix.com/ibell-635mm-36v-cordless-screwdriver-tester-with-usb-micro-b-charging-port-10-pcs-screw-bits-bs03-06/mp/msnrkre21vv39n",
+    "key_features": [
+      "Reverse & Forward Modes",
+      "Compact & Easy to Control"
+    ]
+  },
+  {
+    "id": "msne9j830xqr9d",
+    "name": "Fein ASM-18-3-PC 18V Precision Cordless Screwdriver, 71127760000",
+    "brand": "Fein",
+    "selling_price": 64120,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "₹",
+    "rating": 4.0,
+    "review_count": 1,
+    "emi_available": true,
+    "delivery_date": "Friday, 5 June",
+    "in_stock": true,
+    "availability_text": "In Stock",
+    "badges": [],
+    "images": [
+      "https://cdn.moglix.com/p/oRuya3cpL81su-large.jpg",
+      "https://cdn.moglix.com/p/oRuya3cpL81su-1.jpg",
+      "https://cdn.moglix.com/p/oRuya3cpL81su-2.jpg"
+    ],
+    "product_url": "https://www.moglix.com/fein-asm-18-3-pc-18v-precision-cordless-screwdriver-71127760000/mp/msne9j830xqr9d",
+    "key_features": [
+      "Connection: Soft & Hard Screwed",
+      "Programmable Parameters"
+    ]
+  },
+  {
+    "id": "msnv5ool8yvv56",
+    "name": "Fein ASW-18-12-PC 18V Precision Cordless Screwdriver, 71126860000",
+    "brand": "Fein",
+    "selling_price": 73549,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "₹",
+    "rating": null,
+    "review_count": 0,
+    "emi_available": true,
+    "delivery_date": "Friday, 5 June",
+    "in_stock": true,
+    "availability_text": "In Stock",
+    "badges": [],
+    "images": [
+      "https://cdn.moglix.com/p/CXpCGlZbkTS3G-large.jpg",
+      "https://cdn.moglix.com/p/CXpCGlZbkTS3G-1.jpg",
+      "https://cdn.moglix.com/p/CXpCGlZbkTS3G-2.jpg"
+    ],
+    "product_url": "https://www.moglix.com/fein-asw-18-12-pc-18v-precision-cordless-screwdriver-71126860000/mp/msnv5ool8yvv56",
+    "key_features": [
+      "Connection: Soft & Hard Screwed",
+      "Infinitely Variable Speed Adjustment"
+    ]
+  },
+  {
+    "id": "msn457m8qw7q9j",
+    "name": "Fein ASM-18-12-PC 18V Precision Cordless Screwdriver, 71127960000",
+    "brand": "Fein",
+    "selling_price": 64120,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "₹",
+    "rating": null,
+    "review_count": 0,
+    "emi_available": true,
+    "delivery_date": "Friday, 5 June",
+    "in_stock": true,
+    "availability_text": "In Stock",
+    "badges": [],
+    "images": [
+      "https://cdn.moglix.com/p/uuB3xJSY8ouDv-large.jpg",
+      "https://cdn.moglix.com/p/uuB3xJSY8ouDv-1.jpg",
+      "https://cdn.moglix.com/p/uuB3xJSY8ouDv-2.jpg"
+    ],
+    "product_url": "https://www.moglix.com/fein-asm-18-12-pc-18v-precision-cordless-screwdriver-71127960000/mp/msn457m8qw7q9j",
+    "key_features": [
+      "High Speed Stability",
+      "Wear-free Acceleration Switch"
+    ]
+  },
+  {
+    "id": "msn19z2dpl2353-g",
+    "name": "Ingco 20V Cordless Drywall Screwdriver with 2Ah Battery Pack, Charger, Screwdriver Bit & Bit Holder, CDSLI204200",
+    "brand": "Ingco",
+    "selling_price": 7299,
+    "original_price": 11114,
+    "discount_percent": 34,
+    "currency": "₹",
+    "rating": null,
+    "review_count": 0,
+    "emi_available": true,
+    "delivery_date": "Friday, 5 June",
+    "in_stock": true,
+    "availability_text": "In Stock",
+    "badges": [],
+    "images": [
+      "https://cdn.moglix.com/p/2wubHRMuqdSQ5-large.png",
+      "https://cdn.moglix.com/p/2wubHRMuqdSQ5-1.png",
+      "https://cdn.moglix.com/p/2wubHRMuqdSQ5-2.png"
+    ],
+    "product_url": "https://www.moglix.com/ingco-20v-cordless-drywall-screwdriver-with-2ah-battery-pack-charger-screwdriver-bit-bit-holder-cdsli204200/mp/msn19z2dpl2353-g",
+    "key_features": []
+  },
+  {
+    "id": "msng9vnoyoqdkp",
+    "name": "Total 4V Cordless Screwdriver, TSDLI0403",
+    "brand": "Total",
+    "selling_price": null,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "₹",
+    "rating": 4.6,
+    "review_count": 5,
+    "emi_available": false,
+    "delivery_date": null,
+    "in_stock": false,
+    "availability_text": "Available on Request",
+    "badges": ["48 hrs Dispatch"],
+    "images": [
+      "https://cdn.moglix.com/p/2XhmpwRYpGeIT-large.jpg",
+      "https://cdn.moglix.com/p/2XhmpwRYpGeIT-1.jpg",
+      "https://cdn.moglix.com/p/2XhmpwRYpGeIT-2.jpg"
+    ],
+    "product_url": "https://www.moglix.com/total-4v-cordless-screwdriver-tsdli0403/mp/msng9vnoyoqdkp",
+    "key_features": [
+      "Cordless design: the cordless design provides mobility & flexibility, allowing...",
+      "Multiple torque settings: features adjustable torque for different screw sizes"
+    ]
+  },
+  {
+    "id": "msn457mnon4n9j",
+    "name": "MECRAAF 21V 1300rpm Black & Yellow Cordless Screwdriver with Reversible Switch Multi Torque Clutch, MC-2110",
+    "brand": "MECRAAF",
+    "selling_price": null,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "₹",
+    "rating": 4.8,
+    "review_count": 4,
+    "emi_available": false,
+    "delivery_date": null,
+    "in_stock": false,
+    "availability_text": "Available on Request",
+    "badges": [],
+    "images": [
+      "https://cdn.moglix.com/p/aSOpW84hPbHnY-large.jpg",
+      "https://cdn.moglix.com/p/aSOpW84hPbHnY-1.jpg",
+      "https://cdn.moglix.com/p/aSOpW84hPbHnY-2.jpg"
+    ],
+    "product_url": "https://www.moglix.com/mecraaf-21v-1300rpm-black-yellow-cordless-screwdriver-with-reversible-switch-multi-torque-clutch-mc-2110/mp/msn457mnon4n9j",
+    "key_features": [
+      "Perfect for Drilling Through Wood, Metal, Plastic & All Screw",
+      "Providing Versatility for Various Tasks and Preventing Over Tightening"
+    ]
+  },
+  {
+    "id": "msn4k6zedev3kq",
+    "name": "Total 8V Cordless Screwdriver, TSDLI0801",
+    "brand": "Total",
+    "selling_price": null,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "₹",
+    "rating": null,
+    "review_count": 0,
+    "emi_available": false,
+    "delivery_date": null,
+    "in_stock": false,
+    "availability_text": "Available on Request",
+    "badges": [],
+    "images": [
+      "https://cdn.moglix.com/p/d79MOb2Diig83-large.jpg",
+      "https://cdn.moglix.com/p/d79MOb2Diig83-1.jpg",
+      "https://cdn.moglix.com/p/d79MOb2Diig83-2.jpg"
+    ],
+    "product_url": "https://www.moglix.com/total-8v-cordless-screwdriver-tsdli0801/mp/msn4k6zedev3kq",
+    "key_features": []
+  },
+  {
+    "id": "msne5n8wmwrykl",
+    "name": "Total 4V Cordless Screwdriver, TSDLI0402",
+    "brand": "Total",
+    "selling_price": null,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "₹",
+    "rating": null,
+    "review_count": 0,
+    "emi_available": false,
+    "delivery_date": null,
+    "in_stock": false,
+    "availability_text": "Available on Request",
+    "badges": [],
+    "images": [
+      "https://cdn.moglix.com/p/Sc7SCLYqYfmBe-large.jpg",
+      "https://cdn.moglix.com/p/Sc7SCLYqYfmBe-1.jpg",
+      "https://cdn.moglix.com/p/Sc7SCLYqYfmBe-2.jpg"
+    ],
+    "product_url": "https://www.moglix.com/total-4v-cordless-screwdriver-tsdli0402/mp/msne5n8wmwrykl",
+    "key_features": []
+  },
+  {
+    "id": "msn153v8742jk3",
+    "name": "Krost 42 Pcs 4V 260rpm Cordless Screwdriver with Intelligent Torque System Set",
+    "brand": "Krost",
+    "selling_price": null,
+    "original_price": null,
+    "discount_percent": null,
+    "currency": "₹",
+    "rating": 3.8,
+    "review_count": 5,
+    "emi_available": false,
+    "delivery_date": null,
+    "in_stock": false,
+    "availability_text": "Available on Request",
+    "badges": [],
+    "images": [
+      "https://cdn.moglix.com/p/8vCHISGnuXQrI-large.jpg",
+      "https://cdn.moglix.com/p/8vCHISGnuXQrI-1.jpg",
+      "https://cdn.moglix.com/p/8vCHISGnuXQrI-2.jpg"
+    ],
+    "product_url": "https://www.moglix.com/krost-42-pcs-4v-260rpm-li-ion-cordless-screwdriver-with-intelligent-torque-system-set/mp/msn153v8742jk3",
+    "key_features": [
+      "Comes with LED Light which Allows the User to Work",
+      "Includes a Unique Wire Stripper, Has Magnetic Bit to Avoid"
+    ]
+  }
+],
     {
       "id": "577076",
       "name": "Shim 0,1 MM THICK",
