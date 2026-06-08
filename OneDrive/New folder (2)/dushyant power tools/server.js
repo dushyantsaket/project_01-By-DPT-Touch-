@@ -215,5 +215,6 @@ app.listen(PORT, () => {
   console.log(` - GET /api/v1/accessories`);
   console.log(` - POST /api/v1/cart/add`);
   console.log(` - POST /api/v1/orders`);
+  console.log(` - POST /api/v1/orders`);
   console.log(`=================================================`);
 });
