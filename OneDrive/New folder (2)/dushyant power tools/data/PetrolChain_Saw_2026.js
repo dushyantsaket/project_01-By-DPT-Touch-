@@ -675,6 +675,17 @@
       ],
       "in_stock": true,
       "badges": []
+    },    {
+      "id": "taparia-masonry-3-13mm",
+      "name": "Taparia 3.00 - 13 mm Masonry Drill Bits",
+      "brand": "Taparia",
+      "min_price": 27.75,
+      "max_price": 104,
+      "currency": "₹",
+      "discount": "25%",
+      "type": "series",
+      "product_url": "/s/taparia-3-00-13-mm-masonry-drill-bits",
+      "image_url": "https://images.toolbuy.com/resources/images/series/series150122112610AMMD360.jpg"
     },
     {
       "id": "msnz526eoo3w9x",
