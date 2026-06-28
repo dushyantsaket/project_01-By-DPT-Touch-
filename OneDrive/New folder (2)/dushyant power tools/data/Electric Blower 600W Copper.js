@@ -564,6 +564,54 @@
     "product_url": "/collections/power-tools/products/portable-concrete-vibrator-1000w?_pos=47&_fid=b080da227&_ss=c"
   },
   {
+      "id": "makita-masonry-3-12mm",
+      "name": "Makita 3.00 - 12 mm Masonry Drill Bit for Brick",
+      "brand": "Makita",
+      "min_price": 27.2,
+      "max_price": 244,
+      "currency": "₹",
+      "discount": "18%",
+      "type": "series",
+      "product_url": "/s/makita-3-00-12-mm-masonry-drill-bit-for-brick",
+      "image_url": "https://images.toolbuy.com/resources/images/series/series031220091040AMtct-brick.jpg"
+    },
+    {
+      "id": "taparia-masonry-3-13mm",
+      "name": "Taparia 3.00 - 13 mm Masonry Drill Bits",
+      "brand": "Taparia",
+      "min_price": 27.75,
+      "max_price": 104,
+      "currency": "₹",
+      "discount": "25%",
+      "type": "series",
+      "product_url": "/s/taparia-3-00-13-mm-masonry-drill-bits",
+      "image_url": "https://images.toolbuy.com/resources/images/series/series150122112610AMMD360.jpg"
+    },
+    {
+      "id": "yato-cobalt-hss-1-8mm",
+      "name": "Yato 1.00 - 8.00 mm Cobalt-HSS Twist Drill Bits",
+      "brand": "Yato",
+      "min_price": 32.45,
+      "max_price": 254,
+      "currency": "₹",
+      "discount": "45%",
+      "type": "series",
+      "product_url": "/s/yato-1-00-8-00-mm-cobalt-hss-twist-drill-bits",
+      "image_url": "https://images.toolbuy.com/resources/images/series/series090121105751AM4010.jpg"
+    },
+    {
+      "id": "bosch-cyl-2-masonry-3-16mm",
+      "name": "Bosch 3.00 - 16 mm CYL - 2 Masonry Drill Bit",
+      "brand": "Bosch",
+      "min_price": 32.66,
+      "max_price": 413,
+      "currency": "₹",
+      "discount": "29%",
+      "type": "series",
+      "product_url": "/s/bosch-3-00-16-mm-cyl-2-masonry-drill-bit",
+      "image_url": "https://images.toolbuy.com/resources/images/series/series230419085323AMcyl-2.jpg"
+    },
+  {
     "id": "9994428023095",
     "title": "Electric Blower 600W Copper",
     "price": 1100,
