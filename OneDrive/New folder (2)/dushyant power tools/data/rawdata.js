@@ -23,7 +23,7 @@
           "original": 1380,
           "discount_percent": 17,
           "discount_amount": 230,
-          "currency": "₹"
+          "currency": "₹Indian"
         },
         "images": {
           "thumbnail": "https://cdnnew.toolsvilla.com/products-Pahal-Nylon-Large-Water-Proof-Tool-Bag/1688168694281/Untitled-1-watmrkA.webp/sm",
