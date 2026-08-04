@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Auxiliary Handle",
+    "order_no": "1F 002 G30 042",
+    "price_inr": 14.00,
+    "image": "https://api.bosch-spares.com/images/accessories/aux_handle.png",
+    "compatibility": ["GWS 600", "GWS 750", "GWS 900"],
+    "description": "Additional handle for better control and safety"
+  },
+  {
+    "id": 2,
+    "name": "Pin-Type Face-Wrench",
+    "order_no": "1 600 A00 F93",
+    "price_inr": 17.00,
+    "image": "https://api.bosch-spares.com/images/accessories/pin_wrench.png",
+    "compatibility": ["GWS 600", "GWS 750"],
+    "description": "For tightening and loosening grinding wheels"
+  },
+  {
+    "id": 3,
+    "name": "Protective Cover Ø100 MM",
+    "order_no": "1 600 A00 XU5",
+    "price_inr": 121.00,
+    "image": "https://api.bosch-spares.com/images/accessories/protective_cover.png",
+    "compatibility": ["GWS 750-100"],
+    "description": "Safety guard for 100mm grinding wheels"
+  },
+  {
+    "id": 4,
+    "name": "Chuck Wrench SG2",
+    "order_no": "1 607 950 007",
+    "price_inr": 79.00,
+    "image": "https://api.bosch-spares.com/images/accessories/chuck_wrench.png",
+    "compatibility": ["GBH 200", "GSB 13RE", "GSB 10RE"],
+    "description": "For tightening and loosening drill chucks"
+  },
+  {
+    "id": 5,
+    "name": "Depth-Gauge",
+    "order_no": "2 603 001 009",
+    "price_inr": 211.00,
+    "image": "https://api.bosch-spares.com/images/accessories/depth_gauge.png",
+    "compatibility": ["GSB 10RE", "GSB 13RE"],
+    "description": "For precise depth control during drilling"
+  },
+  {
+    "id": 6,
+    "name": "Dust Bag",
+    "order_no": "1 605 411 034",
+    "price_inr": 574.00,
+    "image": "https://api.bosch-spares.com/images/accessories/dust_bag.png",
+    "compatibility": ["GBL 620"],
+    "description": "For dust collection during blower operation"
+  },
+  {
+    "id": 7,
+    "name": "Hot Air Nozzle",
+    "order_no": "1 619 PB2 931",
+    "price_inr": 204.00,
+    "image": "https://api.bosch-spares.com/images/accessories/hot_air_nozzle.png",
+    "compatibility": ["GHG 180"],
+    "description": "Concentrator nozzle for precise hot air application"
+  },
+  {
+    "id": 8,
+    "name": "Blade Sharpening Device",
+    "order_no": "2 608 133 002",
+    "price_inr": 209.00,
+    "image": "https://api.bosch-spares.com/images/accessories/sharpening_device.png",
+    "compatibility": ["GHO 6500"],
+    "description": "For sharpening planer blades"
+  }
+]

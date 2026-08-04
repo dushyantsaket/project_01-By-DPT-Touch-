@@ -1,0 +1,323 @@
+.business-family-container {
+  background-color: #f8fafc; /* bg-slate-50 */
+  padding: 4rem 1rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.eyebrow {
+  display: inline-block;
+  background-color: #fee2e2; /* bg-red-100 */
+  color: #b91c1c; /* text-red-800 */
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #111827; /* text-gray-900 */
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+}
+
+.subtitle {
+  margin-top: 0.75rem;
+  font-size: 1.125rem;
+  color: #6b7280; /* text-gray-500 */
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.business-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .business-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .business-cards-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* BusinessCard.jsx styles */
+.business-card {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.business-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.2);
+}
+
+.card-image-container {
+  position: relative;
+  height: 180px;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-image-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(17, 24, 39, 0.7) 0%, transparent 60%);
+}
+
+.card-logo-container {
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 56px;
+  height: 56px;
+  background: #fff;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 2px solid #fff;
+}
+
+.card-logo {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.card-content {
+  padding: 40px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.card-name {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #111827;
+  margin: 0;
+}
+
+.card-description {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin: 0.25rem 0 1.25rem;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.card-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.card-info-item {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #4b5563;
+  background-color: #f3f4f6;
+  padding: 0.375rem 0.75rem;
+  border-radius: 9999px;
+}
+
+.card-info-icon {
+  color: #dc2626;
+}
+
+.card-founder-section {
+  background-color: #f9fafb;
+  border: 1px solid #f3f4f6;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.founder-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.founder-item {
+  text-align: center;
+}
+
+.founder-label {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #9ca3af;
+  text-transform: uppercase;
+}
+
+.founder-name {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.founder-name.placeholder {
+  color: #9ca3af;
+  font-style: italic;
+}
+
+.employee-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #4b5563;
+  border-top: 1px solid #f3f4f6;
+  padding-top: 0.75rem;
+}
+
+.card-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.business-age {
+  text-align: left;
+}
+
+.age-number {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #dc2626;
+  line-height: 1;
+}
+
+.age-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #6b7280;
+  text-transform: uppercase;
+}
+
+.explore-button {
+  background-color: #111827;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.explore-button:hover {
+  background-color: #dc2626;
+}
+
+/* BrandGrid.jsx styles */
+.brand-grid-container {
+  margin-top: 4rem;
+}
+
+.brand-logo-item {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+  transition: all 0.2s ease;
+}
+
+.brand-logo-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-color: #d1d5db;
+}
+
+.brand-logo-item img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.6;
+  transition: all 0.2s ease;
+}
+
+.brand-logo-item:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* TrustBadges.jsx styles */
+.trust-badges-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 900px;
+  margin: 4rem auto;
+}
+
+@media (min-width: 768px) {
+  .trust-badges-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.trust-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 1rem;
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  height: 80px;
+}
+
+.trust-badge-image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}

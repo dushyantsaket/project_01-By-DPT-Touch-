@@ -1,0 +1,340 @@
+/* ─── Instagram Page ─────────────────────────────────────────────── */
+
+/* ─── Instagram Feed Page ─────────────────────────────────────────── */
+/* =============================================
+   Instagram Page — Simple Clean Social Layout
+   ============================================= */
+
+.instagram-page {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #faf5ff, #fff);
+}
+
+/* Hero */
+.ig-hero {
+  background: linear-gradient(135deg, #7c3aed, #db2777 55%, #ef4444);
+  padding: 8rem 1rem 5rem;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.ig-hero::before,
+.ig-hero::after {
+  content: '';
+  position: absolute;
+  background: rgba(255,255,255,0.07);
+  border-radius: 50%;
+  filter: blur(30px);
+}
+
+.ig-hero::before { width: 280px; height: 280px; top: 30px; left: -50px; }
+.ig-hero::after  { width: 360px; height: 360px; bottom: 0; right: -60px; }
+
+.ig-hero .hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 100px;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 2rem;
+  z-index: 1;
+  position: relative;
+}
+
+.ig-hero h1 {
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  margin-bottom: 1.25rem;
+  z-index: 1;
+  position: relative;
+}
+
+.ig-hero h1 span { color: #fde68a; }
+
+.ig-hero p {
+  font-size: 1.1rem;
+  max-width: 650px;
+  margin: 0 auto 2.5rem;
+  color: rgba(255,255,255,0.85);
+  line-height: 1.7;
+  z-index: 1;
+  position: relative;
+}
+
+.ig-hero .hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+}
+
+.ig-hero .btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #fff;
+  color: #7c3aed;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.ig-hero .btn-primary:hover {
+  background: #f3f4f6;
+  transform: translateY(-3px);
+}
+
+.ig-hero .btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.ig-hero .btn-outline:hover {
+  background: rgba(255,255,255,0.25);
+}
+
+/* Highlights section */
+.ig-highlights {
+  padding: 4rem 1rem;
+  background: #fff;
+}
+
+.ig-highlights .section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.ig-highlights .section-title h2 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #111;
+  margin-bottom: 0.5rem;
+}
+
+.ig-highlights-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ig-highlight-bubble {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.ig-highlight-bubble .ring {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #7c3aed, #ec4899);
+  padding: 3px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.ig-highlight-bubble:hover .ring {
+  transform: scale(1.1);
+}
+
+.ig-highlight-bubble .ring-inner {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.ig-highlight-bubble .bubble-name {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #374151;
+}
+
+.ig-highlight-bubble .bubble-count {
+  font-size: 0.7rem;
+  color: #9ca3af;
+}
+
+/* Company Cards section */
+.ig-cards-section {
+  padding: 5rem 1rem;
+  background: #f9fafb;
+}
+
+.ig-section-heading {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+}
+
+.ig-section-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #f3e8ff;
+  color: #7c3aed;
+  padding: 0.5rem 1.25rem;
+  border-radius: 100px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 1rem;
+}
+
+.ig-section-heading h2 {
+  font-size: clamp(1.75rem, 4vw, 3rem);
+  font-weight: 900;
+  color: #111;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.75rem;
+}
+
+.ig-section-heading h2 span { color: #7c3aed; }
+
+.ig-section-heading p {
+  color: #6b7280;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.ig-company-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* Post feed */
+.ig-feed-section {
+  padding: 5rem 1rem;
+  background: #fff;
+}
+
+.ig-posts-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.ig-post-item {
+  position: relative;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.ig-post-item img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.ig-post-item:hover img {
+  transform: scale(1.1);
+}
+
+.ig-post-item .post-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,0.15) 50%, transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: flex-end;
+  padding: 1.25rem;
+}
+
+.ig-post-item:hover .post-overlay {
+  opacity: 1;
+}
+
+.ig-post-item .post-stats {
+  display: flex;
+  gap: 1.5rem;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/* CTA */
+.ig-cta {
+  background: linear-gradient(135deg, #7c3aed, #db2777);
+  padding: 5rem 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.ig-cta h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  letter-spacing: -0.04em;
+}
+
+.ig-cta p {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.85);
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.7;
+}
+
+.ig-cta .cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+  .ig-hero { padding: 90px 16px 40px; }
+  .ig-posts-grid { grid-template-columns: 1fr; }
+  .ig-company-grid { grid-template-columns: 1fr; }
+  .ig-highlights-row { gap: 12px; }
+  .ig-highlight-bubble .ring { width: 64px; height: 64px; }
+  .ig-cta h2 { font-size: 1.75rem; }
+}
+
+@media (max-width: 480px) {
+  .ig-hero h1 { font-size: 2rem; }
+  .ig-post-item img { height: 200px; }
+}

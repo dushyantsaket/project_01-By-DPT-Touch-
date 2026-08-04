@@ -1,0 +1,560 @@
+/* BrandCollaboration.css - Fixed Version */
+
+.bc-page {
+    background-color: #f8fafc;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    color: #0f172a;
+}
+
+/* Hero Section */ /* This was already correct */
+.bc-hero {
+    position: relative;
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 60px 40px;
+    overflow: hidden;
+}
+
+.bc-hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.bc-hero-map-dots {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.bc-hero-inner {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.heroLeft {
+    max-width: 600px;
+}
+
+.heroOurPartners {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: #dc2626;
+    margin-bottom: 12px;
+}
+
+.heroTitle {
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.heroSubtitle {
+    font-size: 14px;
+    color: #94a3b8;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.heroStats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.heroStat {
+    flex: 0 0 auto;
+}
+
+.heroStatVal {
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.heroStatLabel {
+    font-size: 11px;
+    color: #94a3b8;
+}
+
+.heroBadges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.heroBadgeItem {
+    font-size: 11px;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #cbd5e1;
+}
+
+.heroRight {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.floatingBrandLogos {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Main Inner Container */
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Filter & Search Bar */
+.filterBar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 16px 20px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    border: 1px solid #e2e8f0;
+}
+
+.filterSearchWrapper {
+    display: flex;
+    align-items: center;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 8px 12px;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.filterSearchInput {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 12px;
+    width: 100%;
+    color: #0f172a;
+}
+
+.filterTabsRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.filterTab {
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.sortSelect {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+    background: #f8fafc;
+    font-size: 12px;
+    color: #0f172a;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Brands Grid */
+.brandsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.brandCard {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.brandCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.newBadge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #059669;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 800;
+    padding: 2px 6px;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+.hotBadge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 11px;
+    z-index: 2;
+}
+
+.brandLogoArea {
+    padding: 30px 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+}
+
+.brandLogoText {
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+
+.brandCardFooter {
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border-top: 1px solid #f1f5f9;
+    margin-top: auto;
+}
+
+.brandCountry {
+    display: flex;
+    align-items: center;
+}
+
+.authorizedBadge {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: #059669;
+    font-weight: 700;
+}
+
+.viewAllBrandsBtn {
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    color: #0f172a;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.viewAllBrandsBtn:hover {
+    background: #f1f5f9;
+}
+
+/* Featured Brand Section */
+.featuredBrandSection {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 24px;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.featuredBrandLeft {
+    border-right: 1px solid #e2e8f0;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featuredBrandHeader {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.featuredBrandLogoBox {
+    width: 40px;
+    height: 40px;
+    background: #fef2f2;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fee2e2;
+    flex-shrink: 0;
+}
+
+.authorizedPartnerTag {
+    display: inline-flex;
+    align-items: center;
+    background: #ecfdf5;
+    color: #059669;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #d1fae5;
+    width: fit-content;
+}
+
+.brandInfoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 16px 0;
+    background: #f8fafc;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.brandInfoRow {
+    display: flex;
+    flex-direction: column;
+}
+
+.brandInfoLabel {
+    font-size: 10px;
+    color: #64748b;
+    margin-bottom: 2px;
+}
+
+.exploreBrandBtn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #dc2626;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.featuredBrandRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.featuredTabs {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 16px;
+}
+
+.featuredTab {
+    background: none;
+    border: none;
+    padding: 8px 0;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.featuredProductsRow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.featuredProductCard {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.featuredProductImg {
+    width: 100%;
+    height: 90px;
+    background: #ffffff;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.featuredProductName {
+    font-size: 11px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 28px;
+}
+
+.featuredProductPriceLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.featuredProductPrice {
+    font-size: 12px;
+    font-weight: 900;
+    color: #dc2626;
+}
+
+.featuredProductCartBtn {
+    border: none;
+    color: #ffffff;
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s;
+    flex-shrink: 0;
+}
+
+.featuredBottomGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: auto;
+}
+
+.whyChooseBox,
+.latestUpdatesBox {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.newTag {
+    background: #fee2e2;
+    color: #dc2626;
+    font-size: 9px;
+    font-weight: 800;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.readMoreBtn {
+    background: none;
+    border: none;
+    color: #2563eb;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 6px;
+    display: block;
+}
+
+/* Trust Footer Badges */
+.trustFooter {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.trustBadge {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 20px 16px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trustBadgeTitle {
+    font-size: 12px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 4px;
+}
+
+.trustBadgeDesc {
+    font-size: 10px;
+    color: #64748b;
+}
+
+/* Partner CTA Section */
+.partnerCtaSection {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    border-radius: 12px;
+    padding: 30px;
+    color: #ffffff;
+}
+
+.partnerCtaLeft {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.partnerCtaImg {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.partnerCtaTitle {
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 6px;
+}
+
+.partnerCtaSubtitle {
+    font-size: 12px;
+    color: #94a3b8;
+    line-height: 1.5;
+}

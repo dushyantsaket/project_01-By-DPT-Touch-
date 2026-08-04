@@ -1,0 +1,308 @@
+.employee-dashboard-shell {
+  --employee-nav-offset: 102px;
+  background: #f5f7fb !important;
+  color: #1f2937 !important;
+  padding-top: var(--employee-nav-offset) !important;
+  overflow-x: hidden;
+  font-size: 13px;
+}
+
+.employee-dashboard-shell .employee-dashboard-main {
+  flex: 1 1 auto;
+  min-width: 0;
+  width: auto !important;
+  max-width: none;
+  margin: 0;
+  padding-top: 18px !important;
+  padding-left: 22px;
+  padding-right: 22px;
+  overflow-x: hidden;
+}
+
+.employee-dashboard-shell aside {
+  width: 226px;
+  flex: 0 0 226px;
+  background: #ffffff !important;
+  border-right: 1px solid #e2e8f0 !important;
+  color: #1f2937 !important;
+  box-shadow: 8px 0 24px rgba(15, 23, 42, 0.04);
+}
+
+.employee-dashboard-shell > .md\:hidden {
+  top: var(--employee-nav-offset) !important;
+}
+
+.employee-dashboard-shell nav {
+  scrollbar-width: thin;
+}
+
+.employee-dashboard-shell .bg-slate-950,
+.employee-dashboard-shell .bg-slate-900,
+.employee-dashboard-shell .bg-slate-850,
+.employee-dashboard-shell .bg-gradient-to-r {
+  background: #ffffff !important;
+  background-image: none !important;
+}
+
+.employee-dashboard-shell .border-slate-850,
+.employee-dashboard-shell .border-slate-800,
+.employee-dashboard-shell .border-slate-800\/50,
+.employee-dashboard-shell .border-slate-800\/60,
+.employee-dashboard-shell .border-slate-800\/80,
+.employee-dashboard-shell .border-slate-700 {
+  border-color: #dbe3ee !important;
+}
+
+.employee-dashboard-shell .text-white,
+.employee-dashboard-shell .text-slate-100,
+.employee-dashboard-shell .text-slate-200,
+.employee-dashboard-shell .text-slate-300 {
+  color: #172033 !important;
+}
+
+.employee-dashboard-shell .text-slate-400,
+.employee-dashboard-shell .text-slate-500,
+.employee-dashboard-shell .text-slate-600,
+.employee-dashboard-shell .text-slate-700 {
+  color: #64748b !important;
+}
+
+.employee-dashboard-shell .text-indigo-400,
+.employee-dashboard-shell .text-indigo-500 {
+  color: #2563eb !important;
+}
+
+.employee-dashboard-shell .text-emerald-400,
+.employee-dashboard-shell .text-emerald-500 {
+  color: #059669 !important;
+}
+
+.employee-dashboard-shell .text-amber-400,
+.employee-dashboard-shell .text-amber-500 {
+  color: #b45309 !important;
+}
+
+.employee-dashboard-shell .text-rose-400,
+.employee-dashboard-shell .text-rose-500 {
+  color: #dc2626 !important;
+}
+
+.employee-dashboard-shell .bg-indigo-600,
+.employee-dashboard-shell .hover\:bg-indigo-500:hover {
+  background: #dc2626 !important;
+  border-color: #dc2626 !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.employee-dashboard-shell nav .bg-indigo-600 {
+  background: #fff1f2 !important;
+  color: #dc2626 !important;
+}
+
+.employee-dashboard-shell nav .bg-indigo-600 svg,
+.employee-dashboard-shell nav .bg-indigo-600 .text-white {
+  color: #dc2626 !important;
+}
+
+.employee-dashboard-shell nav button:not(.bg-indigo-600):hover {
+  background: #f1f5f9 !important;
+  color: #172033 !important;
+}
+
+.employee-dashboard-shell .shadow-lg,
+.employee-dashboard-shell .shadow-2xl {
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08) !important;
+}
+
+.employee-dashboard-shell .rounded-3xl,
+.employee-dashboard-shell .rounded-2xl,
+.employee-dashboard-shell .rounded-xl {
+  border-radius: 8px !important;
+}
+
+.employee-dashboard-shell .p-6 {
+  padding: 18px !important;
+}
+
+.employee-dashboard-shell .p-5 {
+  padding: 16px !important;
+}
+
+.employee-dashboard-shell .p-4 {
+  padding: 14px !important;
+}
+
+.employee-dashboard-shell .space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  margin-top: 16px !important;
+}
+
+.employee-dashboard-shell .gap-6 {
+  gap: 16px !important;
+}
+
+.employee-dashboard-shell .gap-4 {
+  gap: 12px !important;
+}
+
+.employee-dashboard-shell .min-h-28 {
+  min-height: 92px !important;
+}
+
+.employee-dashboard-shell .w-20,
+.employee-dashboard-shell .h-20 {
+  width: 64px !important;
+  height: 64px !important;
+}
+
+.employee-dashboard-shell .w-12,
+.employee-dashboard-shell .h-12 {
+  width: 42px !important;
+  height: 42px !important;
+}
+
+.employee-dashboard-shell .text-3xl {
+  font-size: 1.45rem !important;
+  line-height: 1.15 !important;
+}
+
+.employee-dashboard-shell .text-2xl {
+  font-size: 1.2rem !important;
+  line-height: 1.2 !important;
+}
+
+.employee-dashboard-shell .text-xl {
+  font-size: 1.05rem !important;
+  line-height: 1.3 !important;
+}
+
+.employee-dashboard-shell .text-base {
+  font-size: 0.92rem !important;
+}
+
+.employee-dashboard-shell .font-black {
+  font-weight: 800 !important;
+}
+
+.employee-dashboard-shell h1,
+.employee-dashboard-shell h2,
+.employee-dashboard-shell h3,
+.employee-dashboard-shell h4 {
+  letter-spacing: 0;
+}
+
+.employee-dashboard-shell input,
+.employee-dashboard-shell select,
+.employee-dashboard-shell textarea {
+  background: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  color: #172033 !important;
+}
+
+.employee-dashboard-shell table thead {
+  background: #f8fafc !important;
+}
+
+.employee-dashboard-shell table tbody {
+  color: #334155 !important;
+}
+
+.employee-dashboard-shell table tr:hover {
+  background: #f8fafc !important;
+}
+
+.employee-dashboard-shell [class*="bg-emerald-500/10"],
+.employee-dashboard-shell [class*="bg-emerald-500/15"] {
+  background: #ecfdf5 !important;
+  border-color: #a7f3d0 !important;
+}
+
+.employee-dashboard-shell [class*="bg-amber-500/10"],
+.employee-dashboard-shell [class*="bg-amber-500/15"] {
+  background: #fffbeb !important;
+  border-color: #fde68a !important;
+}
+
+.employee-dashboard-shell [class*="bg-rose-500/10"],
+.employee-dashboard-shell [class*="bg-rose-500/15"],
+.employee-dashboard-shell [class*="bg-rose-500/20"] {
+  background: #fff1f2 !important;
+  border-color: #fecdd3 !important;
+}
+
+.employee-dashboard-shell [class*="bg-indigo-500/10"],
+.employee-dashboard-shell [class*="bg-indigo-500/15"],
+.employee-dashboard-shell [class*="bg-indigo-500/20"] {
+  background: #eff6ff !important;
+  border-color: #bfdbfe !important;
+}
+
+.employee-dashboard-shell .bg-rose-600,
+.employee-dashboard-shell .hover\:bg-rose-500:hover {
+  background: #dc2626 !important;
+  color: #ffffff !important;
+}
+
+.employee-dashboard-shell .bg-slate-800,
+.employee-dashboard-shell .hover\:bg-slate-700:hover,
+.employee-dashboard-shell .hover\:bg-slate-800:hover {
+  background: #f1f5f9 !important;
+}
+
+.employee-dashboard-shell .md\:hidden {
+  background: #ffffff !important;
+  color: #172033 !important;
+  border-bottom-color: #e2e8f0 !important;
+}
+
+@media (min-width: 1024px) {
+  .employee-dashboard-shell .employee-dashboard-main {
+    padding-top: 18px !important;
+  }
+
+  .employee-dashboard-shell .grid-cols-2.lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(160px, 1fr)) !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .employee-dashboard-shell {
+    align-items: stretch;
+  }
+
+  .employee-dashboard-shell aside {
+    position: sticky !important;
+    top: var(--employee-nav-offset) !important;
+    left: auto !important;
+    transform: none !important;
+    height: calc(100vh - var(--employee-nav-offset)) !important;
+  }
+
+  .employee-dashboard-shell .employee-dashboard-main {
+    width: calc(100vw - 226px) !important;
+    padding-top: 18px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .employee-dashboard-shell {
+    --employee-nav-offset: 68px;
+    padding-top: calc(var(--employee-nav-offset) + 56px) !important;
+  }
+
+  .employee-dashboard-shell aside {
+    width: 260px;
+    top: calc(var(--employee-nav-offset) + 56px) !important;
+    height: calc(100vh - var(--employee-nav-offset) - 56px) !important;
+  }
+
+  .employee-dashboard-shell .employee-dashboard-main {
+    padding: 14px !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .employee-dashboard-shell .grid-cols-2 {
+    grid-template-columns: 1fr !important;
+  }
+}

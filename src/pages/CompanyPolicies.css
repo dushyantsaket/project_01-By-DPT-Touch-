@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.company-policies-page {
+  min-height: 100vh;
+  background: #f8fafc;
+  color: #0f172a;
+}

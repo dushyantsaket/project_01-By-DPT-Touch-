@@ -1,0 +1,226 @@
+/* ─── Brand Detail ─────────────────────────────────────────────── */
+
+/* ─── Brand Detail Page ────────────────────────────────────────────── */
+
+.brand-detail-page {
+  min-height: 100vh;
+  background: #f8f9fa;
+  padding-top: 90px;
+  padding-bottom: 64px;
+}
+
+.brand-detail-page .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Back link */
+.brand-detail-page .back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #6b7280;
+  text-decoration: none;
+  margin-bottom: 28px;
+  transition: color 0.2s;
+}
+
+.brand-detail-page .back-link:hover {
+  color: #dc2626;
+}
+
+/* Main card */
+.brand-detail-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .brand-detail-card { flex-direction: row; }
+}
+
+/* Left visual */
+.brand-detail-card .brand-visual {
+  background: #f9fafb;
+  padding: 48px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+@media (min-width: 900px) {
+  .brand-detail-card .brand-visual {
+    width: 38%;
+    border-bottom: none;
+    border-right: 1px solid #f0f0f0;
+    flex-shrink: 0;
+  }
+}
+
+.brand-detail-card .brand-logo-box {
+  width: 160px;
+  height: 160px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.brand-detail-card .brand-logo-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Right data */
+.brand-detail-card .brand-data {
+  padding: 40px 36px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand-detail-card .brand-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.brand-detail-card .brand-badge .line {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background: #dc2626;
+  border-radius: 100px;
+}
+
+.brand-detail-card .brand-badge span {
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #dc2626;
+}
+
+.brand-detail-card .brand-name {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  color: #111;
+  line-height: 1;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.brand-detail-card .brand-description {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+/* Stats grid */
+.brand-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  background: #f9fafb;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 24px;
+}
+
+.brand-stat-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.brand-stat-item .stat-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.brand-stat-item .stat-icon.red  { background: #fee2e2; color: #dc2626; }
+.brand-stat-item .stat-icon.blue { background: #dbeafe; color: #3b82f6; }
+
+.brand-stat-item .stat-value {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #111;
+  line-height: 1;
+  margin-bottom: 3px;
+}
+
+.brand-stat-item .stat-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #9ca3af;
+}
+
+/* CTA */
+.brand-cta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #111;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+  align-self: flex-start;
+}
+
+.brand-cta-link:hover {
+  background: #dc2626;
+  transform: translateY(-2px);
+}
+
+/* Products from brand section */
+.brand-products-section {
+  margin-top: 48px;
+}
+
+.brand-products-heading {
+  font-size: 22px;
+  font-weight: 900;
+  color: #111;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+@media (max-width: 640px) {
+  .brand-detail-card .brand-data { padding: 28px 20px; }
+  .brand-stats-grid { grid-template-columns: 1fr; }
+}

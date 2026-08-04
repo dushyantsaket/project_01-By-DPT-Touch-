@@ -1,0 +1,16 @@
+[
+  {
+    "id": "dealer_dushyant",
+    "name": "Dushyant Saket",
+    "phone": "9754015503",
+    "email": "dushyantsaket20@gmail.com",
+    "password": "admin",
+    "companyName": "Dushyant Furniture Mart",
+    "gstNumber": "23AAAAA1111A1Z1",
+    "location": "Sidhi, Madhya Pradesh",
+    "userType": "dealer",
+    "createdAt": "2026-07-26T12:00:00.000Z",
+    "lastLogin": "2026-07-26T12:00:00.000Z",
+    "loginHistory": []
+  }
+]
