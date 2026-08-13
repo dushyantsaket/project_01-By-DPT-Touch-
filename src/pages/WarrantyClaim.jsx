@@ -1,6 +1,6 @@
 // import React, { useState } from 'react';
 // import { ShieldCheck, FileText, Calendar, Send, CheckCircle, AlertCircle, Camera, QrCode, ClipboardList, Info, ChevronRight, ShieldAlert, BadgeCheck, Clock, Mail, Smartphone } from 'lucide-react';
-// import { useAuth } from '../context/AuthContext';
+// import { useAuth } from '../context/useAuth';
 // import { useNavigate } from 'react-router-dom';
 
 // const inputStyle = { width: '100%', background: '#f9fafb', border: '1px solid #e5e7eb', borderRadius: '8px', padding: '12px 14px', fontSize: '13px', fontWeight: 600, color: '#111', outline: 'none' };
@@ -303,7 +303,7 @@ import {
   Receipt,
   CreditCard,
 } from "lucide-react";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/useAuth";
 import { useNavigate } from "react-router-dom";
 
 const API = "/api";
@@ -312,7 +312,8 @@ const fileToDataUrl = (file) =>
   new Promise((resolve, reject) => {
     if (!file) return resolve(null);
     const reader = new FileReader();
-    reader.onload = () => resolve({ name: file.name, type: file.type, dataUrl: reader.result });
+    reader.onload = () =>
+      resolve({ name: file.name, type: file.type, dataUrl: reader.result });
     reader.onerror = reject;
     reader.readAsDataURL(file);
   });
@@ -398,32 +399,62 @@ const WarrantyClaim = () => {
     setIsLoading(true);
     try {
       const photos = {
-        problem: await Promise.all((claimForm.photos.problem || []).map(fileToDataUrl)),
+        problem: await Promise.all(
+          (claimForm.photos.problem || []).map(fileToDataUrl),
+        ).then((list) => list.filter(Boolean)),
         warranty: await fileToDataUrl(claimForm.photos.warranty),
         invoice: await fileToDataUrl(claimForm.photos.invoice),
         serial: await fileToDataUrl(claimForm.photos.serial),
       };
+      const normalizeClientPhoto = (photo) => {
+        if (!photo || typeof photo !== "object") return null;
+        return {
+          name: photo.name || null,
+          type: photo.type || photo.mimeType || null,
+          dataUrl: photo.dataUrl || null,
+        };
+      };
+      const preparedPhotos = {
+        problem: Array.isArray(photos.problem)
+          ? photos.problem.map(normalizeClientPhoto).filter(Boolean)
+          : [],
+        warranty: normalizeClientPhoto(photos.warranty),
+        invoice: normalizeClientPhoto(photos.invoice),
+        serial: normalizeClientPhoto(photos.serial),
+      };
+
       const claimData = {
         ...claimForm,
-        photos,
+        photos: preparedPhotos,
         customerEmail: authUser.email,
         customerName: authUser.name || authUser.email,
         status: "Pending",
         submittedAt: new Date().toISOString(),
-        photoCount: Object.values(photos).flat().filter(Boolean).length,
+        photoCount: Object.values(preparedPhotos).flat().filter(Boolean).length,
       };
       const response = await fetch(`${API}/warranty/claims`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(claimData),
       });
-      const data = await response.json();
-      if (!response.ok) throw new Error(data.error || "Warranty claim failed");
+      const data = await response
+        .json()
+        .catch(() => ({ error: "Invalid JSON response" }));
+      if (!response.ok) {
+        const message =
+          data.error || `Request failed with status ${response.status}`;
+        console.error(
+          "Warranty claim submission failed",
+          response.status,
+          data,
+        );
+        throw new Error(message);
+      }
 
-      const existingClaims = JSON.parse(localStorage.getItem("warrantyClaims") || "[]");
-      localStorage.setItem("warrantyClaims", JSON.stringify([...existingClaims, data.data]));
+      console.log("Warranty claim submitted successfully", data);
       setIsSubmitted(true);
     } catch (error) {
+      console.error("Warranty claim submit error", error);
       alert(error.message || "Warranty claim submit nahi hua.");
     } finally {
       setIsLoading(false);

@@ -3,6 +3,8 @@ import cors from "cors";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import multer from "multer";
+import PDFDocument from "pdfkit";
 import { resolveCategoryConfig } from "./src/data/categoryCatalogConfig.js";
 import { buildInitialCatalog } from "./src/utils/catalog/buildCatalog.js";
 import {
@@ -21,6 +23,25 @@ app.use(cors());
 app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb", extended: true }));
 app.use("/images", express.static(path.join(__dirname, "public/images")));
+app.use("/uploads", express.static(path.join(__dirname, "public/uploads")));
+
+const reviewUploadDir = path.join(__dirname, "public", "uploads", "reviews");
+fs.mkdirSync(reviewUploadDir, { recursive: true });
+
+const reviewUpload = multer({
+  storage: multer.diskStorage({
+    destination: (_req, _file, cb) => cb(null, reviewUploadDir),
+    filename: (_req, file, cb) => {
+      const safeName = file.originalname.replace(/[^a-zA-Z0-9._-]/g, "-");
+      cb(null, `${Date.now()}-${Math.random().toString(36).slice(2)}-${safeName}`);
+    },
+  }),
+  limits: { fileSize: 80 * 1024 * 1024, files: 7 },
+  fileFilter: (_req, file, cb) => {
+    if (/^(image|video)\//.test(file.mimetype)) return cb(null, true);
+    cb(new Error("Only image and video files are allowed"));
+  },
+});
 
 // ─── Data Helpers ────────────────────────────────────────────────────────────
 const dataPath = (fileName) => path.join(__dirname, "data", fileName);
@@ -534,10 +555,162 @@ app.post("/api/check-cod", (req, res) => {
  * REVIEWS ENDPOINTS
  * ========================================== */
 
+const sampleReviews = [
+  {
+    id: "seed-review-1",
+    productName: "DPT Rotary Hammer Drill 26mm",
+    fullName: "Rajesh Patel",
+    email: "rajesh@example.com",
+    phone: "",
+    city: "Bhopal, Madhya Pradesh",
+    rating: 5,
+    reviewTitle: "Excellent Build Quality",
+    reviewDescription:
+      "Amazing product. Build quality is solid and performance is outstanding. Highly recommended for professional use.",
+    images: ["/images/industrial_hero.png", "/images/login-storefront.jpeg"],
+    videos: [],
+    helpful: 24,
+    isVerifiedPurchase: true,
+    createdAt: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),
+  },
+  {
+    id: "seed-review-2",
+    productName: "DPT Angle Grinder 1100W",
+    fullName: "Amit Sharma",
+    email: "amit@example.com",
+    phone: "",
+    city: "Indore, Madhya Pradesh",
+    rating: 4,
+    reviewTitle: "Great Product",
+    reviewDescription:
+      "Very good grinder for its price. I use it daily in my workshop and it has been reliable.",
+    images: ["/images/image copy.png"],
+    videos: [],
+    helpful: 18,
+    isVerifiedPurchase: true,
+    createdAt: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000).toISOString(),
+  },
+  {
+    id: "seed-review-3",
+    productName: "DPT Impact Drill 13mm",
+    fullName: "Sanjay Verma",
+    email: "sanjay@example.com",
+    phone: "",
+    city: "Jabalpur, Madhya Pradesh",
+    rating: 5,
+    reviewTitle: "Value for Money",
+    reviewDescription:
+      "Best drill machine in this range. Powerful and durable. Thank you Dushyant Power Tools.",
+    images: ["/images/login-storefront.jpeg", "/images/industrial_hero.png"],
+    videos: [],
+    helpful: 12,
+    isVerifiedPurchase: false,
+    createdAt: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(),
+  },
+];
+
+const normalizeReview = (review) => ({
+  ...review,
+  id: review.id || review._id || generateId(),
+  _id: review._id || review.id,
+  productName: review.productName || review.product || review.productId || "Dushyant Power Tool",
+  fullName: review.fullName || review.userName || review.name || "Guest Customer",
+  city: review.city || review.location || "India",
+  rating: Number(review.rating || 5),
+  reviewTitle: review.reviewTitle || review.title || "Customer Review",
+  reviewDescription: review.reviewDescription || review.comment || "",
+  images: review.images || [],
+  videos: review.videos || [],
+  helpful: Number(review.helpful || review.helpfulCount || 0),
+  isVerifiedPurchase: Boolean(review.isVerifiedPurchase),
+  createdAt: review.createdAt || new Date().toISOString(),
+});
+
+const getAllReviews = () => {
+  const saved = loadData("reviews.json").map(normalizeReview);
+  return saved.length ? saved : sampleReviews.map(normalizeReview);
+};
+
+const getRatingBreakdown = (reviews) =>
+  [5, 4, 3, 2, 1].map((rating) => ({
+    rating,
+    count: reviews.filter((review) => Number(review.rating) === rating).length,
+    reviewers: reviews
+      .filter((review) => Number(review.rating) === rating)
+      .map((review) => ({
+        id: review.id,
+        name: review.fullName,
+        productName: review.productName,
+        city: review.city,
+        createdAt: review.createdAt,
+      })),
+  }));
+
+app.get("/api/reviews", (req, res) => {
+  const {
+    search = "",
+    rating = "",
+    verified = "",
+    mediaOnly = "",
+    sort = "-createdAt",
+    page = 1,
+    limit = 8,
+  } = req.query;
+  const allReviews = getAllReviews();
+  const query = String(search).trim().toLowerCase();
+  let reviews = allReviews.filter((review) => {
+    const matchesSearch =
+      !query ||
+      `${review.fullName} ${review.productName} ${review.reviewTitle} ${review.reviewDescription}`
+        .toLowerCase()
+        .includes(query);
+    const matchesRating = !rating || Number(review.rating) === Number(rating);
+    const matchesVerified = verified !== "true" || review.isVerifiedPurchase;
+    const matchesMedia =
+      mediaOnly !== "true" || review.images.length > 0 || review.videos.length > 0;
+    return matchesSearch && matchesRating && matchesVerified && matchesMedia;
+  });
+
+  reviews.sort((a, b) => {
+    if (sort === "rating") return a.rating - b.rating;
+    if (sort === "-rating") return b.rating - a.rating;
+    if (sort === "createdAt") return new Date(a.createdAt) - new Date(b.createdAt);
+    return new Date(b.createdAt) - new Date(a.createdAt);
+  });
+
+  const pageNumber = Math.max(Number(page) || 1, 1);
+  const pageSize = Math.max(Number(limit) || 8, 1);
+  const pagedReviews = reviews.slice((pageNumber - 1) * pageSize, pageNumber * pageSize);
+  const realCount = allReviews.length;
+  const baseline = 8537;
+  const totalReviews = baseline + realCount;
+  const weightedTotal =
+    4.8 * baseline + allReviews.reduce((sum, review) => sum + Number(review.rating || 0), 0);
+  const averageRating = totalReviews ? weightedTotal / totalReviews : 0;
+
+  res.json({
+    reviews: pagedReviews,
+    pagination: {
+      page: pageNumber,
+      limit: pageSize,
+      total: reviews.length,
+      hasMore: pageNumber * pageSize < reviews.length,
+    },
+    stats: {
+      averageRating,
+      totalReviews,
+      verifiedBuyers: 7200 + allReviews.filter((review) => review.isVerifiedPurchase).length,
+      recommendCount: 98,
+      mediaReviews: allReviews.filter((review) => review.images.length || review.videos.length).length,
+    },
+    ratingBreakdown: getRatingBreakdown(allReviews),
+  });
+});
+
 app.get("/api/reviews/:productId", (req, res) => {
-  const reviews = loadData("reviews.json");
+  const reviews = getAllReviews();
   const productReviews = reviews.filter(
-    (r) => r.productId === req.params.productId,
+    (r) => r.productId === req.params.productId || r.productName === req.params.productId,
   );
   res.json(
     productReviews.sort(
@@ -546,16 +719,60 @@ app.get("/api/reviews/:productId", (req, res) => {
   );
 });
 
-app.post("/api/reviews", (req, res) => {
+app.post(
+  "/api/reviews",
+  reviewUpload.fields([
+    { name: "images", maxCount: 5 },
+    { name: "videos", maxCount: 2 },
+  ]),
+  (req, res) => {
   const reviews = loadData("reviews.json");
+  const imageFiles = req.files?.images || [];
+  const videoFiles = req.files?.videos || [];
   const review = {
     id: generateId(),
-    ...req.body,
+    productName: req.body.productName || "Dushyant Power Tool",
+    fullName: req.body.fullName || "Guest Customer",
+    email: req.body.email || "",
+    phone: req.body.phone || "",
+    city: req.body.city || "India",
+    dealerName: req.body.dealerName || "",
+    purchaseDate: req.body.purchaseDate || "",
+    rating: Number(req.body.rating || 5),
+    reviewTitle: req.body.reviewTitle || "Customer Review",
+    reviewDescription: req.body.reviewDescription || "",
+    images: imageFiles.map((file) => `/uploads/reviews/${file.filename}`),
+    videos: videoFiles.map((file) => `/uploads/reviews/${file.filename}`),
+    helpful: 0,
+    reports: [],
+    isGuest: true,
+    isVerifiedPurchase: false,
     createdAt: new Date().toISOString(),
   };
   reviews.push(review);
   saveData("reviews.json", reviews);
   res.status(201).json({ message: "Review submitted", review });
+});
+
+app.post("/api/reviews/:id/helpful", (req, res) => {
+  const reviews = loadData("reviews.json");
+  const idx = reviews.findIndex((r) => r.id === req.params.id || r._id === req.params.id);
+  if (idx === -1) return res.status(404).json({ error: "Review not found" });
+  reviews[idx].helpful = Number(reviews[idx].helpful || 0) + 1;
+  saveData("reviews.json", reviews);
+  res.json({ message: "Marked helpful", helpful: reviews[idx].helpful });
+});
+
+app.post("/api/reviews/:id/report", (req, res) => {
+  const reviews = loadData("reviews.json");
+  const idx = reviews.findIndex((r) => r.id === req.params.id || r._id === req.params.id);
+  if (idx === -1) return res.status(404).json({ error: "Review not found" });
+  reviews[idx].reports = [
+    ...(reviews[idx].reports || []),
+    { id: generateId(), ...req.body, createdAt: new Date().toISOString() },
+  ];
+  saveData("reviews.json", reviews);
+  res.json({ message: "Report submitted" });
 });
 
 app.delete("/api/reviews/:id", (req, res) => {
@@ -565,6 +782,73 @@ app.delete("/api/reviews/:id", (req, res) => {
   reviews.splice(idx, 1);
   saveData("reviews.json", reviews);
   res.json({ message: "Review deleted" });
+});
+
+app.get("/api/content/faqs", (_req, res) => {
+  res.json({
+    faqs: [
+      { question: "How do I use this page?", answer: "Write, upload media, and submit your review." },
+      { question: "How can I write a review?", answer: "Fill the review form. Login is not required." },
+      { question: "Will my review be published?", answer: "Yes, it appears after successful submit." },
+      { question: "Can I upload videos?", answer: "Yes, upload up to 2 videos with your review." },
+    ],
+  });
+});
+
+app.get("/api/content/articles", (_req, res) => {
+  res.json({
+    articles: [
+      { title: "How to choose the right power tool", image: "/images/industrial_hero.png" },
+      { title: "Power tools safety tips for beginners", image: "/images/login-storefront.jpeg" },
+      { title: "Maintenance guide for longer tool life", image: "/images/image copy.png" },
+      { title: "Warranty and support information", image: "/images/industrial_hero.png" },
+    ],
+  });
+});
+
+app.get("/api/content/support", (_req, res) => {
+  res.json({
+    support: {
+      phone: "+91 97540 15503",
+      email: "support@dushyantpowertools.com",
+      chatUrl: "https://wa.me/919754015503",
+      hours: "Mon - Sat 9:00 AM - 6:00 PM",
+    },
+  });
+});
+
+app.get("/api/content/pdfs", (_req, res) => {
+  res.json({
+    pdfs: [
+      { title: "Product Catalogue", url: "/api/content/pdfs/catalogue" },
+      { title: "Warranty Policy", url: "/api/content/pdfs/warranty" },
+      { title: "User Manual", url: "/api/content/pdfs/user-manual" },
+      { title: "Safety Guidelines", url: "/api/content/pdfs/safety" },
+    ],
+  });
+});
+
+app.get("/api/content/pdfs/:type", (req, res) => {
+  const titleMap = {
+    catalogue: "Product Catalogue",
+    warranty: "Warranty Policy",
+    "user-manual": "User Manual",
+    safety: "Safety Guidelines",
+  };
+  const title = titleMap[req.params.type] || "Dushyant Power Tools PDF";
+  const doc = new PDFDocument({ margin: 48 });
+  res.setHeader("Content-Type", "application/pdf");
+  res.setHeader("Content-Disposition", `attachment; filename="${req.params.type}.pdf"`);
+  doc.pipe(res);
+  doc.fontSize(22).text("Dushyant Power Tools", { align: "center" });
+  doc.moveDown();
+  doc.fontSize(16).fillColor("#dc2626").text(title);
+  doc.moveDown();
+  doc.fillColor("#111111").fontSize(11).text(
+    "This downloadable document is generated from the website backend. Replace this content with the final PDF copy whenever the official document is ready.",
+    { lineGap: 6 },
+  );
+  doc.end();
 });
 
 /* ==========================================

@@ -261,6 +261,8 @@
 //   monthlyGrowth: 12.4,
 // };
 
+const ORDER_DATA = [];
+
 // const ORDER_DATA = [
 //   {
 //     id: "ORD-1001",
@@ -4524,6 +4526,21 @@ const getInitials = (name) =>
     .toUpperCase()
     .slice(0, 2);
 
+const menuItems = [
+  { id: "overview", label: "Overview", icon: "ðŸ“Š" },
+  { id: "orders", label: "Orders", icon: "ðŸ“¦" },
+  { id: "track", label: "Track Order", icon: "ðŸšš" },
+  { id: "customers", label: "Customers", icon: "ðŸ‘¤" },
+  { id: "suppliers", label: "Suppliers", icon: "ðŸ­" },
+  { id: "products", label: "Products", icon: "ðŸ“±" },
+  { id: "inventory", label: "Inventory", icon: "ðŸ“‹" },
+  { id: "warehouses", label: "Warehouses", icon: "ðŸšï¸" },
+  { id: "analytics", label: "Analytics", icon: "ðŸ“ˆ" },
+  { id: "expenses", label: "Expenses", icon: "ðŸ’°" },
+  { id: "reports", label: "Reports", icon: "ðŸ“„" },
+  { id: "settings", label: "Settings", icon: "âš™ï¸" },
+];
+
 // ============================================================
 // 3. MAIN APP
 // ============================================================
@@ -4675,6 +4692,25 @@ const App = () => {
     return timeline;
   };
 
+  const filteredOrders = useMemo(() => {
+    let result = orders;
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      result = result.filter(
+        (o) =>
+          o.id.toLowerCase().includes(q) ||
+          o.customer.toLowerCase().includes(q) ||
+          o.invoice.toLowerCase().includes(q),
+      );
+    }
+    if (activeSubTab !== "all") {
+      result = result.filter(
+        (o) => o.status.toLowerCase() === activeSubTab.toLowerCase(),
+      );
+    }
+    return result;
+  }, [orders, searchQuery, activeSubTab]);
+
   // ============================================================
   // 4. RENDER COMPONENTS
   // ============================================================
@@ -4817,26 +4853,6 @@ const App = () => {
     { id: "reports", label: "Reports", icon: "📄" },
     { id: "settings", label: "Settings", icon: "⚙️" },
   ];
-
-  // Filter orders for display
-  const filteredOrders = useMemo(() => {
-    let result = orders;
-    if (searchQuery) {
-      const q = searchQuery.toLowerCase();
-      result = result.filter(
-        (o) =>
-          o.id.toLowerCase().includes(q) ||
-          o.customer.toLowerCase().includes(q) ||
-          o.invoice.toLowerCase().includes(q),
-      );
-    }
-    if (activeSubTab !== "all") {
-      result = result.filter(
-        (o) => o.status.toLowerCase() === activeSubTab.toLowerCase(),
-      );
-    }
-    return result;
-  }, [orders, searchQuery, activeSubTab]);
 
   // ============================================================
   // 5. RENDER FUNCTIONS FOR EACH TAB

@@ -354,11 +354,12 @@ router.post("/google", async (req, res) => {
       return res.status(400).json({ error: "Google account email missing" });
     }
 
-    let customer = await Customer.findOne({ email: email.toLowerCase() });
+    const normalizedEmail = email.toLowerCase();
+    let customer = await Customer.findOne({ email: normalizedEmail });
     if (!customer) {
       customer = await Customer.create({
-        email,
-        name: name || email.split("@")[0],
+        email: normalizedEmail,
+        name: name || normalizedEmail.split("@")[0],
         picture,
         googleId: sub,
         password: `google-${sub}-${Date.now()}-${Math.random()}`,
@@ -439,6 +440,25 @@ router.get("/me", protectCustomer, async (req, res) => {
     );
     if (!customer) return res.status(404).json({ error: "Customer not found" });
     res.json(customer);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// Update current user profile
+router.put("/me", protectCustomer, async (req, res) => {
+  try {
+    const { name, phone, picture, address } = req.body;
+    const customer = await Customer.findById(req.customer.id);
+    if (!customer) return res.status(404).json({ error: "Customer not found" });
+
+    if (typeof name !== "undefined") customer.name = name;
+    if (typeof phone !== "undefined") customer.phone = phone;
+    if (typeof picture !== "undefined") customer.picture = picture;
+    if (typeof address !== "undefined") customer.address = address;
+
+    await customer.save();
+    res.json({ success: true, data: customer });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

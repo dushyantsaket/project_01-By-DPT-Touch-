@@ -589,13 +589,37 @@ router.get("/warranty", async (_req, res) => {
 
 router.patch("/warranty/:id/status", async (req, res) => {
   try {
-    const claim = await WarrantyClaim.findByIdAndUpdate(
-      req.params.id,
-      { status: req.body.status, adminNotes: req.body.adminNotes },
+    const rawStatus = String(req.body?.status || "Pending").trim();
+    const statusMap = {
+      pending: "Pending",
+      approved: "Approved",
+      rejected: "Rejected",
+      resolved: "Resolved",
+      completed: "Completed",
+    };
+    const status = statusMap[rawStatus.toLowerCase()] || rawStatus;
+    const adminNotes = req.body?.adminNotes ?? req.body?.adminNote ?? "";
+
+    const claim = await WarrantyClaim.findOneAndUpdate(
+      { $or: [{ _id: req.params.id }, { claimId: req.params.id }] },
+      { status, adminNotes },
       { new: true, runValidators: true },
     );
+
     if (!claim) return fail(res, 404, "Warranty claim not found");
     res.json(claim);
+  } catch (error) {
+    fail(res, 400, error.message);
+  }
+});
+
+router.delete("/warranty/:id", async (req, res) => {
+  try {
+    const claim = await WarrantyClaim.findOneAndDelete({
+      $or: [{ _id: req.params.id }, { claimId: req.params.id }],
+    });
+    if (!claim) return fail(res, 404, "Warranty claim not found");
+    ok(res, { deletedId: req.params.id, claimId: claim.claimId || claim._id });
   } catch (error) {
     fail(res, 400, error.message);
   }

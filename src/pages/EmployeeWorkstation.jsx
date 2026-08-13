@@ -17,7 +17,7 @@
 //   ShieldCheck,
 //   QrCode,
 // } from "lucide-react";
-// import { useAuth } from "../context/AuthContext";
+// import { useAuth } from "../context/useAuth";
 
 // const API = "/api";
 
@@ -804,7 +804,7 @@ import {
   Menu,
   X,
 } from "lucide-react";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/useAuth";
 import "../styles/EmployeeDashboard.css";
 
 const API = "/api";

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "../styles/AdminLogin.css";
 import { Lock, User, ChevronRight, ShieldCheck } from "lucide-react";
 
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/useAuth";
 
 const API = "/api";
 

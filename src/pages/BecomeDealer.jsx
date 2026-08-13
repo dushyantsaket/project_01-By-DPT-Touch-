@@ -1,41 +1,61 @@
 import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
-  UserPlus,
-  CheckCircle2,
-  Store,
-  ShoppingBag,
-  TrendingUp,
+  ArrowRight,
+  BarChart3,
+  CheckSquare,
+  Headphones,
   MapPin,
+  Play,
+  Quote,
   ShieldCheck,
+  Star,
+  Target,
+  Truck,
+  UploadCloud,
+  UserPlus,
+  Users,
+  Zap,
 } from "lucide-react";
+import "../styles/BecomeDealer.css";
 
 const steps = [
   {
     id: 1,
-    title: "Register",
-    subtitle: "Create your seller account",
+    title: "Seller Identity",
+    subtitle: "Start with your contact details",
     description:
-      "Provide your basic contact details and business identity to get started.",
+      "Share your basic business identity and contact information to begin your dealer application.",
     icon: UserPlus,
     fields: [
       { name: "fullName", label: "Full Name", type: "text", required: true },
       { name: "phone", label: "Phone Number", type: "tel", required: true },
       { name: "email", label: "Email Address", type: "email", required: true },
-      { name: "shopName", label: "Shop / Business Name", type: "text" },
+      {
+        name: "shopName",
+        label: "Shop / Business Name",
+        type: "text",
+        required: true,
+      },
+      {
+        name: "dealerType",
+        label: "Business Type",
+        type: "select",
+        placeholder: "Select Business Type",
+      },
     ],
   },
   {
     id: 2,
-    title: "Verify",
-    subtitle: "Confirm your identity",
+    title: "Verification",
+    subtitle: "Share company information",
     description:
-      "Send OTP and verify your mobile number to secure your seller application.",
-    icon: CheckCircle2,
+      "Submit GST, PAN, and location details so we can verify your business and shipping readiness.",
+    icon: CheckSquare,
     fields: [
       { name: "gstNumber", label: "GST Number", type: "text" },
       { name: "panNumber", label: "PAN Number", type: "text" },
-      { name: "address", label: "Shop Address", type: "text" },
+      { name: "address", label: "Shop Address", type: "text", required: true },
       { name: "city", label: "City", type: "text" },
       { name: "state", label: "State", type: "text" },
       { name: "pincode", label: "Pincode", type: "text" },
@@ -43,11 +63,11 @@ const steps = [
   },
   {
     id: 3,
-    title: "Store Setup",
-    subtitle: "Prepare your store details",
+    title: "Business Profile",
+    subtitle: "Showcase your inventory",
     description:
-      "Add product categories, business goals and shop operations details.",
-    icon: Store,
+      "Describe your product mix, brands, and stock capacity so we can match you with ideal buyers.",
+    icon: Truck,
     fields: [
       {
         name: "productCategories",
@@ -62,36 +82,46 @@ const steps = [
         placeholder: "Bosch, Makita, Dewalt",
       },
       { name: "monthlySales", label: "Monthly Sales Estimate", type: "text" },
+      { name: "availableStock", label: "Average Stock Value", type: "text" },
       { name: "deliveryVehicles", label: "Delivery Vehicles", type: "number" },
     ],
   },
   {
     id: 4,
-    title: "Start Selling",
-    subtitle: "Launch your store",
+    title: "Launch Plan",
+    subtitle: "Complete your financial setup",
     description:
-      "Finalize your bank details and marketing preferences to go live quickly.",
-    icon: ShoppingBag,
+      "Provide bank, marketing and territory information so your store can go live with full support.",
+    icon: BarChart3,
     fields: [
       { name: "bankDetails", label: "Bank Account Details", type: "text" },
-      { name: "salesGoal", label: "First Month Sales Goal", type: "text" },
+      { name: "website", label: "Website / Listing URL", type: "text" },
       {
         name: "marketingSupport",
         label: "Marketing Support Needed",
         type: "text",
-        placeholder: "Digital ads, social media, promotions",
       },
+      { name: "targetTerritory", label: "Target Territory", type: "text" },
     ],
   },
   {
     id: 5,
-    title: "Grow Your Business",
-    subtitle: "Scale with DPT",
+    title: "Growth Strategy",
+    subtitle: "Tell us your plan",
     description:
-      "Share your growth plan and connect with our team for support and expansion.",
-    icon: TrendingUp,
+      "Share your goals and growth ambitions so DPT can assign the right launch and expansion resources.",
+    icon: Target,
     fields: [
-      { name: "growthNotes", label: "Growth Plan / Notes", type: "textarea" },
+      {
+        name: "growthNotes",
+        label: "Growth Plan / Notes",
+        type: "textarea",
+      },
+      {
+        name: "expectedMonthlyOrders",
+        label: "Expected Monthly Orders",
+        type: "text",
+      },
     ],
   },
 ];
@@ -101,6 +131,7 @@ const initialForm = {
   phone: "",
   email: "",
   shopName: "",
+  dealerType: "",
   gstNumber: "",
   panNumber: "",
   address: "",
@@ -110,19 +141,63 @@ const initialForm = {
   productCategories: "",
   currentBrands: "",
   monthlySales: "",
+  availableStock: "",
   deliveryVehicles: "",
   bankDetails: "",
-  salesGoal: "",
+  website: "",
   marketingSupport: "",
+  targetTerritory: "",
   growthNotes: "",
+  expectedMonthlyOrders: "",
+  profileFileName: "",
 };
 
+const metrics = [
+  { label: "Dealer approvals", value: "1,250+", icon: Users },
+  { label: "Partner cities", value: "85", icon: MapPin },
+  { label: "Onboarding NPS", value: "4.8/5", icon: Star },
+];
+
+const benefits = [
+  {
+    title: "Verified dealer leads",
+    description:
+      "Receive qualified buyer requests and business enquiries every week.",
+    icon: Users,
+  },
+  {
+    title: "Fulfillment support",
+    description: "Access shipping, packaging, and pickup coordination.",
+    icon: CheckSquare,
+  },
+  {
+    title: "Growth advisory",
+    description: "Dedicated onboarding help, training and promotion.",
+    icon: ShieldCheck,
+  },
+];
+
+const testimonials = [
+  {
+    quote:
+      "DPT helped our store launch on time and gave us visibility into buyers across three nearby cities.",
+    author: "Rajesh Kumar",
+    role: "Power Tool Dealer, Bhopal",
+  },
+  {
+    quote:
+      "The onboarding experience felt premium and the team stayed in touch until our first order shipped.",
+    author: "Neha Singh",
+    role: "Retail Distributor, Indore",
+  },
+];
+
 const stepLabels = [
-  "Register",
-  "Verify",
-  "Store Setup",
-  "Start Selling",
-  "Grow Your Business",
+  "Identity",
+  "Verification",
+  "Business Profile",
+  "Launch Plan",
+  "Growth Strategy",
 ];
 
 export default function BecomeDealer() {
@@ -131,6 +206,8 @@ export default function BecomeDealer() {
   const [loading, setLoading] = useState(false);
   const [form, setForm] = useState(initialForm);
   const [message, setMessage] = useState("");
+  const [profileFile, setProfileFile] = useState(null);
+  const [isDragging, setIsDragging] = useState(false);
 
   const activeStepConfig = useMemo(
     () => steps.find((step) => step.id === activeStep) || steps[0],
@@ -140,6 +217,31 @@ export default function BecomeDealer() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleFileSelect = (file) => {
+    if (!file) return;
+    setProfileFile(file);
+    setForm((prev) => ({ ...prev, profileFileName: file.name }));
+  };
+
+  const handleFileInput = (e) => {
+    handleFileSelect(e.target.files?.[0]);
+  };
+
+  const handleDragOver = (e) => {
+    e.preventDefault();
+    setIsDragging(true);
+  };
+
+  const handleDragLeave = () => {
+    setIsDragging(false);
+  };
+
+  const handleDrop = (e) => {
+    e.preventDefault();
+    setIsDragging(false);
+    handleFileSelect(e.dataTransfer.files?.[0]);
   };
 
   const saveDraft = async () => {
@@ -152,9 +254,10 @@ export default function BecomeDealer() {
         body: JSON.stringify({ ...form }),
       });
       const data = await response.json();
-      if (!response.ok)
+      if (!response.ok) {
         throw new Error(data.error || data.message || "Unable to save draft");
-      setApplicationId(data.data._id);
+      }
+      setApplicationId(data.data?._id || data.data?.id || null);
       setMessage(data.message || "Draft saved successfully.");
       return data.data;
     } catch (err) {
@@ -188,9 +291,10 @@ export default function BecomeDealer() {
         body: JSON.stringify({ ...form }),
       });
       const data = await response.json();
-      if (!response.ok)
+      if (!response.ok) {
         throw new Error(data.error || data.message || "Submission failed");
-      setApplicationId(data.data._id);
+      }
+      setApplicationId(data.data?._id || data.data?.id || null);
       setMessage(
         "Application submitted successfully. Our team will contact you soon.",
       );
@@ -206,74 +310,106 @@ export default function BecomeDealer() {
       name: field.name,
       value: form[field.name] || "",
       onChange: handleChange,
-      placeholder: field.placeholder || field.label,
-      className:
-        "w-full border border-slate-300 rounded-lg px-4 py-3 focus:border-red-600 focus:ring-2 focus:ring-red-100",
       required: field.required || false,
     };
+
     if (field.type === "textarea") {
-      return <textarea {...commonProps} rows={4} />;
+      return (
+        <textarea
+          {...commonProps}
+          rows={4}
+          placeholder={field.placeholder || field.label}
+        />
+      );
     }
-    return <input {...commonProps} type={field.type} />;
+
+    if (field.type === "select") {
+      return (
+        <select {...commonProps}>
+          <option value="">{field.placeholder || field.label}</option>
+          <option value="Retail Dealer">Retail Dealer</option>
+          <option value="Wholesale Dealer">Wholesale Dealer</option>
+          <option value="Distributor">Distributor</option>
+          <option value="Service Partner">Service Partner</option>
+        </select>
+      );
+    }
+
+    return (
+      <input
+        {...commonProps}
+        type={field.type}
+        placeholder={field.placeholder || field.label}
+      />
+    );
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="max-w-6xl mx-auto space-y-8">
-        <section className="rounded-3xl bg-slate-950 text-white overflow-hidden shadow-2xl">
-          <div className="grid lg:grid-cols-2 gap-6 p-8 lg:p-12">
-            <div className="space-y-6">
-              <div className="inline-flex items-center gap-2 rounded-full bg-red-600/15 px-4 py-2 text-sm font-semibold text-red-100 ring-1 ring-red-500/20">
-                <MapPin size={18} /> Sidhi, Madhya Pradesh
-              </div>
+    <div className="dealer-page">
+      <div className="dealer-bg dealer-bg-left" />
+      <div className="dealer-bg dealer-bg-right" />
+      <div className="dealer-dots dealer-dots-top" />
+      <div className="dealer-dots dealer-dots-bottom" />
+
+      <section className="dealer-shell dealer-hero">
+        <div className="dealer-hero-copy">
+          <p className="dealer-eyebrow">Premium Dealer Registration</p>
+          <h1>
+            Become a Trusted <span>DPT</span> Partner and Scale Your Power Tool
+            Business.
+          </h1>
+          <p className="dealer-lead">
+            Complete your application with a premium onboarding journey,
+            business profile upload, field status updates and dedicated support
+            team.
+          </p>
+          <div className="dealer-proof-grid">
+            <article>
+              <Zap size={28} />
               <div>
-                <p className="text-sm uppercase tracking-[0.3em] text-red-300">
-                  Partner with DPT
-                </p>
-                <h1 className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">
-                  Become a Seller & Scale in 5 clear steps
-                </h1>
-                <p className="mt-4 max-w-xl text-slate-300 text-lg">
-                  Submit your application, verify your business, set up your
-                  store and start selling power tools across India with a
-                  trusted local partner.
-                </p>
+                <small>Fast Approval</small>
+                <strong>24-48 hour response</strong>
               </div>
-              <div className="grid gap-4 sm:grid-cols-2">
-                <div className="rounded-3xl bg-slate-900/90 p-5 ring-1 ring-white/10">
-                  <p className="text-sm text-slate-400">Fast approval</p>
-                  <p className="mt-2 text-xl font-semibold">
-                    Complete setup in days
-                  </p>
-                </div>
-                <div className="rounded-3xl bg-slate-900/90 p-5 ring-1 ring-white/10">
-                  <p className="text-sm text-slate-400">Support</p>
-                  <p className="mt-2 text-xl font-semibold">
-                    Dedicated dealer onboarding
-                  </p>
-                </div>
+            </article>
+            <article>
+              <Headphones size={28} />
+              <div>
+                <small>Dedicated Support</small>
+                <strong>Onboarding every step</strong>
               </div>
-            </div>
-            <div className="relative overflow-hidden rounded-3xl bg-white">
-              <video
-                src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/red-maximalist-logistics-service-poster-design-template-8957c3403ca76cb5c250719d81ef19ea_screen.mp4?ts=1718132681"
-                controls
-                className="h-full w-full object-cover"
-              />
-            </div>
-            <div className="relative overflow-hidden rounded-3xl bg-white">
-              <img
-                src="/images/login-storefront.jpeg"
-                alt="DPT storefront example"
-                className="h-full w-full object-cover"
-              />
+            </article>
+          </div>
+        </div>
+
+        <div className="dealer-video-card">
+          <h2>Launch faster with DPT</h2>
+          <div className="dealer-video-frame">
+            <img src="/images/industrial_hero.png" alt="DPT launch preview" />
+            <button type="button" aria-label="Play DPT onboarding video">
+              <Play size={28} fill="currentColor" />
+            </button>
+            <div className="dealer-video-controls">
+              <span>0:00 / 0:22</span>
+              <span>HD</span>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="grid gap-8 lg:grid-cols-[1.25fr_0.75fr]">
-          <div className="space-y-6">
-            <div className="grid gap-4 sm:grid-cols-2">
+      <section className="dealer-shell dealer-content-grid">
+        <main className="dealer-main-stack">
+          <section className="dealer-panel dealer-journey">
+            <div className="dealer-section-head">
+              <div>
+                <p className="dealer-eyebrow">Application Journey</p>
+                <h2>5-step dealer onboarding built for brands like yours.</h2>
+              </div>
+              <span className="dealer-step-count">
+                {activeStep} of {steps.length}
+              </span>
+            </div>
+
+            <div className="dealer-step-tabs">
               {steps.map((item) => {
                 const Icon = item.icon;
                 const isActive = activeStep === item.id;
@@ -281,185 +417,185 @@ export default function BecomeDealer() {
                   <button
                     key={item.id}
                     type="button"
+                    className={isActive ? "active" : ""}
                     onClick={() => setActiveStep(item.id)}
-                    className={`group text-left rounded-3xl border p-6 transition shadow-sm hover:border-red-500 hover:shadow-lg ${isActive ? "border-red-500 bg-red-50" : "border-slate-200 bg-white"}`}
                   >
-                    <div className="flex items-center justify-between gap-4">
-                      <div className="flex items-center gap-3">
-                        <span className="grid h-12 w-12 place-items-center rounded-2xl bg-red-100 text-red-600">
-                          <Icon size={24} />
-                        </span>
-                        <div>
-                          <p className="text-xs uppercase tracking-[0.25em] text-slate-500">
-                            Step {item.id}
-                          </p>
-                          <h3 className="mt-2 text-lg font-semibold text-slate-950">
-                            {item.title}
-                          </h3>
-                        </div>
-                      </div>
-                      <span
-                        className={`inline-flex h-9 w-9 items-center justify-center rounded-full text-sm font-semibold ${isActive ? "bg-red-600 text-white" : "bg-slate-100 text-slate-700"}`}
-                      >
-                        {item.id}
-                      </span>
-                    </div>
-                    <p className="mt-4 text-sm text-slate-600">
-                      {item.subtitle}
-                    </p>
+                    <Icon size={24} />
+                    <small>Step {item.id}</small>
+                    <strong>{item.title}</strong>
+                    <span>{item.subtitle}</span>
                   </button>
                 );
               })}
             </div>
 
-            <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-              <div className="mb-4 flex items-center justify-between gap-4">
+            <form onSubmit={handleSubmitApplication} className="dealer-form">
+              <div className="dealer-form-head">
                 <div>
-                  <p className="text-sm font-semibold uppercase tracking-[0.28em] text-red-600">
-                    {activeStepConfig.title}
-                  </p>
-                  <h2 className="mt-2 text-3xl font-bold text-slate-950">
-                    {activeStepConfig.subtitle}
-                  </h2>
-                  <p className="mt-3 text-slate-600">
-                    {activeStepConfig.description}
-                  </p>
+                  <p className="dealer-eyebrow">{activeStepConfig.title}</p>
+                  <h3>{activeStepConfig.subtitle}</h3>
+                  <p>{activeStepConfig.description}</p>
                 </div>
-                <div className="rounded-3xl bg-red-50 px-4 py-3 text-sm font-semibold text-red-700">
-                  {stepLabels[activeStep - 1]}
-                </div>
+                <span>{stepLabels[activeStep - 1]}</span>
               </div>
 
-              <form onSubmit={handleSubmitApplication} className="space-y-6">
-                <div className="grid gap-4 sm:grid-cols-2">
-                  {activeStepConfig.fields.map((field) => (
-                    <div key={field.name} className="space-y-2">
-                      <label
-                        htmlFor={field.name}
-                        className="block text-sm font-medium text-slate-700"
-                      >
-                        {field.label}
-                      </label>
-                      {renderField(field)}
-                    </div>
-                  ))}
-                </div>
-
-                <div className="grid gap-4 sm:grid-cols-2">
-                  <button
-                    type="button"
-                    onClick={handleStepSave}
-                    disabled={loading}
-                    className="rounded-3xl border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-800 transition hover:border-red-500 hover:text-red-600"
+              <div className="dealer-field-grid">
+                {activeStepConfig.fields.map((field) => (
+                  <label
+                    key={field.name}
+                    className={field.type === "textarea" ? "wide" : ""}
                   >
-                    {loading ? "Saving..." : "Save & Continue"}
-                  </button>
-                  <button
-                    type="submit"
-                    disabled={loading}
-                    className="rounded-3xl bg-red-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-red-700"
-                  >
-                    {loading ? "Submitting..." : "Submit Full Application"}
-                  </button>
-                </div>
-              </form>
-
-              {message && (
-                <div className="mt-4 rounded-3xl border border-slate-200 bg-slate-50 px-4 py-4 text-sm text-slate-700">
-                  {message}
-                </div>
-              )}
-
-              {applicationId && (
-                <div className="mt-4 rounded-3xl bg-slate-950 px-5 py-4 text-sm text-white">
-                  Application ID:{" "}
-                  <span className="font-semibold">{applicationId}</span>
-                </div>
-              )}
-            </div>
-          </div>
-
-          <aside className="space-y-6">
-            <div className="rounded-3xl bg-slate-900 p-6 text-white shadow-lg">
-              <div className="flex items-start gap-4">
-                <div className="mt-1 rounded-3xl bg-white/10 p-3">
-                  <ShieldCheck size={28} />
-                </div>
-                <div>
-                  <p className="text-xs uppercase tracking-[0.3em] text-red-300">
-                    Trust & Security
-                  </p>
-                  <h3 className="mt-3 text-2xl font-bold">
-                    Verified Dealer Onboarding
-                  </h3>
-                  <p className="mt-3 text-slate-300">
-                    Your business is reviewed by DPT admin and verified for
-                    quality, compliance, and fulfillment readiness.
-                  </p>
-                </div>
+                    <span>{field.label}</span>
+                    {renderField(field)}
+                  </label>
+                ))}
               </div>
-            </div>
 
-            <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-              <div className="flex items-center gap-3 text-slate-950">
-                <MapPin size={24} className="text-red-600" />
-                <div>
-                  <p className="text-sm font-semibold">
-                    Dushyant Power Tools Office
-                  </p>
-                  <p className="mt-2 text-sm text-slate-600">
-                    Gopal Das Rd, Sidhi, Jamodi Khurd, Madhya Pradesh 486661
-                  </p>
-                </div>
-              </div>
-              <div className="mt-4 overflow-hidden rounded-3xl border border-slate-200">
-                <iframe
-                  title="Sidhi Location Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3636.123456789!2d81.8836!3d24.4123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398b2f229a5f4f4f%3A0x1234567890abcdef!2sSidhi%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
-                  width="100%"
-                  height="240"
-                  className="border-0"
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
-              </div>
-            </div>
-
-            <div className="rounded-3xl bg-white p-6 shadow-sm">
-              <h4 className="text-lg font-semibold text-slate-950">
-                Why Dealers Choose DPT
-              </h4>
-              <ul className="mt-4 space-y-3 text-slate-700">
-                <li className="flex items-center gap-3">
-                  <span className="rounded-full bg-red-50 p-2 text-red-600">
-                    •
-                  </span>{" "}
-                  Access to ready buyers
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="rounded-full bg-red-50 p-2 text-red-600">
-                    •
-                  </span>{" "}
-                  Local fulfilment support
-                </li>
-                <li className="flex items-center gap-3">
-                  <span className="rounded-full bg-red-50 p-2 text-red-600">
-                    •
-                  </span>{" "}
-                  Seamless order growth
-                </li>
-              </ul>
-              <Link
-                to="/contact-support"
-                className="mt-6 inline-flex rounded-3xl bg-red-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-red-700"
+              <label
+                htmlFor="profile-upload"
+                className={`dealer-upload ${isDragging ? "dragging" : ""}`}
+                onDragOver={handleDragOver}
+                onDragLeave={handleDragLeave}
+                onDrop={handleDrop}
               >
-                Talk to our onboarding team
-              </Link>
+                <UploadCloud size={28} />
+                <strong>Upload business profile</strong>
+                <span>
+                  Drag and drop your profile or select a file to attach. Only
+                  image and PDF files are supported.
+                </span>
+                <input
+                  id="profile-upload"
+                  type="file"
+                  accept=".pdf,.doc,.docx,.png,.jpg,.jpeg"
+                  onChange={handleFileInput}
+                />
+              </label>
+
+              {profileFile && (
+                <p className="dealer-file-name">
+                  Selected file: <strong>{profileFile.name}</strong>
+                </p>
+              )}
+
+              <div className="dealer-form-actions">
+                <button
+                  type="button"
+                  className="dealer-btn secondary"
+                  onClick={handleStepSave}
+                  disabled={loading}
+                >
+                  {loading ? "Saving..." : "Save & Continue"}
+                </button>
+                <button
+                  type="submit"
+                  className="dealer-btn primary"
+                  disabled={loading}
+                >
+                  {loading ? "Submitting..." : "Submit Full Application"}
+                </button>
+              </div>
+
+              {message && <div className="dealer-alert">{message}</div>}
+              {applicationId && (
+                <div className="dealer-alert subtle">
+                  Application ID: <strong>{applicationId}</strong>
+                </div>
+              )}
+            </form>
+          </section>
+        </main>
+
+        <aside className="dealer-side-stack">
+          <section className="dealer-panel dealer-stats-card">
+            <p className="dealer-eyebrow">Trusted Onboarding</p>
+            <h2>Verified dealer lifecycle</h2>
+            <p>
+              We keep your application experience clear, timely and supported
+              from start to finish.
+            </p>
+            <div className="dealer-metrics">
+              {metrics.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <article key={item.label}>
+                    <Icon size={28} />
+                    <div>
+                      <span>{item.label}</span>
+                      <strong>{item.value}</strong>
+                    </div>
+                  </article>
+                );
+              })}
             </div>
-          </aside>
-        </section>
-      </div>
+          </section>
+
+          <section className="dealer-panel dealer-benefits-card">
+            <p className="dealer-eyebrow">Why Choose DPT</p>
+            <h2>Premium benefits for every dealer</h2>
+            <div>
+              {benefits.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <article key={item.title}>
+                    <Icon size={22} />
+                    <div>
+                      <strong>{item.title}</strong>
+                      <span>{item.description}</span>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+          </section>
+
+          <section className="dealer-panel dealer-help-card">
+            <p className="dealer-eyebrow">Need Help?</p>
+            <h2>Onboarding support</h2>
+            <p>
+              Our team is ready to answer questions about documentation,
+              approval and order onboarding.
+            </p>
+            <Link to="/contact-support">
+              <Headphones size={18} />
+              Talk to Support
+              <ArrowRight size={18} />
+            </Link>
+          </section>
+        </aside>
+      </section>
+
+      <section className="dealer-shell dealer-panel dealer-stories">
+        <div className="dealer-section-head">
+          <div>
+            <p className="dealer-eyebrow">Partner Stories</p>
+            <h2>Trusted by dealers across the region</h2>
+          </div>
+          <div className="dealer-story-arrows">
+            <button type="button" aria-label="Previous story">
+              <ArrowRight size={16} />
+            </button>
+            <button type="button" aria-label="Next story">
+              <ArrowRight size={16} />
+            </button>
+          </div>
+        </div>
+        <div className="dealer-story-grid">
+          {testimonials.map((item) => (
+            <article key={item.author}>
+              <Quote size={22} />
+              <p>{item.quote}</p>
+              <div>
+                <span />
+                <div>
+                  <strong>{item.author}</strong>
+                  <small>{item.role}</small>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

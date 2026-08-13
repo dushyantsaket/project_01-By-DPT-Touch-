@@ -13,7 +13,7 @@ import {
   FileText,
   MapPin,
 } from "lucide-react";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/useAuth";
 
 const API = "/api";
 

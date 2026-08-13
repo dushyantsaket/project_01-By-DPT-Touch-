@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/useAuth";
 import {
   Package, User, LogOut, ChevronRight, Clock, CheckCircle, XCircle,
   ShoppingBag, ShieldCheck, Phone, Mail, AlertCircle, Home, Star, Edit2, Save,
@@ -10,53 +10,90 @@ import { Link, useNavigate } from "react-router-dom";
 const API = "/api";
 
 export default function CustomerDashboard() {
-  const { user, logout, isLoggedIn } = useAuth();
+  const { user, logout, isLoggedIn, updateUser } = useAuth();
   const navigate = useNavigate();
+  const [profile, setProfile] = useState(null);
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(false);
   const [activeTab, setActiveTab] = useState("overview");
+  const [wishlistCount, setWishlistCount] = useState(0);
+  const [savedProductsCount, setSavedProductsCount] = useState(0);
 
-  // Mock data for Ravi Sharma as fallback if user data is incomplete
-  const displayName = user?.name || "Ravi Sharma";
-  const displayEmail = user?.email || "ravi.sharma@gmail.com";
-  const displayPhone = user?.phone || "+91 97540 15503";
-  const displayInitials = displayName.split(" ").map(n => n[0]).join("").toUpperCase().slice(0, 2) || "RS";
+  // Mock data for fallback if user data is incomplete
+  const displayName = profile?.name || user?.name || "Ravi Sharma";
+  const displayEmail = profile?.email || user?.email || "ravi.sharma@gmail.com";
+  const displayPhone = profile?.phone || user?.phone || "+91 97540 15503";
+  const displayInitials = displayName.split(" ").map((n) => n[0]).join("").toUpperCase().slice(0, 2) || "RS";
 
   useEffect(() => {
-    if (!isLoggedIn) {
-      // For testing/mocking, if we want to preview without login we can comment out
-      // navigate("/login/customer");
-      // But in production, we redirect. Let's keep it check, but fallback to mockup is allowed
-    }
-    fetchOrders();
-  }, [isLoggedIn, navigate]);
-
-  const fetchOrders = async () => {
-    if (!user?.token) {
-      // Set mock orders matching Image 3
-      setOrders([
-        { id: "ORD-12458", name: "NCH Impact Drill 13mm", qty: 1, price: 4850, status: "Delivered", date: "12 May 2025" },
-        { id: "ORD-12420", name: "NCH Angle Grinder 100mm", qty: 1, price: 2250, status: "Shipped", date: "08 May 2025" },
-        { id: "ORD-12380", name: "NCH Circular Saw 185mm", qty: 1, price: 6780, status: "Processing", date: "05 May 2025" },
-        { id: "ORD-12295", name: "NCH Blower 600W", qty: 1, price: 1950, status: "Delivered", date: "02 May 2025" }
-      ]);
+    if (!isLoggedIn || !user?.token) {
       return;
     }
-    setLoading(true);
-    try {
-      const res = await fetch(`${API}/auth/orders`, {
-        headers: { Authorization: `Bearer ${user.token}` },
-      });
-      const data = await res.json();
-      if (data.success) {
-        setOrders(data.data || []);
+
+    const loadProfile = async () => {
+      try {
+        const res = await fetch(`${API}/auth/me`, {
+          headers: { Authorization: `Bearer ${user.token}` },
+        });
+        const data = await res.json();
+        if (res.ok && data) {
+          const defaultName = user?.name || "Ravi Sharma";
+          const defaultPhone = user?.phone || "+91 97540 15503";
+          const defaultAddress = "123, Main Street, Seoni, Madhya Pradesh - 480661, India";
+          setProfile(data);
+          setProfileForm({
+            name: data.name || defaultName,
+            phone: data.phone || defaultPhone,
+            address: data.address || defaultAddress,
+          });
+        }
+      } catch {
+        // ignore
       }
-    } catch { 
-      // Fallback
-    } finally { 
-      setLoading(false); 
-    }
-  };
+    };
+
+    const loadOrders = async () => {
+      setLoading(true);
+      try {
+        const res = await fetch(`${API}/auth/orders`, {
+          headers: { Authorization: `Bearer ${user.token}` },
+        });
+        const data = await res.json();
+        if (data.success && Array.isArray(data.data)) {
+          setOrders(
+            data.data.map((order) => ({
+              id: order.orderId || order._id,
+              name: order.items?.[0]?.productTitle || "Order Items",
+              qty: order.items?.reduce((sum, item) => sum + (item.quantity || 0), 0) || order.totalItems || 0,
+              price: order.amountPayable || order.grandTotal || order.sellingPriceTotal || order.totalAmount || 0,
+              status: order.orderStatus || order.paymentStatus || "Pending",
+              date: order.createdAt
+                ? new Date(order.createdAt).toLocaleDateString("en-IN", {
+                    day: "2-digit",
+                    month: "short",
+                    year: "numeric",
+                  })
+                : "",
+            })),
+          );
+        }
+      } catch {
+        // Fallback
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadProfile();
+    loadOrders();
+  }, [isLoggedIn, user?.token, user?.name, user?.phone]);
+
+  useEffect(() => {
+    const wishlist = JSON.parse(localStorage.getItem("wishlist") || "[]");
+    const saved = JSON.parse(localStorage.getItem("savedForLater") || "[]");
+    setWishlistCount(Array.isArray(wishlist) ? wishlist.length : 0);
+    setSavedProductsCount(Array.isArray(saved) ? saved.length : 0);
+  }, []);
 
   const handleLogout = () => {
     logout();
@@ -77,20 +114,25 @@ export default function CustomerDashboard() {
       return;
     }
     try {
-      const res = await fetch(`${API}/user/profile`, {
+      const res = await fetch(`${API}/auth/me`, {
         method: "PUT",
-        headers: { 
+        headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${user.token}`
+          Authorization: `Bearer ${user.token}`,
         },
-        body: JSON.stringify({ email: user.email, ...profileForm }),
+        body: JSON.stringify({ name: profileForm.name, phone: profileForm.phone, address: profileForm.address }),
       });
+      const data = await res.json();
       if (res.ok) {
         setEditingProfile(false);
+        setProfile(data.data || data);
+        updateUser({ name: profileForm.name, phone: profileForm.phone });
         alert("Profile updated successfully!");
+      } else {
+        throw new Error(data.error || "Failed to update profile");
       }
-    } catch {
-      alert("Failed to update profile");
+    } catch (err) {
+      alert(err.message || "Failed to update profile");
     }
   };
 
@@ -214,10 +256,10 @@ export default function CustomerDashboard() {
               <div style={styles.statsRow}>
                 {[
                   { value: "₹25,430", label: "Total Spent", icon: CreditCard, color: "#2563eb" },
-                  { value: "8", label: "Orders Placed", icon: Package, color: "#10b981" },
-                  { value: "3", label: "Wishlist Items", icon: Star, color: "#f59e0b" },
-                  { value: "2", label: "Warranty Claims", icon: ShieldCheck, color: "#dc2626" },
-                  { value: "1450", label: "Reward Points", icon: Star, color: "#8b5cf6" }
+                  { value: String(orders.length), label: "Orders Placed", icon: Package, color: "#10b981" },
+                  { value: String(wishlistCount), label: "Wishlist Items", icon: Star, color: "#f59e0b" },
+                  { value: String(savedProductsCount), label: "Saved Products", icon: Star, color: "#8b5cf6" },
+                  { value: "2", label: "Warranty Claims", icon: ShieldCheck, color: "#dc2626" }
                 ].map((stat, i) => {
                   const StatIcon = stat.icon;
                   return (
@@ -243,28 +285,34 @@ export default function CustomerDashboard() {
                     <Link to="#" onClick={() => setActiveTab("orders")} style={styles.cardHeaderLink}>View All Orders →</Link>
                   </div>
                   <div style={styles.ordersList}>
-                    {orders.map((order, i) => {
-                      const statusStyle = getStatusStyle(order.status);
-                      return (
-                        <div key={i} style={styles.orderListItem}>
-                          <div style={styles.orderItemIconBox}>
-                            <Package size={16} color="#64748b" />
-                          </div>
-                          <div style={{ flex: 1 }}>
-                            <div style={styles.orderItemName}>{order.name}</div>
-                            <div style={styles.orderItemMeta}>
-                              Order #{order.id} • Qty: {order.qty}
+                    {loading && orders.length === 0 ? (
+                      <div style={{ padding: "28px 0", textAlign: "center", color: "#64748b" }}>
+                        Loading orders...
+                      </div>
+                    ) : (
+                      orders.map((order, i) => {
+                        const statusStyle = getStatusStyle(order.status);
+                        return (
+                          <div key={i} style={styles.orderListItem}>
+                            <div style={styles.orderItemIconBox}>
+                              <Package size={16} color="#64748b" />
+                            </div>
+                            <div style={{ flex: 1 }}>
+                              <div style={styles.orderItemName}>{order.name}</div>
+                              <div style={styles.orderItemMeta}>
+                                Order #{order.id} • Qty: {order.qty}
+                              </div>
+                            </div>
+                            <div style={{ textAlign: "right" }}>
+                              <div style={styles.orderItemPrice}>₹{order.price.toLocaleString("en-IN")}</div>
+                              <span style={{ ...styles.orderStatusBadge, background: statusStyle.bg, color: statusStyle.color }}>
+                                {order.status}
+                              </span>
                             </div>
                           </div>
-                          <div style={{ textAlign: "right" }}>
-                            <div style={styles.orderItemPrice}>₹{order.price.toLocaleString("en-IN")}</div>
-                            <span style={{ ...styles.orderStatusBadge, background: statusStyle.bg, color: statusStyle.color }}>
-                              {order.status}
-                            </span>
-                          </div>
-                        </div>
-                      );
-                    })}
+                        );
+                      })
+                    )}
                   </div>
                   <button onClick={() => setActiveTab("orders")} style={styles.viewAllOrdersBtn}>
                     View All Orders

@@ -323,7 +323,7 @@ export default ProductCategories;
 
 // import React, { useState, useEffect, useMemo, useRef } from "react";
 // import { Link, useNavigate } from "react-router-dom";
-// import { useAuth } from "../context/AuthContext";
+// import { useAuth } from "../context/useAuth";
 // import { useCart } from "../context/CartContext";
 // import { useInventory } from "../context/useInventory";
 // import {

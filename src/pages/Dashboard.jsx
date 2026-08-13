@@ -35,7 +35,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/useAuth";
 import AdminProductForm from "../components/AdminProductForm";
 import NotificationSettings from "../components/NotificationSettings";
 import { useInventory } from "../context/useInventory";

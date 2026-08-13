@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/useAuth";
 import { Users, LogOut, Mail, Phone, Clock, ShieldCheck } from "lucide-react";
 
 const API = "/api";
