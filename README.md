@@ -7,7 +7,7 @@
 A modern web platform built to manage **products, customers, dealers, orders, inventory, leads, billing, warranty claims, employees, news and business operations** from a single system.
 
 <p>
-  <img src="https://chatgpt.com/backend-api/estuary/content?id=file_00000000a5dc8211bdfab093ef80cccf&ts=496213&p=fs&cid=1&sig=5c523825bc51abe89b27d314178c2f98bf52dff85bb0b5ca3c329dc642a9f9e8&v=0" width="100%" />
+  <img src="https://media.licdn.com/dms/image/v2/D5622AQH9XQLFB7k0gg/feedshare-shrink_800/B56Z_7U2UxGQAo-/0/1786627974840?e=1788393600&v=beta&t=9KKHYBKJDyite30xIywWqMtP3wdhZk-ESS89lbt3zB4" width="100%" />
 </p>
 
 </div>
@@ -174,7 +174,7 @@ The Cordless Tools section provides a dedicated catalogue for cordless power too
 The application uses a role-based portal selection system.
 
 <p align="center">
-  <img src="./docs/screenshots/login-portal.png" alt="Role Based Login Portal" width="85%" />
+  <img src="https://media.licdn.com/dms/image/v2/D5622AQFd-YcDb0esdQ/feedshare-image-high-res/B56Z_7Uzt5JMAY-/0/1786627964071?e=1788393600&v=beta&t=OTicqTC4lIV1tdOWs-o2jOZwKSTudpZ73appGEf_lPk" alt="Role Based Login Portal" width="85%" />
 </p>
 
 ## 👤 Customer Portal
@@ -243,7 +243,7 @@ The registration page allows users to create their account.
 - Account Type
 
 <p align="center">
-  <img src="https://chatgpt.com/backend-api/estuary/content?id=file_00000000a9708211bfcae0a40263a5a0&ts=496213&p=fs&cid=1&sig=ec0ae939e499bca26974a71550d6abca38bcbc054856321b76566214db5b1184&v=0" width="85%" />
+  <img src="https://media.licdn.com/dms/image/v2/D5622AQF3UFQRaMszMA/feedshare-image-high-res/B56Z_7UzkKHAAY-/0/1786627963483?e=1788393600&v=beta&t=DhHwC5GU6371BYvsUes7giLFqT8eX7mnRzn4E1_CcYc" width="85%" />
 </p>
 
 ---
