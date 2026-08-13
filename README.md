@@ -164,7 +164,7 @@ The Cordless Tools section provides a dedicated catalogue for cordless power too
 - Add to Cart
 
 <p align="center">
-  <img src="https://chatgpt.com/backend-api/estuary/content?id=file_00000000329c8211b7ba7f6716dac79f&ts=496213&p=fs&cid=1&sig=c08a4b7260fed925756a5bb7eee8e26b352e29c7cec8b70dcfecf2e82e7f103c&v=0" width="100%" />
+  <img src="https://media.licdn.com/dms/image/v2/D5622AQG_ZVu01Fetgw/feedshare-image-high-res/B56Z_7U0XNGgAY-/0/1786627966727?e=1788393600&v=beta&t=TnlVit-jY0O1gmtHmU2GICFn0iFfhN1-vwidhnTOlQU" width="100%" />
 </p>
 
 ---
@@ -340,7 +340,7 @@ The Products section provides complete product catalogue management.
 The current UI shown in the supplied screenshot contains **1,535 products**, including live, private and out-of-stock inventory states.
 
 <p align="center">
-  <img src="https://chatgpt.com/backend-api/estuary/content?id=file_0000000013708211ade2b55c0a467d21&ts=496213&p=fs&cid=1&sig=5ef6707c71ff6c3c45c3e7f7eca48f3c0e2e1206e6c9b55760cc98a77bd4ccbf&v=0" width="100%" />
+  <img src="https://media.licdn.com/dms/image/v2/D5622AQG1UIx4u8rUxw/feedshare-image-high-res/B56Z_7UxGpG0AU-/0/1786627953358?e=1788393600&v=beta&t=bJ0PkBiwGcbUnNoymhZHs1ij1l7wY5S3tK8FUe55rAE" width="100%" />
 </p>
 
 ---
