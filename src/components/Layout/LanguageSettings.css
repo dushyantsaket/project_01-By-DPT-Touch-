@@ -1,0 +1,476 @@
+/* LanguageSettings.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: #f0f2f5;
+    color: #1a1a2e;
+}
+
+.language-settings {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e9edf5 100%);
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 28px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.10), 0 8px 24px rgba(0, 0, 0, 0.06);
+    padding: 40px 48px 32px;
+    transition: all 0.3s ease;
+}
+
+/* ========== Header ========== */
+.header {
+    margin-bottom: 32px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0a0a1a;
+    letter-spacing: -0.4px;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #5a5a7a;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* ========== Search ========== */
+.search-wrapper {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.search-input {
+    width: 100%;
+    padding: 14px 48px 14px 48px;
+    font-size: 16px;
+    border: 2px solid #e2e6ee;
+    border-radius: 16px;
+    background: #f8f9fc;
+    transition: all 0.25s ease;
+    outline: none;
+    color: #1a1a2e;
+}
+
+.search-input::placeholder {
+    color: #9aa0b8;
+    font-weight: 400;
+}
+
+.search-input:focus {
+    border-color: #6c5ce7;
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(108, 92, 231, 0.12);
+}
+
+.clear-search {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #9aa0b8;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    line-height: 1;
+}
+
+.clear-search:hover {
+    color: #1a1a2e;
+    background: #eef0f5;
+}
+
+/* ========== Selected Indicator ========== */
+.selected-indicator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f0edff;
+    padding: 12px 20px;
+    border-radius: 14px;
+    margin-bottom: 28px;
+    border-left: 4px solid #6c5ce7;
+}
+
+.selected-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #4a4a6a;
+}
+
+.selected-language {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2d2d5e;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.selected-code {
+    font-weight: 400;
+    color: #7a7a9a;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+/* ========== Language Grid ========== */
+.language-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    margin-bottom: 36px;
+    max-height: 540px;
+    overflow-y: auto;
+    padding-right: 4px;
+}
+
+/* Custom scrollbar */
+.language-grid::-webkit-scrollbar {
+    width: 6px;
+}
+
+.language-grid::-webkit-scrollbar-track {
+    background: #f0f2f5;
+    border-radius: 8px;
+}
+
+.language-grid::-webkit-scrollbar-thumb {
+    background: #c8cddd;
+    border-radius: 8px;
+}
+
+.language-grid::-webkit-scrollbar-thumb:hover {
+    background: #a8aec8;
+}
+
+/* ========== Language Card ========== */
+.language-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 18px;
+    background: #fafbff;
+    border: 2px solid #eef0f8;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.2, 0.9, 0.4, 1);
+    position: relative;
+    min-height: 80px;
+}
+
+.language-card:hover {
+    background: #ffffff;
+    border-color: #d0d5e8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+}
+
+.language-card.selected {
+    background: #f4f1ff;
+    border-color: #6c5ce7;
+    box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.15), 0 4px 12px rgba(108, 92, 231, 0.08);
+}
+
+.language-card.selected .card-native {
+    color: #3d2b8a;
+}
+
+.card-flag {
+    font-size: 28px;
+    line-height: 1;
+    flex-shrink: 0;
+    width: 40px;
+    text-align: center;
+}
+
+.card-content {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.card-native {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a2e;
+    line-height: 1.3;
+}
+
+.card-code {
+    font-size: 11px;
+    font-weight: 700;
+    color: #8a8aaa;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    background: #eef0f8;
+    display: inline-block;
+    padding: 1px 8px;
+    border-radius: 20px;
+    width: fit-content;
+    margin-top: 1px;
+}
+
+.card-name {
+    font-size: 13px;
+    color: #5a5a7a;
+    line-height: 1.3;
+}
+
+.card-subtitle {
+    font-size: 12px;
+    color: #8a8aaa;
+    line-height: 1.2;
+}
+
+.card-region {
+    font-size: 11px;
+    color: #b0b6cc;
+    line-height: 1.2;
+    margin-top: 1px;
+}
+
+.checkmark {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    width: 22px;
+    height: 22px;
+    background: #6c5ce7;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(108, 92, 231, 0.30);
+}
+
+/* ========== No Results ========== */
+.no-results {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 48px 20px;
+    color: #6a6a8a;
+    font-size: 16px;
+    background: #f8f9fc;
+    border-radius: 16px;
+    border: 2px dashed #dde0ea;
+}
+
+.no-results strong {
+    color: #1a1a2e;
+}
+
+/* ========== Footer ========== */
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 14px;
+    padding-top: 24px;
+    border-top: 1px solid #eef0f8;
+}
+
+.btn {
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    letter-spacing: 0.2px;
+}
+
+.btn-secondary {
+    background: #f0f2f8;
+    color: #3d3d5a;
+}
+
+.btn-secondary:hover {
+    background: #e4e7f0;
+    transform: scale(0.97);
+}
+
+.btn-primary {
+    background: #6c5ce7;
+    color: #ffffff;
+    box-shadow: 0 4px 14px rgba(108, 92, 231, 0.30);
+}
+
+.btn-primary:hover {
+    background: #5a4bd1;
+    transform: scale(0.97);
+    box-shadow: 0 6px 20px rgba(108, 92, 231, 0.35);
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 768px) {
+    .container {
+        padding: 24px 20px;
+        border-radius: 20px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .language-grid {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 12px;
+        max-height: 440px;
+    }
+
+    .language-card {
+        padding: 12px 14px;
+        min-height: 70px;
+        gap: 10px;
+    }
+
+    .card-flag {
+        font-size: 24px;
+        width: 34px;
+    }
+
+    .card-native {
+        font-size: 14px;
+    }
+
+    .card-name {
+        font-size: 12px;
+    }
+
+    .card-subtitle {
+        font-size: 11px;
+    }
+
+    .card-region {
+        font-size: 10px;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+        padding: 14px;
+        text-align: center;
+    }
+
+    .selected-indicator {
+        flex-wrap: wrap;
+        padding: 10px 16px;
+    }
+
+    .search-input {
+        padding: 12px 44px 12px 44px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .language-settings {
+        padding: 16px 10px;
+    }
+
+    .container {
+        padding: 16px 14px;
+        border-radius: 16px;
+    }
+
+    .language-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 10px;
+        max-height: 380px;
+    }
+
+    .language-card {
+        padding: 10px 12px;
+        min-height: 64px;
+        border-radius: 12px;
+    }
+
+    .card-flag {
+        font-size: 20px;
+        width: 30px;
+    }
+
+    .card-native {
+        font-size: 13px;
+    }
+
+    .card-code {
+        font-size: 9px;
+        padding: 0 6px;
+    }
+
+    .card-name {
+        font-size: 11px;
+    }
+
+    .card-subtitle {
+        font-size: 10px;
+    }
+
+    .card-region {
+        font-size: 9px;
+    }
+
+    .checkmark {
+        width: 18px;
+        height: 18px;
+        font-size: 10px;
+        top: 6px;
+        right: 8px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
