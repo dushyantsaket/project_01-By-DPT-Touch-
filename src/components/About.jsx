@@ -509,6 +509,44 @@ const About = () => {
         </div>
       </section>
 
+      {/* Brand Collaboration Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+          <div className="inline-flex items-center gap-2 bg-yellow-100 px-4 py-2 rounded-full mb-4">
+            <Heart size={16} className="text-yellow-700" />
+            <span className="text-sm font-bold text-yellow-700 tracking-wider">
+              BRAND COLLABORATION
+            </span>
+          </div>
+          <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tight">
+            Our Trusted Partners
+          </h2>
+          <p className="text-gray-500 mt-3 max-w-3xl mx-auto">
+            We are proud to collaborate with industry-leading brands to bring
+            you the best tools and equipment. Explore products from our valued
+            partners.
+          </p>
+          <div className="mt-12 bg-gray-50 p-8 rounded-2xl border border-gray-200">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/JCB_logo.svg/1280px-JCB_logo.svg.png"
+              alt="JCB Logo"
+              className="h-12 mx-auto mb-4"
+            />
+            <p className="text-gray-600 max-w-2xl mx-auto mb-6">
+              JCB is a world-renowned manufacturer of equipment for
+              construction, agriculture, waste handling, and demolition. We are
+              an authorized partner for their extensive range of power tools.
+            </p>
+            <a
+              href="/brand/jcb"
+              className="inline-block bg-red-600 text-white font-bold text-sm uppercase tracking-wider px-8 py-3 rounded-lg shadow-lg hover:bg-red-700 transition-all"
+            >
+              Explore JCB Products →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Footer CTA - Office Location */}
       <section className="py-16 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">

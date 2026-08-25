@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/useAuth";
 import { Mail, Lock, Eye, EyeOff } from "lucide-react";
 
 const CustomerLogin = () => {
@@ -10,7 +10,19 @@ const CustomerLogin = () => {
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
+  function YourComponent() {
+    const navigate = useNavigate();
 
+    const Ragister = () => {
+      navigate("/ragister");
+    };
+
+    return (
+      <button type="button" onClick={Ragister}>
+        Register as a Trade Partner →
+      </button>
+    );
+  }
   const handleSubmit = (e) => {
     e.preventDefault();
     const users = JSON.parse(localStorage.getItem("customerUsers") || "[]");

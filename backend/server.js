@@ -20,6 +20,8 @@ import folderRoutes from "./routes/folders.js";
 import publicDealerRoutes from "./routes/publicDealer.js";
 import sessionAuthRoutes from "./routes/sessionAuth.js";
 import videoRoutes from "./routes/videos.js";
+import reviewApiRoutes from "./routes/review-api.js";
+import contentRoutes from "./routes/content.js";
 
 // New Admin Panel Routes
 import partyRoutes from "./routes/parties.js";
@@ -90,7 +92,7 @@ const securityHeaders = (_req, res, next) => {
     "Permissions-Policy",
     "camera=(), microphone=(), geolocation=()",
   );
-  res.setHeader("Cross-Origin-Resource-Policy", "same-site");
+  res.setHeader("Cross-Origin-Resource-Policy", "cross-origin");
   next();
 };
 
@@ -184,6 +186,9 @@ app.use(
   express.static(path.join(__dirname, "uploads"), {
     maxAge: "30d",
     immutable: true,
+    setHeaders: (res) => {
+      res.setHeader("Cross-Origin-Resource-Policy", "cross-origin");
+    },
   }),
 );
 
@@ -197,6 +202,8 @@ app.use("/api/dealer", dealerRoutes);
 app.use("/api/media", mediaRoutes);
 app.use("/api/folders", folderRoutes);
 app.use("/api/videos", videoRoutes);
+app.use("/api/reviews", reviewApiRoutes);
+app.use("/api/content", contentRoutes);
 
 // New Admin Panel Routes
 app.use("/api/parties", partyRoutes);

@@ -76,6 +76,14 @@ function AppContent() {
   const { pathname } = useLocation();
   const isVideoCommunity = pathname.startsWith("/video-community");
 
+  useEffect(() => {
+    if (pathname === "/") {
+      localStorage.removeItem("adminToken");
+      localStorage.removeItem("isAdmin");
+      localStorage.removeItem("adminMode");
+    }
+  }, [pathname]);
+
   return (
     <>
       <ScrollToTop />

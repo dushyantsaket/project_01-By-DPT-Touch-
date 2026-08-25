@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { bladesData } from '../data/blades';
-import { useAuth } from '../context/AuthContext';
+import { useAuth } from '../context/useAuth';
 import { Disc, Info, Tag, Layers, Droplet } from 'lucide-react';
 import '../styles/BladesCollection.css';
 

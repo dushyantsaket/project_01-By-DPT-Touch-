@@ -7,57 +7,9 @@ import {
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/useAuth";
 
 const API = "/api";
-
-const SEEDED_CART_ITEMS = [
-  {
-    id: "DSDTOS",
-    name: "SELF DRILLING SCREWS DSDT05",
-    brand: "Dushyant",
-    price: 2070,
-    mrp: 2600,
-    quantity: 1,
-    image: "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?w=300",
-  },
-  {
-    id: "CS18568",
-    name: "Ingco 185mm 1400W Circular Saw",
-    brand: "INGCO",
-    price: 8999,
-    mrp: 10500,
-    quantity: 1,
-    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=300",
-  },
-  {
-    id: "CIWL2050",
-    name: "Cordless Impact Wrench CIWL2050",
-    brand: "INGCO",
-    price: 17999,
-    mrp: 21000,
-    quantity: 1,
-    image: "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=300",
-  },
-  {
-    id: "AG9008",
-    name: "INGCO 900W Angle Grinder",
-    brand: "INGCO",
-    price: 1150,
-    mrp: 1490,
-    quantity: 1,
-    image: "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=300",
-  },
-  {
-    id: "RH26008",
-    name: "INGCO Rotary Hammer Drill 26mm",
-    brand: "INGCO",
-    price: 472,
-    mrp: 560,
-    quantity: 1,
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=300",
-  }
-];
 
 const OrderSummaryPanel = ({ items, onEditCart }) => {
   const subtotal = items.reduce((s, i) => s + i.mrp * (i.quantity || 1), 0);
@@ -497,16 +449,17 @@ const CheckoutNew = () => {
   const [localCartItems, setLocalCartItems] = useState([]);
 
   useEffect(() => {
-    if (contextCartItems && contextCartItems.length > 0) {
-      setLocalCartItems(contextCartItems.map(item => ({
-        ...item,
-        id: item.id || item._id,
-        price: parseFloat(item.sale_price || item.price_inr || item.price || 0),
-        mrp: parseFloat(item.regular_price || item.mrp || item.mrp_inr || (item.price * 1.25)),
-      })));
-    } else {
-      setLocalCartItems(SEEDED_CART_ITEMS);
-    }
+    const nextItems = (contextCartItems || []).map((item) => ({
+      ...item,
+      id: item.id || item._id || item.productId,
+      price: parseFloat(item.sale_price || item.price_inr || item.price || 0),
+      mrp: parseFloat(
+        item.regular_price || item.mrp || item.mrp_inr || (Number(item.price || 0) * 1.25) || 0,
+      ),
+      quantity: Number(item.quantity || 1),
+    }));
+
+    setLocalCartItems(nextItems);
   }, [contextCartItems]);
 
   const [customerInfo, setCustomerInfo] = useState({
@@ -528,6 +481,7 @@ const CheckoutNew = () => {
   const total = localCartItems.reduce((s, i) => s + i.price * (i.quantity || 1), 0);
   const gst = Math.round(total * 0.18);
   const grandTotal = total + gst;
+  const hasCartItems = localCartItems.length > 0;
 
   const handleQtyChange = (itemId, delta) => {
     setLocalCartItems(prev => prev.map(item =>
@@ -541,6 +495,10 @@ const CheckoutNew = () => {
   };
 
   const handlePlaceOrder = async () => {
+    if (!hasCartItems) {
+      setOrderError("Your cart is empty. Add a product before placing the order.");
+      return;
+    }
     if (!agreeTerms) { setOrderError("Please agree to Terms & Conditions."); return; }
     setIsProcessing(true);
     setOrderError("");
@@ -619,41 +577,52 @@ const CheckoutNew = () => {
           {step === 1 && (
             <div style={s.card}>
               <h2 style={s.cardTitle}>Shopping Cart</h2>
-              <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
-                {localCartItems.map((item, i) => {
-                  const disc = item.mrp > item.price ? Math.round(((item.mrp - item.price) / item.mrp) * 100) : 0;
-                  return (
-                    <div key={i} style={s.itemRow}>
-                      <input type="checkbox" defaultChecked style={{ marginRight: "4px" }} />
-                      <div style={s.itemImg}><img src={item.image} alt={item.name} style={{ width: "100%", height: "100%", objectFit: "contain" }} /></div>
-                      <div style={{ flex: 1, minWidth: 0 }}>
-                        <div style={s.itemName}>{item.name}</div>
-                        <div style={s.itemBrand}>{item.brand}</div>
-                        <div style={{ color: "#059669", fontSize: "10px", fontWeight: "700", marginTop: "2px" }}>In Stock</div>
-                      </div>
-                      <div style={s.itemQtyBox}>
-                        <button style={s.qtyBtn} onClick={() => handleQtyChange(item.id, -1)}><Minus size={11} /></button>
-                        <span style={s.qtyNum}>{item.quantity || 1}</span>
-                        <button style={s.qtyBtn} onClick={() => handleQtyChange(item.id, 1)}><Plus size={11} /></button>
-                      </div>
-                      <div style={{ textAlign: "right", minWidth: "80px" }}>
-                        <div style={s.itemSalePrice}>₹{(item.price * (item.quantity || 1)).toLocaleString("en-IN")}</div>
-                        {item.mrp > item.price && (
-                          <div style={{ display: "flex", gap: "4px", justifyContent: "flex-end", marginTop: "2px" }}>
-                            <span style={s.itemMrp}>₹{(item.mrp * (item.quantity || 1)).toLocaleString("en-IN")}</span>
-                            <span style={s.itemDisc}>{disc}% OFF</span>
+              {!hasCartItems ? (
+                <div style={{ textAlign: "center", padding: "32px 16px 12px" }}>
+                  <div style={{ fontSize: "42px", marginBottom: "12px" }}>🛒</div>
+                  <div style={{ fontSize: "22px", fontWeight: "800", color: "#0f172a", marginBottom: "8px" }}>Your cart is empty</div>
+                  <div style={{ fontSize: "13px", color: "#64748b", marginBottom: "22px" }}>Add products from the catalog to see them here.</div>
+                  <Link to="/products" style={s.continueBtn}>← Continue Shopping</Link>
+                </div>
+              ) : (
+                <>
+                  <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+                    {localCartItems.map((item, i) => {
+                      const disc = item.mrp > item.price ? Math.round(((item.mrp - item.price) / item.mrp) * 100) : 0;
+                      return (
+                        <div key={i} style={s.itemRow}>
+                          <input type="checkbox" defaultChecked style={{ marginRight: "4px" }} />
+                          <div style={s.itemImg}><img src={item.image} alt={item.name} style={{ width: "100%", height: "100%", objectFit: "contain" }} /></div>
+                          <div style={{ flex: 1, minWidth: 0 }}>
+                            <div style={s.itemName}>{item.name}</div>
+                            <div style={s.itemBrand}>{item.brand}</div>
+                            <div style={{ color: "#059669", fontSize: "10px", fontWeight: "700", marginTop: "2px" }}>In Stock</div>
                           </div>
-                        )}
-                      </div>
-                      <button style={s.delBtn} onClick={() => handleRemoveItem(item.id)}><Trash2 size={15} /></button>
-                    </div>
-                  );
-                })}
-              </div>
-              <div style={{ display: "flex", justifyContent: "space-between", marginTop: "20px" }}>
-                <Link to="/products" style={s.continueBtn}>← Continue Shopping</Link>
-                <button style={s.proceedBtn} onClick={() => setStep(2)}>Proceed to Checkout →</button>
-              </div>
+                          <div style={s.itemQtyBox}>
+                            <button style={s.qtyBtn} onClick={() => handleQtyChange(item.id, -1)}><Minus size={11} /></button>
+                            <span style={s.qtyNum}>{item.quantity || 1}</span>
+                            <button style={s.qtyBtn} onClick={() => handleQtyChange(item.id, 1)}><Plus size={11} /></button>
+                          </div>
+                          <div style={{ textAlign: "right", minWidth: "80px" }}>
+                            <div style={s.itemSalePrice}>₹{(item.price * (item.quantity || 1)).toLocaleString("en-IN")}</div>
+                            {item.mrp > item.price && (
+                              <div style={{ display: "flex", gap: "4px", justifyContent: "flex-end", marginTop: "2px" }}>
+                                <span style={s.itemMrp}>₹{(item.mrp * (item.quantity || 1)).toLocaleString("en-IN")}</span>
+                                <span style={s.itemDisc}>{disc}% OFF</span>
+                              </div>
+                            )}
+                          </div>
+                          <button style={s.delBtn} onClick={() => handleRemoveItem(item.id)}><Trash2 size={15} /></button>
+                        </div>
+                      );
+                    })}
+                  </div>
+                  <div style={{ display: "flex", justifyContent: "space-between", marginTop: "20px" }}>
+                    <Link to="/products" style={s.continueBtn}>← Continue Shopping</Link>
+                    <button style={s.proceedBtn} onClick={() => setStep(2)} disabled={!hasCartItems}>Proceed to Checkout →</button>
+                  </div>
+                </>
+              )}
             </div>
           )}
 
@@ -858,7 +827,7 @@ const CheckoutNew = () => {
                 </div>
               </div>
 
-              <button style={s.bigProceedBtn} onClick={() => setStep(3)}>
+              <button style={{ ...s.bigProceedBtn, opacity: hasCartItems ? 1 : 0.6, cursor: hasCartItems ? "pointer" : "not-allowed" }} onClick={() => hasCartItems && setStep(3)} disabled={!hasCartItems}>
                 Proceed to Payment →
                 <div style={{ fontSize: "10px", fontWeight: "normal", marginTop: "2px", opacity: 0.8 }}>You will be redirected to secure payment gateway</div>
               </button>

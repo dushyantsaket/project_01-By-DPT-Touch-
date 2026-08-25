@@ -1,5 +1,5 @@
-import React from 'react';
-import { ChevronRight, PhoneCall, Shield, Zap, Wrench } from 'lucide-react';
+import React from "react";
+import { ChevronRight, PhoneCall, Shield, Zap, Wrench } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -8,9 +8,15 @@ const Hero = () => {
       <video
         className="hero-video"
         poster="https://bscpowertools.com/wp-content/uploads/2024/04/Chainsaw-2-2-scaled.jpg"
-        autoPlay loop muted playsInline
+        autoPlay
+        loop
+        muted
+        playsInline
       >
-        <source src="https://bscpowertools.com/wp-content/uploads/2024/02/BSC-7200-Chainsaw.mp4#t=5" type="video/mp4" />
+        <source
+          src="https://bscpowertools.com/wp-content/uploads/2024/02/BSC-7200-Chainsaw.mp4#t=5"
+          type="video/mp4"
+        />
       </video>
 
       {/* ── Very light vignette so text stays readable ── */}
@@ -26,13 +32,15 @@ const Hero = () => {
 
         {/* Headline */}
         <h1 className="hero-h1">
-          Unleash<br />
-          <span className="hero-h1-accent">Ultimate Power</span>
+          VPT Tools Touch Sidhi
+          <br />
+          <span className="hero-h1-accent">Dushyant_Power_Tools</span>
         </h1>
 
         {/* Description */}
         <p className="hero-desc">
-          Heavy-duty tools, premium spare parts &amp; diamond blades — engineered for professionals.
+          Heavy-duty tools, premium spare parts &amp; diamond blades —
+          engineered for professionals.
         </p>
 
         {/* CTA row */}
@@ -67,10 +75,10 @@ const Hero = () => {
       {/* ── Stats strip — right side ── */}
       <div className="hero-stats">
         {[
-          { n: '1000+', l: 'Tools' },
-          { n: '500+',  l: 'Customers' },
-          { n: '10+',   l: 'Years' },
-          { n: '100+',  l: 'Brands' },
+          { n: "1000+", l: "Tools" },
+          { n: "500+", l: "Customers" },
+          { n: "10+", l: "Years" },
+          { n: "100+", l: "Brands" },
         ].map(({ n, l }) => (
           <div key={l} className="hero-stat-card">
             <div className="hero-stat-num">{n}</div>
