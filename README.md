@@ -10,6 +10,10 @@ A modern web platform built to manage **products, customers, dealers, orders, in
 <p>
   <img src="https://media.licdn.com/dms/image/v2/D5622AQH9XQLFB7k0gg/feedshare-shrink_800/B56Z_7U2UxGQAo-/0/1786627974840?e=1788393600&v=beta&t=9KKHYBKJDyite30xIywWqMtP3wdhZk-ESS89lbt3zB4" width="100%" />
 </p>
+<p>
+  <img src="https://media.licdn.com/dms/image/v2/D5622AQH9XQLFB7k0gg/feedshare-shrink_800/B56Z_7U2UxGQAo-/0/1786627974840?e=1788393600&v=beta&t=9KKHYBKJDyite30xIywWqMtP3wdhZk-ESS89lbt3zB4" width="100%" />
+</p>
+
 
 </div>
 
